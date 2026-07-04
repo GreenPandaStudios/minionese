@@ -1,7 +1,4 @@
 export interface ClipboardService {
-  /**
-   * Writes the given text to the clipboard.
-   */
   writeText(text: string): Promise<void>;
 }
 
@@ -14,18 +11,12 @@ export interface SpeechServiceOptions {
 }
 
 export interface SpeechService {
-  /**
-   * Speaks the given text with the specified options.
-   */
   speak(text: string, options: SpeechServiceOptions): void;
-
-  /**
-   * Cancels any active speech.
-   */
   cancel(): void;
 }
 
-export const browserClipboardService: ClipboardService = {
+// Exporting only the default implementations
+export const defaultClipboardService: ClipboardService = {
   writeText: async (text: string) => {
     if (navigator.clipboard && navigator.clipboard.writeText) {
       await navigator.clipboard.writeText(text);
@@ -35,11 +26,10 @@ export const browserClipboardService: ClipboardService = {
   },
 };
 
-export const browserSpeechService: SpeechService = {
+export const defaultSpeechService: SpeechService = {
   speak: (text: string, { pitch, rate, onStart, onEnd, onError }: SpeechServiceOptions) => {
     if (!window.speechSynthesis) return;
-    
-    // Cancel any current speaking
+
     window.speechSynthesis.cancel();
 
     const utterance = new SpeechSynthesisUtterance(text);

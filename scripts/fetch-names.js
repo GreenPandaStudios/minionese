@@ -22,13 +22,13 @@ async function fetchNames() {
   // Remove duplicates and combine with Minion names
   const uniqueNames = Array.from(new Set([...MINION_NAMES, ...rawNames]));
   
-  // Take exactly 1000 names (including our Minion bases)
-  const top1000 = uniqueNames.slice(0, 1000);
+  // Keep all names (no slice limit)
+  const allNames = uniqueNames;
 
-  // Compact layout (15 names per line) to keep the file under 150 lines
+  // Compact layout (15 names per line)
   let listStr = "[\n";
-  for (let i = 0; i < top1000.length; i += 15) {
-    const slice = top1000.slice(i, i + 15);
+  for (let i = 0; i < allNames.length; i += 15) {
+    const slice = allNames.slice(i, i + 15);
     const line = slice.map(name => `"${name}"`).join(", ");
     listStr += `  ${line},\n`;
   }
@@ -38,7 +38,7 @@ async function fetchNames() {
 `;
 
   fs.writeFileSync(namesPath, fileContent);
-  console.log(`Successfully wrote ${top1000.length} names to names.ts in compact format!`);
+  console.log(`Successfully wrote ${allNames.length} names to names.ts in compact format!`);
 }
 
 fetchNames().catch(console.error);

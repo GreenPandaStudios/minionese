@@ -20,37 +20,44 @@ interface AppProps {
   shareService?: ShareService;
 }
 
+// Safely parses URL parameters for initial states
+function getInitialParams(): { text: string; direction: "toMinion" | "toEnglish" } {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const text = params.get("text") ? decodeURIComponent(params.get("text")!) : "";
+    const dir = params.get("dir");
+    const direction = (dir === "toEnglish" || dir === "toMinion") ? dir : "toMinion";
+    return { text, direction };
+  } catch (e) {
+    console.error("Failed to parse query parameters:", e);
+    return { text: "", direction: "toMinion" };
+  }
+}
+
 function App({
   clipboardService = defaultClipboardService,
   speechService = defaultSpeechService,
   shareService = defaultShareService,
 }: AppProps) {
-  const [sourceText, setSourceText] = useState("");
-  const [targetText, setTargetText] = useState("");
-  const [direction, setDirection] = useState<"toMinion" | "toEnglish">("toMinion");
+  // Lazy state initializer prevents setState cascading renders inside mount effects
+  const [initial] = useState(getInitialParams);
+  const [sourceText, setSourceText] = useState(initial.text);
+  const [direction, setDirection] = useState<"toMinion" | "toEnglish">(initial.direction);
+
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [shareSuccess, setShareSuccess] = useState(false);
-  
-  // PWA installation state
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
+
+  // Derived state (updates naturally on render without useEffect synchronization)
+  const targetText = translate(sourceText, direction);
 
   // Delegate history and stats management
   const { history, bananaMeter, totalTranslations, clearHistory } =
     useHistoryAndStats(sourceText, targetText, direction);
 
-  // Read query parameters and listen for PWA install prompt
+  // Listen for PWA install prompt
   useEffect(() => {
-    try {
-      const params = new URLSearchParams(window.location.search);
-      const textParam = params.get("text");
-      const dirParam = params.get("dir");
-      if (textParam) setSourceText(decodeURIComponent(textParam));
-      if (dirParam === "toEnglish" || dirParam === "toMinion") setDirection(dirParam);
-    } catch (e) {
-      console.error("Failed to parse query parameters:", e);
-    }
-
     const handleBeforeInstallPrompt = (e: Event) => {
       e.preventDefault();
       setDeferredPrompt(e);
@@ -59,10 +66,6 @@ function App({
     window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
     return () => window.removeEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
   }, []);
-
-  useEffect(() => {
-    setTargetText(translate(sourceText, direction));
-  }, [sourceText, direction]);
 
   const handleClear = () => setSourceText("");
 

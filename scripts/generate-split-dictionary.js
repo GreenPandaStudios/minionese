@@ -1,3 +1,8 @@
+/**
+ * @file generate-split-dictionary.js
+ * Generates the 50 themed dictionary files under src/utils/dictionary/.
+ * Uses real English words from the system dictionary and ensures global 1-to-1 bijection.
+ */
 import fs from "fs";
 import path from "path";
 import { properNamesList } from "../src/utils/dictionary/names.ts";
@@ -502,7 +507,11 @@ for (const [name, list] of Object.entries(GENERATED_CATEGORIES)) {
   }
   listStr += "]";
 
-  const content = `import type { DictionaryEntry } from "./index";
+  const content = `/**
+ * @file Contains dictionary entries for category: ${name}.
+ * Part of the 15,000 bijective real English words database.
+ */
+import type { DictionaryEntry } from "./index";
 
 export const ${name}: DictionaryEntry[] = ${listStr};
 `;
@@ -529,6 +538,9 @@ export { properNamesList };
 
 /**
  * Checks if a word is classified as a proper name and should not be translated.
+ * @param word The word to check.
+ * @param isFirstWordOfSentence Whether the word is at the start of a sentence.
+ * @returns True if the word is a proper name, false otherwise.
  */
 export function isProperName(word: string, isFirstWordOfSentence: boolean): boolean {
   if (!word) return false;

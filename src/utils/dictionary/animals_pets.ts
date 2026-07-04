@@ -1,3 +1,7 @@
+/**
+ * @file Contains dictionary entries for category: animals_pets.
+ * Part of the 15,000 bijective real English words database.
+ */
 import type { DictionaryEntry } from "./index";
 
 export const animals_pets: DictionaryEntry[] = [

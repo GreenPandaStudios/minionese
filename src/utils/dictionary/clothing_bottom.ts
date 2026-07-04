@@ -1,3 +1,7 @@
+/**
+ * @file Contains dictionary entries for category: clothing_bottom.
+ * Part of the 15,000 bijective real English words database.
+ */
 import type { DictionaryEntry } from "./index";
 
 export const clothing_bottom: DictionaryEntry[] = [

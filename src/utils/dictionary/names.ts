@@ -1,3 +1,7 @@
+/**
+ * List of all capitalized proper nouns (first names, countries, cities, brands, languages, landmarks).
+ * Capitalized words matching this list are preserved exactly and bypass translator substitution rules.
+ */
 export const properNamesList = [
   "mary", "beth", "john", "gru", "lucy", "margo", "edith", "agnes", "bob", "kevin", "stuart", "dave", "jerry", "phil", "tim",
   "mark", "mel", "google", "apple", "microsoft", "amazon", "facebook", "meta", "instagram", "twitter", "tiktok", "netflix", "youtube", "tesla", "disney",

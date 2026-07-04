@@ -1,3 +1,7 @@
+/**
+ * @file Contains dictionary entries for category: nature_earth.
+ * Part of the 15,000 bijective real English words database.
+ */
 import type { DictionaryEntry } from "./index";
 
 export const nature_earth: DictionaryEntry[] = [

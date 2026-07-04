@@ -2,11 +2,20 @@ import { useState } from "react";
 import { BookOpen } from "lucide-react";
 import { dictionary } from "../utils/translator";
 
+/**
+ * Props config for the DictionaryDrawer component.
+ */
 interface DictionaryDrawerProps {
+  /** Whether the drawer containing dictionary terms is expanded. */
   isOpen: boolean;
+  /** Triggered to toggle the drawer open and closed state. */
   onToggleOpen: () => void;
 }
 
+/**
+ * Renders an expandable sidebar drawer listing active dictionary terms.
+ * Performs real-time search filtering and bounds display list to top 100 elements.
+ */
 export function DictionaryDrawer({ isOpen, onToggleOpen }: DictionaryDrawerProps) {
   const [searchQuery, setSearchQuery] = useState("");
 

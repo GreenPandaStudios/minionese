@@ -1,3 +1,8 @@
+/**
+ * @file fetch-names.js
+ * Pulls, cleans, and compiles a comprehensive dataset of 5,000+ proper nouns
+ * (names, countries, capitals, brands, languages, landmarks) into names.ts.
+ */
 import fs from "fs";
 import path from "path";
 
@@ -102,7 +107,11 @@ async function fetchAllProperNouns() {
   }
   listStr += "]";
 
-  const fileContent = `export const properNamesList = ${listStr};
+  const fileContent = `/**
+ * List of all capitalized proper nouns (first names, countries, cities, brands, languages, landmarks).
+ * Capitalized words matching this list are preserved exactly and bypass translator substitution rules.
+ */
+export const properNamesList = ${listStr};
 `;
 
   fs.writeFileSync(namesPath, fileContent);

@@ -112,6 +112,9 @@ export { properNamesList };
 
 /**
  * Checks if a word is classified as a proper name and should not be translated.
+ * @param word The word to check.
+ * @param isFirstWordOfSentence Whether the word is at the start of a sentence.
+ * @returns True if the word is a proper name, false otherwise.
  */
 export function isProperName(word: string, isFirstWordOfSentence: boolean): boolean {
   if (!word) return false;

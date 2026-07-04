@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const places_geo: DictionaryEntry[] = [
-  {
-    "en": "country",
-    "min": "pais"
-  },
-  {
-    "en": "city",
-    "min": "ciudad"
-  },
-  {
-    "en": "world",
-    "min": "mundo"
-  }
+  { en: "country", min: "pais" }, { en: "city", min: "ciudad" }, { en: "world", min: "mundo" }, { en: "state", min: "estado" }, { en: "town", min: "pueblo" },
+  { en: "light country", min: "pika pais" }, { en: "light city", min: "pika ciudad" }, { en: "light world", min: "pika mundo" }, { en: "light state", min: "pika estado" }, { en: "light town", min: "pika pueblo" },
+  { en: "dark country", min: "po pais" }, { en: "dark city", min: "po ciudad" }, { en: "dark world", min: "po mundo" }, { en: "dark state", min: "po estado" }, { en: "dark town", min: "po pueblo" },
+  { en: "bright country", min: "bango pais" }, { en: "bright city", min: "bango ciudad" }, { en: "bright world", min: "bango mundo" }, { en: "bright state", min: "bango estado" }, { en: "bright town", min: "bango pueblo" },
+  { en: "pale country", min: "ti pais" }, { en: "pale city", min: "ti ciudad" }, { en: "pale world", min: "ti mundo" }, { en: "pale state", min: "ti estado" }, { en: "pale town", min: "ti pueblo" },
+  { en: "deep country", min: "pa pais" }, { en: "deep city", min: "pa ciudad" }, { en: "deep world", min: "pa mundo" }, { en: "deep state", min: "pa estado" }, { en: "deep town", min: "pa pueblo" },
+  { en: "soft country", min: "ki pais" }, { en: "soft city", min: "ki ciudad" }, { en: "soft world", min: "ki mundo" }, { en: "soft state", min: "ki estado" }, { en: "soft town", min: "ki pueblo" },
+  { en: "dull country", min: "bo pais" }, { en: "dull city", min: "bo ciudad" }, { en: "dull world", min: "bo mundo" }, { en: "dull state", min: "bo estado" }, { en: "dull town", min: "bo pueblo" },
+  { en: "neon country", min: "go pais" }, { en: "neon city", min: "go ciudad" }, { en: "neon world", min: "go mundo" }, { en: "neon state", min: "go estado" }, { en: "neon town", min: "go pueblo" },
+  { en: "pastel country", min: "ba pais" }, { en: "pastel city", min: "ba ciudad" }, { en: "pastel world", min: "ba mundo" }, { en: "pastel state", min: "ba estado" }, { en: "pastel town", min: "ba pueblo" },
+  { en: "vibrant country", min: "ta pais" }, { en: "vibrant city", min: "ta ciudad" }, { en: "vibrant world", min: "ta mundo" }, { en: "vibrant state", min: "ta estado" }, { en: "vibrant town", min: "ta pueblo" },
+  { en: "shiny country", min: "bi pais" }, { en: "shiny city", min: "bi ciudad" }, { en: "shiny world", min: "bi mundo" }, { en: "shiny state", min: "bi estado" }, { en: "shiny town", min: "bi pueblo" },
+  { en: "matte country", min: "no pais" }, { en: "matte city", min: "no ciudad" }, { en: "matte world", min: "no mundo" }, { en: "matte state", min: "no estado" }, { en: "matte town", min: "no pueblo" },
+  { en: "glossy country", min: "ni pais" }, { en: "glossy city", min: "ni ciudad" }, { en: "glossy world", min: "ni mundo" }, { en: "glossy state", min: "ni estado" }, { en: "glossy town", min: "ni pueblo" },
+  { en: "warm country", min: "ku pais" }, { en: "warm city", min: "ku ciudad" }, { en: "warm world", min: "ku mundo" }, { en: "warm state", min: "ku estado" }, { en: "warm town", min: "ku pueblo" },
+  { en: "cool country", min: "mu pais" }, { en: "cool city", min: "mu ciudad" }, { en: "cool world", min: "mu mundo" }, { en: "cool state", min: "mu estado" }, { en: "cool town", min: "mu pueblo" },
+  { en: "rich country", min: "se pais" }, { en: "rich city", min: "se ciudad" }, { en: "rich world", min: "se mundo" }, { en: "rich state", min: "se estado" }, { en: "rich town", min: "se pueblo" },
+  { en: "faint country", min: "du pais" }, { en: "faint city", min: "du ciudad" }, { en: "faint world", min: "du mundo" }, { en: "faint state", min: "du estado" }, { en: "faint town", min: "du pueblo" },
+  { en: "pure country", min: "vo pais" }, { en: "pure city", min: "vo ciudad" }, { en: "pure world", min: "vo mundo" }, { en: "pure state", min: "vo estado" }, { en: "pure town", min: "vo pueblo" },
+  { en: "true country", min: "au pais" }, { en: "true city", min: "au ciudad" }, { en: "true world", min: "au mundo" }, { en: "true state", min: "au estado" }, { en: "true town", min: "au pueblo" },
+  { en: "classic country", min: "so pais" }, { en: "classic city", min: "so ciudad" }, { en: "classic world", min: "so mundo" }, { en: "classic state", min: "so estado" }, { en: "classic town", min: "so pueblo" },
+  { en: "royal country", min: "mi pais" }, { en: "royal city", min: "mi ciudad" }, { en: "royal world", min: "mi mundo" }, { en: "royal state", min: "mi estado" }, { en: "royal town", min: "mi pueblo" },
+  { en: "sky country", min: "ma pais" }, { en: "sky city", min: "ma ciudad" }, { en: "sky world", min: "ma mundo" }, { en: "sky state", min: "ma estado" }, { en: "sky town", min: "ma pueblo" },
+  { en: "forest country", min: "te pais" }, { en: "forest city", min: "te ciudad" }, { en: "forest world", min: "te mundo" }, { en: "forest state", min: "te estado" }, { en: "forest town", min: "te pueblo" },
+  { en: "sea country", min: "la pais" }, { en: "sea city", min: "la ciudad" }, { en: "sea world", min: "la mundo" }, { en: "sea state", min: "la estado" }, { en: "sea town", min: "la pueblo" },
+  { en: "wild country", min: "da pais" }, { en: "wild city", min: "da ciudad" }, { en: "wild world", min: "da mundo" }, { en: "wild state", min: "da estado" }, { en: "wild town", min: "da pueblo" },
+  { en: "sweet country", min: "li pais" }, { en: "sweet city", min: "li ciudad" }, { en: "sweet world", min: "li mundo" }, { en: "sweet state", min: "li estado" }, { en: "sweet town", min: "li pueblo" },
+  { en: "hot country", min: "zo pais" }, { en: "hot city", min: "zo ciudad" }, { en: "hot world", min: "zo mundo" }, { en: "hot state", min: "zo estado" }, { en: "hot town", min: "zo pueblo" },
+  { en: "cold country", min: "ha pais" }, { en: "cold city", min: "ha ciudad" }, { en: "cold world", min: "ha mundo" }, { en: "cold state", min: "ha estado" }, { en: "cold town", min: "ha pueblo" },
+  { en: "super country", min: "to pais" }, { en: "super city", min: "to ciudad" }, { en: "super world", min: "to mundo" }, { en: "super state", min: "to estado" }, { en: "super town", min: "to pueblo" },
 ];

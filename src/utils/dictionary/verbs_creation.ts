@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const verbs_creation: DictionaryEntry[] = [
-  {
-    "en": "make",
-    "min": "crea"
-  },
-  {
-    "en": "build",
-    "min": "strui"
-  },
-  {
-    "en": "write",
-    "min": "tinta"
-  },
-  {
-    "en": "draw",
-    "min": "pinta"
-  }
+  { en: "make", min: "crea" }, { en: "build", min: "strui" }, { en: "write", min: "tinta" }, { en: "draw", min: "pinta" }, { en: "create", min: "makina" },
+  { en: "light make", min: "pika crea" }, { en: "light build", min: "pika strui" }, { en: "light write", min: "pika tinta" }, { en: "light draw", min: "pika pinta" }, { en: "light create", min: "pika makina" },
+  { en: "dark make", min: "po crea" }, { en: "dark build", min: "po strui" }, { en: "dark write", min: "po tinta" }, { en: "dark draw", min: "po pinta" }, { en: "dark create", min: "po makina" },
+  { en: "bright make", min: "bango crea" }, { en: "bright build", min: "bango strui" }, { en: "bright write", min: "bango tinta" }, { en: "bright draw", min: "bango pinta" }, { en: "bright create", min: "bango makina" },
+  { en: "pale make", min: "ti crea" }, { en: "pale build", min: "ti strui" }, { en: "pale write", min: "ti tinta" }, { en: "pale draw", min: "ti pinta" }, { en: "pale create", min: "ti makina" },
+  { en: "deep make", min: "pa crea" }, { en: "deep build", min: "pa strui" }, { en: "deep write", min: "pa tinta" }, { en: "deep draw", min: "pa pinta" }, { en: "deep create", min: "pa makina" },
+  { en: "soft make", min: "ki crea" }, { en: "soft build", min: "ki strui" }, { en: "soft write", min: "ki tinta" }, { en: "soft draw", min: "ki pinta" }, { en: "soft create", min: "ki makina" },
+  { en: "dull make", min: "bo crea" }, { en: "dull build", min: "bo strui" }, { en: "dull write", min: "bo tinta" }, { en: "dull draw", min: "bo pinta" }, { en: "dull create", min: "bo makina" },
+  { en: "neon make", min: "go crea" }, { en: "neon build", min: "go strui" }, { en: "neon write", min: "go tinta" }, { en: "neon draw", min: "go pinta" }, { en: "neon create", min: "go makina" },
+  { en: "pastel make", min: "ba crea" }, { en: "pastel build", min: "ba strui" }, { en: "pastel write", min: "ba tinta" }, { en: "pastel draw", min: "ba pinta" }, { en: "pastel create", min: "ba makina" },
+  { en: "vibrant make", min: "ta crea" }, { en: "vibrant build", min: "ta strui" }, { en: "vibrant write", min: "ta tinta" }, { en: "vibrant draw", min: "ta pinta" }, { en: "vibrant create", min: "ta makina" },
+  { en: "shiny make", min: "bi crea" }, { en: "shiny build", min: "bi strui" }, { en: "shiny write", min: "bi tinta" }, { en: "shiny draw", min: "bi pinta" }, { en: "shiny create", min: "bi makina" },
+  { en: "matte make", min: "no crea" }, { en: "matte build", min: "no strui" }, { en: "matte write", min: "no tinta" }, { en: "matte draw", min: "no pinta" }, { en: "matte create", min: "no makina" },
+  { en: "glossy make", min: "ni crea" }, { en: "glossy build", min: "ni strui" }, { en: "glossy write", min: "ni tinta" }, { en: "glossy draw", min: "ni pinta" }, { en: "glossy create", min: "ni makina" },
+  { en: "warm make", min: "ku crea" }, { en: "warm build", min: "ku strui" }, { en: "warm write", min: "ku tinta" }, { en: "warm draw", min: "ku pinta" }, { en: "warm create", min: "ku makina" },
+  { en: "cool make", min: "mu crea" }, { en: "cool build", min: "mu strui" }, { en: "cool write", min: "mu tinta" }, { en: "cool draw", min: "mu pinta" }, { en: "cool create", min: "mu makina" },
+  { en: "rich make", min: "se crea" }, { en: "rich build", min: "se strui" }, { en: "rich write", min: "se tinta" }, { en: "rich draw", min: "se pinta" }, { en: "rich create", min: "se makina" },
+  { en: "faint make", min: "du crea" }, { en: "faint build", min: "du strui" }, { en: "faint write", min: "du tinta" }, { en: "faint draw", min: "du pinta" }, { en: "faint create", min: "du makina" },
+  { en: "pure make", min: "vo crea" }, { en: "pure build", min: "vo strui" }, { en: "pure write", min: "vo tinta" }, { en: "pure draw", min: "vo pinta" }, { en: "pure create", min: "vo makina" },
+  { en: "true make", min: "au crea" }, { en: "true build", min: "au strui" }, { en: "true write", min: "au tinta" }, { en: "true draw", min: "au pinta" }, { en: "true create", min: "au makina" },
+  { en: "classic make", min: "so crea" }, { en: "classic build", min: "so strui" }, { en: "classic write", min: "so tinta" }, { en: "classic draw", min: "so pinta" }, { en: "classic create", min: "so makina" },
+  { en: "royal make", min: "mi crea" }, { en: "royal build", min: "mi strui" }, { en: "royal write", min: "mi tinta" }, { en: "royal draw", min: "mi pinta" }, { en: "royal create", min: "mi makina" },
+  { en: "sky make", min: "ma crea" }, { en: "sky build", min: "ma strui" }, { en: "sky write", min: "ma tinta" }, { en: "sky draw", min: "ma pinta" }, { en: "sky create", min: "ma makina" },
+  { en: "forest make", min: "te crea" }, { en: "forest build", min: "te strui" }, { en: "forest write", min: "te tinta" }, { en: "forest draw", min: "te pinta" }, { en: "forest create", min: "te makina" },
+  { en: "sea make", min: "la crea" }, { en: "sea build", min: "la strui" }, { en: "sea write", min: "la tinta" }, { en: "sea draw", min: "la pinta" }, { en: "sea create", min: "la makina" },
+  { en: "wild make", min: "da crea" }, { en: "wild build", min: "da strui" }, { en: "wild write", min: "da tinta" }, { en: "wild draw", min: "da pinta" }, { en: "wild create", min: "da makina" },
+  { en: "sweet make", min: "li crea" }, { en: "sweet build", min: "li strui" }, { en: "sweet write", min: "li tinta" }, { en: "sweet draw", min: "li pinta" }, { en: "sweet create", min: "li makina" },
+  { en: "hot make", min: "zo crea" }, { en: "hot build", min: "zo strui" }, { en: "hot write", min: "zo tinta" }, { en: "hot draw", min: "zo pinta" }, { en: "hot create", min: "zo makina" },
+  { en: "cold make", min: "ha crea" }, { en: "cold build", min: "ha strui" }, { en: "cold write", min: "ha tinta" }, { en: "cold draw", min: "ha pinta" }, { en: "cold create", min: "ha makina" },
+  { en: "super make", min: "to crea" }, { en: "super build", min: "to strui" }, { en: "super write", min: "to tinta" }, { en: "super draw", min: "to pinta" }, { en: "super create", min: "to makina" },
 ];

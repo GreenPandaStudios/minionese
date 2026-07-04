@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const nature_sky: DictionaryEntry[] = [
-  {
-    "en": "sun",
-    "min": "sol"
-  },
-  {
-    "en": "moon",
-    "min": "luna"
-  },
-  {
-    "en": "star",
-    "min": "estrella"
-  },
-  {
-    "en": "cloud",
-    "min": "nube"
-  }
+  { en: "sun", min: "sol" }, { en: "moon", min: "luna" }, { en: "star", min: "estrella" }, { en: "cloud", min: "nube" }, { en: "sky", min: "cielo" },
+  { en: "light sun", min: "pika sol" }, { en: "light moon", min: "pika luna" }, { en: "light star", min: "pika estrella" }, { en: "light cloud", min: "pika nube" }, { en: "light sky", min: "pika cielo" },
+  { en: "dark sun", min: "po sol" }, { en: "dark moon", min: "po luna" }, { en: "dark star", min: "po estrella" }, { en: "dark cloud", min: "po nube" }, { en: "dark sky", min: "po cielo" },
+  { en: "bright sun", min: "bango sol" }, { en: "bright moon", min: "bango luna" }, { en: "bright star", min: "bango estrella" }, { en: "bright cloud", min: "bango nube" }, { en: "bright sky", min: "bango cielo" },
+  { en: "pale sun", min: "ti sol" }, { en: "pale moon", min: "ti luna" }, { en: "pale star", min: "ti estrella" }, { en: "pale cloud", min: "ti nube" }, { en: "pale sky", min: "ti cielo" },
+  { en: "deep sun", min: "pa sol" }, { en: "deep moon", min: "pa luna" }, { en: "deep star", min: "pa estrella" }, { en: "deep cloud", min: "pa nube" }, { en: "deep sky", min: "pa cielo" },
+  { en: "soft sun", min: "ki sol" }, { en: "soft moon", min: "ki luna" }, { en: "soft star", min: "ki estrella" }, { en: "soft cloud", min: "ki nube" }, { en: "soft sky", min: "ki cielo" },
+  { en: "dull sun", min: "bo sol" }, { en: "dull moon", min: "bo luna" }, { en: "dull star", min: "bo estrella" }, { en: "dull cloud", min: "bo nube" }, { en: "dull sky", min: "bo cielo" },
+  { en: "neon sun", min: "go sol" }, { en: "neon moon", min: "go luna" }, { en: "neon star", min: "go estrella" }, { en: "neon cloud", min: "go nube" }, { en: "neon sky", min: "go cielo" },
+  { en: "pastel sun", min: "ba sol" }, { en: "pastel moon", min: "ba luna" }, { en: "pastel star", min: "ba estrella" }, { en: "pastel cloud", min: "ba nube" }, { en: "pastel sky", min: "ba cielo" },
+  { en: "vibrant sun", min: "ta sol" }, { en: "vibrant moon", min: "ta luna" }, { en: "vibrant star", min: "ta estrella" }, { en: "vibrant cloud", min: "ta nube" }, { en: "vibrant sky", min: "ta cielo" },
+  { en: "shiny sun", min: "bi sol" }, { en: "shiny moon", min: "bi luna" }, { en: "shiny star", min: "bi estrella" }, { en: "shiny cloud", min: "bi nube" }, { en: "shiny sky", min: "bi cielo" },
+  { en: "matte sun", min: "no sol" }, { en: "matte moon", min: "no luna" }, { en: "matte star", min: "no estrella" }, { en: "matte cloud", min: "no nube" }, { en: "matte sky", min: "no cielo" },
+  { en: "glossy sun", min: "ni sol" }, { en: "glossy moon", min: "ni luna" }, { en: "glossy star", min: "ni estrella" }, { en: "glossy cloud", min: "ni nube" }, { en: "glossy sky", min: "ni cielo" },
+  { en: "warm sun", min: "ku sol" }, { en: "warm moon", min: "ku luna" }, { en: "warm star", min: "ku estrella" }, { en: "warm cloud", min: "ku nube" }, { en: "warm sky", min: "ku cielo" },
+  { en: "cool sun", min: "mu sol" }, { en: "cool moon", min: "mu luna" }, { en: "cool star", min: "mu estrella" }, { en: "cool cloud", min: "mu nube" }, { en: "cool sky", min: "mu cielo" },
+  { en: "rich sun", min: "se sol" }, { en: "rich moon", min: "se luna" }, { en: "rich star", min: "se estrella" }, { en: "rich cloud", min: "se nube" }, { en: "rich sky", min: "se cielo" },
+  { en: "faint sun", min: "du sol" }, { en: "faint moon", min: "du luna" }, { en: "faint star", min: "du estrella" }, { en: "faint cloud", min: "du nube" }, { en: "faint sky", min: "du cielo" },
+  { en: "pure sun", min: "vo sol" }, { en: "pure moon", min: "vo luna" }, { en: "pure star", min: "vo estrella" }, { en: "pure cloud", min: "vo nube" }, { en: "pure sky", min: "vo cielo" },
+  { en: "true sun", min: "au sol" }, { en: "true moon", min: "au luna" }, { en: "true star", min: "au estrella" }, { en: "true cloud", min: "au nube" }, { en: "true sky", min: "au cielo" },
+  { en: "classic sun", min: "so sol" }, { en: "classic moon", min: "so luna" }, { en: "classic star", min: "so estrella" }, { en: "classic cloud", min: "so nube" }, { en: "classic sky", min: "so cielo" },
+  { en: "royal sun", min: "mi sol" }, { en: "royal moon", min: "mi luna" }, { en: "royal star", min: "mi estrella" }, { en: "royal cloud", min: "mi nube" }, { en: "royal sky", min: "mi cielo" },
+  { en: "sky sun", min: "ma sol" }, { en: "sky moon", min: "ma luna" }, { en: "sky star", min: "ma estrella" }, { en: "sky cloud", min: "ma nube" }, { en: "sky sky", min: "ma cielo" },
+  { en: "forest sun", min: "te sol" }, { en: "forest moon", min: "te luna" }, { en: "forest star", min: "te estrella" }, { en: "forest cloud", min: "te nube" }, { en: "forest sky", min: "te cielo" },
+  { en: "sea sun", min: "la sol" }, { en: "sea moon", min: "la luna" }, { en: "sea star", min: "la estrella" }, { en: "sea cloud", min: "la nube" }, { en: "sea sky", min: "la cielo" },
+  { en: "wild sun", min: "da sol" }, { en: "wild moon", min: "da luna" }, { en: "wild star", min: "da estrella" }, { en: "wild cloud", min: "da nube" }, { en: "wild sky", min: "da cielo" },
+  { en: "sweet sun", min: "li sol" }, { en: "sweet moon", min: "li luna" }, { en: "sweet star", min: "li estrella" }, { en: "sweet cloud", min: "li nube" }, { en: "sweet sky", min: "li cielo" },
+  { en: "hot sun", min: "zo sol" }, { en: "hot moon", min: "zo luna" }, { en: "hot star", min: "zo estrella" }, { en: "hot cloud", min: "zo nube" }, { en: "hot sky", min: "zo cielo" },
+  { en: "cold sun", min: "ha sol" }, { en: "cold moon", min: "ha luna" }, { en: "cold star", min: "ha estrella" }, { en: "cold cloud", min: "ha nube" }, { en: "cold sky", min: "ha cielo" },
+  { en: "super sun", min: "to sol" }, { en: "super moon", min: "to luna" }, { en: "super star", min: "to estrella" }, { en: "super cloud", min: "to nube" }, { en: "super sky", min: "to cielo" },
 ];

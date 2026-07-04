@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const time_relative: DictionaryEntry[] = [
-  {
-    "en": "today",
-    "min": "detay"
-  },
-  {
-    "en": "tomorrow",
-    "min": "manana"
-  },
-  {
-    "en": "yesterday",
-    "min": "ayer"
-  },
-  {
-    "en": "night",
-    "min": "noche"
-  }
+  { en: "today", min: "detay" }, { en: "tomorrow", min: "manana" }, { en: "yesterday", min: "ayer" }, { en: "night", min: "noche" }, { en: "morning", min: "dia" },
+  { en: "light today", min: "pika detay" }, { en: "light tomorrow", min: "pika manana" }, { en: "light yesterday", min: "pika ayer" }, { en: "light night", min: "pika noche" }, { en: "light morning", min: "pika dia" },
+  { en: "dark today", min: "po detay" }, { en: "dark tomorrow", min: "po manana" }, { en: "dark yesterday", min: "po ayer" }, { en: "dark night", min: "po noche" }, { en: "dark morning", min: "po dia" },
+  { en: "bright today", min: "bango detay" }, { en: "bright tomorrow", min: "bango manana" }, { en: "bright yesterday", min: "bango ayer" }, { en: "bright night", min: "bango noche" }, { en: "bright morning", min: "bango dia" },
+  { en: "pale today", min: "ti detay" }, { en: "pale tomorrow", min: "ti manana" }, { en: "pale yesterday", min: "ti ayer" }, { en: "pale night", min: "ti noche" }, { en: "pale morning", min: "ti dia" },
+  { en: "deep today", min: "pa detay" }, { en: "deep tomorrow", min: "pa manana" }, { en: "deep yesterday", min: "pa ayer" }, { en: "deep night", min: "pa noche" }, { en: "deep morning", min: "pa dia" },
+  { en: "soft today", min: "ki detay" }, { en: "soft tomorrow", min: "ki manana" }, { en: "soft yesterday", min: "ki ayer" }, { en: "soft night", min: "ki noche" }, { en: "soft morning", min: "ki dia" },
+  { en: "dull today", min: "bo detay" }, { en: "dull tomorrow", min: "bo manana" }, { en: "dull yesterday", min: "bo ayer" }, { en: "dull night", min: "bo noche" }, { en: "dull morning", min: "bo dia" },
+  { en: "neon today", min: "go detay" }, { en: "neon tomorrow", min: "go manana" }, { en: "neon yesterday", min: "go ayer" }, { en: "neon night", min: "go noche" }, { en: "neon morning", min: "go dia" },
+  { en: "pastel today", min: "ba detay" }, { en: "pastel tomorrow", min: "ba manana" }, { en: "pastel yesterday", min: "ba ayer" }, { en: "pastel night", min: "ba noche" }, { en: "pastel morning", min: "ba dia" },
+  { en: "vibrant today", min: "ta detay" }, { en: "vibrant tomorrow", min: "ta manana" }, { en: "vibrant yesterday", min: "ta ayer" }, { en: "vibrant night", min: "ta noche" }, { en: "vibrant morning", min: "ta dia" },
+  { en: "shiny today", min: "bi detay" }, { en: "shiny tomorrow", min: "bi manana" }, { en: "shiny yesterday", min: "bi ayer" }, { en: "shiny night", min: "bi noche" }, { en: "shiny morning", min: "bi dia" },
+  { en: "matte today", min: "no detay" }, { en: "matte tomorrow", min: "no manana" }, { en: "matte yesterday", min: "no ayer" }, { en: "matte night", min: "no noche" }, { en: "matte morning", min: "no dia" },
+  { en: "glossy today", min: "ni detay" }, { en: "glossy tomorrow", min: "ni manana" }, { en: "glossy yesterday", min: "ni ayer" }, { en: "glossy night", min: "ni noche" }, { en: "glossy morning", min: "ni dia" },
+  { en: "warm today", min: "ku detay" }, { en: "warm tomorrow", min: "ku manana" }, { en: "warm yesterday", min: "ku ayer" }, { en: "warm night", min: "ku noche" }, { en: "warm morning", min: "ku dia" },
+  { en: "cool today", min: "mu detay" }, { en: "cool tomorrow", min: "mu manana" }, { en: "cool yesterday", min: "mu ayer" }, { en: "cool night", min: "mu noche" }, { en: "cool morning", min: "mu dia" },
+  { en: "rich today", min: "se detay" }, { en: "rich tomorrow", min: "se manana" }, { en: "rich yesterday", min: "se ayer" }, { en: "rich night", min: "se noche" }, { en: "rich morning", min: "se dia" },
+  { en: "faint today", min: "du detay" }, { en: "faint tomorrow", min: "du manana" }, { en: "faint yesterday", min: "du ayer" }, { en: "faint night", min: "du noche" }, { en: "faint morning", min: "du dia" },
+  { en: "pure today", min: "vo detay" }, { en: "pure tomorrow", min: "vo manana" }, { en: "pure yesterday", min: "vo ayer" }, { en: "pure night", min: "vo noche" }, { en: "pure morning", min: "vo dia" },
+  { en: "true today", min: "au detay" }, { en: "true tomorrow", min: "au manana" }, { en: "true yesterday", min: "au ayer" }, { en: "true night", min: "au noche" }, { en: "true morning", min: "au dia" },
+  { en: "classic today", min: "so detay" }, { en: "classic tomorrow", min: "so manana" }, { en: "classic yesterday", min: "so ayer" }, { en: "classic night", min: "so noche" }, { en: "classic morning", min: "so dia" },
+  { en: "royal today", min: "mi detay" }, { en: "royal tomorrow", min: "mi manana" }, { en: "royal yesterday", min: "mi ayer" }, { en: "royal night", min: "mi noche" }, { en: "royal morning", min: "mi dia" },
+  { en: "sky today", min: "ma detay" }, { en: "sky tomorrow", min: "ma manana" }, { en: "sky yesterday", min: "ma ayer" }, { en: "sky night", min: "ma noche" }, { en: "sky morning", min: "ma dia" },
+  { en: "forest today", min: "te detay" }, { en: "forest tomorrow", min: "te manana" }, { en: "forest yesterday", min: "te ayer" }, { en: "forest night", min: "te noche" }, { en: "forest morning", min: "te dia" },
+  { en: "sea today", min: "la detay" }, { en: "sea tomorrow", min: "la manana" }, { en: "sea yesterday", min: "la ayer" }, { en: "sea night", min: "la noche" }, { en: "sea morning", min: "la dia" },
+  { en: "wild today", min: "da detay" }, { en: "wild tomorrow", min: "da manana" }, { en: "wild yesterday", min: "da ayer" }, { en: "wild night", min: "da noche" }, { en: "wild morning", min: "da dia" },
+  { en: "sweet today", min: "li detay" }, { en: "sweet tomorrow", min: "li manana" }, { en: "sweet yesterday", min: "li ayer" }, { en: "sweet night", min: "li noche" }, { en: "sweet morning", min: "li dia" },
+  { en: "hot today", min: "zo detay" }, { en: "hot tomorrow", min: "zo manana" }, { en: "hot yesterday", min: "zo ayer" }, { en: "hot night", min: "zo noche" }, { en: "hot morning", min: "zo dia" },
+  { en: "cold today", min: "ha detay" }, { en: "cold tomorrow", min: "ha manana" }, { en: "cold yesterday", min: "ha ayer" }, { en: "cold night", min: "ha noche" }, { en: "cold morning", min: "ha dia" },
+  { en: "super today", min: "to detay" }, { en: "super tomorrow", min: "to manana" }, { en: "super yesterday", min: "to ayer" }, { en: "super night", min: "to noche" }, { en: "super morning", min: "to dia" },
 ];

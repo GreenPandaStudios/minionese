@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const grammar_prep: DictionaryEntry[] = [
-  {
-    "en": "on",
-    "min": "ba"
-  },
-  {
-    "en": "in",
-    "min": "con"
-  },
-  {
-    "en": "under",
-    "min": "pajo"
-  }
+  { en: "on", min: "ba" }, { en: "in", min: "con" }, { en: "under", min: "pajo" }, { en: "above", min: "arriba" }, { en: "behind", min: "atras" },
+  { en: "light on", min: "pika ba" }, { en: "light in", min: "pika con" }, { en: "light under", min: "pika pajo" }, { en: "light above", min: "pika arriba" }, { en: "light behind", min: "pika atras" },
+  { en: "dark on", min: "po ba" }, { en: "dark in", min: "po con" }, { en: "dark under", min: "po pajo" }, { en: "dark above", min: "po arriba" }, { en: "dark behind", min: "po atras" },
+  { en: "bright on", min: "bango ba" }, { en: "bright in", min: "bango con" }, { en: "bright under", min: "bango pajo" }, { en: "bright above", min: "bango arriba" }, { en: "bright behind", min: "bango atras" },
+  { en: "pale on", min: "ti ba" }, { en: "pale in", min: "ti con" }, { en: "pale under", min: "ti pajo" }, { en: "pale above", min: "ti arriba" }, { en: "pale behind", min: "ti atras" },
+  { en: "deep on", min: "pa ba" }, { en: "deep in", min: "pa con" }, { en: "deep under", min: "pa pajo" }, { en: "deep above", min: "pa arriba" }, { en: "deep behind", min: "pa atras" },
+  { en: "soft on", min: "ki ba" }, { en: "soft in", min: "ki con" }, { en: "soft under", min: "ki pajo" }, { en: "soft above", min: "ki arriba" }, { en: "soft behind", min: "ki atras" },
+  { en: "dull on", min: "bo ba" }, { en: "dull in", min: "bo con" }, { en: "dull under", min: "bo pajo" }, { en: "dull above", min: "bo arriba" }, { en: "dull behind", min: "bo atras" },
+  { en: "neon on", min: "go ba" }, { en: "neon in", min: "go con" }, { en: "neon under", min: "go pajo" }, { en: "neon above", min: "go arriba" }, { en: "neon behind", min: "go atras" },
+  { en: "pastel on", min: "ba ba" }, { en: "pastel in", min: "ba con" }, { en: "pastel under", min: "ba pajo" }, { en: "pastel above", min: "ba arriba" }, { en: "pastel behind", min: "ba atras" },
+  { en: "vibrant on", min: "ta ba" }, { en: "vibrant in", min: "ta con" }, { en: "vibrant under", min: "ta pajo" }, { en: "vibrant above", min: "ta arriba" }, { en: "vibrant behind", min: "ta atras" },
+  { en: "shiny on", min: "bi ba" }, { en: "shiny in", min: "bi con" }, { en: "shiny under", min: "bi pajo" }, { en: "shiny above", min: "bi arriba" }, { en: "shiny behind", min: "bi atras" },
+  { en: "matte on", min: "no ba" }, { en: "matte in", min: "no con" }, { en: "matte under", min: "no pajo" }, { en: "matte above", min: "no arriba" }, { en: "matte behind", min: "no atras" },
+  { en: "glossy on", min: "ni ba" }, { en: "glossy in", min: "ni con" }, { en: "glossy under", min: "ni pajo" }, { en: "glossy above", min: "ni arriba" }, { en: "glossy behind", min: "ni atras" },
+  { en: "warm on", min: "ku ba" }, { en: "warm in", min: "ku con" }, { en: "warm under", min: "ku pajo" }, { en: "warm above", min: "ku arriba" }, { en: "warm behind", min: "ku atras" },
+  { en: "cool on", min: "mu ba" }, { en: "cool in", min: "mu con" }, { en: "cool under", min: "mu pajo" }, { en: "cool above", min: "mu arriba" }, { en: "cool behind", min: "mu atras" },
+  { en: "rich on", min: "se ba" }, { en: "rich in", min: "se con" }, { en: "rich under", min: "se pajo" }, { en: "rich above", min: "se arriba" }, { en: "rich behind", min: "se atras" },
+  { en: "faint on", min: "du ba" }, { en: "faint in", min: "du con" }, { en: "faint under", min: "du pajo" }, { en: "faint above", min: "du arriba" }, { en: "faint behind", min: "du atras" },
+  { en: "pure on", min: "vo ba" }, { en: "pure in", min: "vo con" }, { en: "pure under", min: "vo pajo" }, { en: "pure above", min: "vo arriba" }, { en: "pure behind", min: "vo atras" },
+  { en: "true on", min: "au ba" }, { en: "true in", min: "au con" }, { en: "true under", min: "au pajo" }, { en: "true above", min: "au arriba" }, { en: "true behind", min: "au atras" },
+  { en: "classic on", min: "so ba" }, { en: "classic in", min: "so con" }, { en: "classic under", min: "so pajo" }, { en: "classic above", min: "so arriba" }, { en: "classic behind", min: "so atras" },
+  { en: "royal on", min: "mi ba" }, { en: "royal in", min: "mi con" }, { en: "royal under", min: "mi pajo" }, { en: "royal above", min: "mi arriba" }, { en: "royal behind", min: "mi atras" },
+  { en: "sky on", min: "ma ba" }, { en: "sky in", min: "ma con" }, { en: "sky under", min: "ma pajo" }, { en: "sky above", min: "ma arriba" }, { en: "sky behind", min: "ma atras" },
+  { en: "forest on", min: "te ba" }, { en: "forest in", min: "te con" }, { en: "forest under", min: "te pajo" }, { en: "forest above", min: "te arriba" }, { en: "forest behind", min: "te atras" },
+  { en: "sea on", min: "la ba" }, { en: "sea in", min: "la con" }, { en: "sea under", min: "la pajo" }, { en: "sea above", min: "la arriba" }, { en: "sea behind", min: "la atras" },
+  { en: "wild on", min: "da ba" }, { en: "wild in", min: "da con" }, { en: "wild under", min: "da pajo" }, { en: "wild above", min: "da arriba" }, { en: "wild behind", min: "da atras" },
+  { en: "sweet on", min: "li ba" }, { en: "sweet in", min: "li con" }, { en: "sweet under", min: "li pajo" }, { en: "sweet above", min: "li arriba" }, { en: "sweet behind", min: "li atras" },
+  { en: "hot on", min: "zo ba" }, { en: "hot in", min: "zo con" }, { en: "hot under", min: "zo pajo" }, { en: "hot above", min: "zo arriba" }, { en: "hot behind", min: "zo atras" },
+  { en: "cold on", min: "ha ba" }, { en: "cold in", min: "ha con" }, { en: "cold under", min: "ha pajo" }, { en: "cold above", min: "ha arriba" }, { en: "cold behind", min: "ha atras" },
+  { en: "super on", min: "to ba" }, { en: "super in", min: "to con" }, { en: "super under", min: "to pajo" }, { en: "super above", min: "to arriba" }, { en: "super behind", min: "to atras" },
 ];

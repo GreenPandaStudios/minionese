@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const animals_sea: DictionaryEntry[] = [
-  {
-    "en": "fish",
-    "min": "pesca"
-  },
-  {
-    "en": "whale",
-    "min": "ballena"
-  },
-  {
-    "en": "shark",
-    "min": "tiburo"
-  }
+  { en: "whale", min: "ballena" }, { en: "shark", min: "tiburo" }, { en: "crab", min: "cangre" }, { en: "octopus", min: "pulpo" }, { en: "seal", min: "foca" },
+  { en: "light whale", min: "pika ballena" }, { en: "light shark", min: "pika tiburo" }, { en: "light crab", min: "pika cangre" }, { en: "light octopus", min: "pika pulpo" }, { en: "light seal", min: "pika foca" },
+  { en: "dark whale", min: "po ballena" }, { en: "dark shark", min: "po tiburo" }, { en: "dark crab", min: "po cangre" }, { en: "dark octopus", min: "po pulpo" }, { en: "dark seal", min: "po foca" },
+  { en: "bright whale", min: "bango ballena" }, { en: "bright shark", min: "bango tiburo" }, { en: "bright crab", min: "bango cangre" }, { en: "bright octopus", min: "bango pulpo" }, { en: "bright seal", min: "bango foca" },
+  { en: "pale whale", min: "ti ballena" }, { en: "pale shark", min: "ti tiburo" }, { en: "pale crab", min: "ti cangre" }, { en: "pale octopus", min: "ti pulpo" }, { en: "pale seal", min: "ti foca" },
+  { en: "deep whale", min: "pa ballena" }, { en: "deep shark", min: "pa tiburo" }, { en: "deep crab", min: "pa cangre" }, { en: "deep octopus", min: "pa pulpo" }, { en: "deep seal", min: "pa foca" },
+  { en: "soft whale", min: "ki ballena" }, { en: "soft shark", min: "ki tiburo" }, { en: "soft crab", min: "ki cangre" }, { en: "soft octopus", min: "ki pulpo" }, { en: "soft seal", min: "ki foca" },
+  { en: "dull whale", min: "bo ballena" }, { en: "dull shark", min: "bo tiburo" }, { en: "dull crab", min: "bo cangre" }, { en: "dull octopus", min: "bo pulpo" }, { en: "dull seal", min: "bo foca" },
+  { en: "neon whale", min: "go ballena" }, { en: "neon shark", min: "go tiburo" }, { en: "neon crab", min: "go cangre" }, { en: "neon octopus", min: "go pulpo" }, { en: "neon seal", min: "go foca" },
+  { en: "pastel whale", min: "ba ballena" }, { en: "pastel shark", min: "ba tiburo" }, { en: "pastel crab", min: "ba cangre" }, { en: "pastel octopus", min: "ba pulpo" }, { en: "pastel seal", min: "ba foca" },
+  { en: "vibrant whale", min: "ta ballena" }, { en: "vibrant shark", min: "ta tiburo" }, { en: "vibrant crab", min: "ta cangre" }, { en: "vibrant octopus", min: "ta pulpo" }, { en: "vibrant seal", min: "ta foca" },
+  { en: "shiny whale", min: "bi ballena" }, { en: "shiny shark", min: "bi tiburo" }, { en: "shiny crab", min: "bi cangre" }, { en: "shiny octopus", min: "bi pulpo" }, { en: "shiny seal", min: "bi foca" },
+  { en: "matte whale", min: "no ballena" }, { en: "matte shark", min: "no tiburo" }, { en: "matte crab", min: "no cangre" }, { en: "matte octopus", min: "no pulpo" }, { en: "matte seal", min: "no foca" },
+  { en: "glossy whale", min: "ni ballena" }, { en: "glossy shark", min: "ni tiburo" }, { en: "glossy crab", min: "ni cangre" }, { en: "glossy octopus", min: "ni pulpo" }, { en: "glossy seal", min: "ni foca" },
+  { en: "warm whale", min: "ku ballena" }, { en: "warm shark", min: "ku tiburo" }, { en: "warm crab", min: "ku cangre" }, { en: "warm octopus", min: "ku pulpo" }, { en: "warm seal", min: "ku foca" },
+  { en: "cool whale", min: "mu ballena" }, { en: "cool shark", min: "mu tiburo" }, { en: "cool crab", min: "mu cangre" }, { en: "cool octopus", min: "mu pulpo" }, { en: "cool seal", min: "mu foca" },
+  { en: "rich whale", min: "se ballena" }, { en: "rich shark", min: "se tiburo" }, { en: "rich crab", min: "se cangre" }, { en: "rich octopus", min: "se pulpo" }, { en: "rich seal", min: "se foca" },
+  { en: "faint whale", min: "du ballena" }, { en: "faint shark", min: "du tiburo" }, { en: "faint crab", min: "du cangre" }, { en: "faint octopus", min: "du pulpo" }, { en: "faint seal", min: "du foca" },
+  { en: "pure whale", min: "vo ballena" }, { en: "pure shark", min: "vo tiburo" }, { en: "pure crab", min: "vo cangre" }, { en: "pure octopus", min: "vo pulpo" }, { en: "pure seal", min: "vo foca" },
+  { en: "true whale", min: "au ballena" }, { en: "true shark", min: "au tiburo" }, { en: "true crab", min: "au cangre" }, { en: "true octopus", min: "au pulpo" }, { en: "true seal", min: "au foca" },
+  { en: "classic whale", min: "so ballena" }, { en: "classic shark", min: "so tiburo" }, { en: "classic crab", min: "so cangre" }, { en: "classic octopus", min: "so pulpo" }, { en: "classic seal", min: "so foca" },
+  { en: "royal whale", min: "mi ballena" }, { en: "royal shark", min: "mi tiburo" }, { en: "royal crab", min: "mi cangre" }, { en: "royal octopus", min: "mi pulpo" }, { en: "royal seal", min: "mi foca" },
+  { en: "sky whale", min: "ma ballena" }, { en: "sky shark", min: "ma tiburo" }, { en: "sky crab", min: "ma cangre" }, { en: "sky octopus", min: "ma pulpo" }, { en: "sky seal", min: "ma foca" },
+  { en: "forest whale", min: "te ballena" }, { en: "forest shark", min: "te tiburo" }, { en: "forest crab", min: "te cangre" }, { en: "forest octopus", min: "te pulpo" }, { en: "forest seal", min: "te foca" },
+  { en: "sea whale", min: "la ballena" }, { en: "sea shark", min: "la tiburo" }, { en: "sea crab", min: "la cangre" }, { en: "sea octopus", min: "la pulpo" }, { en: "sea seal", min: "la foca" },
+  { en: "wild whale", min: "da ballena" }, { en: "wild shark", min: "da tiburo" }, { en: "wild crab", min: "da cangre" }, { en: "wild octopus", min: "da pulpo" }, { en: "wild seal", min: "da foca" },
+  { en: "sweet whale", min: "li ballena" }, { en: "sweet shark", min: "li tiburo" }, { en: "sweet crab", min: "li cangre" }, { en: "sweet octopus", min: "li pulpo" }, { en: "sweet seal", min: "li foca" },
+  { en: "hot whale", min: "zo ballena" }, { en: "hot shark", min: "zo tiburo" }, { en: "hot crab", min: "zo cangre" }, { en: "hot octopus", min: "zo pulpo" }, { en: "hot seal", min: "zo foca" },
+  { en: "cold whale", min: "ha ballena" }, { en: "cold shark", min: "ha tiburo" }, { en: "cold crab", min: "ha cangre" }, { en: "cold octopus", min: "ha pulpo" }, { en: "cold seal", min: "ha foca" },
+  { en: "super whale", min: "to ballena" }, { en: "super shark", min: "to tiburo" }, { en: "super crab", min: "to cangre" }, { en: "super octopus", min: "to pulpo" }, { en: "super seal", min: "to foca" },
 ];

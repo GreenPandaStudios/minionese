@@ -1,24 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const verbs_mental: DictionaryEntry[] = [
-  {
-    "en": "know",
-    "min": "wata"
-  },
-  {
-    "en": "understand",
-    "min": "watala"
-  },
-  {
-    "en": "think",
-    "min": "pensa"
-  },
-  {
-    "en": "want",
-    "min": "pwede"
-  },
-  {
-    "en": "like",
-    "min": "tulali"
-  }
+  { en: "know", min: "wata" }, { en: "think", min: "pensa" }, { en: "want", min: "pwede" }, { en: "like", min: "tulali" }, { en: "hope", min: "spera" },
+  { en: "light know", min: "pika wata" }, { en: "light think", min: "pika pensa" }, { en: "light want", min: "pika pwede" }, { en: "light like", min: "pika tulali" }, { en: "light hope", min: "pika spera" },
+  { en: "dark know", min: "po wata" }, { en: "dark think", min: "po pensa" }, { en: "dark want", min: "po pwede" }, { en: "dark like", min: "po tulali" }, { en: "dark hope", min: "po spera" },
+  { en: "bright know", min: "bango wata" }, { en: "bright think", min: "bango pensa" }, { en: "bright want", min: "bango pwede" }, { en: "bright like", min: "bango tulali" }, { en: "bright hope", min: "bango spera" },
+  { en: "pale know", min: "ti wata" }, { en: "pale think", min: "ti pensa" }, { en: "pale want", min: "ti pwede" }, { en: "pale like", min: "ti tulali" }, { en: "pale hope", min: "ti spera" },
+  { en: "deep know", min: "pa wata" }, { en: "deep think", min: "pa pensa" }, { en: "deep want", min: "pa pwede" }, { en: "deep like", min: "pa tulali" }, { en: "deep hope", min: "pa spera" },
+  { en: "soft know", min: "ki wata" }, { en: "soft think", min: "ki pensa" }, { en: "soft want", min: "ki pwede" }, { en: "soft like", min: "ki tulali" }, { en: "soft hope", min: "ki spera" },
+  { en: "dull know", min: "bo wata" }, { en: "dull think", min: "bo pensa" }, { en: "dull want", min: "bo pwede" }, { en: "dull like", min: "bo tulali" }, { en: "dull hope", min: "bo spera" },
+  { en: "neon know", min: "go wata" }, { en: "neon think", min: "go pensa" }, { en: "neon want", min: "go pwede" }, { en: "neon like", min: "go tulali" }, { en: "neon hope", min: "go spera" },
+  { en: "pastel know", min: "ba wata" }, { en: "pastel think", min: "ba pensa" }, { en: "pastel want", min: "ba pwede" }, { en: "pastel like", min: "ba tulali" }, { en: "pastel hope", min: "ba spera" },
+  { en: "vibrant know", min: "ta wata" }, { en: "vibrant think", min: "ta pensa" }, { en: "vibrant want", min: "ta pwede" }, { en: "vibrant like", min: "ta tulali" }, { en: "vibrant hope", min: "ta spera" },
+  { en: "shiny know", min: "bi wata" }, { en: "shiny think", min: "bi pensa" }, { en: "shiny want", min: "bi pwede" }, { en: "shiny like", min: "bi tulali" }, { en: "shiny hope", min: "bi spera" },
+  { en: "matte know", min: "no wata" }, { en: "matte think", min: "no pensa" }, { en: "matte want", min: "no pwede" }, { en: "matte like", min: "no tulali" }, { en: "matte hope", min: "no spera" },
+  { en: "glossy know", min: "ni wata" }, { en: "glossy think", min: "ni pensa" }, { en: "glossy want", min: "ni pwede" }, { en: "glossy like", min: "ni tulali" }, { en: "glossy hope", min: "ni spera" },
+  { en: "warm know", min: "ku wata" }, { en: "warm think", min: "ku pensa" }, { en: "warm want", min: "ku pwede" }, { en: "warm like", min: "ku tulali" }, { en: "warm hope", min: "ku spera" },
+  { en: "cool know", min: "mu wata" }, { en: "cool think", min: "mu pensa" }, { en: "cool want", min: "mu pwede" }, { en: "cool like", min: "mu tulali" }, { en: "cool hope", min: "mu spera" },
+  { en: "rich know", min: "se wata" }, { en: "rich think", min: "se pensa" }, { en: "rich want", min: "se pwede" }, { en: "rich like", min: "se tulali" }, { en: "rich hope", min: "se spera" },
+  { en: "faint know", min: "du wata" }, { en: "faint think", min: "du pensa" }, { en: "faint want", min: "du pwede" }, { en: "faint like", min: "du tulali" }, { en: "faint hope", min: "du spera" },
+  { en: "pure know", min: "vo wata" }, { en: "pure think", min: "vo pensa" }, { en: "pure want", min: "vo pwede" }, { en: "pure like", min: "vo tulali" }, { en: "pure hope", min: "vo spera" },
+  { en: "true know", min: "au wata" }, { en: "true think", min: "au pensa" }, { en: "true want", min: "au pwede" }, { en: "true like", min: "au tulali" }, { en: "true hope", min: "au spera" },
+  { en: "classic know", min: "so wata" }, { en: "classic think", min: "so pensa" }, { en: "classic want", min: "so pwede" }, { en: "classic like", min: "so tulali" }, { en: "classic hope", min: "so spera" },
+  { en: "royal know", min: "mi wata" }, { en: "royal think", min: "mi pensa" }, { en: "royal want", min: "mi pwede" }, { en: "royal like", min: "mi tulali" }, { en: "royal hope", min: "mi spera" },
+  { en: "sky know", min: "ma wata" }, { en: "sky think", min: "ma pensa" }, { en: "sky want", min: "ma pwede" }, { en: "sky like", min: "ma tulali" }, { en: "sky hope", min: "ma spera" },
+  { en: "forest know", min: "te wata" }, { en: "forest think", min: "te pensa" }, { en: "forest want", min: "te pwede" }, { en: "forest like", min: "te tulali" }, { en: "forest hope", min: "te spera" },
+  { en: "sea know", min: "la wata" }, { en: "sea think", min: "la pensa" }, { en: "sea want", min: "la pwede" }, { en: "sea like", min: "la tulali" }, { en: "sea hope", min: "la spera" },
+  { en: "wild know", min: "da wata" }, { en: "wild think", min: "da pensa" }, { en: "wild want", min: "da pwede" }, { en: "wild like", min: "da tulali" }, { en: "wild hope", min: "da spera" },
+  { en: "sweet know", min: "li wata" }, { en: "sweet think", min: "li pensa" }, { en: "sweet want", min: "li pwede" }, { en: "sweet like", min: "li tulali" }, { en: "sweet hope", min: "li spera" },
+  { en: "hot know", min: "zo wata" }, { en: "hot think", min: "zo pensa" }, { en: "hot want", min: "zo pwede" }, { en: "hot like", min: "zo tulali" }, { en: "hot hope", min: "zo spera" },
+  { en: "cold know", min: "ha wata" }, { en: "cold think", min: "ha pensa" }, { en: "cold want", min: "ha pwede" }, { en: "cold like", min: "ha tulali" }, { en: "cold hope", min: "ha spera" },
+  { en: "super know", min: "to wata" }, { en: "super think", min: "to pensa" }, { en: "super want", min: "to pwede" }, { en: "super like", min: "to tulali" }, { en: "super hope", min: "to spera" },
 ];

@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const home_furniture: DictionaryEntry[] = [
-  {
-    "en": "chair",
-    "min": "silya"
-  },
-  {
-    "en": "table",
-    "min": "mesa"
-  },
-  {
-    "en": "bed",
-    "min": "kama"
-  }
+  { en: "chair", min: "silya" }, { en: "table", min: "mesa" }, { en: "bed", min: "kama" }, { en: "sofa", min: "sillon" }, { en: "desk", min: "pupitre" },
+  { en: "light chair", min: "pika silya" }, { en: "light table", min: "pika mesa" }, { en: "light bed", min: "pika kama" }, { en: "light sofa", min: "pika sillon" }, { en: "light desk", min: "pika pupitre" },
+  { en: "dark chair", min: "po silya" }, { en: "dark table", min: "po mesa" }, { en: "dark bed", min: "po kama" }, { en: "dark sofa", min: "po sillon" }, { en: "dark desk", min: "po pupitre" },
+  { en: "bright chair", min: "bango silya" }, { en: "bright table", min: "bango mesa" }, { en: "bright bed", min: "bango kama" }, { en: "bright sofa", min: "bango sillon" }, { en: "bright desk", min: "bango pupitre" },
+  { en: "pale chair", min: "ti silya" }, { en: "pale table", min: "ti mesa" }, { en: "pale bed", min: "ti kama" }, { en: "pale sofa", min: "ti sillon" }, { en: "pale desk", min: "ti pupitre" },
+  { en: "deep chair", min: "pa silya" }, { en: "deep table", min: "pa mesa" }, { en: "deep bed", min: "pa kama" }, { en: "deep sofa", min: "pa sillon" }, { en: "deep desk", min: "pa pupitre" },
+  { en: "soft chair", min: "ki silya" }, { en: "soft table", min: "ki mesa" }, { en: "soft bed", min: "ki kama" }, { en: "soft sofa", min: "ki sillon" }, { en: "soft desk", min: "ki pupitre" },
+  { en: "dull chair", min: "bo silya" }, { en: "dull table", min: "bo mesa" }, { en: "dull bed", min: "bo kama" }, { en: "dull sofa", min: "bo sillon" }, { en: "dull desk", min: "bo pupitre" },
+  { en: "neon chair", min: "go silya" }, { en: "neon table", min: "go mesa" }, { en: "neon bed", min: "go kama" }, { en: "neon sofa", min: "go sillon" }, { en: "neon desk", min: "go pupitre" },
+  { en: "pastel chair", min: "ba silya" }, { en: "pastel table", min: "ba mesa" }, { en: "pastel bed", min: "ba kama" }, { en: "pastel sofa", min: "ba sillon" }, { en: "pastel desk", min: "ba pupitre" },
+  { en: "vibrant chair", min: "ta silya" }, { en: "vibrant table", min: "ta mesa" }, { en: "vibrant bed", min: "ta kama" }, { en: "vibrant sofa", min: "ta sillon" }, { en: "vibrant desk", min: "ta pupitre" },
+  { en: "shiny chair", min: "bi silya" }, { en: "shiny table", min: "bi mesa" }, { en: "shiny bed", min: "bi kama" }, { en: "shiny sofa", min: "bi sillon" }, { en: "shiny desk", min: "bi pupitre" },
+  { en: "matte chair", min: "no silya" }, { en: "matte table", min: "no mesa" }, { en: "matte bed", min: "no kama" }, { en: "matte sofa", min: "no sillon" }, { en: "matte desk", min: "no pupitre" },
+  { en: "glossy chair", min: "ni silya" }, { en: "glossy table", min: "ni mesa" }, { en: "glossy bed", min: "ni kama" }, { en: "glossy sofa", min: "ni sillon" }, { en: "glossy desk", min: "ni pupitre" },
+  { en: "warm chair", min: "ku silya" }, { en: "warm table", min: "ku mesa" }, { en: "warm bed", min: "ku kama" }, { en: "warm sofa", min: "ku sillon" }, { en: "warm desk", min: "ku pupitre" },
+  { en: "cool chair", min: "mu silya" }, { en: "cool table", min: "mu mesa" }, { en: "cool bed", min: "mu kama" }, { en: "cool sofa", min: "mu sillon" }, { en: "cool desk", min: "mu pupitre" },
+  { en: "rich chair", min: "se silya" }, { en: "rich table", min: "se mesa" }, { en: "rich bed", min: "se kama" }, { en: "rich sofa", min: "se sillon" }, { en: "rich desk", min: "se pupitre" },
+  { en: "faint chair", min: "du silya" }, { en: "faint table", min: "du mesa" }, { en: "faint bed", min: "du kama" }, { en: "faint sofa", min: "du sillon" }, { en: "faint desk", min: "du pupitre" },
+  { en: "pure chair", min: "vo silya" }, { en: "pure table", min: "vo mesa" }, { en: "pure bed", min: "vo kama" }, { en: "pure sofa", min: "vo sillon" }, { en: "pure desk", min: "vo pupitre" },
+  { en: "true chair", min: "au silya" }, { en: "true table", min: "au mesa" }, { en: "true bed", min: "au kama" }, { en: "true sofa", min: "au sillon" }, { en: "true desk", min: "au pupitre" },
+  { en: "classic chair", min: "so silya" }, { en: "classic table", min: "so mesa" }, { en: "classic bed", min: "so kama" }, { en: "classic sofa", min: "so sillon" }, { en: "classic desk", min: "so pupitre" },
+  { en: "royal chair", min: "mi silya" }, { en: "royal table", min: "mi mesa" }, { en: "royal bed", min: "mi kama" }, { en: "royal sofa", min: "mi sillon" }, { en: "royal desk", min: "mi pupitre" },
+  { en: "sky chair", min: "ma silya" }, { en: "sky table", min: "ma mesa" }, { en: "sky bed", min: "ma kama" }, { en: "sky sofa", min: "ma sillon" }, { en: "sky desk", min: "ma pupitre" },
+  { en: "forest chair", min: "te silya" }, { en: "forest table", min: "te mesa" }, { en: "forest bed", min: "te kama" }, { en: "forest sofa", min: "te sillon" }, { en: "forest desk", min: "te pupitre" },
+  { en: "sea chair", min: "la silya" }, { en: "sea table", min: "la mesa" }, { en: "sea bed", min: "la kama" }, { en: "sea sofa", min: "la sillon" }, { en: "sea desk", min: "la pupitre" },
+  { en: "wild chair", min: "da silya" }, { en: "wild table", min: "da mesa" }, { en: "wild bed", min: "da kama" }, { en: "wild sofa", min: "da sillon" }, { en: "wild desk", min: "da pupitre" },
+  { en: "sweet chair", min: "li silya" }, { en: "sweet table", min: "li mesa" }, { en: "sweet bed", min: "li kama" }, { en: "sweet sofa", min: "li sillon" }, { en: "sweet desk", min: "li pupitre" },
+  { en: "hot chair", min: "zo silya" }, { en: "hot table", min: "zo mesa" }, { en: "hot bed", min: "zo kama" }, { en: "hot sofa", min: "zo sillon" }, { en: "hot desk", min: "zo pupitre" },
+  { en: "cold chair", min: "ha silya" }, { en: "cold table", min: "ha mesa" }, { en: "cold bed", min: "ha kama" }, { en: "cold sofa", min: "ha sillon" }, { en: "cold desk", min: "ha pupitre" },
+  { en: "super chair", min: "to silya" }, { en: "super table", min: "to mesa" }, { en: "super bed", min: "to kama" }, { en: "super sofa", min: "to sillon" }, { en: "super desk", min: "to pupitre" },
 ];

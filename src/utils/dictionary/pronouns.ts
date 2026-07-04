@@ -1,48 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const pronouns: DictionaryEntry[] = [
-  {
-    "en": "i",
-    "min": "me"
-  },
-  {
-    "en": "me",
-    "min": "ku"
-  },
-  {
-    "en": "you",
-    "min": "tu"
-  },
-  {
-    "en": "we",
-    "min": "bee"
-  },
-  {
-    "en": "us",
-    "min": "beedu"
-  },
-  {
-    "en": "they",
-    "min": "bu"
-  },
-  {
-    "en": "them",
-    "min": "buta"
-  },
-  {
-    "en": "he",
-    "min": "li"
-  },
-  {
-    "en": "she",
-    "min": "la"
-  },
-  {
-    "en": "him",
-    "min": "lipo"
-  },
-  {
-    "en": "her",
-    "min": "lapi"
-  }
+  { en: "i", min: "me" }, { en: "you", min: "tu" }, { en: "we", min: "bee" }, { en: "they", min: "bu" }, { en: "she", min: "la" },
+  { en: "light i", min: "pika me" }, { en: "light you", min: "pika tu" }, { en: "light we", min: "pika bee" }, { en: "light they", min: "pika bu" }, { en: "light she", min: "pika la" },
+  { en: "dark i", min: "po me" }, { en: "dark you", min: "po tu" }, { en: "dark we", min: "po bee" }, { en: "dark they", min: "po bu" }, { en: "dark she", min: "po la" },
+  { en: "bright i", min: "bango me" }, { en: "bright you", min: "bango tu" }, { en: "bright we", min: "bango bee" }, { en: "bright they", min: "bango bu" }, { en: "bright she", min: "bango la" },
+  { en: "pale i", min: "ti me" }, { en: "pale you", min: "ti tu" }, { en: "pale we", min: "ti bee" }, { en: "pale they", min: "ti bu" }, { en: "pale she", min: "ti la" },
+  { en: "deep i", min: "pa me" }, { en: "deep you", min: "pa tu" }, { en: "deep we", min: "pa bee" }, { en: "deep they", min: "pa bu" }, { en: "deep she", min: "pa la" },
+  { en: "soft i", min: "ki me" }, { en: "soft you", min: "ki tu" }, { en: "soft we", min: "ki bee" }, { en: "soft they", min: "ki bu" }, { en: "soft she", min: "ki la" },
+  { en: "dull i", min: "bo me" }, { en: "dull you", min: "bo tu" }, { en: "dull we", min: "bo bee" }, { en: "dull they", min: "bo bu" }, { en: "dull she", min: "bo la" },
+  { en: "neon i", min: "go me" }, { en: "neon you", min: "go tu" }, { en: "neon we", min: "go bee" }, { en: "neon they", min: "go bu" }, { en: "neon she", min: "go la" },
+  { en: "pastel i", min: "ba me" }, { en: "pastel you", min: "ba tu" }, { en: "pastel we", min: "ba bee" }, { en: "pastel they", min: "ba bu" }, { en: "pastel she", min: "ba la" },
+  { en: "vibrant i", min: "ta me" }, { en: "vibrant you", min: "ta tu" }, { en: "vibrant we", min: "ta bee" }, { en: "vibrant they", min: "ta bu" }, { en: "vibrant she", min: "ta la" },
+  { en: "shiny i", min: "bi me" }, { en: "shiny you", min: "bi tu" }, { en: "shiny we", min: "bi bee" }, { en: "shiny they", min: "bi bu" }, { en: "shiny she", min: "bi la" },
+  { en: "matte i", min: "no me" }, { en: "matte you", min: "no tu" }, { en: "matte we", min: "no bee" }, { en: "matte they", min: "no bu" }, { en: "matte she", min: "no la" },
+  { en: "glossy i", min: "ni me" }, { en: "glossy you", min: "ni tu" }, { en: "glossy we", min: "ni bee" }, { en: "glossy they", min: "ni bu" }, { en: "glossy she", min: "ni la" },
+  { en: "warm i", min: "ku me" }, { en: "warm you", min: "ku tu" }, { en: "warm we", min: "ku bee" }, { en: "warm they", min: "ku bu" }, { en: "warm she", min: "ku la" },
+  { en: "cool i", min: "mu me" }, { en: "cool you", min: "mu tu" }, { en: "cool we", min: "mu bee" }, { en: "cool they", min: "mu bu" }, { en: "cool she", min: "mu la" },
+  { en: "rich i", min: "se me" }, { en: "rich you", min: "se tu" }, { en: "rich we", min: "se bee" }, { en: "rich they", min: "se bu" }, { en: "rich she", min: "se la" },
+  { en: "faint i", min: "du me" }, { en: "faint you", min: "du tu" }, { en: "faint we", min: "du bee" }, { en: "faint they", min: "du bu" }, { en: "faint she", min: "du la" },
+  { en: "pure i", min: "vo me" }, { en: "pure you", min: "vo tu" }, { en: "pure we", min: "vo bee" }, { en: "pure they", min: "vo bu" }, { en: "pure she", min: "vo la" },
+  { en: "true i", min: "au me" }, { en: "true you", min: "au tu" }, { en: "true we", min: "au bee" }, { en: "true they", min: "au bu" }, { en: "true she", min: "au la" },
+  { en: "classic i", min: "so me" }, { en: "classic you", min: "so tu" }, { en: "classic we", min: "so bee" }, { en: "classic they", min: "so bu" }, { en: "classic she", min: "so la" },
+  { en: "royal i", min: "mi me" }, { en: "royal you", min: "mi tu" }, { en: "royal we", min: "mi bee" }, { en: "royal they", min: "mi bu" }, { en: "royal she", min: "mi la" },
+  { en: "sky i", min: "ma me" }, { en: "sky you", min: "ma tu" }, { en: "sky we", min: "ma bee" }, { en: "sky they", min: "ma bu" }, { en: "sky she", min: "ma la" },
+  { en: "forest i", min: "te me" }, { en: "forest you", min: "te tu" }, { en: "forest we", min: "te bee" }, { en: "forest they", min: "te bu" }, { en: "forest she", min: "te la" },
+  { en: "sea i", min: "la me" }, { en: "sea you", min: "la tu" }, { en: "sea we", min: "la bee" }, { en: "sea they", min: "la bu" }, { en: "sea she", min: "la la" },
+  { en: "wild i", min: "da me" }, { en: "wild you", min: "da tu" }, { en: "wild we", min: "da bee" }, { en: "wild they", min: "da bu" }, { en: "wild she", min: "da la" },
+  { en: "sweet i", min: "li me" }, { en: "sweet you", min: "li tu" }, { en: "sweet we", min: "li bee" }, { en: "sweet they", min: "li bu" }, { en: "sweet she", min: "li la" },
+  { en: "hot i", min: "zo me" }, { en: "hot you", min: "zo tu" }, { en: "hot we", min: "zo bee" }, { en: "hot they", min: "zo bu" }, { en: "hot she", min: "zo la" },
+  { en: "cold i", min: "ha me" }, { en: "cold you", min: "ha tu" }, { en: "cold we", min: "ha bee" }, { en: "cold they", min: "ha bu" }, { en: "cold she", min: "ha la" },
+  { en: "super i", min: "to me" }, { en: "super you", min: "to tu" }, { en: "super we", min: "to bee" }, { en: "super they", min: "to bu" }, { en: "super she", min: "to la" },
 ];

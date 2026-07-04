@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const clothing_top: DictionaryEntry[] = [
-  {
-    "en": "shirt",
-    "min": "camisa"
-  },
-  {
-    "en": "jacket",
-    "min": "saco"
-  },
-  {
-    "en": "coat",
-    "min": "abrigo"
-  }
+  { en: "shirt", min: "camisa" }, { en: "jacket", min: "saco" }, { en: "coat", min: "abrigo" }, { en: "sweater", min: "buzo" }, { en: "vest", min: "chaleco" },
+  { en: "light shirt", min: "pika camisa" }, { en: "light jacket", min: "pika saco" }, { en: "light coat", min: "pika abrigo" }, { en: "light sweater", min: "pika buzo" }, { en: "light vest", min: "pika chaleco" },
+  { en: "dark shirt", min: "po camisa" }, { en: "dark jacket", min: "po saco" }, { en: "dark coat", min: "po abrigo" }, { en: "dark sweater", min: "po buzo" }, { en: "dark vest", min: "po chaleco" },
+  { en: "bright shirt", min: "bango camisa" }, { en: "bright jacket", min: "bango saco" }, { en: "bright coat", min: "bango abrigo" }, { en: "bright sweater", min: "bango buzo" }, { en: "bright vest", min: "bango chaleco" },
+  { en: "pale shirt", min: "ti camisa" }, { en: "pale jacket", min: "ti saco" }, { en: "pale coat", min: "ti abrigo" }, { en: "pale sweater", min: "ti buzo" }, { en: "pale vest", min: "ti chaleco" },
+  { en: "deep shirt", min: "pa camisa" }, { en: "deep jacket", min: "pa saco" }, { en: "deep coat", min: "pa abrigo" }, { en: "deep sweater", min: "pa buzo" }, { en: "deep vest", min: "pa chaleco" },
+  { en: "soft shirt", min: "ki camisa" }, { en: "soft jacket", min: "ki saco" }, { en: "soft coat", min: "ki abrigo" }, { en: "soft sweater", min: "ki buzo" }, { en: "soft vest", min: "ki chaleco" },
+  { en: "dull shirt", min: "bo camisa" }, { en: "dull jacket", min: "bo saco" }, { en: "dull coat", min: "bo abrigo" }, { en: "dull sweater", min: "bo buzo" }, { en: "dull vest", min: "bo chaleco" },
+  { en: "neon shirt", min: "go camisa" }, { en: "neon jacket", min: "go saco" }, { en: "neon coat", min: "go abrigo" }, { en: "neon sweater", min: "go buzo" }, { en: "neon vest", min: "go chaleco" },
+  { en: "pastel shirt", min: "ba camisa" }, { en: "pastel jacket", min: "ba saco" }, { en: "pastel coat", min: "ba abrigo" }, { en: "pastel sweater", min: "ba buzo" }, { en: "pastel vest", min: "ba chaleco" },
+  { en: "vibrant shirt", min: "ta camisa" }, { en: "vibrant jacket", min: "ta saco" }, { en: "vibrant coat", min: "ta abrigo" }, { en: "vibrant sweater", min: "ta buzo" }, { en: "vibrant vest", min: "ta chaleco" },
+  { en: "shiny shirt", min: "bi camisa" }, { en: "shiny jacket", min: "bi saco" }, { en: "shiny coat", min: "bi abrigo" }, { en: "shiny sweater", min: "bi buzo" }, { en: "shiny vest", min: "bi chaleco" },
+  { en: "matte shirt", min: "no camisa" }, { en: "matte jacket", min: "no saco" }, { en: "matte coat", min: "no abrigo" }, { en: "matte sweater", min: "no buzo" }, { en: "matte vest", min: "no chaleco" },
+  { en: "glossy shirt", min: "ni camisa" }, { en: "glossy jacket", min: "ni saco" }, { en: "glossy coat", min: "ni abrigo" }, { en: "glossy sweater", min: "ni buzo" }, { en: "glossy vest", min: "ni chaleco" },
+  { en: "warm shirt", min: "ku camisa" }, { en: "warm jacket", min: "ku saco" }, { en: "warm coat", min: "ku abrigo" }, { en: "warm sweater", min: "ku buzo" }, { en: "warm vest", min: "ku chaleco" },
+  { en: "cool shirt", min: "mu camisa" }, { en: "cool jacket", min: "mu saco" }, { en: "cool coat", min: "mu abrigo" }, { en: "cool sweater", min: "mu buzo" }, { en: "cool vest", min: "mu chaleco" },
+  { en: "rich shirt", min: "se camisa" }, { en: "rich jacket", min: "se saco" }, { en: "rich coat", min: "se abrigo" }, { en: "rich sweater", min: "se buzo" }, { en: "rich vest", min: "se chaleco" },
+  { en: "faint shirt", min: "du camisa" }, { en: "faint jacket", min: "du saco" }, { en: "faint coat", min: "du abrigo" }, { en: "faint sweater", min: "du buzo" }, { en: "faint vest", min: "du chaleco" },
+  { en: "pure shirt", min: "vo camisa" }, { en: "pure jacket", min: "vo saco" }, { en: "pure coat", min: "vo abrigo" }, { en: "pure sweater", min: "vo buzo" }, { en: "pure vest", min: "vo chaleco" },
+  { en: "true shirt", min: "au camisa" }, { en: "true jacket", min: "au saco" }, { en: "true coat", min: "au abrigo" }, { en: "true sweater", min: "au buzo" }, { en: "true vest", min: "au chaleco" },
+  { en: "classic shirt", min: "so camisa" }, { en: "classic jacket", min: "so saco" }, { en: "classic coat", min: "so abrigo" }, { en: "classic sweater", min: "so buzo" }, { en: "classic vest", min: "so chaleco" },
+  { en: "royal shirt", min: "mi camisa" }, { en: "royal jacket", min: "mi saco" }, { en: "royal coat", min: "mi abrigo" }, { en: "royal sweater", min: "mi buzo" }, { en: "royal vest", min: "mi chaleco" },
+  { en: "sky shirt", min: "ma camisa" }, { en: "sky jacket", min: "ma saco" }, { en: "sky coat", min: "ma abrigo" }, { en: "sky sweater", min: "ma buzo" }, { en: "sky vest", min: "ma chaleco" },
+  { en: "forest shirt", min: "te camisa" }, { en: "forest jacket", min: "te saco" }, { en: "forest coat", min: "te abrigo" }, { en: "forest sweater", min: "te buzo" }, { en: "forest vest", min: "te chaleco" },
+  { en: "sea shirt", min: "la camisa" }, { en: "sea jacket", min: "la saco" }, { en: "sea coat", min: "la abrigo" }, { en: "sea sweater", min: "la buzo" }, { en: "sea vest", min: "la chaleco" },
+  { en: "wild shirt", min: "da camisa" }, { en: "wild jacket", min: "da saco" }, { en: "wild coat", min: "da abrigo" }, { en: "wild sweater", min: "da buzo" }, { en: "wild vest", min: "da chaleco" },
+  { en: "sweet shirt", min: "li camisa" }, { en: "sweet jacket", min: "li saco" }, { en: "sweet coat", min: "li abrigo" }, { en: "sweet sweater", min: "li buzo" }, { en: "sweet vest", min: "li chaleco" },
+  { en: "hot shirt", min: "zo camisa" }, { en: "hot jacket", min: "zo saco" }, { en: "hot coat", min: "zo abrigo" }, { en: "hot sweater", min: "zo buzo" }, { en: "hot vest", min: "zo chaleco" },
+  { en: "cold shirt", min: "ha camisa" }, { en: "cold jacket", min: "ha saco" }, { en: "cold coat", min: "ha abrigo" }, { en: "cold sweater", min: "ha buzo" }, { en: "cold vest", min: "ha chaleco" },
+  { en: "super shirt", min: "to camisa" }, { en: "super jacket", min: "to saco" }, { en: "super coat", min: "to abrigo" }, { en: "super sweater", min: "to buzo" }, { en: "super vest", min: "to chaleco" },
 ];

@@ -1,24 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const colors: DictionaryEntry[] = [
-  {
-    "en": "red",
-    "min": "rojo"
-  },
-  {
-    "en": "blue",
-    "min": "azul"
-  },
-  {
-    "en": "yellow",
-    "min": "amarillo"
-  },
-  {
-    "en": "green",
-    "min": "verde"
-  },
-  {
-    "en": "black",
-    "min": "negro"
-  }
+  { en: "red", min: "rojo" }, { en: "blue", min: "azul" }, { en: "yellow", min: "amarillo" }, { en: "green", min: "verde" }, { en: "black", min: "negro" },
+  { en: "light red", min: "pika rojo" }, { en: "light blue", min: "pika azul" }, { en: "light yellow", min: "pika amarillo" }, { en: "light green", min: "pika verde" }, { en: "light black", min: "pika negro" },
+  { en: "dark red", min: "po rojo" }, { en: "dark blue", min: "po azul" }, { en: "dark yellow", min: "po amarillo" }, { en: "dark green", min: "po verde" }, { en: "dark black", min: "po negro" },
+  { en: "bright red", min: "bango rojo" }, { en: "bright blue", min: "bango azul" }, { en: "bright yellow", min: "bango amarillo" }, { en: "bright green", min: "bango verde" }, { en: "bright black", min: "bango negro" },
+  { en: "pale red", min: "ti rojo" }, { en: "pale blue", min: "ti azul" }, { en: "pale yellow", min: "ti amarillo" }, { en: "pale green", min: "ti verde" }, { en: "pale black", min: "ti negro" },
+  { en: "deep red", min: "pa rojo" }, { en: "deep blue", min: "pa azul" }, { en: "deep yellow", min: "pa amarillo" }, { en: "deep green", min: "pa verde" }, { en: "deep black", min: "pa negro" },
+  { en: "soft red", min: "ki rojo" }, { en: "soft blue", min: "ki azul" }, { en: "soft yellow", min: "ki amarillo" }, { en: "soft green", min: "ki verde" }, { en: "soft black", min: "ki negro" },
+  { en: "dull red", min: "bo rojo" }, { en: "dull blue", min: "bo azul" }, { en: "dull yellow", min: "bo amarillo" }, { en: "dull green", min: "bo verde" }, { en: "dull black", min: "bo negro" },
+  { en: "neon red", min: "go rojo" }, { en: "neon blue", min: "go azul" }, { en: "neon yellow", min: "go amarillo" }, { en: "neon green", min: "go verde" }, { en: "neon black", min: "go negro" },
+  { en: "pastel red", min: "ba rojo" }, { en: "pastel blue", min: "ba azul" }, { en: "pastel yellow", min: "ba amarillo" }, { en: "pastel green", min: "ba verde" }, { en: "pastel black", min: "ba negro" },
+  { en: "vibrant red", min: "ta rojo" }, { en: "vibrant blue", min: "ta azul" }, { en: "vibrant yellow", min: "ta amarillo" }, { en: "vibrant green", min: "ta verde" }, { en: "vibrant black", min: "ta negro" },
+  { en: "shiny red", min: "bi rojo" }, { en: "shiny blue", min: "bi azul" }, { en: "shiny yellow", min: "bi amarillo" }, { en: "shiny green", min: "bi verde" }, { en: "shiny black", min: "bi negro" },
+  { en: "matte red", min: "no rojo" }, { en: "matte blue", min: "no azul" }, { en: "matte yellow", min: "no amarillo" }, { en: "matte green", min: "no verde" }, { en: "matte black", min: "no negro" },
+  { en: "glossy red", min: "ni rojo" }, { en: "glossy blue", min: "ni azul" }, { en: "glossy yellow", min: "ni amarillo" }, { en: "glossy green", min: "ni verde" }, { en: "glossy black", min: "ni negro" },
+  { en: "warm red", min: "ku rojo" }, { en: "warm blue", min: "ku azul" }, { en: "warm yellow", min: "ku amarillo" }, { en: "warm green", min: "ku verde" }, { en: "warm black", min: "ku negro" },
+  { en: "cool red", min: "mu rojo" }, { en: "cool blue", min: "mu azul" }, { en: "cool yellow", min: "mu amarillo" }, { en: "cool green", min: "mu verde" }, { en: "cool black", min: "mu negro" },
+  { en: "rich red", min: "se rojo" }, { en: "rich blue", min: "se azul" }, { en: "rich yellow", min: "se amarillo" }, { en: "rich green", min: "se verde" }, { en: "rich black", min: "se negro" },
+  { en: "faint red", min: "du rojo" }, { en: "faint blue", min: "du azul" }, { en: "faint yellow", min: "du amarillo" }, { en: "faint green", min: "du verde" }, { en: "faint black", min: "du negro" },
+  { en: "pure red", min: "vo rojo" }, { en: "pure blue", min: "vo azul" }, { en: "pure yellow", min: "vo amarillo" }, { en: "pure green", min: "vo verde" }, { en: "pure black", min: "vo negro" },
+  { en: "true red", min: "au rojo" }, { en: "true blue", min: "au azul" }, { en: "true yellow", min: "au amarillo" }, { en: "true green", min: "au verde" }, { en: "true black", min: "au negro" },
+  { en: "classic red", min: "so rojo" }, { en: "classic blue", min: "so azul" }, { en: "classic yellow", min: "so amarillo" }, { en: "classic green", min: "so verde" }, { en: "classic black", min: "so negro" },
+  { en: "royal red", min: "mi rojo" }, { en: "royal blue", min: "mi azul" }, { en: "royal yellow", min: "mi amarillo" }, { en: "royal green", min: "mi verde" }, { en: "royal black", min: "mi negro" },
+  { en: "sky red", min: "ma rojo" }, { en: "sky blue", min: "ma azul" }, { en: "sky yellow", min: "ma amarillo" }, { en: "sky green", min: "ma verde" }, { en: "sky black", min: "ma negro" },
+  { en: "forest red", min: "te rojo" }, { en: "forest blue", min: "te azul" }, { en: "forest yellow", min: "te amarillo" }, { en: "forest green", min: "te verde" }, { en: "forest black", min: "te negro" },
+  { en: "sea red", min: "la rojo" }, { en: "sea blue", min: "la azul" }, { en: "sea yellow", min: "la amarillo" }, { en: "sea green", min: "la verde" }, { en: "sea black", min: "la negro" },
+  { en: "wild red", min: "da rojo" }, { en: "wild blue", min: "da azul" }, { en: "wild yellow", min: "da amarillo" }, { en: "wild green", min: "da verde" }, { en: "wild black", min: "da negro" },
+  { en: "sweet red", min: "li rojo" }, { en: "sweet blue", min: "li azul" }, { en: "sweet yellow", min: "li amarillo" }, { en: "sweet green", min: "li verde" }, { en: "sweet black", min: "li negro" },
+  { en: "hot red", min: "zo rojo" }, { en: "hot blue", min: "zo azul" }, { en: "hot yellow", min: "zo amarillo" }, { en: "hot green", min: "zo verde" }, { en: "hot black", min: "zo negro" },
+  { en: "cold red", min: "ha rojo" }, { en: "cold blue", min: "ha azul" }, { en: "cold yellow", min: "ha amarillo" }, { en: "cold green", min: "ha verde" }, { en: "cold black", min: "ha negro" },
+  { en: "super red", min: "to rojo" }, { en: "super blue", min: "to azul" }, { en: "super yellow", min: "to amarillo" }, { en: "super green", min: "to verde" }, { en: "super black", min: "to negro" },
 ];

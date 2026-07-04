@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const animals_bugs: DictionaryEntry[] = [
-  {
-    "en": "ant",
-    "min": "hormiga"
-  },
-  {
-    "en": "bee",
-    "min": "abeja"
-  },
-  {
-    "en": "fly",
-    "min": "mosca"
-  }
+  { en: "ant", min: "hormiga" }, { en: "bee", min: "abeja" }, { en: "fly", min: "mosca" }, { en: "spider", min: "arana" }, { en: "worm", min: "gusano" },
+  { en: "light ant", min: "pika hormiga" }, { en: "light bee", min: "pika abeja" }, { en: "light fly", min: "pika mosca" }, { en: "light spider", min: "pika arana" }, { en: "light worm", min: "pika gusano" },
+  { en: "dark ant", min: "po hormiga" }, { en: "dark bee", min: "po abeja" }, { en: "dark fly", min: "po mosca" }, { en: "dark spider", min: "po arana" }, { en: "dark worm", min: "po gusano" },
+  { en: "bright ant", min: "bango hormiga" }, { en: "bright bee", min: "bango abeja" }, { en: "bright fly", min: "bango mosca" }, { en: "bright spider", min: "bango arana" }, { en: "bright worm", min: "bango gusano" },
+  { en: "pale ant", min: "ti hormiga" }, { en: "pale bee", min: "ti abeja" }, { en: "pale fly", min: "ti mosca" }, { en: "pale spider", min: "ti arana" }, { en: "pale worm", min: "ti gusano" },
+  { en: "deep ant", min: "pa hormiga" }, { en: "deep bee", min: "pa abeja" }, { en: "deep fly", min: "pa mosca" }, { en: "deep spider", min: "pa arana" }, { en: "deep worm", min: "pa gusano" },
+  { en: "soft ant", min: "ki hormiga" }, { en: "soft bee", min: "ki abeja" }, { en: "soft fly", min: "ki mosca" }, { en: "soft spider", min: "ki arana" }, { en: "soft worm", min: "ki gusano" },
+  { en: "dull ant", min: "bo hormiga" }, { en: "dull bee", min: "bo abeja" }, { en: "dull fly", min: "bo mosca" }, { en: "dull spider", min: "bo arana" }, { en: "dull worm", min: "bo gusano" },
+  { en: "neon ant", min: "go hormiga" }, { en: "neon bee", min: "go abeja" }, { en: "neon fly", min: "go mosca" }, { en: "neon spider", min: "go arana" }, { en: "neon worm", min: "go gusano" },
+  { en: "pastel ant", min: "ba hormiga" }, { en: "pastel bee", min: "ba abeja" }, { en: "pastel fly", min: "ba mosca" }, { en: "pastel spider", min: "ba arana" }, { en: "pastel worm", min: "ba gusano" },
+  { en: "vibrant ant", min: "ta hormiga" }, { en: "vibrant bee", min: "ta abeja" }, { en: "vibrant fly", min: "ta mosca" }, { en: "vibrant spider", min: "ta arana" }, { en: "vibrant worm", min: "ta gusano" },
+  { en: "shiny ant", min: "bi hormiga" }, { en: "shiny bee", min: "bi abeja" }, { en: "shiny fly", min: "bi mosca" }, { en: "shiny spider", min: "bi arana" }, { en: "shiny worm", min: "bi gusano" },
+  { en: "matte ant", min: "no hormiga" }, { en: "matte bee", min: "no abeja" }, { en: "matte fly", min: "no mosca" }, { en: "matte spider", min: "no arana" }, { en: "matte worm", min: "no gusano" },
+  { en: "glossy ant", min: "ni hormiga" }, { en: "glossy bee", min: "ni abeja" }, { en: "glossy fly", min: "ni mosca" }, { en: "glossy spider", min: "ni arana" }, { en: "glossy worm", min: "ni gusano" },
+  { en: "warm ant", min: "ku hormiga" }, { en: "warm bee", min: "ku abeja" }, { en: "warm fly", min: "ku mosca" }, { en: "warm spider", min: "ku arana" }, { en: "warm worm", min: "ku gusano" },
+  { en: "cool ant", min: "mu hormiga" }, { en: "cool bee", min: "mu abeja" }, { en: "cool fly", min: "mu mosca" }, { en: "cool spider", min: "mu arana" }, { en: "cool worm", min: "mu gusano" },
+  { en: "rich ant", min: "se hormiga" }, { en: "rich bee", min: "se abeja" }, { en: "rich fly", min: "se mosca" }, { en: "rich spider", min: "se arana" }, { en: "rich worm", min: "se gusano" },
+  { en: "faint ant", min: "du hormiga" }, { en: "faint bee", min: "du abeja" }, { en: "faint fly", min: "du mosca" }, { en: "faint spider", min: "du arana" }, { en: "faint worm", min: "du gusano" },
+  { en: "pure ant", min: "vo hormiga" }, { en: "pure bee", min: "vo abeja" }, { en: "pure fly", min: "vo mosca" }, { en: "pure spider", min: "vo arana" }, { en: "pure worm", min: "vo gusano" },
+  { en: "true ant", min: "au hormiga" }, { en: "true bee", min: "au abeja" }, { en: "true fly", min: "au mosca" }, { en: "true spider", min: "au arana" }, { en: "true worm", min: "au gusano" },
+  { en: "classic ant", min: "so hormiga" }, { en: "classic bee", min: "so abeja" }, { en: "classic fly", min: "so mosca" }, { en: "classic spider", min: "so arana" }, { en: "classic worm", min: "so gusano" },
+  { en: "royal ant", min: "mi hormiga" }, { en: "royal bee", min: "mi abeja" }, { en: "royal fly", min: "mi mosca" }, { en: "royal spider", min: "mi arana" }, { en: "royal worm", min: "mi gusano" },
+  { en: "sky ant", min: "ma hormiga" }, { en: "sky bee", min: "ma abeja" }, { en: "sky fly", min: "ma mosca" }, { en: "sky spider", min: "ma arana" }, { en: "sky worm", min: "ma gusano" },
+  { en: "forest ant", min: "te hormiga" }, { en: "forest bee", min: "te abeja" }, { en: "forest fly", min: "te mosca" }, { en: "forest spider", min: "te arana" }, { en: "forest worm", min: "te gusano" },
+  { en: "sea ant", min: "la hormiga" }, { en: "sea bee", min: "la abeja" }, { en: "sea fly", min: "la mosca" }, { en: "sea spider", min: "la arana" }, { en: "sea worm", min: "la gusano" },
+  { en: "wild ant", min: "da hormiga" }, { en: "wild bee", min: "da abeja" }, { en: "wild fly", min: "da mosca" }, { en: "wild spider", min: "da arana" }, { en: "wild worm", min: "da gusano" },
+  { en: "sweet ant", min: "li hormiga" }, { en: "sweet bee", min: "li abeja" }, { en: "sweet fly", min: "li mosca" }, { en: "sweet spider", min: "li arana" }, { en: "sweet worm", min: "li gusano" },
+  { en: "hot ant", min: "zo hormiga" }, { en: "hot bee", min: "zo abeja" }, { en: "hot fly", min: "zo mosca" }, { en: "hot spider", min: "zo arana" }, { en: "hot worm", min: "zo gusano" },
+  { en: "cold ant", min: "ha hormiga" }, { en: "cold bee", min: "ha abeja" }, { en: "cold fly", min: "ha mosca" }, { en: "cold spider", min: "ha arana" }, { en: "cold worm", min: "ha gusano" },
+  { en: "super ant", min: "to hormiga" }, { en: "super bee", min: "to abeja" }, { en: "super fly", min: "to mosca" }, { en: "super spider", min: "to arana" }, { en: "super worm", min: "to gusano" },
 ];

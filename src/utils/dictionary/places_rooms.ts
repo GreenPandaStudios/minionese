@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const places_rooms: DictionaryEntry[] = [
-  {
-    "en": "park",
-    "min": "parque"
-  },
-  {
-    "en": "library",
-    "min": "biblio"
-  },
-  {
-    "en": "museum",
-    "min": "museo"
-  }
+  { en: "park", min: "parque" }, { en: "library", min: "biblio" }, { en: "museum", min: "museo" }, { en: "garden", min: "jardin" }, { en: "zoo", min: "zoologico" },
+  { en: "light park", min: "pika parque" }, { en: "light library", min: "pika biblio" }, { en: "light museum", min: "pika museo" }, { en: "light garden", min: "pika jardin" }, { en: "light zoo", min: "pika zoologico" },
+  { en: "dark park", min: "po parque" }, { en: "dark library", min: "po biblio" }, { en: "dark museum", min: "po museo" }, { en: "dark garden", min: "po jardin" }, { en: "dark zoo", min: "po zoologico" },
+  { en: "bright park", min: "bango parque" }, { en: "bright library", min: "bango biblio" }, { en: "bright museum", min: "bango museo" }, { en: "bright garden", min: "bango jardin" }, { en: "bright zoo", min: "bango zoologico" },
+  { en: "pale park", min: "ti parque" }, { en: "pale library", min: "ti biblio" }, { en: "pale museum", min: "ti museo" }, { en: "pale garden", min: "ti jardin" }, { en: "pale zoo", min: "ti zoologico" },
+  { en: "deep park", min: "pa parque" }, { en: "deep library", min: "pa biblio" }, { en: "deep museum", min: "pa museo" }, { en: "deep garden", min: "pa jardin" }, { en: "deep zoo", min: "pa zoologico" },
+  { en: "soft park", min: "ki parque" }, { en: "soft library", min: "ki biblio" }, { en: "soft museum", min: "ki museo" }, { en: "soft garden", min: "ki jardin" }, { en: "soft zoo", min: "ki zoologico" },
+  { en: "dull park", min: "bo parque" }, { en: "dull library", min: "bo biblio" }, { en: "dull museum", min: "bo museo" }, { en: "dull garden", min: "bo jardin" }, { en: "dull zoo", min: "bo zoologico" },
+  { en: "neon park", min: "go parque" }, { en: "neon library", min: "go biblio" }, { en: "neon museum", min: "go museo" }, { en: "neon garden", min: "go jardin" }, { en: "neon zoo", min: "go zoologico" },
+  { en: "pastel park", min: "ba parque" }, { en: "pastel library", min: "ba biblio" }, { en: "pastel museum", min: "ba museo" }, { en: "pastel garden", min: "ba jardin" }, { en: "pastel zoo", min: "ba zoologico" },
+  { en: "vibrant park", min: "ta parque" }, { en: "vibrant library", min: "ta biblio" }, { en: "vibrant museum", min: "ta museo" }, { en: "vibrant garden", min: "ta jardin" }, { en: "vibrant zoo", min: "ta zoologico" },
+  { en: "shiny park", min: "bi parque" }, { en: "shiny library", min: "bi biblio" }, { en: "shiny museum", min: "bi museo" }, { en: "shiny garden", min: "bi jardin" }, { en: "shiny zoo", min: "bi zoologico" },
+  { en: "matte park", min: "no parque" }, { en: "matte library", min: "no biblio" }, { en: "matte museum", min: "no museo" }, { en: "matte garden", min: "no jardin" }, { en: "matte zoo", min: "no zoologico" },
+  { en: "glossy park", min: "ni parque" }, { en: "glossy library", min: "ni biblio" }, { en: "glossy museum", min: "ni museo" }, { en: "glossy garden", min: "ni jardin" }, { en: "glossy zoo", min: "ni zoologico" },
+  { en: "warm park", min: "ku parque" }, { en: "warm library", min: "ku biblio" }, { en: "warm museum", min: "ku museo" }, { en: "warm garden", min: "ku jardin" }, { en: "warm zoo", min: "ku zoologico" },
+  { en: "cool park", min: "mu parque" }, { en: "cool library", min: "mu biblio" }, { en: "cool museum", min: "mu museo" }, { en: "cool garden", min: "mu jardin" }, { en: "cool zoo", min: "mu zoologico" },
+  { en: "rich park", min: "se parque" }, { en: "rich library", min: "se biblio" }, { en: "rich museum", min: "se museo" }, { en: "rich garden", min: "se jardin" }, { en: "rich zoo", min: "se zoologico" },
+  { en: "faint park", min: "du parque" }, { en: "faint library", min: "du biblio" }, { en: "faint museum", min: "du museo" }, { en: "faint garden", min: "du jardin" }, { en: "faint zoo", min: "du zoologico" },
+  { en: "pure park", min: "vo parque" }, { en: "pure library", min: "vo biblio" }, { en: "pure museum", min: "vo museo" }, { en: "pure garden", min: "vo jardin" }, { en: "pure zoo", min: "vo zoologico" },
+  { en: "true park", min: "au parque" }, { en: "true library", min: "au biblio" }, { en: "true museum", min: "au museo" }, { en: "true garden", min: "au jardin" }, { en: "true zoo", min: "au zoologico" },
+  { en: "classic park", min: "so parque" }, { en: "classic library", min: "so biblio" }, { en: "classic museum", min: "so museo" }, { en: "classic garden", min: "so jardin" }, { en: "classic zoo", min: "so zoologico" },
+  { en: "royal park", min: "mi parque" }, { en: "royal library", min: "mi biblio" }, { en: "royal museum", min: "mi museo" }, { en: "royal garden", min: "mi jardin" }, { en: "royal zoo", min: "mi zoologico" },
+  { en: "sky park", min: "ma parque" }, { en: "sky library", min: "ma biblio" }, { en: "sky museum", min: "ma museo" }, { en: "sky garden", min: "ma jardin" }, { en: "sky zoo", min: "ma zoologico" },
+  { en: "forest park", min: "te parque" }, { en: "forest library", min: "te biblio" }, { en: "forest museum", min: "te museo" }, { en: "forest garden", min: "te jardin" }, { en: "forest zoo", min: "te zoologico" },
+  { en: "sea park", min: "la parque" }, { en: "sea library", min: "la biblio" }, { en: "sea museum", min: "la museo" }, { en: "sea garden", min: "la jardin" }, { en: "sea zoo", min: "la zoologico" },
+  { en: "wild park", min: "da parque" }, { en: "wild library", min: "da biblio" }, { en: "wild museum", min: "da museo" }, { en: "wild garden", min: "da jardin" }, { en: "wild zoo", min: "da zoologico" },
+  { en: "sweet park", min: "li parque" }, { en: "sweet library", min: "li biblio" }, { en: "sweet museum", min: "li museo" }, { en: "sweet garden", min: "li jardin" }, { en: "sweet zoo", min: "li zoologico" },
+  { en: "hot park", min: "zo parque" }, { en: "hot library", min: "zo biblio" }, { en: "hot museum", min: "zo museo" }, { en: "hot garden", min: "zo jardin" }, { en: "hot zoo", min: "zo zoologico" },
+  { en: "cold park", min: "ha parque" }, { en: "cold library", min: "ha biblio" }, { en: "cold museum", min: "ha museo" }, { en: "cold garden", min: "ha jardin" }, { en: "cold zoo", min: "ha zoologico" },
+  { en: "super park", min: "to parque" }, { en: "super library", min: "to biblio" }, { en: "super museum", min: "to museo" }, { en: "super garden", min: "to jardin" }, { en: "super zoo", min: "to zoologico" },
 ];

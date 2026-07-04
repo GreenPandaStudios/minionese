@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const adjectives_temp: DictionaryEntry[] = [
-  {
-    "en": "hot",
-    "min": "caliente"
-  },
-  {
-    "en": "cold",
-    "min": "frio"
-  },
-  {
-    "en": "warm",
-    "min": "tibio"
-  }
+  { en: "hot", min: "caliente" }, { en: "cold", min: "frio" }, { en: "warm", min: "tibio" }, { en: "cool", min: "fresco" }, { en: "mild", min: "suave" },
+  { en: "light hot", min: "pika caliente" }, { en: "light cold", min: "pika frio" }, { en: "light warm", min: "pika tibio" }, { en: "light cool", min: "pika fresco" }, { en: "light mild", min: "pika suave" },
+  { en: "dark hot", min: "po caliente" }, { en: "dark cold", min: "po frio" }, { en: "dark warm", min: "po tibio" }, { en: "dark cool", min: "po fresco" }, { en: "dark mild", min: "po suave" },
+  { en: "bright hot", min: "bango caliente" }, { en: "bright cold", min: "bango frio" }, { en: "bright warm", min: "bango tibio" }, { en: "bright cool", min: "bango fresco" }, { en: "bright mild", min: "bango suave" },
+  { en: "pale hot", min: "ti caliente" }, { en: "pale cold", min: "ti frio" }, { en: "pale warm", min: "ti tibio" }, { en: "pale cool", min: "ti fresco" }, { en: "pale mild", min: "ti suave" },
+  { en: "deep hot", min: "pa caliente" }, { en: "deep cold", min: "pa frio" }, { en: "deep warm", min: "pa tibio" }, { en: "deep cool", min: "pa fresco" }, { en: "deep mild", min: "pa suave" },
+  { en: "soft hot", min: "ki caliente" }, { en: "soft cold", min: "ki frio" }, { en: "soft warm", min: "ki tibio" }, { en: "soft cool", min: "ki fresco" }, { en: "soft mild", min: "ki suave" },
+  { en: "dull hot", min: "bo caliente" }, { en: "dull cold", min: "bo frio" }, { en: "dull warm", min: "bo tibio" }, { en: "dull cool", min: "bo fresco" }, { en: "dull mild", min: "bo suave" },
+  { en: "neon hot", min: "go caliente" }, { en: "neon cold", min: "go frio" }, { en: "neon warm", min: "go tibio" }, { en: "neon cool", min: "go fresco" }, { en: "neon mild", min: "go suave" },
+  { en: "pastel hot", min: "ba caliente" }, { en: "pastel cold", min: "ba frio" }, { en: "pastel warm", min: "ba tibio" }, { en: "pastel cool", min: "ba fresco" }, { en: "pastel mild", min: "ba suave" },
+  { en: "vibrant hot", min: "ta caliente" }, { en: "vibrant cold", min: "ta frio" }, { en: "vibrant warm", min: "ta tibio" }, { en: "vibrant cool", min: "ta fresco" }, { en: "vibrant mild", min: "ta suave" },
+  { en: "shiny hot", min: "bi caliente" }, { en: "shiny cold", min: "bi frio" }, { en: "shiny warm", min: "bi tibio" }, { en: "shiny cool", min: "bi fresco" }, { en: "shiny mild", min: "bi suave" },
+  { en: "matte hot", min: "no caliente" }, { en: "matte cold", min: "no frio" }, { en: "matte warm", min: "no tibio" }, { en: "matte cool", min: "no fresco" }, { en: "matte mild", min: "no suave" },
+  { en: "glossy hot", min: "ni caliente" }, { en: "glossy cold", min: "ni frio" }, { en: "glossy warm", min: "ni tibio" }, { en: "glossy cool", min: "ni fresco" }, { en: "glossy mild", min: "ni suave" },
+  { en: "warm hot", min: "ku caliente" }, { en: "warm cold", min: "ku frio" }, { en: "warm warm", min: "ku tibio" }, { en: "warm cool", min: "ku fresco" }, { en: "warm mild", min: "ku suave" },
+  { en: "cool hot", min: "mu caliente" }, { en: "cool cold", min: "mu frio" }, { en: "cool warm", min: "mu tibio" }, { en: "cool cool", min: "mu fresco" }, { en: "cool mild", min: "mu suave" },
+  { en: "rich hot", min: "se caliente" }, { en: "rich cold", min: "se frio" }, { en: "rich warm", min: "se tibio" }, { en: "rich cool", min: "se fresco" }, { en: "rich mild", min: "se suave" },
+  { en: "faint hot", min: "du caliente" }, { en: "faint cold", min: "du frio" }, { en: "faint warm", min: "du tibio" }, { en: "faint cool", min: "du fresco" }, { en: "faint mild", min: "du suave" },
+  { en: "pure hot", min: "vo caliente" }, { en: "pure cold", min: "vo frio" }, { en: "pure warm", min: "vo tibio" }, { en: "pure cool", min: "vo fresco" }, { en: "pure mild", min: "vo suave" },
+  { en: "true hot", min: "au caliente" }, { en: "true cold", min: "au frio" }, { en: "true warm", min: "au tibio" }, { en: "true cool", min: "au fresco" }, { en: "true mild", min: "au suave" },
+  { en: "classic hot", min: "so caliente" }, { en: "classic cold", min: "so frio" }, { en: "classic warm", min: "so tibio" }, { en: "classic cool", min: "so fresco" }, { en: "classic mild", min: "so suave" },
+  { en: "royal hot", min: "mi caliente" }, { en: "royal cold", min: "mi frio" }, { en: "royal warm", min: "mi tibio" }, { en: "royal cool", min: "mi fresco" }, { en: "royal mild", min: "mi suave" },
+  { en: "sky hot", min: "ma caliente" }, { en: "sky cold", min: "ma frio" }, { en: "sky warm", min: "ma tibio" }, { en: "sky cool", min: "ma fresco" }, { en: "sky mild", min: "ma suave" },
+  { en: "forest hot", min: "te caliente" }, { en: "forest cold", min: "te frio" }, { en: "forest warm", min: "te tibio" }, { en: "forest cool", min: "te fresco" }, { en: "forest mild", min: "te suave" },
+  { en: "sea hot", min: "la caliente" }, { en: "sea cold", min: "la frio" }, { en: "sea warm", min: "la tibio" }, { en: "sea cool", min: "la fresco" }, { en: "sea mild", min: "la suave" },
+  { en: "wild hot", min: "da caliente" }, { en: "wild cold", min: "da frio" }, { en: "wild warm", min: "da tibio" }, { en: "wild cool", min: "da fresco" }, { en: "wild mild", min: "da suave" },
+  { en: "sweet hot", min: "li caliente" }, { en: "sweet cold", min: "li frio" }, { en: "sweet warm", min: "li tibio" }, { en: "sweet cool", min: "li fresco" }, { en: "sweet mild", min: "li suave" },
+  { en: "hot hot", min: "zo caliente" }, { en: "hot cold", min: "zo frio" }, { en: "hot warm", min: "zo tibio" }, { en: "hot cool", min: "zo fresco" }, { en: "hot mild", min: "zo suave" },
+  { en: "cold hot", min: "ha caliente" }, { en: "cold cold", min: "ha frio" }, { en: "cold warm", min: "ha tibio" }, { en: "cold cool", min: "ha fresco" }, { en: "cold mild", min: "ha suave" },
+  { en: "super hot", min: "to caliente" }, { en: "super cold", min: "to frio" }, { en: "super warm", min: "to tibio" }, { en: "super cool", min: "to fresco" }, { en: "super mild", min: "to suave" },
 ];

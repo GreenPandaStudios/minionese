@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const home_appliances: DictionaryEntry[] = [
-  {
-    "en": "fridge",
-    "min": "nevera"
-  },
-  {
-    "en": "oven",
-    "min": "horno"
-  },
-  {
-    "en": "television",
-    "min": "televe"
-  }
+  { en: "fridge", min: "nevera" }, { en: "oven", min: "horno" }, { en: "television", min: "televe" }, { en: "lamp", min: "foco" }, { en: "clock", min: "tictac" },
+  { en: "light fridge", min: "pika nevera" }, { en: "light oven", min: "pika horno" }, { en: "light television", min: "pika televe" }, { en: "light lamp", min: "pika foco" }, { en: "light clock", min: "pika tictac" },
+  { en: "dark fridge", min: "po nevera" }, { en: "dark oven", min: "po horno" }, { en: "dark television", min: "po televe" }, { en: "dark lamp", min: "po foco" }, { en: "dark clock", min: "po tictac" },
+  { en: "bright fridge", min: "bango nevera" }, { en: "bright oven", min: "bango horno" }, { en: "bright television", min: "bango televe" }, { en: "bright lamp", min: "bango foco" }, { en: "bright clock", min: "bango tictac" },
+  { en: "pale fridge", min: "ti nevera" }, { en: "pale oven", min: "ti horno" }, { en: "pale television", min: "ti televe" }, { en: "pale lamp", min: "ti foco" }, { en: "pale clock", min: "ti tictac" },
+  { en: "deep fridge", min: "pa nevera" }, { en: "deep oven", min: "pa horno" }, { en: "deep television", min: "pa televe" }, { en: "deep lamp", min: "pa foco" }, { en: "deep clock", min: "pa tictac" },
+  { en: "soft fridge", min: "ki nevera" }, { en: "soft oven", min: "ki horno" }, { en: "soft television", min: "ki televe" }, { en: "soft lamp", min: "ki foco" }, { en: "soft clock", min: "ki tictac" },
+  { en: "dull fridge", min: "bo nevera" }, { en: "dull oven", min: "bo horno" }, { en: "dull television", min: "bo televe" }, { en: "dull lamp", min: "bo foco" }, { en: "dull clock", min: "bo tictac" },
+  { en: "neon fridge", min: "go nevera" }, { en: "neon oven", min: "go horno" }, { en: "neon television", min: "go televe" }, { en: "neon lamp", min: "go foco" }, { en: "neon clock", min: "go tictac" },
+  { en: "pastel fridge", min: "ba nevera" }, { en: "pastel oven", min: "ba horno" }, { en: "pastel television", min: "ba televe" }, { en: "pastel lamp", min: "ba foco" }, { en: "pastel clock", min: "ba tictac" },
+  { en: "vibrant fridge", min: "ta nevera" }, { en: "vibrant oven", min: "ta horno" }, { en: "vibrant television", min: "ta televe" }, { en: "vibrant lamp", min: "ta foco" }, { en: "vibrant clock", min: "ta tictac" },
+  { en: "shiny fridge", min: "bi nevera" }, { en: "shiny oven", min: "bi horno" }, { en: "shiny television", min: "bi televe" }, { en: "shiny lamp", min: "bi foco" }, { en: "shiny clock", min: "bi tictac" },
+  { en: "matte fridge", min: "no nevera" }, { en: "matte oven", min: "no horno" }, { en: "matte television", min: "no televe" }, { en: "matte lamp", min: "no foco" }, { en: "matte clock", min: "no tictac" },
+  { en: "glossy fridge", min: "ni nevera" }, { en: "glossy oven", min: "ni horno" }, { en: "glossy television", min: "ni televe" }, { en: "glossy lamp", min: "ni foco" }, { en: "glossy clock", min: "ni tictac" },
+  { en: "warm fridge", min: "ku nevera" }, { en: "warm oven", min: "ku horno" }, { en: "warm television", min: "ku televe" }, { en: "warm lamp", min: "ku foco" }, { en: "warm clock", min: "ku tictac" },
+  { en: "cool fridge", min: "mu nevera" }, { en: "cool oven", min: "mu horno" }, { en: "cool television", min: "mu televe" }, { en: "cool lamp", min: "mu foco" }, { en: "cool clock", min: "mu tictac" },
+  { en: "rich fridge", min: "se nevera" }, { en: "rich oven", min: "se horno" }, { en: "rich television", min: "se televe" }, { en: "rich lamp", min: "se foco" }, { en: "rich clock", min: "se tictac" },
+  { en: "faint fridge", min: "du nevera" }, { en: "faint oven", min: "du horno" }, { en: "faint television", min: "du televe" }, { en: "faint lamp", min: "du foco" }, { en: "faint clock", min: "du tictac" },
+  { en: "pure fridge", min: "vo nevera" }, { en: "pure oven", min: "vo horno" }, { en: "pure television", min: "vo televe" }, { en: "pure lamp", min: "vo foco" }, { en: "pure clock", min: "vo tictac" },
+  { en: "true fridge", min: "au nevera" }, { en: "true oven", min: "au horno" }, { en: "true television", min: "au televe" }, { en: "true lamp", min: "au foco" }, { en: "true clock", min: "au tictac" },
+  { en: "classic fridge", min: "so nevera" }, { en: "classic oven", min: "so horno" }, { en: "classic television", min: "so televe" }, { en: "classic lamp", min: "so foco" }, { en: "classic clock", min: "so tictac" },
+  { en: "royal fridge", min: "mi nevera" }, { en: "royal oven", min: "mi horno" }, { en: "royal television", min: "mi televe" }, { en: "royal lamp", min: "mi foco" }, { en: "royal clock", min: "mi tictac" },
+  { en: "sky fridge", min: "ma nevera" }, { en: "sky oven", min: "ma horno" }, { en: "sky television", min: "ma televe" }, { en: "sky lamp", min: "ma foco" }, { en: "sky clock", min: "ma tictac" },
+  { en: "forest fridge", min: "te nevera" }, { en: "forest oven", min: "te horno" }, { en: "forest television", min: "te televe" }, { en: "forest lamp", min: "te foco" }, { en: "forest clock", min: "te tictac" },
+  { en: "sea fridge", min: "la nevera" }, { en: "sea oven", min: "la horno" }, { en: "sea television", min: "la televe" }, { en: "sea lamp", min: "la foco" }, { en: "sea clock", min: "la tictac" },
+  { en: "wild fridge", min: "da nevera" }, { en: "wild oven", min: "da horno" }, { en: "wild television", min: "da televe" }, { en: "wild lamp", min: "da foco" }, { en: "wild clock", min: "da tictac" },
+  { en: "sweet fridge", min: "li nevera" }, { en: "sweet oven", min: "li horno" }, { en: "sweet television", min: "li televe" }, { en: "sweet lamp", min: "li foco" }, { en: "sweet clock", min: "li tictac" },
+  { en: "hot fridge", min: "zo nevera" }, { en: "hot oven", min: "zo horno" }, { en: "hot television", min: "zo televe" }, { en: "hot lamp", min: "zo foco" }, { en: "hot clock", min: "zo tictac" },
+  { en: "cold fridge", min: "ha nevera" }, { en: "cold oven", min: "ha horno" }, { en: "cold television", min: "ha televe" }, { en: "cold lamp", min: "ha foco" }, { en: "cold clock", min: "ha tictac" },
+  { en: "super fridge", min: "to nevera" }, { en: "super oven", min: "to horno" }, { en: "super television", min: "to televe" }, { en: "super lamp", min: "to foco" }, { en: "super clock", min: "to tictac" },
 ];

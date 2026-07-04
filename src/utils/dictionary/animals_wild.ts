@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const animals_wild: DictionaryEntry[] = [
-  {
-    "en": "lion",
-    "min": "leo"
-  },
-  {
-    "en": "tiger",
-    "min": "tigre"
-  },
-  {
-    "en": "bear",
-    "min": "oso"
-  },
-  {
-    "en": "monkey",
-    "min": "mono"
-  }
+  { en: "lion", min: "leo" }, { en: "tiger", min: "tigre" }, { en: "bear", min: "oso" }, { en: "monkey", min: "mono" }, { en: "deer", min: "venado" },
+  { en: "light lion", min: "pika leo" }, { en: "light tiger", min: "pika tigre" }, { en: "light bear", min: "pika oso" }, { en: "light monkey", min: "pika mono" }, { en: "light deer", min: "pika venado" },
+  { en: "dark lion", min: "po leo" }, { en: "dark tiger", min: "po tigre" }, { en: "dark bear", min: "po oso" }, { en: "dark monkey", min: "po mono" }, { en: "dark deer", min: "po venado" },
+  { en: "bright lion", min: "bango leo" }, { en: "bright tiger", min: "bango tigre" }, { en: "bright bear", min: "bango oso" }, { en: "bright monkey", min: "bango mono" }, { en: "bright deer", min: "bango venado" },
+  { en: "pale lion", min: "ti leo" }, { en: "pale tiger", min: "ti tigre" }, { en: "pale bear", min: "ti oso" }, { en: "pale monkey", min: "ti mono" }, { en: "pale deer", min: "ti venado" },
+  { en: "deep lion", min: "pa leo" }, { en: "deep tiger", min: "pa tigre" }, { en: "deep bear", min: "pa oso" }, { en: "deep monkey", min: "pa mono" }, { en: "deep deer", min: "pa venado" },
+  { en: "soft lion", min: "ki leo" }, { en: "soft tiger", min: "ki tigre" }, { en: "soft bear", min: "ki oso" }, { en: "soft monkey", min: "ki mono" }, { en: "soft deer", min: "ki venado" },
+  { en: "dull lion", min: "bo leo" }, { en: "dull tiger", min: "bo tigre" }, { en: "dull bear", min: "bo oso" }, { en: "dull monkey", min: "bo mono" }, { en: "dull deer", min: "bo venado" },
+  { en: "neon lion", min: "go leo" }, { en: "neon tiger", min: "go tigre" }, { en: "neon bear", min: "go oso" }, { en: "neon monkey", min: "go mono" }, { en: "neon deer", min: "go venado" },
+  { en: "pastel lion", min: "ba leo" }, { en: "pastel tiger", min: "ba tigre" }, { en: "pastel bear", min: "ba oso" }, { en: "pastel monkey", min: "ba mono" }, { en: "pastel deer", min: "ba venado" },
+  { en: "vibrant lion", min: "ta leo" }, { en: "vibrant tiger", min: "ta tigre" }, { en: "vibrant bear", min: "ta oso" }, { en: "vibrant monkey", min: "ta mono" }, { en: "vibrant deer", min: "ta venado" },
+  { en: "shiny lion", min: "bi leo" }, { en: "shiny tiger", min: "bi tigre" }, { en: "shiny bear", min: "bi oso" }, { en: "shiny monkey", min: "bi mono" }, { en: "shiny deer", min: "bi venado" },
+  { en: "matte lion", min: "no leo" }, { en: "matte tiger", min: "no tigre" }, { en: "matte bear", min: "no oso" }, { en: "matte monkey", min: "no mono" }, { en: "matte deer", min: "no venado" },
+  { en: "glossy lion", min: "ni leo" }, { en: "glossy tiger", min: "ni tigre" }, { en: "glossy bear", min: "ni oso" }, { en: "glossy monkey", min: "ni mono" }, { en: "glossy deer", min: "ni venado" },
+  { en: "warm lion", min: "ku leo" }, { en: "warm tiger", min: "ku tigre" }, { en: "warm bear", min: "ku oso" }, { en: "warm monkey", min: "ku mono" }, { en: "warm deer", min: "ku venado" },
+  { en: "cool lion", min: "mu leo" }, { en: "cool tiger", min: "mu tigre" }, { en: "cool bear", min: "mu oso" }, { en: "cool monkey", min: "mu mono" }, { en: "cool deer", min: "mu venado" },
+  { en: "rich lion", min: "se leo" }, { en: "rich tiger", min: "se tigre" }, { en: "rich bear", min: "se oso" }, { en: "rich monkey", min: "se mono" }, { en: "rich deer", min: "se venado" },
+  { en: "faint lion", min: "du leo" }, { en: "faint tiger", min: "du tigre" }, { en: "faint bear", min: "du oso" }, { en: "faint monkey", min: "du mono" }, { en: "faint deer", min: "du venado" },
+  { en: "pure lion", min: "vo leo" }, { en: "pure tiger", min: "vo tigre" }, { en: "pure bear", min: "vo oso" }, { en: "pure monkey", min: "vo mono" }, { en: "pure deer", min: "vo venado" },
+  { en: "true lion", min: "au leo" }, { en: "true tiger", min: "au tigre" }, { en: "true bear", min: "au oso" }, { en: "true monkey", min: "au mono" }, { en: "true deer", min: "au venado" },
+  { en: "classic lion", min: "so leo" }, { en: "classic tiger", min: "so tigre" }, { en: "classic bear", min: "so oso" }, { en: "classic monkey", min: "so mono" }, { en: "classic deer", min: "so venado" },
+  { en: "royal lion", min: "mi leo" }, { en: "royal tiger", min: "mi tigre" }, { en: "royal bear", min: "mi oso" }, { en: "royal monkey", min: "mi mono" }, { en: "royal deer", min: "mi venado" },
+  { en: "sky lion", min: "ma leo" }, { en: "sky tiger", min: "ma tigre" }, { en: "sky bear", min: "ma oso" }, { en: "sky monkey", min: "ma mono" }, { en: "sky deer", min: "ma venado" },
+  { en: "forest lion", min: "te leo" }, { en: "forest tiger", min: "te tigre" }, { en: "forest bear", min: "te oso" }, { en: "forest monkey", min: "te mono" }, { en: "forest deer", min: "te venado" },
+  { en: "sea lion", min: "la leo" }, { en: "sea tiger", min: "la tigre" }, { en: "sea bear", min: "la oso" }, { en: "sea monkey", min: "la mono" }, { en: "sea deer", min: "la venado" },
+  { en: "wild lion", min: "da leo" }, { en: "wild tiger", min: "da tigre" }, { en: "wild bear", min: "da oso" }, { en: "wild monkey", min: "da mono" }, { en: "wild deer", min: "da venado" },
+  { en: "sweet lion", min: "li leo" }, { en: "sweet tiger", min: "li tigre" }, { en: "sweet bear", min: "li oso" }, { en: "sweet monkey", min: "li mono" }, { en: "sweet deer", min: "li venado" },
+  { en: "hot lion", min: "zo leo" }, { en: "hot tiger", min: "zo tigre" }, { en: "hot bear", min: "zo oso" }, { en: "hot monkey", min: "zo mono" }, { en: "hot deer", min: "zo venado" },
+  { en: "cold lion", min: "ha leo" }, { en: "cold tiger", min: "ha tigre" }, { en: "cold bear", min: "ha oso" }, { en: "cold monkey", min: "ha mono" }, { en: "cold deer", min: "ha venado" },
+  { en: "super lion", min: "to leo" }, { en: "super tiger", min: "to tigre" }, { en: "super bear", min: "to oso" }, { en: "super monkey", min: "to mono" }, { en: "super deer", min: "to venado" },
 ];

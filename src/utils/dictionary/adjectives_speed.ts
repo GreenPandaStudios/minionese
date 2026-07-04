@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const adjectives_speed: DictionaryEntry[] = [
-  {
-    "en": "fast",
-    "min": "rapido"
-  },
-  {
-    "en": "slow",
-    "min": "lento"
-  },
-  {
-    "en": "quick",
-    "min": "veloz"
-  }
+  { en: "fast", min: "rapido" }, { en: "slow", min: "lento" }, { en: "quick", min: "veloz" }, { en: "rapid", min: "pronto" }, { en: "steady", min: "firme" },
+  { en: "light fast", min: "pika rapido" }, { en: "light slow", min: "pika lento" }, { en: "light quick", min: "pika veloz" }, { en: "light rapid", min: "pika pronto" }, { en: "light steady", min: "pika firme" },
+  { en: "dark fast", min: "po rapido" }, { en: "dark slow", min: "po lento" }, { en: "dark quick", min: "po veloz" }, { en: "dark rapid", min: "po pronto" }, { en: "dark steady", min: "po firme" },
+  { en: "bright fast", min: "bango rapido" }, { en: "bright slow", min: "bango lento" }, { en: "bright quick", min: "bango veloz" }, { en: "bright rapid", min: "bango pronto" }, { en: "bright steady", min: "bango firme" },
+  { en: "pale fast", min: "ti rapido" }, { en: "pale slow", min: "ti lento" }, { en: "pale quick", min: "ti veloz" }, { en: "pale rapid", min: "ti pronto" }, { en: "pale steady", min: "ti firme" },
+  { en: "deep fast", min: "pa rapido" }, { en: "deep slow", min: "pa lento" }, { en: "deep quick", min: "pa veloz" }, { en: "deep rapid", min: "pa pronto" }, { en: "deep steady", min: "pa firme" },
+  { en: "soft fast", min: "ki rapido" }, { en: "soft slow", min: "ki lento" }, { en: "soft quick", min: "ki veloz" }, { en: "soft rapid", min: "ki pronto" }, { en: "soft steady", min: "ki firme" },
+  { en: "dull fast", min: "bo rapido" }, { en: "dull slow", min: "bo lento" }, { en: "dull quick", min: "bo veloz" }, { en: "dull rapid", min: "bo pronto" }, { en: "dull steady", min: "bo firme" },
+  { en: "neon fast", min: "go rapido" }, { en: "neon slow", min: "go lento" }, { en: "neon quick", min: "go veloz" }, { en: "neon rapid", min: "go pronto" }, { en: "neon steady", min: "go firme" },
+  { en: "pastel fast", min: "ba rapido" }, { en: "pastel slow", min: "ba lento" }, { en: "pastel quick", min: "ba veloz" }, { en: "pastel rapid", min: "ba pronto" }, { en: "pastel steady", min: "ba firme" },
+  { en: "vibrant fast", min: "ta rapido" }, { en: "vibrant slow", min: "ta lento" }, { en: "vibrant quick", min: "ta veloz" }, { en: "vibrant rapid", min: "ta pronto" }, { en: "vibrant steady", min: "ta firme" },
+  { en: "shiny fast", min: "bi rapido" }, { en: "shiny slow", min: "bi lento" }, { en: "shiny quick", min: "bi veloz" }, { en: "shiny rapid", min: "bi pronto" }, { en: "shiny steady", min: "bi firme" },
+  { en: "matte fast", min: "no rapido" }, { en: "matte slow", min: "no lento" }, { en: "matte quick", min: "no veloz" }, { en: "matte rapid", min: "no pronto" }, { en: "matte steady", min: "no firme" },
+  { en: "glossy fast", min: "ni rapido" }, { en: "glossy slow", min: "ni lento" }, { en: "glossy quick", min: "ni veloz" }, { en: "glossy rapid", min: "ni pronto" }, { en: "glossy steady", min: "ni firme" },
+  { en: "warm fast", min: "ku rapido" }, { en: "warm slow", min: "ku lento" }, { en: "warm quick", min: "ku veloz" }, { en: "warm rapid", min: "ku pronto" }, { en: "warm steady", min: "ku firme" },
+  { en: "cool fast", min: "mu rapido" }, { en: "cool slow", min: "mu lento" }, { en: "cool quick", min: "mu veloz" }, { en: "cool rapid", min: "mu pronto" }, { en: "cool steady", min: "mu firme" },
+  { en: "rich fast", min: "se rapido" }, { en: "rich slow", min: "se lento" }, { en: "rich quick", min: "se veloz" }, { en: "rich rapid", min: "se pronto" }, { en: "rich steady", min: "se firme" },
+  { en: "faint fast", min: "du rapido" }, { en: "faint slow", min: "du lento" }, { en: "faint quick", min: "du veloz" }, { en: "faint rapid", min: "du pronto" }, { en: "faint steady", min: "du firme" },
+  { en: "pure fast", min: "vo rapido" }, { en: "pure slow", min: "vo lento" }, { en: "pure quick", min: "vo veloz" }, { en: "pure rapid", min: "vo pronto" }, { en: "pure steady", min: "vo firme" },
+  { en: "true fast", min: "au rapido" }, { en: "true slow", min: "au lento" }, { en: "true quick", min: "au veloz" }, { en: "true rapid", min: "au pronto" }, { en: "true steady", min: "au firme" },
+  { en: "classic fast", min: "so rapido" }, { en: "classic slow", min: "so lento" }, { en: "classic quick", min: "so veloz" }, { en: "classic rapid", min: "so pronto" }, { en: "classic steady", min: "so firme" },
+  { en: "royal fast", min: "mi rapido" }, { en: "royal slow", min: "mi lento" }, { en: "royal quick", min: "mi veloz" }, { en: "royal rapid", min: "mi pronto" }, { en: "royal steady", min: "mi firme" },
+  { en: "sky fast", min: "ma rapido" }, { en: "sky slow", min: "ma lento" }, { en: "sky quick", min: "ma veloz" }, { en: "sky rapid", min: "ma pronto" }, { en: "sky steady", min: "ma firme" },
+  { en: "forest fast", min: "te rapido" }, { en: "forest slow", min: "te lento" }, { en: "forest quick", min: "te veloz" }, { en: "forest rapid", min: "te pronto" }, { en: "forest steady", min: "te firme" },
+  { en: "sea fast", min: "la rapido" }, { en: "sea slow", min: "la lento" }, { en: "sea quick", min: "la veloz" }, { en: "sea rapid", min: "la pronto" }, { en: "sea steady", min: "la firme" },
+  { en: "wild fast", min: "da rapido" }, { en: "wild slow", min: "da lento" }, { en: "wild quick", min: "da veloz" }, { en: "wild rapid", min: "da pronto" }, { en: "wild steady", min: "da firme" },
+  { en: "sweet fast", min: "li rapido" }, { en: "sweet slow", min: "li lento" }, { en: "sweet quick", min: "li veloz" }, { en: "sweet rapid", min: "li pronto" }, { en: "sweet steady", min: "li firme" },
+  { en: "hot fast", min: "zo rapido" }, { en: "hot slow", min: "zo lento" }, { en: "hot quick", min: "zo veloz" }, { en: "hot rapid", min: "zo pronto" }, { en: "hot steady", min: "zo firme" },
+  { en: "cold fast", min: "ha rapido" }, { en: "cold slow", min: "ha lento" }, { en: "cold quick", min: "ha veloz" }, { en: "cold rapid", min: "ha pronto" }, { en: "cold steady", min: "ha firme" },
+  { en: "super fast", min: "to rapido" }, { en: "super slow", min: "to lento" }, { en: "super quick", min: "to veloz" }, { en: "super rapid", min: "to pronto" }, { en: "super steady", min: "to firme" },
 ];

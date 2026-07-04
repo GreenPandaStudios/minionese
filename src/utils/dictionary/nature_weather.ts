@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const nature_weather: DictionaryEntry[] = [
-  {
-    "en": "rain",
-    "min": "lluvia"
-  },
-  {
-    "en": "snow",
-    "min": "nieve"
-  },
-  {
-    "en": "wind",
-    "min": "viento"
-  },
-  {
-    "en": "sunshine",
-    "min": "solana"
-  }
+  { en: "rain", min: "lluvia" }, { en: "snow", min: "nieve" }, { en: "wind", min: "viento" }, { en: "sunshine", min: "solana" }, { en: "storm", min: "tormenta" },
+  { en: "light rain", min: "pika lluvia" }, { en: "light snow", min: "pika nieve" }, { en: "light wind", min: "pika viento" }, { en: "light sunshine", min: "pika solana" }, { en: "light storm", min: "pika tormenta" },
+  { en: "dark rain", min: "po lluvia" }, { en: "dark snow", min: "po nieve" }, { en: "dark wind", min: "po viento" }, { en: "dark sunshine", min: "po solana" }, { en: "dark storm", min: "po tormenta" },
+  { en: "bright rain", min: "bango lluvia" }, { en: "bright snow", min: "bango nieve" }, { en: "bright wind", min: "bango viento" }, { en: "bright sunshine", min: "bango solana" }, { en: "bright storm", min: "bango tormenta" },
+  { en: "pale rain", min: "ti lluvia" }, { en: "pale snow", min: "ti nieve" }, { en: "pale wind", min: "ti viento" }, { en: "pale sunshine", min: "ti solana" }, { en: "pale storm", min: "ti tormenta" },
+  { en: "deep rain", min: "pa lluvia" }, { en: "deep snow", min: "pa nieve" }, { en: "deep wind", min: "pa viento" }, { en: "deep sunshine", min: "pa solana" }, { en: "deep storm", min: "pa tormenta" },
+  { en: "soft rain", min: "ki lluvia" }, { en: "soft snow", min: "ki nieve" }, { en: "soft wind", min: "ki viento" }, { en: "soft sunshine", min: "ki solana" }, { en: "soft storm", min: "ki tormenta" },
+  { en: "dull rain", min: "bo lluvia" }, { en: "dull snow", min: "bo nieve" }, { en: "dull wind", min: "bo viento" }, { en: "dull sunshine", min: "bo solana" }, { en: "dull storm", min: "bo tormenta" },
+  { en: "neon rain", min: "go lluvia" }, { en: "neon snow", min: "go nieve" }, { en: "neon wind", min: "go viento" }, { en: "neon sunshine", min: "go solana" }, { en: "neon storm", min: "go tormenta" },
+  { en: "pastel rain", min: "ba lluvia" }, { en: "pastel snow", min: "ba nieve" }, { en: "pastel wind", min: "ba viento" }, { en: "pastel sunshine", min: "ba solana" }, { en: "pastel storm", min: "ba tormenta" },
+  { en: "vibrant rain", min: "ta lluvia" }, { en: "vibrant snow", min: "ta nieve" }, { en: "vibrant wind", min: "ta viento" }, { en: "vibrant sunshine", min: "ta solana" }, { en: "vibrant storm", min: "ta tormenta" },
+  { en: "shiny rain", min: "bi lluvia" }, { en: "shiny snow", min: "bi nieve" }, { en: "shiny wind", min: "bi viento" }, { en: "shiny sunshine", min: "bi solana" }, { en: "shiny storm", min: "bi tormenta" },
+  { en: "matte rain", min: "no lluvia" }, { en: "matte snow", min: "no nieve" }, { en: "matte wind", min: "no viento" }, { en: "matte sunshine", min: "no solana" }, { en: "matte storm", min: "no tormenta" },
+  { en: "glossy rain", min: "ni lluvia" }, { en: "glossy snow", min: "ni nieve" }, { en: "glossy wind", min: "ni viento" }, { en: "glossy sunshine", min: "ni solana" }, { en: "glossy storm", min: "ni tormenta" },
+  { en: "warm rain", min: "ku lluvia" }, { en: "warm snow", min: "ku nieve" }, { en: "warm wind", min: "ku viento" }, { en: "warm sunshine", min: "ku solana" }, { en: "warm storm", min: "ku tormenta" },
+  { en: "cool rain", min: "mu lluvia" }, { en: "cool snow", min: "mu nieve" }, { en: "cool wind", min: "mu viento" }, { en: "cool sunshine", min: "mu solana" }, { en: "cool storm", min: "mu tormenta" },
+  { en: "rich rain", min: "se lluvia" }, { en: "rich snow", min: "se nieve" }, { en: "rich wind", min: "se viento" }, { en: "rich sunshine", min: "se solana" }, { en: "rich storm", min: "se tormenta" },
+  { en: "faint rain", min: "du lluvia" }, { en: "faint snow", min: "du nieve" }, { en: "faint wind", min: "du viento" }, { en: "faint sunshine", min: "du solana" }, { en: "faint storm", min: "du tormenta" },
+  { en: "pure rain", min: "vo lluvia" }, { en: "pure snow", min: "vo nieve" }, { en: "pure wind", min: "vo viento" }, { en: "pure sunshine", min: "vo solana" }, { en: "pure storm", min: "vo tormenta" },
+  { en: "true rain", min: "au lluvia" }, { en: "true snow", min: "au nieve" }, { en: "true wind", min: "au viento" }, { en: "true sunshine", min: "au solana" }, { en: "true storm", min: "au tormenta" },
+  { en: "classic rain", min: "so lluvia" }, { en: "classic snow", min: "so nieve" }, { en: "classic wind", min: "so viento" }, { en: "classic sunshine", min: "so solana" }, { en: "classic storm", min: "so tormenta" },
+  { en: "royal rain", min: "mi lluvia" }, { en: "royal snow", min: "mi nieve" }, { en: "royal wind", min: "mi viento" }, { en: "royal sunshine", min: "mi solana" }, { en: "royal storm", min: "mi tormenta" },
+  { en: "sky rain", min: "ma lluvia" }, { en: "sky snow", min: "ma nieve" }, { en: "sky wind", min: "ma viento" }, { en: "sky sunshine", min: "ma solana" }, { en: "sky storm", min: "ma tormenta" },
+  { en: "forest rain", min: "te lluvia" }, { en: "forest snow", min: "te nieve" }, { en: "forest wind", min: "te viento" }, { en: "forest sunshine", min: "te solana" }, { en: "forest storm", min: "te tormenta" },
+  { en: "sea rain", min: "la lluvia" }, { en: "sea snow", min: "la nieve" }, { en: "sea wind", min: "la viento" }, { en: "sea sunshine", min: "la solana" }, { en: "sea storm", min: "la tormenta" },
+  { en: "wild rain", min: "da lluvia" }, { en: "wild snow", min: "da nieve" }, { en: "wild wind", min: "da viento" }, { en: "wild sunshine", min: "da solana" }, { en: "wild storm", min: "da tormenta" },
+  { en: "sweet rain", min: "li lluvia" }, { en: "sweet snow", min: "li nieve" }, { en: "sweet wind", min: "li viento" }, { en: "sweet sunshine", min: "li solana" }, { en: "sweet storm", min: "li tormenta" },
+  { en: "hot rain", min: "zo lluvia" }, { en: "hot snow", min: "zo nieve" }, { en: "hot wind", min: "zo viento" }, { en: "hot sunshine", min: "zo solana" }, { en: "hot storm", min: "zo tormenta" },
+  { en: "cold rain", min: "ha lluvia" }, { en: "cold snow", min: "ha nieve" }, { en: "cold wind", min: "ha viento" }, { en: "cold sunshine", min: "ha solana" }, { en: "cold storm", min: "ha tormenta" },
+  { en: "super rain", min: "to lluvia" }, { en: "super snow", min: "to nieve" }, { en: "super wind", min: "to viento" }, { en: "super sunshine", min: "to solana" }, { en: "super storm", min: "to tormenta" },
 ];

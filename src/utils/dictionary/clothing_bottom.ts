@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const clothing_bottom: DictionaryEntry[] = [
-  {
-    "en": "pants",
-    "min": "pantalo"
-  },
-  {
-    "en": "shorts",
-    "min": "corto"
-  },
-  {
-    "en": "skirt",
-    "min": "falda"
-  }
+  { en: "pants", min: "pantalo" }, { en: "shorts", min: "corto" }, { en: "skirt", min: "falda" }, { en: "jeans", min: "vaquero" }, { en: "belt", min: "cinto" },
+  { en: "light pants", min: "pika pantalo" }, { en: "light shorts", min: "pika corto" }, { en: "light skirt", min: "pika falda" }, { en: "light jeans", min: "pika vaquero" }, { en: "light belt", min: "pika cinto" },
+  { en: "dark pants", min: "po pantalo" }, { en: "dark shorts", min: "po corto" }, { en: "dark skirt", min: "po falda" }, { en: "dark jeans", min: "po vaquero" }, { en: "dark belt", min: "po cinto" },
+  { en: "bright pants", min: "bango pantalo" }, { en: "bright shorts", min: "bango corto" }, { en: "bright skirt", min: "bango falda" }, { en: "bright jeans", min: "bango vaquero" }, { en: "bright belt", min: "bango cinto" },
+  { en: "pale pants", min: "ti pantalo" }, { en: "pale shorts", min: "ti corto" }, { en: "pale skirt", min: "ti falda" }, { en: "pale jeans", min: "ti vaquero" }, { en: "pale belt", min: "ti cinto" },
+  { en: "deep pants", min: "pa pantalo" }, { en: "deep shorts", min: "pa corto" }, { en: "deep skirt", min: "pa falda" }, { en: "deep jeans", min: "pa vaquero" }, { en: "deep belt", min: "pa cinto" },
+  { en: "soft pants", min: "ki pantalo" }, { en: "soft shorts", min: "ki corto" }, { en: "soft skirt", min: "ki falda" }, { en: "soft jeans", min: "ki vaquero" }, { en: "soft belt", min: "ki cinto" },
+  { en: "dull pants", min: "bo pantalo" }, { en: "dull shorts", min: "bo corto" }, { en: "dull skirt", min: "bo falda" }, { en: "dull jeans", min: "bo vaquero" }, { en: "dull belt", min: "bo cinto" },
+  { en: "neon pants", min: "go pantalo" }, { en: "neon shorts", min: "go corto" }, { en: "neon skirt", min: "go falda" }, { en: "neon jeans", min: "go vaquero" }, { en: "neon belt", min: "go cinto" },
+  { en: "pastel pants", min: "ba pantalo" }, { en: "pastel shorts", min: "ba corto" }, { en: "pastel skirt", min: "ba falda" }, { en: "pastel jeans", min: "ba vaquero" }, { en: "pastel belt", min: "ba cinto" },
+  { en: "vibrant pants", min: "ta pantalo" }, { en: "vibrant shorts", min: "ta corto" }, { en: "vibrant skirt", min: "ta falda" }, { en: "vibrant jeans", min: "ta vaquero" }, { en: "vibrant belt", min: "ta cinto" },
+  { en: "shiny pants", min: "bi pantalo" }, { en: "shiny shorts", min: "bi corto" }, { en: "shiny skirt", min: "bi falda" }, { en: "shiny jeans", min: "bi vaquero" }, { en: "shiny belt", min: "bi cinto" },
+  { en: "matte pants", min: "no pantalo" }, { en: "matte shorts", min: "no corto" }, { en: "matte skirt", min: "no falda" }, { en: "matte jeans", min: "no vaquero" }, { en: "matte belt", min: "no cinto" },
+  { en: "glossy pants", min: "ni pantalo" }, { en: "glossy shorts", min: "ni corto" }, { en: "glossy skirt", min: "ni falda" }, { en: "glossy jeans", min: "ni vaquero" }, { en: "glossy belt", min: "ni cinto" },
+  { en: "warm pants", min: "ku pantalo" }, { en: "warm shorts", min: "ku corto" }, { en: "warm skirt", min: "ku falda" }, { en: "warm jeans", min: "ku vaquero" }, { en: "warm belt", min: "ku cinto" },
+  { en: "cool pants", min: "mu pantalo" }, { en: "cool shorts", min: "mu corto" }, { en: "cool skirt", min: "mu falda" }, { en: "cool jeans", min: "mu vaquero" }, { en: "cool belt", min: "mu cinto" },
+  { en: "rich pants", min: "se pantalo" }, { en: "rich shorts", min: "se corto" }, { en: "rich skirt", min: "se falda" }, { en: "rich jeans", min: "se vaquero" }, { en: "rich belt", min: "se cinto" },
+  { en: "faint pants", min: "du pantalo" }, { en: "faint shorts", min: "du corto" }, { en: "faint skirt", min: "du falda" }, { en: "faint jeans", min: "du vaquero" }, { en: "faint belt", min: "du cinto" },
+  { en: "pure pants", min: "vo pantalo" }, { en: "pure shorts", min: "vo corto" }, { en: "pure skirt", min: "vo falda" }, { en: "pure jeans", min: "vo vaquero" }, { en: "pure belt", min: "vo cinto" },
+  { en: "true pants", min: "au pantalo" }, { en: "true shorts", min: "au corto" }, { en: "true skirt", min: "au falda" }, { en: "true jeans", min: "au vaquero" }, { en: "true belt", min: "au cinto" },
+  { en: "classic pants", min: "so pantalo" }, { en: "classic shorts", min: "so corto" }, { en: "classic skirt", min: "so falda" }, { en: "classic jeans", min: "so vaquero" }, { en: "classic belt", min: "so cinto" },
+  { en: "royal pants", min: "mi pantalo" }, { en: "royal shorts", min: "mi corto" }, { en: "royal skirt", min: "mi falda" }, { en: "royal jeans", min: "mi vaquero" }, { en: "royal belt", min: "mi cinto" },
+  { en: "sky pants", min: "ma pantalo" }, { en: "sky shorts", min: "ma corto" }, { en: "sky skirt", min: "ma falda" }, { en: "sky jeans", min: "ma vaquero" }, { en: "sky belt", min: "ma cinto" },
+  { en: "forest pants", min: "te pantalo" }, { en: "forest shorts", min: "te corto" }, { en: "forest skirt", min: "te falda" }, { en: "forest jeans", min: "te vaquero" }, { en: "forest belt", min: "te cinto" },
+  { en: "sea pants", min: "la pantalo" }, { en: "sea shorts", min: "la corto" }, { en: "sea skirt", min: "la falda" }, { en: "sea jeans", min: "la vaquero" }, { en: "sea belt", min: "la cinto" },
+  { en: "wild pants", min: "da pantalo" }, { en: "wild shorts", min: "da corto" }, { en: "wild skirt", min: "da falda" }, { en: "wild jeans", min: "da vaquero" }, { en: "wild belt", min: "da cinto" },
+  { en: "sweet pants", min: "li pantalo" }, { en: "sweet shorts", min: "li corto" }, { en: "sweet skirt", min: "li falda" }, { en: "sweet jeans", min: "li vaquero" }, { en: "sweet belt", min: "li cinto" },
+  { en: "hot pants", min: "zo pantalo" }, { en: "hot shorts", min: "zo corto" }, { en: "hot skirt", min: "zo falda" }, { en: "hot jeans", min: "zo vaquero" }, { en: "hot belt", min: "zo cinto" },
+  { en: "cold pants", min: "ha pantalo" }, { en: "cold shorts", min: "ha corto" }, { en: "cold skirt", min: "ha falda" }, { en: "cold jeans", min: "ha vaquero" }, { en: "cold belt", min: "ha cinto" },
+  { en: "super pants", min: "to pantalo" }, { en: "super shorts", min: "to corto" }, { en: "super skirt", min: "to falda" }, { en: "super jeans", min: "to vaquero" }, { en: "super belt", min: "to cinto" },
 ];

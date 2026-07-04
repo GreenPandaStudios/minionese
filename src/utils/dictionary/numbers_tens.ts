@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const numbers_tens: DictionaryEntry[] = [
-  {
-    "en": "ten",
-    "min": "diez"
-  },
-  {
-    "en": "twenty",
-    "min": "veinte"
-  },
-  {
-    "en": "hundred",
-    "min": "cien"
-  }
+  { en: "ten", min: "diez" }, { en: "twenty", min: "veinte" }, { en: "hundred", min: "cien" }, { en: "thousand", min: "mil" }, { en: "million", min: "millo" },
+  { en: "light ten", min: "pika diez" }, { en: "light twenty", min: "pika veinte" }, { en: "light hundred", min: "pika cien" }, { en: "light thousand", min: "pika mil" }, { en: "light million", min: "pika millo" },
+  { en: "dark ten", min: "po diez" }, { en: "dark twenty", min: "po veinte" }, { en: "dark hundred", min: "po cien" }, { en: "dark thousand", min: "po mil" }, { en: "dark million", min: "po millo" },
+  { en: "bright ten", min: "bango diez" }, { en: "bright twenty", min: "bango veinte" }, { en: "bright hundred", min: "bango cien" }, { en: "bright thousand", min: "bango mil" }, { en: "bright million", min: "bango millo" },
+  { en: "pale ten", min: "ti diez" }, { en: "pale twenty", min: "ti veinte" }, { en: "pale hundred", min: "ti cien" }, { en: "pale thousand", min: "ti mil" }, { en: "pale million", min: "ti millo" },
+  { en: "deep ten", min: "pa diez" }, { en: "deep twenty", min: "pa veinte" }, { en: "deep hundred", min: "pa cien" }, { en: "deep thousand", min: "pa mil" }, { en: "deep million", min: "pa millo" },
+  { en: "soft ten", min: "ki diez" }, { en: "soft twenty", min: "ki veinte" }, { en: "soft hundred", min: "ki cien" }, { en: "soft thousand", min: "ki mil" }, { en: "soft million", min: "ki millo" },
+  { en: "dull ten", min: "bo diez" }, { en: "dull twenty", min: "bo veinte" }, { en: "dull hundred", min: "bo cien" }, { en: "dull thousand", min: "bo mil" }, { en: "dull million", min: "bo millo" },
+  { en: "neon ten", min: "go diez" }, { en: "neon twenty", min: "go veinte" }, { en: "neon hundred", min: "go cien" }, { en: "neon thousand", min: "go mil" }, { en: "neon million", min: "go millo" },
+  { en: "pastel ten", min: "ba diez" }, { en: "pastel twenty", min: "ba veinte" }, { en: "pastel hundred", min: "ba cien" }, { en: "pastel thousand", min: "ba mil" }, { en: "pastel million", min: "ba millo" },
+  { en: "vibrant ten", min: "ta diez" }, { en: "vibrant twenty", min: "ta veinte" }, { en: "vibrant hundred", min: "ta cien" }, { en: "vibrant thousand", min: "ta mil" }, { en: "vibrant million", min: "ta millo" },
+  { en: "shiny ten", min: "bi diez" }, { en: "shiny twenty", min: "bi veinte" }, { en: "shiny hundred", min: "bi cien" }, { en: "shiny thousand", min: "bi mil" }, { en: "shiny million", min: "bi millo" },
+  { en: "matte ten", min: "no diez" }, { en: "matte twenty", min: "no veinte" }, { en: "matte hundred", min: "no cien" }, { en: "matte thousand", min: "no mil" }, { en: "matte million", min: "no millo" },
+  { en: "glossy ten", min: "ni diez" }, { en: "glossy twenty", min: "ni veinte" }, { en: "glossy hundred", min: "ni cien" }, { en: "glossy thousand", min: "ni mil" }, { en: "glossy million", min: "ni millo" },
+  { en: "warm ten", min: "ku diez" }, { en: "warm twenty", min: "ku veinte" }, { en: "warm hundred", min: "ku cien" }, { en: "warm thousand", min: "ku mil" }, { en: "warm million", min: "ku millo" },
+  { en: "cool ten", min: "mu diez" }, { en: "cool twenty", min: "mu veinte" }, { en: "cool hundred", min: "mu cien" }, { en: "cool thousand", min: "mu mil" }, { en: "cool million", min: "mu millo" },
+  { en: "rich ten", min: "se diez" }, { en: "rich twenty", min: "se veinte" }, { en: "rich hundred", min: "se cien" }, { en: "rich thousand", min: "se mil" }, { en: "rich million", min: "se millo" },
+  { en: "faint ten", min: "du diez" }, { en: "faint twenty", min: "du veinte" }, { en: "faint hundred", min: "du cien" }, { en: "faint thousand", min: "du mil" }, { en: "faint million", min: "du millo" },
+  { en: "pure ten", min: "vo diez" }, { en: "pure twenty", min: "vo veinte" }, { en: "pure hundred", min: "vo cien" }, { en: "pure thousand", min: "vo mil" }, { en: "pure million", min: "vo millo" },
+  { en: "true ten", min: "au diez" }, { en: "true twenty", min: "au veinte" }, { en: "true hundred", min: "au cien" }, { en: "true thousand", min: "au mil" }, { en: "true million", min: "au millo" },
+  { en: "classic ten", min: "so diez" }, { en: "classic twenty", min: "so veinte" }, { en: "classic hundred", min: "so cien" }, { en: "classic thousand", min: "so mil" }, { en: "classic million", min: "so millo" },
+  { en: "royal ten", min: "mi diez" }, { en: "royal twenty", min: "mi veinte" }, { en: "royal hundred", min: "mi cien" }, { en: "royal thousand", min: "mi mil" }, { en: "royal million", min: "mi millo" },
+  { en: "sky ten", min: "ma diez" }, { en: "sky twenty", min: "ma veinte" }, { en: "sky hundred", min: "ma cien" }, { en: "sky thousand", min: "ma mil" }, { en: "sky million", min: "ma millo" },
+  { en: "forest ten", min: "te diez" }, { en: "forest twenty", min: "te veinte" }, { en: "forest hundred", min: "te cien" }, { en: "forest thousand", min: "te mil" }, { en: "forest million", min: "te millo" },
+  { en: "sea ten", min: "la diez" }, { en: "sea twenty", min: "la veinte" }, { en: "sea hundred", min: "la cien" }, { en: "sea thousand", min: "la mil" }, { en: "sea million", min: "la millo" },
+  { en: "wild ten", min: "da diez" }, { en: "wild twenty", min: "da veinte" }, { en: "wild hundred", min: "da cien" }, { en: "wild thousand", min: "da mil" }, { en: "wild million", min: "da millo" },
+  { en: "sweet ten", min: "li diez" }, { en: "sweet twenty", min: "li veinte" }, { en: "sweet hundred", min: "li cien" }, { en: "sweet thousand", min: "li mil" }, { en: "sweet million", min: "li millo" },
+  { en: "hot ten", min: "zo diez" }, { en: "hot twenty", min: "zo veinte" }, { en: "hot hundred", min: "zo cien" }, { en: "hot thousand", min: "zo mil" }, { en: "hot million", min: "zo millo" },
+  { en: "cold ten", min: "ha diez" }, { en: "cold twenty", min: "ha veinte" }, { en: "cold hundred", min: "ha cien" }, { en: "cold thousand", min: "ha mil" }, { en: "cold million", min: "ha millo" },
+  { en: "super ten", min: "to diez" }, { en: "super twenty", min: "to veinte" }, { en: "super hundred", min: "to cien" }, { en: "super thousand", min: "to mil" }, { en: "super million", min: "to millo" },
 ];

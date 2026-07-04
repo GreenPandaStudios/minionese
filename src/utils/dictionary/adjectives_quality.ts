@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const adjectives_quality: DictionaryEntry[] = [
-  {
-    "en": "good",
-    "min": "bueno"
-  },
-  {
-    "en": "bad",
-    "min": "malo"
-  },
-  {
-    "en": "great",
-    "min": "superbello"
-  }
+  { en: "good", min: "bueno" }, { en: "bad", min: "malo" }, { en: "great", min: "superbello" }, { en: "nice", min: "lindo" }, { en: "fine", min: "sano" },
+  { en: "light good", min: "pika bueno" }, { en: "light bad", min: "pika malo" }, { en: "light great", min: "pika superbello" }, { en: "light nice", min: "pika lindo" }, { en: "light fine", min: "pika sano" },
+  { en: "dark good", min: "po bueno" }, { en: "dark bad", min: "po malo" }, { en: "dark great", min: "po superbello" }, { en: "dark nice", min: "po lindo" }, { en: "dark fine", min: "po sano" },
+  { en: "bright good", min: "bango bueno" }, { en: "bright bad", min: "bango malo" }, { en: "bright great", min: "bango superbello" }, { en: "bright nice", min: "bango lindo" }, { en: "bright fine", min: "bango sano" },
+  { en: "pale good", min: "ti bueno" }, { en: "pale bad", min: "ti malo" }, { en: "pale great", min: "ti superbello" }, { en: "pale nice", min: "ti lindo" }, { en: "pale fine", min: "ti sano" },
+  { en: "deep good", min: "pa bueno" }, { en: "deep bad", min: "pa malo" }, { en: "deep great", min: "pa superbello" }, { en: "deep nice", min: "pa lindo" }, { en: "deep fine", min: "pa sano" },
+  { en: "soft good", min: "ki bueno" }, { en: "soft bad", min: "ki malo" }, { en: "soft great", min: "ki superbello" }, { en: "soft nice", min: "ki lindo" }, { en: "soft fine", min: "ki sano" },
+  { en: "dull good", min: "bo bueno" }, { en: "dull bad", min: "bo malo" }, { en: "dull great", min: "bo superbello" }, { en: "dull nice", min: "bo lindo" }, { en: "dull fine", min: "bo sano" },
+  { en: "neon good", min: "go bueno" }, { en: "neon bad", min: "go malo" }, { en: "neon great", min: "go superbello" }, { en: "neon nice", min: "go lindo" }, { en: "neon fine", min: "go sano" },
+  { en: "pastel good", min: "ba bueno" }, { en: "pastel bad", min: "ba malo" }, { en: "pastel great", min: "ba superbello" }, { en: "pastel nice", min: "ba lindo" }, { en: "pastel fine", min: "ba sano" },
+  { en: "vibrant good", min: "ta bueno" }, { en: "vibrant bad", min: "ta malo" }, { en: "vibrant great", min: "ta superbello" }, { en: "vibrant nice", min: "ta lindo" }, { en: "vibrant fine", min: "ta sano" },
+  { en: "shiny good", min: "bi bueno" }, { en: "shiny bad", min: "bi malo" }, { en: "shiny great", min: "bi superbello" }, { en: "shiny nice", min: "bi lindo" }, { en: "shiny fine", min: "bi sano" },
+  { en: "matte good", min: "no bueno" }, { en: "matte bad", min: "no malo" }, { en: "matte great", min: "no superbello" }, { en: "matte nice", min: "no lindo" }, { en: "matte fine", min: "no sano" },
+  { en: "glossy good", min: "ni bueno" }, { en: "glossy bad", min: "ni malo" }, { en: "glossy great", min: "ni superbello" }, { en: "glossy nice", min: "ni lindo" }, { en: "glossy fine", min: "ni sano" },
+  { en: "warm good", min: "ku bueno" }, { en: "warm bad", min: "ku malo" }, { en: "warm great", min: "ku superbello" }, { en: "warm nice", min: "ku lindo" }, { en: "warm fine", min: "ku sano" },
+  { en: "cool good", min: "mu bueno" }, { en: "cool bad", min: "mu malo" }, { en: "cool great", min: "mu superbello" }, { en: "cool nice", min: "mu lindo" }, { en: "cool fine", min: "mu sano" },
+  { en: "rich good", min: "se bueno" }, { en: "rich bad", min: "se malo" }, { en: "rich great", min: "se superbello" }, { en: "rich nice", min: "se lindo" }, { en: "rich fine", min: "se sano" },
+  { en: "faint good", min: "du bueno" }, { en: "faint bad", min: "du malo" }, { en: "faint great", min: "du superbello" }, { en: "faint nice", min: "du lindo" }, { en: "faint fine", min: "du sano" },
+  { en: "pure good", min: "vo bueno" }, { en: "pure bad", min: "vo malo" }, { en: "pure great", min: "vo superbello" }, { en: "pure nice", min: "vo lindo" }, { en: "pure fine", min: "vo sano" },
+  { en: "true good", min: "au bueno" }, { en: "true bad", min: "au malo" }, { en: "true great", min: "au superbello" }, { en: "true nice", min: "au lindo" }, { en: "true fine", min: "au sano" },
+  { en: "classic good", min: "so bueno" }, { en: "classic bad", min: "so malo" }, { en: "classic great", min: "so superbello" }, { en: "classic nice", min: "so lindo" }, { en: "classic fine", min: "so sano" },
+  { en: "royal good", min: "mi bueno" }, { en: "royal bad", min: "mi malo" }, { en: "royal great", min: "mi superbello" }, { en: "royal nice", min: "mi lindo" }, { en: "royal fine", min: "mi sano" },
+  { en: "sky good", min: "ma bueno" }, { en: "sky bad", min: "ma malo" }, { en: "sky great", min: "ma superbello" }, { en: "sky nice", min: "ma lindo" }, { en: "sky fine", min: "ma sano" },
+  { en: "forest good", min: "te bueno" }, { en: "forest bad", min: "te malo" }, { en: "forest great", min: "te superbello" }, { en: "forest nice", min: "te lindo" }, { en: "forest fine", min: "te sano" },
+  { en: "sea good", min: "la bueno" }, { en: "sea bad", min: "la malo" }, { en: "sea great", min: "la superbello" }, { en: "sea nice", min: "la lindo" }, { en: "sea fine", min: "la sano" },
+  { en: "wild good", min: "da bueno" }, { en: "wild bad", min: "da malo" }, { en: "wild great", min: "da superbello" }, { en: "wild nice", min: "da lindo" }, { en: "wild fine", min: "da sano" },
+  { en: "sweet good", min: "li bueno" }, { en: "sweet bad", min: "li malo" }, { en: "sweet great", min: "li superbello" }, { en: "sweet nice", min: "li lindo" }, { en: "sweet fine", min: "li sano" },
+  { en: "hot good", min: "zo bueno" }, { en: "hot bad", min: "zo malo" }, { en: "hot great", min: "zo superbello" }, { en: "hot nice", min: "zo lindo" }, { en: "hot fine", min: "zo sano" },
+  { en: "cold good", min: "ha bueno" }, { en: "cold bad", min: "ha malo" }, { en: "cold great", min: "ha superbello" }, { en: "cold nice", min: "ha lindo" }, { en: "cold fine", min: "ha sano" },
+  { en: "super good", min: "to bueno" }, { en: "super bad", min: "to malo" }, { en: "super great", min: "to superbello" }, { en: "super nice", min: "to lindo" }, { en: "super fine", min: "to sano" },
 ];

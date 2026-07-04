@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const animals_pets: DictionaryEntry[] = [
-  {
-    "en": "dog",
-    "min": "perro"
-  },
-  {
-    "en": "cat",
-    "min": "gato"
-  },
-  {
-    "en": "bird",
-    "min": "pajaro"
-  },
-  {
-    "en": "rabbit",
-    "min": "conejo"
-  }
+  { en: "dog", min: "perro" }, { en: "cat", min: "gato" }, { en: "bird", min: "pajaro" }, { en: "rabbit", min: "conejo" }, { en: "fish", min: "pesca" },
+  { en: "light dog", min: "pika perro" }, { en: "light cat", min: "pika gato" }, { en: "light bird", min: "pika pajaro" }, { en: "light rabbit", min: "pika conejo" }, { en: "light fish", min: "pika pesca" },
+  { en: "dark dog", min: "po perro" }, { en: "dark cat", min: "po gato" }, { en: "dark bird", min: "po pajaro" }, { en: "dark rabbit", min: "po conejo" }, { en: "dark fish", min: "po pesca" },
+  { en: "bright dog", min: "bango perro" }, { en: "bright cat", min: "bango gato" }, { en: "bright bird", min: "bango pajaro" }, { en: "bright rabbit", min: "bango conejo" }, { en: "bright fish", min: "bango pesca" },
+  { en: "pale dog", min: "ti perro" }, { en: "pale cat", min: "ti gato" }, { en: "pale bird", min: "ti pajaro" }, { en: "pale rabbit", min: "ti conejo" }, { en: "pale fish", min: "ti pesca" },
+  { en: "deep dog", min: "pa perro" }, { en: "deep cat", min: "pa gato" }, { en: "deep bird", min: "pa pajaro" }, { en: "deep rabbit", min: "pa conejo" }, { en: "deep fish", min: "pa pesca" },
+  { en: "soft dog", min: "ki perro" }, { en: "soft cat", min: "ki gato" }, { en: "soft bird", min: "ki pajaro" }, { en: "soft rabbit", min: "ki conejo" }, { en: "soft fish", min: "ki pesca" },
+  { en: "dull dog", min: "bo perro" }, { en: "dull cat", min: "bo gato" }, { en: "dull bird", min: "bo pajaro" }, { en: "dull rabbit", min: "bo conejo" }, { en: "dull fish", min: "bo pesca" },
+  { en: "neon dog", min: "go perro" }, { en: "neon cat", min: "go gato" }, { en: "neon bird", min: "go pajaro" }, { en: "neon rabbit", min: "go conejo" }, { en: "neon fish", min: "go pesca" },
+  { en: "pastel dog", min: "ba perro" }, { en: "pastel cat", min: "ba gato" }, { en: "pastel bird", min: "ba pajaro" }, { en: "pastel rabbit", min: "ba conejo" }, { en: "pastel fish", min: "ba pesca" },
+  { en: "vibrant dog", min: "ta perro" }, { en: "vibrant cat", min: "ta gato" }, { en: "vibrant bird", min: "ta pajaro" }, { en: "vibrant rabbit", min: "ta conejo" }, { en: "vibrant fish", min: "ta pesca" },
+  { en: "shiny dog", min: "bi perro" }, { en: "shiny cat", min: "bi gato" }, { en: "shiny bird", min: "bi pajaro" }, { en: "shiny rabbit", min: "bi conejo" }, { en: "shiny fish", min: "bi pesca" },
+  { en: "matte dog", min: "no perro" }, { en: "matte cat", min: "no gato" }, { en: "matte bird", min: "no pajaro" }, { en: "matte rabbit", min: "no conejo" }, { en: "matte fish", min: "no pesca" },
+  { en: "glossy dog", min: "ni perro" }, { en: "glossy cat", min: "ni gato" }, { en: "glossy bird", min: "ni pajaro" }, { en: "glossy rabbit", min: "ni conejo" }, { en: "glossy fish", min: "ni pesca" },
+  { en: "warm dog", min: "ku perro" }, { en: "warm cat", min: "ku gato" }, { en: "warm bird", min: "ku pajaro" }, { en: "warm rabbit", min: "ku conejo" }, { en: "warm fish", min: "ku pesca" },
+  { en: "cool dog", min: "mu perro" }, { en: "cool cat", min: "mu gato" }, { en: "cool bird", min: "mu pajaro" }, { en: "cool rabbit", min: "mu conejo" }, { en: "cool fish", min: "mu pesca" },
+  { en: "rich dog", min: "se perro" }, { en: "rich cat", min: "se gato" }, { en: "rich bird", min: "se pajaro" }, { en: "rich rabbit", min: "se conejo" }, { en: "rich fish", min: "se pesca" },
+  { en: "faint dog", min: "du perro" }, { en: "faint cat", min: "du gato" }, { en: "faint bird", min: "du pajaro" }, { en: "faint rabbit", min: "du conejo" }, { en: "faint fish", min: "du pesca" },
+  { en: "pure dog", min: "vo perro" }, { en: "pure cat", min: "vo gato" }, { en: "pure bird", min: "vo pajaro" }, { en: "pure rabbit", min: "vo conejo" }, { en: "pure fish", min: "vo pesca" },
+  { en: "true dog", min: "au perro" }, { en: "true cat", min: "au gato" }, { en: "true bird", min: "au pajaro" }, { en: "true rabbit", min: "au conejo" }, { en: "true fish", min: "au pesca" },
+  { en: "classic dog", min: "so perro" }, { en: "classic cat", min: "so gato" }, { en: "classic bird", min: "so pajaro" }, { en: "classic rabbit", min: "so conejo" }, { en: "classic fish", min: "so pesca" },
+  { en: "royal dog", min: "mi perro" }, { en: "royal cat", min: "mi gato" }, { en: "royal bird", min: "mi pajaro" }, { en: "royal rabbit", min: "mi conejo" }, { en: "royal fish", min: "mi pesca" },
+  { en: "sky dog", min: "ma perro" }, { en: "sky cat", min: "ma gato" }, { en: "sky bird", min: "ma pajaro" }, { en: "sky rabbit", min: "ma conejo" }, { en: "sky fish", min: "ma pesca" },
+  { en: "forest dog", min: "te perro" }, { en: "forest cat", min: "te gato" }, { en: "forest bird", min: "te pajaro" }, { en: "forest rabbit", min: "te conejo" }, { en: "forest fish", min: "te pesca" },
+  { en: "sea dog", min: "la perro" }, { en: "sea cat", min: "la gato" }, { en: "sea bird", min: "la pajaro" }, { en: "sea rabbit", min: "la conejo" }, { en: "sea fish", min: "la pesca" },
+  { en: "wild dog", min: "da perro" }, { en: "wild cat", min: "da gato" }, { en: "wild bird", min: "da pajaro" }, { en: "wild rabbit", min: "da conejo" }, { en: "wild fish", min: "da pesca" },
+  { en: "sweet dog", min: "li perro" }, { en: "sweet cat", min: "li gato" }, { en: "sweet bird", min: "li pajaro" }, { en: "sweet rabbit", min: "li conejo" }, { en: "sweet fish", min: "li pesca" },
+  { en: "hot dog", min: "zo perro" }, { en: "hot cat", min: "zo gato" }, { en: "hot bird", min: "zo pajaro" }, { en: "hot rabbit", min: "zo conejo" }, { en: "hot fish", min: "zo pesca" },
+  { en: "cold dog", min: "ha perro" }, { en: "cold cat", min: "ha gato" }, { en: "cold bird", min: "ha pajaro" }, { en: "cold rabbit", min: "ha conejo" }, { en: "cold fish", min: "ha pesca" },
+  { en: "super dog", min: "to perro" }, { en: "super cat", min: "to gato" }, { en: "super bird", min: "to pajaro" }, { en: "super rabbit", min: "to conejo" }, { en: "super fish", min: "to pesca" },
 ];

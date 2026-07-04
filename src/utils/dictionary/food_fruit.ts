@@ -1,24 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const food_fruit: DictionaryEntry[] = [
-  {
-    "en": "banana",
-    "min": "banana"
-  },
-  {
-    "en": "bananas",
-    "min": "bananas"
-  },
-  {
-    "en": "apple",
-    "min": "bapple"
-  },
-  {
-    "en": "apples",
-    "min": "bapples"
-  },
-  {
-    "en": "orange",
-    "min": "naranja"
-  }
+  { en: "banana", min: "banana" }, { en: "apple", min: "bapple" }, { en: "orange", min: "naranja" }, { en: "grape", min: "uva" }, { en: "melon", min: "melon" },
+  { en: "light banana", min: "pika banana" }, { en: "light apple", min: "pika bapple" }, { en: "light orange", min: "pika naranja" }, { en: "light grape", min: "pika uva" }, { en: "light melon", min: "pika melon" },
+  { en: "dark banana", min: "po banana" }, { en: "dark apple", min: "po bapple" }, { en: "dark orange", min: "po naranja" }, { en: "dark grape", min: "po uva" }, { en: "dark melon", min: "po melon" },
+  { en: "bright banana", min: "bango banana" }, { en: "bright apple", min: "bango bapple" }, { en: "bright orange", min: "bango naranja" }, { en: "bright grape", min: "bango uva" }, { en: "bright melon", min: "bango melon" },
+  { en: "pale banana", min: "ti banana" }, { en: "pale apple", min: "ti bapple" }, { en: "pale orange", min: "ti naranja" }, { en: "pale grape", min: "ti uva" }, { en: "pale melon", min: "ti melon" },
+  { en: "deep banana", min: "pa banana" }, { en: "deep apple", min: "pa bapple" }, { en: "deep orange", min: "pa naranja" }, { en: "deep grape", min: "pa uva" }, { en: "deep melon", min: "pa melon" },
+  { en: "soft banana", min: "ki banana" }, { en: "soft apple", min: "ki bapple" }, { en: "soft orange", min: "ki naranja" }, { en: "soft grape", min: "ki uva" }, { en: "soft melon", min: "ki melon" },
+  { en: "dull banana", min: "bo banana" }, { en: "dull apple", min: "bo bapple" }, { en: "dull orange", min: "bo naranja" }, { en: "dull grape", min: "bo uva" }, { en: "dull melon", min: "bo melon" },
+  { en: "neon banana", min: "go banana" }, { en: "neon apple", min: "go bapple" }, { en: "neon orange", min: "go naranja" }, { en: "neon grape", min: "go uva" }, { en: "neon melon", min: "go melon" },
+  { en: "pastel banana", min: "ba banana" }, { en: "pastel apple", min: "ba bapple" }, { en: "pastel orange", min: "ba naranja" }, { en: "pastel grape", min: "ba uva" }, { en: "pastel melon", min: "ba melon" },
+  { en: "vibrant banana", min: "ta banana" }, { en: "vibrant apple", min: "ta bapple" }, { en: "vibrant orange", min: "ta naranja" }, { en: "vibrant grape", min: "ta uva" }, { en: "vibrant melon", min: "ta melon" },
+  { en: "shiny banana", min: "bi banana" }, { en: "shiny apple", min: "bi bapple" }, { en: "shiny orange", min: "bi naranja" }, { en: "shiny grape", min: "bi uva" }, { en: "shiny melon", min: "bi melon" },
+  { en: "matte banana", min: "no banana" }, { en: "matte apple", min: "no bapple" }, { en: "matte orange", min: "no naranja" }, { en: "matte grape", min: "no uva" }, { en: "matte melon", min: "no melon" },
+  { en: "glossy banana", min: "ni banana" }, { en: "glossy apple", min: "ni bapple" }, { en: "glossy orange", min: "ni naranja" }, { en: "glossy grape", min: "ni uva" }, { en: "glossy melon", min: "ni melon" },
+  { en: "warm banana", min: "ku banana" }, { en: "warm apple", min: "ku bapple" }, { en: "warm orange", min: "ku naranja" }, { en: "warm grape", min: "ku uva" }, { en: "warm melon", min: "ku melon" },
+  { en: "cool banana", min: "mu banana" }, { en: "cool apple", min: "mu bapple" }, { en: "cool orange", min: "mu naranja" }, { en: "cool grape", min: "mu uva" }, { en: "cool melon", min: "mu melon" },
+  { en: "rich banana", min: "se banana" }, { en: "rich apple", min: "se bapple" }, { en: "rich orange", min: "se naranja" }, { en: "rich grape", min: "se uva" }, { en: "rich melon", min: "se melon" },
+  { en: "faint banana", min: "du banana" }, { en: "faint apple", min: "du bapple" }, { en: "faint orange", min: "du naranja" }, { en: "faint grape", min: "du uva" }, { en: "faint melon", min: "du melon" },
+  { en: "pure banana", min: "vo banana" }, { en: "pure apple", min: "vo bapple" }, { en: "pure orange", min: "vo naranja" }, { en: "pure grape", min: "vo uva" }, { en: "pure melon", min: "vo melon" },
+  { en: "true banana", min: "au banana" }, { en: "true apple", min: "au bapple" }, { en: "true orange", min: "au naranja" }, { en: "true grape", min: "au uva" }, { en: "true melon", min: "au melon" },
+  { en: "classic banana", min: "so banana" }, { en: "classic apple", min: "so bapple" }, { en: "classic orange", min: "so naranja" }, { en: "classic grape", min: "so uva" }, { en: "classic melon", min: "so melon" },
+  { en: "royal banana", min: "mi banana" }, { en: "royal apple", min: "mi bapple" }, { en: "royal orange", min: "mi naranja" }, { en: "royal grape", min: "mi uva" }, { en: "royal melon", min: "mi melon" },
+  { en: "sky banana", min: "ma banana" }, { en: "sky apple", min: "ma bapple" }, { en: "sky orange", min: "ma naranja" }, { en: "sky grape", min: "ma uva" }, { en: "sky melon", min: "ma melon" },
+  { en: "forest banana", min: "te banana" }, { en: "forest apple", min: "te bapple" }, { en: "forest orange", min: "te naranja" }, { en: "forest grape", min: "te uva" }, { en: "forest melon", min: "te melon" },
+  { en: "sea banana", min: "la banana" }, { en: "sea apple", min: "la bapple" }, { en: "sea orange", min: "la naranja" }, { en: "sea grape", min: "la uva" }, { en: "sea melon", min: "la melon" },
+  { en: "wild banana", min: "da banana" }, { en: "wild apple", min: "da bapple" }, { en: "wild orange", min: "da naranja" }, { en: "wild grape", min: "da uva" }, { en: "wild melon", min: "da melon" },
+  { en: "sweet banana", min: "li banana" }, { en: "sweet apple", min: "li bapple" }, { en: "sweet orange", min: "li naranja" }, { en: "sweet grape", min: "li uva" }, { en: "sweet melon", min: "li melon" },
+  { en: "hot banana", min: "zo banana" }, { en: "hot apple", min: "zo bapple" }, { en: "hot orange", min: "zo naranja" }, { en: "hot grape", min: "zo uva" }, { en: "hot melon", min: "zo melon" },
+  { en: "cold banana", min: "ha banana" }, { en: "cold apple", min: "ha bapple" }, { en: "cold orange", min: "ha naranja" }, { en: "cold grape", min: "ha uva" }, { en: "cold melon", min: "ha melon" },
+  { en: "super banana", min: "to banana" }, { en: "super apple", min: "to bapple" }, { en: "super orange", min: "to naranja" }, { en: "super grape", min: "to uva" }, { en: "super melon", min: "to melon" },
 ];

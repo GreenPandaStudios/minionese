@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const home_rooms: DictionaryEntry[] = [
-  {
-    "en": "bedroom",
-    "min": "kama-room"
-  },
-  {
-    "en": "kitchen",
-    "min": "cocina"
-  },
-  {
-    "en": "bathroom",
-    "min": "bano"
-  }
+  { en: "bedroom", min: "kama-room" }, { en: "kitchen", min: "cocina" }, { en: "bathroom", min: "bano" }, { en: "livingroom", min: "sala" }, { en: "garage", min: "cochera" },
+  { en: "light bedroom", min: "pika kama-room" }, { en: "light kitchen", min: "pika cocina" }, { en: "light bathroom", min: "pika bano" }, { en: "light livingroom", min: "pika sala" }, { en: "light garage", min: "pika cochera" },
+  { en: "dark bedroom", min: "po kama-room" }, { en: "dark kitchen", min: "po cocina" }, { en: "dark bathroom", min: "po bano" }, { en: "dark livingroom", min: "po sala" }, { en: "dark garage", min: "po cochera" },
+  { en: "bright bedroom", min: "bango kama-room" }, { en: "bright kitchen", min: "bango cocina" }, { en: "bright bathroom", min: "bango bano" }, { en: "bright livingroom", min: "bango sala" }, { en: "bright garage", min: "bango cochera" },
+  { en: "pale bedroom", min: "ti kama-room" }, { en: "pale kitchen", min: "ti cocina" }, { en: "pale bathroom", min: "ti bano" }, { en: "pale livingroom", min: "ti sala" }, { en: "pale garage", min: "ti cochera" },
+  { en: "deep bedroom", min: "pa kama-room" }, { en: "deep kitchen", min: "pa cocina" }, { en: "deep bathroom", min: "pa bano" }, { en: "deep livingroom", min: "pa sala" }, { en: "deep garage", min: "pa cochera" },
+  { en: "soft bedroom", min: "ki kama-room" }, { en: "soft kitchen", min: "ki cocina" }, { en: "soft bathroom", min: "ki bano" }, { en: "soft livingroom", min: "ki sala" }, { en: "soft garage", min: "ki cochera" },
+  { en: "dull bedroom", min: "bo kama-room" }, { en: "dull kitchen", min: "bo cocina" }, { en: "dull bathroom", min: "bo bano" }, { en: "dull livingroom", min: "bo sala" }, { en: "dull garage", min: "bo cochera" },
+  { en: "neon bedroom", min: "go kama-room" }, { en: "neon kitchen", min: "go cocina" }, { en: "neon bathroom", min: "go bano" }, { en: "neon livingroom", min: "go sala" }, { en: "neon garage", min: "go cochera" },
+  { en: "pastel bedroom", min: "ba kama-room" }, { en: "pastel kitchen", min: "ba cocina" }, { en: "pastel bathroom", min: "ba bano" }, { en: "pastel livingroom", min: "ba sala" }, { en: "pastel garage", min: "ba cochera" },
+  { en: "vibrant bedroom", min: "ta kama-room" }, { en: "vibrant kitchen", min: "ta cocina" }, { en: "vibrant bathroom", min: "ta bano" }, { en: "vibrant livingroom", min: "ta sala" }, { en: "vibrant garage", min: "ta cochera" },
+  { en: "shiny bedroom", min: "bi kama-room" }, { en: "shiny kitchen", min: "bi cocina" }, { en: "shiny bathroom", min: "bi bano" }, { en: "shiny livingroom", min: "bi sala" }, { en: "shiny garage", min: "bi cochera" },
+  { en: "matte bedroom", min: "no kama-room" }, { en: "matte kitchen", min: "no cocina" }, { en: "matte bathroom", min: "no bano" }, { en: "matte livingroom", min: "no sala" }, { en: "matte garage", min: "no cochera" },
+  { en: "glossy bedroom", min: "ni kama-room" }, { en: "glossy kitchen", min: "ni cocina" }, { en: "glossy bathroom", min: "ni bano" }, { en: "glossy livingroom", min: "ni sala" }, { en: "glossy garage", min: "ni cochera" },
+  { en: "warm bedroom", min: "ku kama-room" }, { en: "warm kitchen", min: "ku cocina" }, { en: "warm bathroom", min: "ku bano" }, { en: "warm livingroom", min: "ku sala" }, { en: "warm garage", min: "ku cochera" },
+  { en: "cool bedroom", min: "mu kama-room" }, { en: "cool kitchen", min: "mu cocina" }, { en: "cool bathroom", min: "mu bano" }, { en: "cool livingroom", min: "mu sala" }, { en: "cool garage", min: "mu cochera" },
+  { en: "rich bedroom", min: "se kama-room" }, { en: "rich kitchen", min: "se cocina" }, { en: "rich bathroom", min: "se bano" }, { en: "rich livingroom", min: "se sala" }, { en: "rich garage", min: "se cochera" },
+  { en: "faint bedroom", min: "du kama-room" }, { en: "faint kitchen", min: "du cocina" }, { en: "faint bathroom", min: "du bano" }, { en: "faint livingroom", min: "du sala" }, { en: "faint garage", min: "du cochera" },
+  { en: "pure bedroom", min: "vo kama-room" }, { en: "pure kitchen", min: "vo cocina" }, { en: "pure bathroom", min: "vo bano" }, { en: "pure livingroom", min: "vo sala" }, { en: "pure garage", min: "vo cochera" },
+  { en: "true bedroom", min: "au kama-room" }, { en: "true kitchen", min: "au cocina" }, { en: "true bathroom", min: "au bano" }, { en: "true livingroom", min: "au sala" }, { en: "true garage", min: "au cochera" },
+  { en: "classic bedroom", min: "so kama-room" }, { en: "classic kitchen", min: "so cocina" }, { en: "classic bathroom", min: "so bano" }, { en: "classic livingroom", min: "so sala" }, { en: "classic garage", min: "so cochera" },
+  { en: "royal bedroom", min: "mi kama-room" }, { en: "royal kitchen", min: "mi cocina" }, { en: "royal bathroom", min: "mi bano" }, { en: "royal livingroom", min: "mi sala" }, { en: "royal garage", min: "mi cochera" },
+  { en: "sky bedroom", min: "ma kama-room" }, { en: "sky kitchen", min: "ma cocina" }, { en: "sky bathroom", min: "ma bano" }, { en: "sky livingroom", min: "ma sala" }, { en: "sky garage", min: "ma cochera" },
+  { en: "forest bedroom", min: "te kama-room" }, { en: "forest kitchen", min: "te cocina" }, { en: "forest bathroom", min: "te bano" }, { en: "forest livingroom", min: "te sala" }, { en: "forest garage", min: "te cochera" },
+  { en: "sea bedroom", min: "la kama-room" }, { en: "sea kitchen", min: "la cocina" }, { en: "sea bathroom", min: "la bano" }, { en: "sea livingroom", min: "la sala" }, { en: "sea garage", min: "la cochera" },
+  { en: "wild bedroom", min: "da kama-room" }, { en: "wild kitchen", min: "da cocina" }, { en: "wild bathroom", min: "da bano" }, { en: "wild livingroom", min: "da sala" }, { en: "wild garage", min: "da cochera" },
+  { en: "sweet bedroom", min: "li kama-room" }, { en: "sweet kitchen", min: "li cocina" }, { en: "sweet bathroom", min: "li bano" }, { en: "sweet livingroom", min: "li sala" }, { en: "sweet garage", min: "li cochera" },
+  { en: "hot bedroom", min: "zo kama-room" }, { en: "hot kitchen", min: "zo cocina" }, { en: "hot bathroom", min: "zo bano" }, { en: "hot livingroom", min: "zo sala" }, { en: "hot garage", min: "zo cochera" },
+  { en: "cold bedroom", min: "ha kama-room" }, { en: "cold kitchen", min: "ha cocina" }, { en: "cold bathroom", min: "ha bano" }, { en: "cold livingroom", min: "ha sala" }, { en: "cold garage", min: "ha cochera" },
+  { en: "super bedroom", min: "to kama-room" }, { en: "super kitchen", min: "to cocina" }, { en: "super bathroom", min: "to bano" }, { en: "super livingroom", min: "to sala" }, { en: "super garage", min: "to cochera" },
 ];

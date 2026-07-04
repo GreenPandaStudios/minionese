@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const food_drink: DictionaryEntry[] = [
-  {
-    "en": "water",
-    "min": "aqua"
-  },
-  {
-    "en": "milk",
-    "min": "malka"
-  },
-  {
-    "en": "coffee",
-    "min": "kaba"
-  },
-  {
-    "en": "juice",
-    "min": "zumo"
-  }
+  { en: "water", min: "aqua" }, { en: "milk", min: "malka" }, { en: "coffee", min: "kaba" }, { en: "juice", min: "zumo" }, { en: "tea", min: "techa" },
+  { en: "light water", min: "pika aqua" }, { en: "light milk", min: "pika malka" }, { en: "light coffee", min: "pika kaba" }, { en: "light juice", min: "pika zumo" }, { en: "light tea", min: "pika techa" },
+  { en: "dark water", min: "po aqua" }, { en: "dark milk", min: "po malka" }, { en: "dark coffee", min: "po kaba" }, { en: "dark juice", min: "po zumo" }, { en: "dark tea", min: "po techa" },
+  { en: "bright water", min: "bango aqua" }, { en: "bright milk", min: "bango malka" }, { en: "bright coffee", min: "bango kaba" }, { en: "bright juice", min: "bango zumo" }, { en: "bright tea", min: "bango techa" },
+  { en: "pale water", min: "ti aqua" }, { en: "pale milk", min: "ti malka" }, { en: "pale coffee", min: "ti kaba" }, { en: "pale juice", min: "ti zumo" }, { en: "pale tea", min: "ti techa" },
+  { en: "deep water", min: "pa aqua" }, { en: "deep milk", min: "pa malka" }, { en: "deep coffee", min: "pa kaba" }, { en: "deep juice", min: "pa zumo" }, { en: "deep tea", min: "pa techa" },
+  { en: "soft water", min: "ki aqua" }, { en: "soft milk", min: "ki malka" }, { en: "soft coffee", min: "ki kaba" }, { en: "soft juice", min: "ki zumo" }, { en: "soft tea", min: "ki techa" },
+  { en: "dull water", min: "bo aqua" }, { en: "dull milk", min: "bo malka" }, { en: "dull coffee", min: "bo kaba" }, { en: "dull juice", min: "bo zumo" }, { en: "dull tea", min: "bo techa" },
+  { en: "neon water", min: "go aqua" }, { en: "neon milk", min: "go malka" }, { en: "neon coffee", min: "go kaba" }, { en: "neon juice", min: "go zumo" }, { en: "neon tea", min: "go techa" },
+  { en: "pastel water", min: "ba aqua" }, { en: "pastel milk", min: "ba malka" }, { en: "pastel coffee", min: "ba kaba" }, { en: "pastel juice", min: "ba zumo" }, { en: "pastel tea", min: "ba techa" },
+  { en: "vibrant water", min: "ta aqua" }, { en: "vibrant milk", min: "ta malka" }, { en: "vibrant coffee", min: "ta kaba" }, { en: "vibrant juice", min: "ta zumo" }, { en: "vibrant tea", min: "ta techa" },
+  { en: "shiny water", min: "bi aqua" }, { en: "shiny milk", min: "bi malka" }, { en: "shiny coffee", min: "bi kaba" }, { en: "shiny juice", min: "bi zumo" }, { en: "shiny tea", min: "bi techa" },
+  { en: "matte water", min: "no aqua" }, { en: "matte milk", min: "no malka" }, { en: "matte coffee", min: "no kaba" }, { en: "matte juice", min: "no zumo" }, { en: "matte tea", min: "no techa" },
+  { en: "glossy water", min: "ni aqua" }, { en: "glossy milk", min: "ni malka" }, { en: "glossy coffee", min: "ni kaba" }, { en: "glossy juice", min: "ni zumo" }, { en: "glossy tea", min: "ni techa" },
+  { en: "warm water", min: "ku aqua" }, { en: "warm milk", min: "ku malka" }, { en: "warm coffee", min: "ku kaba" }, { en: "warm juice", min: "ku zumo" }, { en: "warm tea", min: "ku techa" },
+  { en: "cool water", min: "mu aqua" }, { en: "cool milk", min: "mu malka" }, { en: "cool coffee", min: "mu kaba" }, { en: "cool juice", min: "mu zumo" }, { en: "cool tea", min: "mu techa" },
+  { en: "rich water", min: "se aqua" }, { en: "rich milk", min: "se malka" }, { en: "rich coffee", min: "se kaba" }, { en: "rich juice", min: "se zumo" }, { en: "rich tea", min: "se techa" },
+  { en: "faint water", min: "du aqua" }, { en: "faint milk", min: "du malka" }, { en: "faint coffee", min: "du kaba" }, { en: "faint juice", min: "du zumo" }, { en: "faint tea", min: "du techa" },
+  { en: "pure water", min: "vo aqua" }, { en: "pure milk", min: "vo malka" }, { en: "pure coffee", min: "vo kaba" }, { en: "pure juice", min: "vo zumo" }, { en: "pure tea", min: "vo techa" },
+  { en: "true water", min: "au aqua" }, { en: "true milk", min: "au malka" }, { en: "true coffee", min: "au kaba" }, { en: "true juice", min: "au zumo" }, { en: "true tea", min: "au techa" },
+  { en: "classic water", min: "so aqua" }, { en: "classic milk", min: "so malka" }, { en: "classic coffee", min: "so kaba" }, { en: "classic juice", min: "so zumo" }, { en: "classic tea", min: "so techa" },
+  { en: "royal water", min: "mi aqua" }, { en: "royal milk", min: "mi malka" }, { en: "royal coffee", min: "mi kaba" }, { en: "royal juice", min: "mi zumo" }, { en: "royal tea", min: "mi techa" },
+  { en: "sky water", min: "ma aqua" }, { en: "sky milk", min: "ma malka" }, { en: "sky coffee", min: "ma kaba" }, { en: "sky juice", min: "ma zumo" }, { en: "sky tea", min: "ma techa" },
+  { en: "forest water", min: "te aqua" }, { en: "forest milk", min: "te malka" }, { en: "forest coffee", min: "te kaba" }, { en: "forest juice", min: "te zumo" }, { en: "forest tea", min: "te techa" },
+  { en: "sea water", min: "la aqua" }, { en: "sea milk", min: "la malka" }, { en: "sea coffee", min: "la kaba" }, { en: "sea juice", min: "la zumo" }, { en: "sea tea", min: "la techa" },
+  { en: "wild water", min: "da aqua" }, { en: "wild milk", min: "da malka" }, { en: "wild coffee", min: "da kaba" }, { en: "wild juice", min: "da zumo" }, { en: "wild tea", min: "da techa" },
+  { en: "sweet water", min: "li aqua" }, { en: "sweet milk", min: "li malka" }, { en: "sweet coffee", min: "li kaba" }, { en: "sweet juice", min: "li zumo" }, { en: "sweet tea", min: "li techa" },
+  { en: "hot water", min: "zo aqua" }, { en: "hot milk", min: "zo malka" }, { en: "hot coffee", min: "zo kaba" }, { en: "hot juice", min: "zo zumo" }, { en: "hot tea", min: "zo techa" },
+  { en: "cold water", min: "ha aqua" }, { en: "cold milk", min: "ha malka" }, { en: "cold coffee", min: "ha kaba" }, { en: "cold juice", min: "ha zumo" }, { en: "cold tea", min: "ha techa" },
+  { en: "super water", min: "to aqua" }, { en: "super milk", min: "to malka" }, { en: "super coffee", min: "to kaba" }, { en: "super juice", min: "to zumo" }, { en: "super tea", min: "to techa" },
 ];

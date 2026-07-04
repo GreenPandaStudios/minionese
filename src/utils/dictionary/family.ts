@@ -1,32 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const family: DictionaryEntry[] = [
-  {
-    "en": "father",
-    "min": "papa"
-  },
-  {
-    "en": "mother",
-    "min": "mama"
-  },
-  {
-    "en": "brother",
-    "min": "hermano"
-  },
-  {
-    "en": "sister",
-    "min": "hermana"
-  },
-  {
-    "en": "baby",
-    "min": "baboi"
-  },
-  {
-    "en": "friend",
-    "min": "buddha"
-  },
-  {
-    "en": "friends",
-    "min": "buddhas"
-  }
+  { en: "father", min: "papa" }, { en: "mother", min: "mama" }, { en: "brother", min: "hermano" }, { en: "sister", min: "hermana" }, { en: "friend", min: "buddha" },
+  { en: "light father", min: "pika papa" }, { en: "light mother", min: "pika mama" }, { en: "light brother", min: "pika hermano" }, { en: "light sister", min: "pika hermana" }, { en: "light friend", min: "pika buddha" },
+  { en: "dark father", min: "po papa" }, { en: "dark mother", min: "po mama" }, { en: "dark brother", min: "po hermano" }, { en: "dark sister", min: "po hermana" }, { en: "dark friend", min: "po buddha" },
+  { en: "bright father", min: "bango papa" }, { en: "bright mother", min: "bango mama" }, { en: "bright brother", min: "bango hermano" }, { en: "bright sister", min: "bango hermana" }, { en: "bright friend", min: "bango buddha" },
+  { en: "pale father", min: "ti papa" }, { en: "pale mother", min: "ti mama" }, { en: "pale brother", min: "ti hermano" }, { en: "pale sister", min: "ti hermana" }, { en: "pale friend", min: "ti buddha" },
+  { en: "deep father", min: "pa papa" }, { en: "deep mother", min: "pa mama" }, { en: "deep brother", min: "pa hermano" }, { en: "deep sister", min: "pa hermana" }, { en: "deep friend", min: "pa buddha" },
+  { en: "soft father", min: "ki papa" }, { en: "soft mother", min: "ki mama" }, { en: "soft brother", min: "ki hermano" }, { en: "soft sister", min: "ki hermana" }, { en: "soft friend", min: "ki buddha" },
+  { en: "dull father", min: "bo papa" }, { en: "dull mother", min: "bo mama" }, { en: "dull brother", min: "bo hermano" }, { en: "dull sister", min: "bo hermana" }, { en: "dull friend", min: "bo buddha" },
+  { en: "neon father", min: "go papa" }, { en: "neon mother", min: "go mama" }, { en: "neon brother", min: "go hermano" }, { en: "neon sister", min: "go hermana" }, { en: "neon friend", min: "go buddha" },
+  { en: "pastel father", min: "ba papa" }, { en: "pastel mother", min: "ba mama" }, { en: "pastel brother", min: "ba hermano" }, { en: "pastel sister", min: "ba hermana" }, { en: "pastel friend", min: "ba buddha" },
+  { en: "vibrant father", min: "ta papa" }, { en: "vibrant mother", min: "ta mama" }, { en: "vibrant brother", min: "ta hermano" }, { en: "vibrant sister", min: "ta hermana" }, { en: "vibrant friend", min: "ta buddha" },
+  { en: "shiny father", min: "bi papa" }, { en: "shiny mother", min: "bi mama" }, { en: "shiny brother", min: "bi hermano" }, { en: "shiny sister", min: "bi hermana" }, { en: "shiny friend", min: "bi buddha" },
+  { en: "matte father", min: "no papa" }, { en: "matte mother", min: "no mama" }, { en: "matte brother", min: "no hermano" }, { en: "matte sister", min: "no hermana" }, { en: "matte friend", min: "no buddha" },
+  { en: "glossy father", min: "ni papa" }, { en: "glossy mother", min: "ni mama" }, { en: "glossy brother", min: "ni hermano" }, { en: "glossy sister", min: "ni hermana" }, { en: "glossy friend", min: "ni buddha" },
+  { en: "warm father", min: "ku papa" }, { en: "warm mother", min: "ku mama" }, { en: "warm brother", min: "ku hermano" }, { en: "warm sister", min: "ku hermana" }, { en: "warm friend", min: "ku buddha" },
+  { en: "cool father", min: "mu papa" }, { en: "cool mother", min: "mu mama" }, { en: "cool brother", min: "mu hermano" }, { en: "cool sister", min: "mu hermana" }, { en: "cool friend", min: "mu buddha" },
+  { en: "rich father", min: "se papa" }, { en: "rich mother", min: "se mama" }, { en: "rich brother", min: "se hermano" }, { en: "rich sister", min: "se hermana" }, { en: "rich friend", min: "se buddha" },
+  { en: "faint father", min: "du papa" }, { en: "faint mother", min: "du mama" }, { en: "faint brother", min: "du hermano" }, { en: "faint sister", min: "du hermana" }, { en: "faint friend", min: "du buddha" },
+  { en: "pure father", min: "vo papa" }, { en: "pure mother", min: "vo mama" }, { en: "pure brother", min: "vo hermano" }, { en: "pure sister", min: "vo hermana" }, { en: "pure friend", min: "vo buddha" },
+  { en: "true father", min: "au papa" }, { en: "true mother", min: "au mama" }, { en: "true brother", min: "au hermano" }, { en: "true sister", min: "au hermana" }, { en: "true friend", min: "au buddha" },
+  { en: "classic father", min: "so papa" }, { en: "classic mother", min: "so mama" }, { en: "classic brother", min: "so hermano" }, { en: "classic sister", min: "so hermana" }, { en: "classic friend", min: "so buddha" },
+  { en: "royal father", min: "mi papa" }, { en: "royal mother", min: "mi mama" }, { en: "royal brother", min: "mi hermano" }, { en: "royal sister", min: "mi hermana" }, { en: "royal friend", min: "mi buddha" },
+  { en: "sky father", min: "ma papa" }, { en: "sky mother", min: "ma mama" }, { en: "sky brother", min: "ma hermano" }, { en: "sky sister", min: "ma hermana" }, { en: "sky friend", min: "ma buddha" },
+  { en: "forest father", min: "te papa" }, { en: "forest mother", min: "te mama" }, { en: "forest brother", min: "te hermano" }, { en: "forest sister", min: "te hermana" }, { en: "forest friend", min: "te buddha" },
+  { en: "sea father", min: "la papa" }, { en: "sea mother", min: "la mama" }, { en: "sea brother", min: "la hermano" }, { en: "sea sister", min: "la hermana" }, { en: "sea friend", min: "la buddha" },
+  { en: "wild father", min: "da papa" }, { en: "wild mother", min: "da mama" }, { en: "wild brother", min: "da hermano" }, { en: "wild sister", min: "da hermana" }, { en: "wild friend", min: "da buddha" },
+  { en: "sweet father", min: "li papa" }, { en: "sweet mother", min: "li mama" }, { en: "sweet brother", min: "li hermano" }, { en: "sweet sister", min: "li hermana" }, { en: "sweet friend", min: "li buddha" },
+  { en: "hot father", min: "zo papa" }, { en: "hot mother", min: "zo mama" }, { en: "hot brother", min: "zo hermano" }, { en: "hot sister", min: "zo hermana" }, { en: "hot friend", min: "zo buddha" },
+  { en: "cold father", min: "ha papa" }, { en: "cold mother", min: "ha mama" }, { en: "cold brother", min: "ha hermano" }, { en: "cold sister", min: "ha hermana" }, { en: "cold friend", min: "ha buddha" },
+  { en: "super father", min: "to papa" }, { en: "super mother", min: "to mama" }, { en: "super brother", min: "to hermano" }, { en: "super sister", min: "to hermana" }, { en: "super friend", min: "to buddha" },
 ];

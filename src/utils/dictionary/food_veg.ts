@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const food_veg: DictionaryEntry[] = [
-  {
-    "en": "potato",
-    "min": "patata"
-  },
-  {
-    "en": "tomato",
-    "min": "tomate"
-  },
-  {
-    "en": "carrot",
-    "min": "zanahoria"
-  },
-  {
-    "en": "onion",
-    "min": "cebolla"
-  }
+  { en: "potato", min: "patata" }, { en: "tomato", min: "tomate" }, { en: "carrot", min: "zanahoria" }, { en: "onion", min: "cebolla" }, { en: "garlic", min: "ajo" },
+  { en: "light potato", min: "pika patata" }, { en: "light tomato", min: "pika tomate" }, { en: "light carrot", min: "pika zanahoria" }, { en: "light onion", min: "pika cebolla" }, { en: "light garlic", min: "pika ajo" },
+  { en: "dark potato", min: "po patata" }, { en: "dark tomato", min: "po tomate" }, { en: "dark carrot", min: "po zanahoria" }, { en: "dark onion", min: "po cebolla" }, { en: "dark garlic", min: "po ajo" },
+  { en: "bright potato", min: "bango patata" }, { en: "bright tomato", min: "bango tomate" }, { en: "bright carrot", min: "bango zanahoria" }, { en: "bright onion", min: "bango cebolla" }, { en: "bright garlic", min: "bango ajo" },
+  { en: "pale potato", min: "ti patata" }, { en: "pale tomato", min: "ti tomate" }, { en: "pale carrot", min: "ti zanahoria" }, { en: "pale onion", min: "ti cebolla" }, { en: "pale garlic", min: "ti ajo" },
+  { en: "deep potato", min: "pa patata" }, { en: "deep tomato", min: "pa tomate" }, { en: "deep carrot", min: "pa zanahoria" }, { en: "deep onion", min: "pa cebolla" }, { en: "deep garlic", min: "pa ajo" },
+  { en: "soft potato", min: "ki patata" }, { en: "soft tomato", min: "ki tomate" }, { en: "soft carrot", min: "ki zanahoria" }, { en: "soft onion", min: "ki cebolla" }, { en: "soft garlic", min: "ki ajo" },
+  { en: "dull potato", min: "bo patata" }, { en: "dull tomato", min: "bo tomate" }, { en: "dull carrot", min: "bo zanahoria" }, { en: "dull onion", min: "bo cebolla" }, { en: "dull garlic", min: "bo ajo" },
+  { en: "neon potato", min: "go patata" }, { en: "neon tomato", min: "go tomate" }, { en: "neon carrot", min: "go zanahoria" }, { en: "neon onion", min: "go cebolla" }, { en: "neon garlic", min: "go ajo" },
+  { en: "pastel potato", min: "ba patata" }, { en: "pastel tomato", min: "ba tomate" }, { en: "pastel carrot", min: "ba zanahoria" }, { en: "pastel onion", min: "ba cebolla" }, { en: "pastel garlic", min: "ba ajo" },
+  { en: "vibrant potato", min: "ta patata" }, { en: "vibrant tomato", min: "ta tomate" }, { en: "vibrant carrot", min: "ta zanahoria" }, { en: "vibrant onion", min: "ta cebolla" }, { en: "vibrant garlic", min: "ta ajo" },
+  { en: "shiny potato", min: "bi patata" }, { en: "shiny tomato", min: "bi tomate" }, { en: "shiny carrot", min: "bi zanahoria" }, { en: "shiny onion", min: "bi cebolla" }, { en: "shiny garlic", min: "bi ajo" },
+  { en: "matte potato", min: "no patata" }, { en: "matte tomato", min: "no tomate" }, { en: "matte carrot", min: "no zanahoria" }, { en: "matte onion", min: "no cebolla" }, { en: "matte garlic", min: "no ajo" },
+  { en: "glossy potato", min: "ni patata" }, { en: "glossy tomato", min: "ni tomate" }, { en: "glossy carrot", min: "ni zanahoria" }, { en: "glossy onion", min: "ni cebolla" }, { en: "glossy garlic", min: "ni ajo" },
+  { en: "warm potato", min: "ku patata" }, { en: "warm tomato", min: "ku tomate" }, { en: "warm carrot", min: "ku zanahoria" }, { en: "warm onion", min: "ku cebolla" }, { en: "warm garlic", min: "ku ajo" },
+  { en: "cool potato", min: "mu patata" }, { en: "cool tomato", min: "mu tomate" }, { en: "cool carrot", min: "mu zanahoria" }, { en: "cool onion", min: "mu cebolla" }, { en: "cool garlic", min: "mu ajo" },
+  { en: "rich potato", min: "se patata" }, { en: "rich tomato", min: "se tomate" }, { en: "rich carrot", min: "se zanahoria" }, { en: "rich onion", min: "se cebolla" }, { en: "rich garlic", min: "se ajo" },
+  { en: "faint potato", min: "du patata" }, { en: "faint tomato", min: "du tomate" }, { en: "faint carrot", min: "du zanahoria" }, { en: "faint onion", min: "du cebolla" }, { en: "faint garlic", min: "du ajo" },
+  { en: "pure potato", min: "vo patata" }, { en: "pure tomato", min: "vo tomate" }, { en: "pure carrot", min: "vo zanahoria" }, { en: "pure onion", min: "vo cebolla" }, { en: "pure garlic", min: "vo ajo" },
+  { en: "true potato", min: "au patata" }, { en: "true tomato", min: "au tomate" }, { en: "true carrot", min: "au zanahoria" }, { en: "true onion", min: "au cebolla" }, { en: "true garlic", min: "au ajo" },
+  { en: "classic potato", min: "so patata" }, { en: "classic tomato", min: "so tomate" }, { en: "classic carrot", min: "so zanahoria" }, { en: "classic onion", min: "so cebolla" }, { en: "classic garlic", min: "so ajo" },
+  { en: "royal potato", min: "mi patata" }, { en: "royal tomato", min: "mi tomate" }, { en: "royal carrot", min: "mi zanahoria" }, { en: "royal onion", min: "mi cebolla" }, { en: "royal garlic", min: "mi ajo" },
+  { en: "sky potato", min: "ma patata" }, { en: "sky tomato", min: "ma tomate" }, { en: "sky carrot", min: "ma zanahoria" }, { en: "sky onion", min: "ma cebolla" }, { en: "sky garlic", min: "ma ajo" },
+  { en: "forest potato", min: "te patata" }, { en: "forest tomato", min: "te tomate" }, { en: "forest carrot", min: "te zanahoria" }, { en: "forest onion", min: "te cebolla" }, { en: "forest garlic", min: "te ajo" },
+  { en: "sea potato", min: "la patata" }, { en: "sea tomato", min: "la tomate" }, { en: "sea carrot", min: "la zanahoria" }, { en: "sea onion", min: "la cebolla" }, { en: "sea garlic", min: "la ajo" },
+  { en: "wild potato", min: "da patata" }, { en: "wild tomato", min: "da tomate" }, { en: "wild carrot", min: "da zanahoria" }, { en: "wild onion", min: "da cebolla" }, { en: "wild garlic", min: "da ajo" },
+  { en: "sweet potato", min: "li patata" }, { en: "sweet tomato", min: "li tomate" }, { en: "sweet carrot", min: "li zanahoria" }, { en: "sweet onion", min: "li cebolla" }, { en: "sweet garlic", min: "li ajo" },
+  { en: "hot potato", min: "zo patata" }, { en: "hot tomato", min: "zo tomate" }, { en: "hot carrot", min: "zo zanahoria" }, { en: "hot onion", min: "zo cebolla" }, { en: "hot garlic", min: "zo ajo" },
+  { en: "cold potato", min: "ha patata" }, { en: "cold tomato", min: "ha tomate" }, { en: "cold carrot", min: "ha zanahoria" }, { en: "cold onion", min: "ha cebolla" }, { en: "cold garlic", min: "ha ajo" },
+  { en: "super potato", min: "to patata" }, { en: "super tomato", min: "to tomate" }, { en: "super carrot", min: "to zanahoria" }, { en: "super onion", min: "to cebolla" }, { en: "super garlic", min: "to ajo" },
 ];

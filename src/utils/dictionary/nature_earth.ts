@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const nature_earth: DictionaryEntry[] = [
-  {
-    "en": "mountain",
-    "min": "monte"
-  },
-  {
-    "en": "river",
-    "min": "rio"
-  },
-  {
-    "en": "valley",
-    "min": "valle"
-  },
-  {
-    "en": "forest",
-    "min": "bosque"
-  }
+  { en: "mountain", min: "monte" }, { en: "river", min: "rio" }, { en: "valley", min: "valle" }, { en: "forest", min: "bosque" }, { en: "hill", min: "colina" },
+  { en: "light mountain", min: "pika monte" }, { en: "light river", min: "pika rio" }, { en: "light valley", min: "pika valle" }, { en: "light forest", min: "pika bosque" }, { en: "light hill", min: "pika colina" },
+  { en: "dark mountain", min: "po monte" }, { en: "dark river", min: "po rio" }, { en: "dark valley", min: "po valle" }, { en: "dark forest", min: "po bosque" }, { en: "dark hill", min: "po colina" },
+  { en: "bright mountain", min: "bango monte" }, { en: "bright river", min: "bango rio" }, { en: "bright valley", min: "bango valle" }, { en: "bright forest", min: "bango bosque" }, { en: "bright hill", min: "bango colina" },
+  { en: "pale mountain", min: "ti monte" }, { en: "pale river", min: "ti rio" }, { en: "pale valley", min: "ti valle" }, { en: "pale forest", min: "ti bosque" }, { en: "pale hill", min: "ti colina" },
+  { en: "deep mountain", min: "pa monte" }, { en: "deep river", min: "pa rio" }, { en: "deep valley", min: "pa valle" }, { en: "deep forest", min: "pa bosque" }, { en: "deep hill", min: "pa colina" },
+  { en: "soft mountain", min: "ki monte" }, { en: "soft river", min: "ki rio" }, { en: "soft valley", min: "ki valle" }, { en: "soft forest", min: "ki bosque" }, { en: "soft hill", min: "ki colina" },
+  { en: "dull mountain", min: "bo monte" }, { en: "dull river", min: "bo rio" }, { en: "dull valley", min: "bo valle" }, { en: "dull forest", min: "bo bosque" }, { en: "dull hill", min: "bo colina" },
+  { en: "neon mountain", min: "go monte" }, { en: "neon river", min: "go rio" }, { en: "neon valley", min: "go valle" }, { en: "neon forest", min: "go bosque" }, { en: "neon hill", min: "go colina" },
+  { en: "pastel mountain", min: "ba monte" }, { en: "pastel river", min: "ba rio" }, { en: "pastel valley", min: "ba valle" }, { en: "pastel forest", min: "ba bosque" }, { en: "pastel hill", min: "ba colina" },
+  { en: "vibrant mountain", min: "ta monte" }, { en: "vibrant river", min: "ta rio" }, { en: "vibrant valley", min: "ta valle" }, { en: "vibrant forest", min: "ta bosque" }, { en: "vibrant hill", min: "ta colina" },
+  { en: "shiny mountain", min: "bi monte" }, { en: "shiny river", min: "bi rio" }, { en: "shiny valley", min: "bi valle" }, { en: "shiny forest", min: "bi bosque" }, { en: "shiny hill", min: "bi colina" },
+  { en: "matte mountain", min: "no monte" }, { en: "matte river", min: "no rio" }, { en: "matte valley", min: "no valle" }, { en: "matte forest", min: "no bosque" }, { en: "matte hill", min: "no colina" },
+  { en: "glossy mountain", min: "ni monte" }, { en: "glossy river", min: "ni rio" }, { en: "glossy valley", min: "ni valle" }, { en: "glossy forest", min: "ni bosque" }, { en: "glossy hill", min: "ni colina" },
+  { en: "warm mountain", min: "ku monte" }, { en: "warm river", min: "ku rio" }, { en: "warm valley", min: "ku valle" }, { en: "warm forest", min: "ku bosque" }, { en: "warm hill", min: "ku colina" },
+  { en: "cool mountain", min: "mu monte" }, { en: "cool river", min: "mu rio" }, { en: "cool valley", min: "mu valle" }, { en: "cool forest", min: "mu bosque" }, { en: "cool hill", min: "mu colina" },
+  { en: "rich mountain", min: "se monte" }, { en: "rich river", min: "se rio" }, { en: "rich valley", min: "se valle" }, { en: "rich forest", min: "se bosque" }, { en: "rich hill", min: "se colina" },
+  { en: "faint mountain", min: "du monte" }, { en: "faint river", min: "du rio" }, { en: "faint valley", min: "du valle" }, { en: "faint forest", min: "du bosque" }, { en: "faint hill", min: "du colina" },
+  { en: "pure mountain", min: "vo monte" }, { en: "pure river", min: "vo rio" }, { en: "pure valley", min: "vo valle" }, { en: "pure forest", min: "vo bosque" }, { en: "pure hill", min: "vo colina" },
+  { en: "true mountain", min: "au monte" }, { en: "true river", min: "au rio" }, { en: "true valley", min: "au valle" }, { en: "true forest", min: "au bosque" }, { en: "true hill", min: "au colina" },
+  { en: "classic mountain", min: "so monte" }, { en: "classic river", min: "so rio" }, { en: "classic valley", min: "so valle" }, { en: "classic forest", min: "so bosque" }, { en: "classic hill", min: "so colina" },
+  { en: "royal mountain", min: "mi monte" }, { en: "royal river", min: "mi rio" }, { en: "royal valley", min: "mi valle" }, { en: "royal forest", min: "mi bosque" }, { en: "royal hill", min: "mi colina" },
+  { en: "sky mountain", min: "ma monte" }, { en: "sky river", min: "ma rio" }, { en: "sky valley", min: "ma valle" }, { en: "sky forest", min: "ma bosque" }, { en: "sky hill", min: "ma colina" },
+  { en: "forest mountain", min: "te monte" }, { en: "forest river", min: "te rio" }, { en: "forest valley", min: "te valle" }, { en: "forest forest", min: "te bosque" }, { en: "forest hill", min: "te colina" },
+  { en: "sea mountain", min: "la monte" }, { en: "sea river", min: "la rio" }, { en: "sea valley", min: "la valle" }, { en: "sea forest", min: "la bosque" }, { en: "sea hill", min: "la colina" },
+  { en: "wild mountain", min: "da monte" }, { en: "wild river", min: "da rio" }, { en: "wild valley", min: "da valle" }, { en: "wild forest", min: "da bosque" }, { en: "wild hill", min: "da colina" },
+  { en: "sweet mountain", min: "li monte" }, { en: "sweet river", min: "li rio" }, { en: "sweet valley", min: "li valle" }, { en: "sweet forest", min: "li bosque" }, { en: "sweet hill", min: "li colina" },
+  { en: "hot mountain", min: "zo monte" }, { en: "hot river", min: "zo rio" }, { en: "hot valley", min: "zo valle" }, { en: "hot forest", min: "zo bosque" }, { en: "hot hill", min: "zo colina" },
+  { en: "cold mountain", min: "ha monte" }, { en: "cold river", min: "ha rio" }, { en: "cold valley", min: "ha valle" }, { en: "cold forest", min: "ha bosque" }, { en: "cold hill", min: "ha colina" },
+  { en: "super mountain", min: "to monte" }, { en: "super river", min: "to rio" }, { en: "super valley", min: "to valle" }, { en: "super forest", min: "to bosque" }, { en: "super hill", min: "to colina" },
 ];

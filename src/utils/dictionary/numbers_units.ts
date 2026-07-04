@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const numbers_units: DictionaryEntry[] = [
-  {
-    "en": "one",
-    "min": "uno"
-  },
-  {
-    "en": "two",
-    "min": "dos"
-  },
-  {
-    "en": "three",
-    "min": "tres"
-  },
-  {
-    "en": "four",
-    "min": "cuatro"
-  }
+  { en: "one", min: "uno" }, { en: "two", min: "dos" }, { en: "three", min: "tres" }, { en: "four", min: "cuatro" }, { en: "five", min: "cinco" },
+  { en: "light one", min: "pika uno" }, { en: "light two", min: "pika dos" }, { en: "light three", min: "pika tres" }, { en: "light four", min: "pika cuatro" }, { en: "light five", min: "pika cinco" },
+  { en: "dark one", min: "po uno" }, { en: "dark two", min: "po dos" }, { en: "dark three", min: "po tres" }, { en: "dark four", min: "po cuatro" }, { en: "dark five", min: "po cinco" },
+  { en: "bright one", min: "bango uno" }, { en: "bright two", min: "bango dos" }, { en: "bright three", min: "bango tres" }, { en: "bright four", min: "bango cuatro" }, { en: "bright five", min: "bango cinco" },
+  { en: "pale one", min: "ti uno" }, { en: "pale two", min: "ti dos" }, { en: "pale three", min: "ti tres" }, { en: "pale four", min: "ti cuatro" }, { en: "pale five", min: "ti cinco" },
+  { en: "deep one", min: "pa uno" }, { en: "deep two", min: "pa dos" }, { en: "deep three", min: "pa tres" }, { en: "deep four", min: "pa cuatro" }, { en: "deep five", min: "pa cinco" },
+  { en: "soft one", min: "ki uno" }, { en: "soft two", min: "ki dos" }, { en: "soft three", min: "ki tres" }, { en: "soft four", min: "ki cuatro" }, { en: "soft five", min: "ki cinco" },
+  { en: "dull one", min: "bo uno" }, { en: "dull two", min: "bo dos" }, { en: "dull three", min: "bo tres" }, { en: "dull four", min: "bo cuatro" }, { en: "dull five", min: "bo cinco" },
+  { en: "neon one", min: "go uno" }, { en: "neon two", min: "go dos" }, { en: "neon three", min: "go tres" }, { en: "neon four", min: "go cuatro" }, { en: "neon five", min: "go cinco" },
+  { en: "pastel one", min: "ba uno" }, { en: "pastel two", min: "ba dos" }, { en: "pastel three", min: "ba tres" }, { en: "pastel four", min: "ba cuatro" }, { en: "pastel five", min: "ba cinco" },
+  { en: "vibrant one", min: "ta uno" }, { en: "vibrant two", min: "ta dos" }, { en: "vibrant three", min: "ta tres" }, { en: "vibrant four", min: "ta cuatro" }, { en: "vibrant five", min: "ta cinco" },
+  { en: "shiny one", min: "bi uno" }, { en: "shiny two", min: "bi dos" }, { en: "shiny three", min: "bi tres" }, { en: "shiny four", min: "bi cuatro" }, { en: "shiny five", min: "bi cinco" },
+  { en: "matte one", min: "no uno" }, { en: "matte two", min: "no dos" }, { en: "matte three", min: "no tres" }, { en: "matte four", min: "no cuatro" }, { en: "matte five", min: "no cinco" },
+  { en: "glossy one", min: "ni uno" }, { en: "glossy two", min: "ni dos" }, { en: "glossy three", min: "ni tres" }, { en: "glossy four", min: "ni cuatro" }, { en: "glossy five", min: "ni cinco" },
+  { en: "warm one", min: "ku uno" }, { en: "warm two", min: "ku dos" }, { en: "warm three", min: "ku tres" }, { en: "warm four", min: "ku cuatro" }, { en: "warm five", min: "ku cinco" },
+  { en: "cool one", min: "mu uno" }, { en: "cool two", min: "mu dos" }, { en: "cool three", min: "mu tres" }, { en: "cool four", min: "mu cuatro" }, { en: "cool five", min: "mu cinco" },
+  { en: "rich one", min: "se uno" }, { en: "rich two", min: "se dos" }, { en: "rich three", min: "se tres" }, { en: "rich four", min: "se cuatro" }, { en: "rich five", min: "se cinco" },
+  { en: "faint one", min: "du uno" }, { en: "faint two", min: "du dos" }, { en: "faint three", min: "du tres" }, { en: "faint four", min: "du cuatro" }, { en: "faint five", min: "du cinco" },
+  { en: "pure one", min: "vo uno" }, { en: "pure two", min: "vo dos" }, { en: "pure three", min: "vo tres" }, { en: "pure four", min: "vo cuatro" }, { en: "pure five", min: "vo cinco" },
+  { en: "true one", min: "au uno" }, { en: "true two", min: "au dos" }, { en: "true three", min: "au tres" }, { en: "true four", min: "au cuatro" }, { en: "true five", min: "au cinco" },
+  { en: "classic one", min: "so uno" }, { en: "classic two", min: "so dos" }, { en: "classic three", min: "so tres" }, { en: "classic four", min: "so cuatro" }, { en: "classic five", min: "so cinco" },
+  { en: "royal one", min: "mi uno" }, { en: "royal two", min: "mi dos" }, { en: "royal three", min: "mi tres" }, { en: "royal four", min: "mi cuatro" }, { en: "royal five", min: "mi cinco" },
+  { en: "sky one", min: "ma uno" }, { en: "sky two", min: "ma dos" }, { en: "sky three", min: "ma tres" }, { en: "sky four", min: "ma cuatro" }, { en: "sky five", min: "ma cinco" },
+  { en: "forest one", min: "te uno" }, { en: "forest two", min: "te dos" }, { en: "forest three", min: "te tres" }, { en: "forest four", min: "te cuatro" }, { en: "forest five", min: "te cinco" },
+  { en: "sea one", min: "la uno" }, { en: "sea two", min: "la dos" }, { en: "sea three", min: "la tres" }, { en: "sea four", min: "la cuatro" }, { en: "sea five", min: "la cinco" },
+  { en: "wild one", min: "da uno" }, { en: "wild two", min: "da dos" }, { en: "wild three", min: "da tres" }, { en: "wild four", min: "da cuatro" }, { en: "wild five", min: "da cinco" },
+  { en: "sweet one", min: "li uno" }, { en: "sweet two", min: "li dos" }, { en: "sweet three", min: "li tres" }, { en: "sweet four", min: "li cuatro" }, { en: "sweet five", min: "li cinco" },
+  { en: "hot one", min: "zo uno" }, { en: "hot two", min: "zo dos" }, { en: "hot three", min: "zo tres" }, { en: "hot four", min: "zo cuatro" }, { en: "hot five", min: "zo cinco" },
+  { en: "cold one", min: "ha uno" }, { en: "cold two", min: "ha dos" }, { en: "cold three", min: "ha tres" }, { en: "cold four", min: "ha cuatro" }, { en: "cold five", min: "ha cinco" },
+  { en: "super one", min: "to uno" }, { en: "super two", min: "to dos" }, { en: "super three", min: "to tres" }, { en: "super four", min: "to cuatro" }, { en: "super five", min: "to cinco" },
 ];

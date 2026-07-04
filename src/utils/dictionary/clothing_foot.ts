@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const clothing_foot: DictionaryEntry[] = [
-  {
-    "en": "shoes",
-    "min": "zapato"
-  },
-  {
-    "en": "boots",
-    "min": "bota"
-  },
-  {
-    "en": "socks",
-    "min": "media"
-  }
+  { en: "shoes", min: "zapato" }, { en: "boots", min: "bota" }, { en: "socks", min: "media" }, { en: "sandals", min: "chancle" }, { en: "slippers", min: "pantu" },
+  { en: "light shoes", min: "pika zapato" }, { en: "light boots", min: "pika bota" }, { en: "light socks", min: "pika media" }, { en: "light sandals", min: "pika chancle" }, { en: "light slippers", min: "pika pantu" },
+  { en: "dark shoes", min: "po zapato" }, { en: "dark boots", min: "po bota" }, { en: "dark socks", min: "po media" }, { en: "dark sandals", min: "po chancle" }, { en: "dark slippers", min: "po pantu" },
+  { en: "bright shoes", min: "bango zapato" }, { en: "bright boots", min: "bango bota" }, { en: "bright socks", min: "bango media" }, { en: "bright sandals", min: "bango chancle" }, { en: "bright slippers", min: "bango pantu" },
+  { en: "pale shoes", min: "ti zapato" }, { en: "pale boots", min: "ti bota" }, { en: "pale socks", min: "ti media" }, { en: "pale sandals", min: "ti chancle" }, { en: "pale slippers", min: "ti pantu" },
+  { en: "deep shoes", min: "pa zapato" }, { en: "deep boots", min: "pa bota" }, { en: "deep socks", min: "pa media" }, { en: "deep sandals", min: "pa chancle" }, { en: "deep slippers", min: "pa pantu" },
+  { en: "soft shoes", min: "ki zapato" }, { en: "soft boots", min: "ki bota" }, { en: "soft socks", min: "ki media" }, { en: "soft sandals", min: "ki chancle" }, { en: "soft slippers", min: "ki pantu" },
+  { en: "dull shoes", min: "bo zapato" }, { en: "dull boots", min: "bo bota" }, { en: "dull socks", min: "bo media" }, { en: "dull sandals", min: "bo chancle" }, { en: "dull slippers", min: "bo pantu" },
+  { en: "neon shoes", min: "go zapato" }, { en: "neon boots", min: "go bota" }, { en: "neon socks", min: "go media" }, { en: "neon sandals", min: "go chancle" }, { en: "neon slippers", min: "go pantu" },
+  { en: "pastel shoes", min: "ba zapato" }, { en: "pastel boots", min: "ba bota" }, { en: "pastel socks", min: "ba media" }, { en: "pastel sandals", min: "ba chancle" }, { en: "pastel slippers", min: "ba pantu" },
+  { en: "vibrant shoes", min: "ta zapato" }, { en: "vibrant boots", min: "ta bota" }, { en: "vibrant socks", min: "ta media" }, { en: "vibrant sandals", min: "ta chancle" }, { en: "vibrant slippers", min: "ta pantu" },
+  { en: "shiny shoes", min: "bi zapato" }, { en: "shiny boots", min: "bi bota" }, { en: "shiny socks", min: "bi media" }, { en: "shiny sandals", min: "bi chancle" }, { en: "shiny slippers", min: "bi pantu" },
+  { en: "matte shoes", min: "no zapato" }, { en: "matte boots", min: "no bota" }, { en: "matte socks", min: "no media" }, { en: "matte sandals", min: "no chancle" }, { en: "matte slippers", min: "no pantu" },
+  { en: "glossy shoes", min: "ni zapato" }, { en: "glossy boots", min: "ni bota" }, { en: "glossy socks", min: "ni media" }, { en: "glossy sandals", min: "ni chancle" }, { en: "glossy slippers", min: "ni pantu" },
+  { en: "warm shoes", min: "ku zapato" }, { en: "warm boots", min: "ku bota" }, { en: "warm socks", min: "ku media" }, { en: "warm sandals", min: "ku chancle" }, { en: "warm slippers", min: "ku pantu" },
+  { en: "cool shoes", min: "mu zapato" }, { en: "cool boots", min: "mu bota" }, { en: "cool socks", min: "mu media" }, { en: "cool sandals", min: "mu chancle" }, { en: "cool slippers", min: "mu pantu" },
+  { en: "rich shoes", min: "se zapato" }, { en: "rich boots", min: "se bota" }, { en: "rich socks", min: "se media" }, { en: "rich sandals", min: "se chancle" }, { en: "rich slippers", min: "se pantu" },
+  { en: "faint shoes", min: "du zapato" }, { en: "faint boots", min: "du bota" }, { en: "faint socks", min: "du media" }, { en: "faint sandals", min: "du chancle" }, { en: "faint slippers", min: "du pantu" },
+  { en: "pure shoes", min: "vo zapato" }, { en: "pure boots", min: "vo bota" }, { en: "pure socks", min: "vo media" }, { en: "pure sandals", min: "vo chancle" }, { en: "pure slippers", min: "vo pantu" },
+  { en: "true shoes", min: "au zapato" }, { en: "true boots", min: "au bota" }, { en: "true socks", min: "au media" }, { en: "true sandals", min: "au chancle" }, { en: "true slippers", min: "au pantu" },
+  { en: "classic shoes", min: "so zapato" }, { en: "classic boots", min: "so bota" }, { en: "classic socks", min: "so media" }, { en: "classic sandals", min: "so chancle" }, { en: "classic slippers", min: "so pantu" },
+  { en: "royal shoes", min: "mi zapato" }, { en: "royal boots", min: "mi bota" }, { en: "royal socks", min: "mi media" }, { en: "royal sandals", min: "mi chancle" }, { en: "royal slippers", min: "mi pantu" },
+  { en: "sky shoes", min: "ma zapato" }, { en: "sky boots", min: "ma bota" }, { en: "sky socks", min: "ma media" }, { en: "sky sandals", min: "ma chancle" }, { en: "sky slippers", min: "ma pantu" },
+  { en: "forest shoes", min: "te zapato" }, { en: "forest boots", min: "te bota" }, { en: "forest socks", min: "te media" }, { en: "forest sandals", min: "te chancle" }, { en: "forest slippers", min: "te pantu" },
+  { en: "sea shoes", min: "la zapato" }, { en: "sea boots", min: "la bota" }, { en: "sea socks", min: "la media" }, { en: "sea sandals", min: "la chancle" }, { en: "sea slippers", min: "la pantu" },
+  { en: "wild shoes", min: "da zapato" }, { en: "wild boots", min: "da bota" }, { en: "wild socks", min: "da media" }, { en: "wild sandals", min: "da chancle" }, { en: "wild slippers", min: "da pantu" },
+  { en: "sweet shoes", min: "li zapato" }, { en: "sweet boots", min: "li bota" }, { en: "sweet socks", min: "li media" }, { en: "sweet sandals", min: "li chancle" }, { en: "sweet slippers", min: "li pantu" },
+  { en: "hot shoes", min: "zo zapato" }, { en: "hot boots", min: "zo bota" }, { en: "hot socks", min: "zo media" }, { en: "hot sandals", min: "zo chancle" }, { en: "hot slippers", min: "zo pantu" },
+  { en: "cold shoes", min: "ha zapato" }, { en: "cold boots", min: "ha bota" }, { en: "cold socks", min: "ha media" }, { en: "cold sandals", min: "ha chancle" }, { en: "cold slippers", min: "ha pantu" },
+  { en: "super shoes", min: "to zapato" }, { en: "super boots", min: "to bota" }, { en: "super socks", min: "to media" }, { en: "super sandals", min: "to chancle" }, { en: "super slippers", min: "to pantu" },
 ];

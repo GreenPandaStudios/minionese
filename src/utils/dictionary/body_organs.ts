@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const body_organs: DictionaryEntry[] = [
-  {
-    "en": "heart",
-    "min": "kokoro"
-  },
-  {
-    "en": "brain",
-    "min": "cerebro"
-  },
-  {
-    "en": "blood",
-    "min": "sangre"
-  }
+  { en: "heart", min: "kokoro" }, { en: "brain", min: "cerebro" }, { en: "blood", min: "sangre" }, { en: "bone", min: "hueso" }, { en: "skin", min: "piel" },
+  { en: "light heart", min: "pika kokoro" }, { en: "light brain", min: "pika cerebro" }, { en: "light blood", min: "pika sangre" }, { en: "light bone", min: "pika hueso" }, { en: "light skin", min: "pika piel" },
+  { en: "dark heart", min: "po kokoro" }, { en: "dark brain", min: "po cerebro" }, { en: "dark blood", min: "po sangre" }, { en: "dark bone", min: "po hueso" }, { en: "dark skin", min: "po piel" },
+  { en: "bright heart", min: "bango kokoro" }, { en: "bright brain", min: "bango cerebro" }, { en: "bright blood", min: "bango sangre" }, { en: "bright bone", min: "bango hueso" }, { en: "bright skin", min: "bango piel" },
+  { en: "pale heart", min: "ti kokoro" }, { en: "pale brain", min: "ti cerebro" }, { en: "pale blood", min: "ti sangre" }, { en: "pale bone", min: "ti hueso" }, { en: "pale skin", min: "ti piel" },
+  { en: "deep heart", min: "pa kokoro" }, { en: "deep brain", min: "pa cerebro" }, { en: "deep blood", min: "pa sangre" }, { en: "deep bone", min: "pa hueso" }, { en: "deep skin", min: "pa piel" },
+  { en: "soft heart", min: "ki kokoro" }, { en: "soft brain", min: "ki cerebro" }, { en: "soft blood", min: "ki sangre" }, { en: "soft bone", min: "ki hueso" }, { en: "soft skin", min: "ki piel" },
+  { en: "dull heart", min: "bo kokoro" }, { en: "dull brain", min: "bo cerebro" }, { en: "dull blood", min: "bo sangre" }, { en: "dull bone", min: "bo hueso" }, { en: "dull skin", min: "bo piel" },
+  { en: "neon heart", min: "go kokoro" }, { en: "neon brain", min: "go cerebro" }, { en: "neon blood", min: "go sangre" }, { en: "neon bone", min: "go hueso" }, { en: "neon skin", min: "go piel" },
+  { en: "pastel heart", min: "ba kokoro" }, { en: "pastel brain", min: "ba cerebro" }, { en: "pastel blood", min: "ba sangre" }, { en: "pastel bone", min: "ba hueso" }, { en: "pastel skin", min: "ba piel" },
+  { en: "vibrant heart", min: "ta kokoro" }, { en: "vibrant brain", min: "ta cerebro" }, { en: "vibrant blood", min: "ta sangre" }, { en: "vibrant bone", min: "ta hueso" }, { en: "vibrant skin", min: "ta piel" },
+  { en: "shiny heart", min: "bi kokoro" }, { en: "shiny brain", min: "bi cerebro" }, { en: "shiny blood", min: "bi sangre" }, { en: "shiny bone", min: "bi hueso" }, { en: "shiny skin", min: "bi piel" },
+  { en: "matte heart", min: "no kokoro" }, { en: "matte brain", min: "no cerebro" }, { en: "matte blood", min: "no sangre" }, { en: "matte bone", min: "no hueso" }, { en: "matte skin", min: "no piel" },
+  { en: "glossy heart", min: "ni kokoro" }, { en: "glossy brain", min: "ni cerebro" }, { en: "glossy blood", min: "ni sangre" }, { en: "glossy bone", min: "ni hueso" }, { en: "glossy skin", min: "ni piel" },
+  { en: "warm heart", min: "ku kokoro" }, { en: "warm brain", min: "ku cerebro" }, { en: "warm blood", min: "ku sangre" }, { en: "warm bone", min: "ku hueso" }, { en: "warm skin", min: "ku piel" },
+  { en: "cool heart", min: "mu kokoro" }, { en: "cool brain", min: "mu cerebro" }, { en: "cool blood", min: "mu sangre" }, { en: "cool bone", min: "mu hueso" }, { en: "cool skin", min: "mu piel" },
+  { en: "rich heart", min: "se kokoro" }, { en: "rich brain", min: "se cerebro" }, { en: "rich blood", min: "se sangre" }, { en: "rich bone", min: "se hueso" }, { en: "rich skin", min: "se piel" },
+  { en: "faint heart", min: "du kokoro" }, { en: "faint brain", min: "du cerebro" }, { en: "faint blood", min: "du sangre" }, { en: "faint bone", min: "du hueso" }, { en: "faint skin", min: "du piel" },
+  { en: "pure heart", min: "vo kokoro" }, { en: "pure brain", min: "vo cerebro" }, { en: "pure blood", min: "vo sangre" }, { en: "pure bone", min: "vo hueso" }, { en: "pure skin", min: "vo piel" },
+  { en: "true heart", min: "au kokoro" }, { en: "true brain", min: "au cerebro" }, { en: "true blood", min: "au sangre" }, { en: "true bone", min: "au hueso" }, { en: "true skin", min: "au piel" },
+  { en: "classic heart", min: "so kokoro" }, { en: "classic brain", min: "so cerebro" }, { en: "classic blood", min: "so sangre" }, { en: "classic bone", min: "so hueso" }, { en: "classic skin", min: "so piel" },
+  { en: "royal heart", min: "mi kokoro" }, { en: "royal brain", min: "mi cerebro" }, { en: "royal blood", min: "mi sangre" }, { en: "royal bone", min: "mi hueso" }, { en: "royal skin", min: "mi piel" },
+  { en: "sky heart", min: "ma kokoro" }, { en: "sky brain", min: "ma cerebro" }, { en: "sky blood", min: "ma sangre" }, { en: "sky bone", min: "ma hueso" }, { en: "sky skin", min: "ma piel" },
+  { en: "forest heart", min: "te kokoro" }, { en: "forest brain", min: "te cerebro" }, { en: "forest blood", min: "te sangre" }, { en: "forest bone", min: "te hueso" }, { en: "forest skin", min: "te piel" },
+  { en: "sea heart", min: "la kokoro" }, { en: "sea brain", min: "la cerebro" }, { en: "sea blood", min: "la sangre" }, { en: "sea bone", min: "la hueso" }, { en: "sea skin", min: "la piel" },
+  { en: "wild heart", min: "da kokoro" }, { en: "wild brain", min: "da cerebro" }, { en: "wild blood", min: "da sangre" }, { en: "wild bone", min: "da hueso" }, { en: "wild skin", min: "da piel" },
+  { en: "sweet heart", min: "li kokoro" }, { en: "sweet brain", min: "li cerebro" }, { en: "sweet blood", min: "li sangre" }, { en: "sweet bone", min: "li hueso" }, { en: "sweet skin", min: "li piel" },
+  { en: "hot heart", min: "zo kokoro" }, { en: "hot brain", min: "zo cerebro" }, { en: "hot blood", min: "zo sangre" }, { en: "hot bone", min: "zo hueso" }, { en: "hot skin", min: "zo piel" },
+  { en: "cold heart", min: "ha kokoro" }, { en: "cold brain", min: "ha cerebro" }, { en: "cold blood", min: "ha sangre" }, { en: "cold bone", min: "ha hueso" }, { en: "cold skin", min: "ha piel" },
+  { en: "super heart", min: "to kokoro" }, { en: "super brain", min: "to cerebro" }, { en: "super blood", min: "to sangre" }, { en: "super bone", min: "to hueso" }, { en: "super skin", min: "to piel" },
 ];

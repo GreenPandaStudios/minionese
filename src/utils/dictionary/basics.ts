@@ -1,44 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const basics: DictionaryEntry[] = [
-  {
-    "en": "hello",
-    "min": "bello"
-  },
-  {
-    "en": "goodbye",
-    "min": "poopaye"
-  },
-  {
-    "en": "thank you",
-    "min": "bank yu"
-  },
-  {
-    "en": "thanks",
-    "min": "tanki"
-  },
-  {
-    "en": "sorry",
-    "min": "bi-do"
-  },
-  {
-    "en": "please",
-    "min": "por-favor"
-  },
-  {
-    "en": "welcome",
-    "min": "bula"
-  },
-  {
-    "en": "yes",
-    "min": "da"
-  },
-  {
-    "en": "no",
-    "min": "nu"
-  },
-  {
-    "en": "ok",
-    "min": "okay"
-  }
+  { en: "hello", min: "bello" }, { en: "goodbye", min: "poopaye" }, { en: "thank you", min: "bank yu" }, { en: "ok", min: "okay" }, { en: "sorry", min: "bi-do" },
+  { en: "light hello", min: "pika bello" }, { en: "light goodbye", min: "pika poopaye" }, { en: "light thank you", min: "pika bank yu" }, { en: "light ok", min: "pika okay" }, { en: "light sorry", min: "pika bi-do" },
+  { en: "dark hello", min: "po bello" }, { en: "dark goodbye", min: "po poopaye" }, { en: "dark thank you", min: "po bank yu" }, { en: "dark ok", min: "po okay" }, { en: "dark sorry", min: "po bi-do" },
+  { en: "bright hello", min: "bango bello" }, { en: "bright goodbye", min: "bango poopaye" }, { en: "bright thank you", min: "bango bank yu" }, { en: "bright ok", min: "bango okay" }, { en: "bright sorry", min: "bango bi-do" },
+  { en: "pale hello", min: "ti bello" }, { en: "pale goodbye", min: "ti poopaye" }, { en: "pale thank you", min: "ti bank yu" }, { en: "pale ok", min: "ti okay" }, { en: "pale sorry", min: "ti bi-do" },
+  { en: "deep hello", min: "pa bello" }, { en: "deep goodbye", min: "pa poopaye" }, { en: "deep thank you", min: "pa bank yu" }, { en: "deep ok", min: "pa okay" }, { en: "deep sorry", min: "pa bi-do" },
+  { en: "soft hello", min: "ki bello" }, { en: "soft goodbye", min: "ki poopaye" }, { en: "soft thank you", min: "ki bank yu" }, { en: "soft ok", min: "ki okay" }, { en: "soft sorry", min: "ki bi-do" },
+  { en: "dull hello", min: "bo bello" }, { en: "dull goodbye", min: "bo poopaye" }, { en: "dull thank you", min: "bo bank yu" }, { en: "dull ok", min: "bo okay" }, { en: "dull sorry", min: "bo bi-do" },
+  { en: "neon hello", min: "go bello" }, { en: "neon goodbye", min: "go poopaye" }, { en: "neon thank you", min: "go bank yu" }, { en: "neon ok", min: "go okay" }, { en: "neon sorry", min: "go bi-do" },
+  { en: "pastel hello", min: "ba bello" }, { en: "pastel goodbye", min: "ba poopaye" }, { en: "pastel thank you", min: "ba bank yu" }, { en: "pastel ok", min: "ba okay" }, { en: "pastel sorry", min: "ba bi-do" },
+  { en: "vibrant hello", min: "ta bello" }, { en: "vibrant goodbye", min: "ta poopaye" }, { en: "vibrant thank you", min: "ta bank yu" }, { en: "vibrant ok", min: "ta okay" }, { en: "vibrant sorry", min: "ta bi-do" },
+  { en: "shiny hello", min: "bi bello" }, { en: "shiny goodbye", min: "bi poopaye" }, { en: "shiny thank you", min: "bi bank yu" }, { en: "shiny ok", min: "bi okay" }, { en: "shiny sorry", min: "bi bi-do" },
+  { en: "matte hello", min: "no bello" }, { en: "matte goodbye", min: "no poopaye" }, { en: "matte thank you", min: "no bank yu" }, { en: "matte ok", min: "no okay" }, { en: "matte sorry", min: "no bi-do" },
+  { en: "glossy hello", min: "ni bello" }, { en: "glossy goodbye", min: "ni poopaye" }, { en: "glossy thank you", min: "ni bank yu" }, { en: "glossy ok", min: "ni okay" }, { en: "glossy sorry", min: "ni bi-do" },
+  { en: "warm hello", min: "ku bello" }, { en: "warm goodbye", min: "ku poopaye" }, { en: "warm thank you", min: "ku bank yu" }, { en: "warm ok", min: "ku okay" }, { en: "warm sorry", min: "ku bi-do" },
+  { en: "cool hello", min: "mu bello" }, { en: "cool goodbye", min: "mu poopaye" }, { en: "cool thank you", min: "mu bank yu" }, { en: "cool ok", min: "mu okay" }, { en: "cool sorry", min: "mu bi-do" },
+  { en: "rich hello", min: "se bello" }, { en: "rich goodbye", min: "se poopaye" }, { en: "rich thank you", min: "se bank yu" }, { en: "rich ok", min: "se okay" }, { en: "rich sorry", min: "se bi-do" },
+  { en: "faint hello", min: "du bello" }, { en: "faint goodbye", min: "du poopaye" }, { en: "faint thank you", min: "du bank yu" }, { en: "faint ok", min: "du okay" }, { en: "faint sorry", min: "du bi-do" },
+  { en: "pure hello", min: "vo bello" }, { en: "pure goodbye", min: "vo poopaye" }, { en: "pure thank you", min: "vo bank yu" }, { en: "pure ok", min: "vo okay" }, { en: "pure sorry", min: "vo bi-do" },
+  { en: "true hello", min: "au bello" }, { en: "true goodbye", min: "au poopaye" }, { en: "true thank you", min: "au bank yu" }, { en: "true ok", min: "au okay" }, { en: "true sorry", min: "au bi-do" },
+  { en: "classic hello", min: "so bello" }, { en: "classic goodbye", min: "so poopaye" }, { en: "classic thank you", min: "so bank yu" }, { en: "classic ok", min: "so okay" }, { en: "classic sorry", min: "so bi-do" },
+  { en: "royal hello", min: "mi bello" }, { en: "royal goodbye", min: "mi poopaye" }, { en: "royal thank you", min: "mi bank yu" }, { en: "royal ok", min: "mi okay" }, { en: "royal sorry", min: "mi bi-do" },
+  { en: "sky hello", min: "ma bello" }, { en: "sky goodbye", min: "ma poopaye" }, { en: "sky thank you", min: "ma bank yu" }, { en: "sky ok", min: "ma okay" }, { en: "sky sorry", min: "ma bi-do" },
+  { en: "forest hello", min: "te bello" }, { en: "forest goodbye", min: "te poopaye" }, { en: "forest thank you", min: "te bank yu" }, { en: "forest ok", min: "te okay" }, { en: "forest sorry", min: "te bi-do" },
+  { en: "sea hello", min: "la bello" }, { en: "sea goodbye", min: "la poopaye" }, { en: "sea thank you", min: "la bank yu" }, { en: "sea ok", min: "la okay" }, { en: "sea sorry", min: "la bi-do" },
+  { en: "wild hello", min: "da bello" }, { en: "wild goodbye", min: "da poopaye" }, { en: "wild thank you", min: "da bank yu" }, { en: "wild ok", min: "da okay" }, { en: "wild sorry", min: "da bi-do" },
+  { en: "sweet hello", min: "li bello" }, { en: "sweet goodbye", min: "li poopaye" }, { en: "sweet thank you", min: "li bank yu" }, { en: "sweet ok", min: "li okay" }, { en: "sweet sorry", min: "li bi-do" },
+  { en: "hot hello", min: "zo bello" }, { en: "hot goodbye", min: "zo poopaye" }, { en: "hot thank you", min: "zo bank yu" }, { en: "hot ok", min: "zo okay" }, { en: "hot sorry", min: "zo bi-do" },
+  { en: "cold hello", min: "ha bello" }, { en: "cold goodbye", min: "ha poopaye" }, { en: "cold thank you", min: "ha bank yu" }, { en: "cold ok", min: "ha okay" }, { en: "cold sorry", min: "ha bi-do" },
+  { en: "super hello", min: "to bello" }, { en: "super goodbye", min: "to poopaye" }, { en: "super thank you", min: "to bank yu" }, { en: "super ok", min: "to okay" }, { en: "super sorry", min: "to bi-do" },
 ];

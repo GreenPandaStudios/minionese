@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const places_town: DictionaryEntry[] = [
-  {
-    "en": "school",
-    "min": "escuela"
-  },
-  {
-    "en": "hospital",
-    "min": "hospi"
-  },
-  {
-    "en": "store",
-    "min": "tienda"
-  }
+  { en: "school", min: "escuela" }, { en: "hospital", min: "hospi" }, { en: "store", min: "tienda" }, { en: "bank", min: "banco" }, { en: "office", min: "oficina" },
+  { en: "light school", min: "pika escuela" }, { en: "light hospital", min: "pika hospi" }, { en: "light store", min: "pika tienda" }, { en: "light bank", min: "pika banco" }, { en: "light office", min: "pika oficina" },
+  { en: "dark school", min: "po escuela" }, { en: "dark hospital", min: "po hospi" }, { en: "dark store", min: "po tienda" }, { en: "dark bank", min: "po banco" }, { en: "dark office", min: "po oficina" },
+  { en: "bright school", min: "bango escuela" }, { en: "bright hospital", min: "bango hospi" }, { en: "bright store", min: "bango tienda" }, { en: "bright bank", min: "bango banco" }, { en: "bright office", min: "bango oficina" },
+  { en: "pale school", min: "ti escuela" }, { en: "pale hospital", min: "ti hospi" }, { en: "pale store", min: "ti tienda" }, { en: "pale bank", min: "ti banco" }, { en: "pale office", min: "ti oficina" },
+  { en: "deep school", min: "pa escuela" }, { en: "deep hospital", min: "pa hospi" }, { en: "deep store", min: "pa tienda" }, { en: "deep bank", min: "pa banco" }, { en: "deep office", min: "pa oficina" },
+  { en: "soft school", min: "ki escuela" }, { en: "soft hospital", min: "ki hospi" }, { en: "soft store", min: "ki tienda" }, { en: "soft bank", min: "ki banco" }, { en: "soft office", min: "ki oficina" },
+  { en: "dull school", min: "bo escuela" }, { en: "dull hospital", min: "bo hospi" }, { en: "dull store", min: "bo tienda" }, { en: "dull bank", min: "bo banco" }, { en: "dull office", min: "bo oficina" },
+  { en: "neon school", min: "go escuela" }, { en: "neon hospital", min: "go hospi" }, { en: "neon store", min: "go tienda" }, { en: "neon bank", min: "go banco" }, { en: "neon office", min: "go oficina" },
+  { en: "pastel school", min: "ba escuela" }, { en: "pastel hospital", min: "ba hospi" }, { en: "pastel store", min: "ba tienda" }, { en: "pastel bank", min: "ba banco" }, { en: "pastel office", min: "ba oficina" },
+  { en: "vibrant school", min: "ta escuela" }, { en: "vibrant hospital", min: "ta hospi" }, { en: "vibrant store", min: "ta tienda" }, { en: "vibrant bank", min: "ta banco" }, { en: "vibrant office", min: "ta oficina" },
+  { en: "shiny school", min: "bi escuela" }, { en: "shiny hospital", min: "bi hospi" }, { en: "shiny store", min: "bi tienda" }, { en: "shiny bank", min: "bi banco" }, { en: "shiny office", min: "bi oficina" },
+  { en: "matte school", min: "no escuela" }, { en: "matte hospital", min: "no hospi" }, { en: "matte store", min: "no tienda" }, { en: "matte bank", min: "no banco" }, { en: "matte office", min: "no oficina" },
+  { en: "glossy school", min: "ni escuela" }, { en: "glossy hospital", min: "ni hospi" }, { en: "glossy store", min: "ni tienda" }, { en: "glossy bank", min: "ni banco" }, { en: "glossy office", min: "ni oficina" },
+  { en: "warm school", min: "ku escuela" }, { en: "warm hospital", min: "ku hospi" }, { en: "warm store", min: "ku tienda" }, { en: "warm bank", min: "ku banco" }, { en: "warm office", min: "ku oficina" },
+  { en: "cool school", min: "mu escuela" }, { en: "cool hospital", min: "mu hospi" }, { en: "cool store", min: "mu tienda" }, { en: "cool bank", min: "mu banco" }, { en: "cool office", min: "mu oficina" },
+  { en: "rich school", min: "se escuela" }, { en: "rich hospital", min: "se hospi" }, { en: "rich store", min: "se tienda" }, { en: "rich bank", min: "se banco" }, { en: "rich office", min: "se oficina" },
+  { en: "faint school", min: "du escuela" }, { en: "faint hospital", min: "du hospi" }, { en: "faint store", min: "du tienda" }, { en: "faint bank", min: "du banco" }, { en: "faint office", min: "du oficina" },
+  { en: "pure school", min: "vo escuela" }, { en: "pure hospital", min: "vo hospi" }, { en: "pure store", min: "vo tienda" }, { en: "pure bank", min: "vo banco" }, { en: "pure office", min: "vo oficina" },
+  { en: "true school", min: "au escuela" }, { en: "true hospital", min: "au hospi" }, { en: "true store", min: "au tienda" }, { en: "true bank", min: "au banco" }, { en: "true office", min: "au oficina" },
+  { en: "classic school", min: "so escuela" }, { en: "classic hospital", min: "so hospi" }, { en: "classic store", min: "so tienda" }, { en: "classic bank", min: "so banco" }, { en: "classic office", min: "so oficina" },
+  { en: "royal school", min: "mi escuela" }, { en: "royal hospital", min: "mi hospi" }, { en: "royal store", min: "mi tienda" }, { en: "royal bank", min: "mi banco" }, { en: "royal office", min: "mi oficina" },
+  { en: "sky school", min: "ma escuela" }, { en: "sky hospital", min: "ma hospi" }, { en: "sky store", min: "ma tienda" }, { en: "sky bank", min: "ma banco" }, { en: "sky office", min: "ma oficina" },
+  { en: "forest school", min: "te escuela" }, { en: "forest hospital", min: "te hospi" }, { en: "forest store", min: "te tienda" }, { en: "forest bank", min: "te banco" }, { en: "forest office", min: "te oficina" },
+  { en: "sea school", min: "la escuela" }, { en: "sea hospital", min: "la hospi" }, { en: "sea store", min: "la tienda" }, { en: "sea bank", min: "la banco" }, { en: "sea office", min: "la oficina" },
+  { en: "wild school", min: "da escuela" }, { en: "wild hospital", min: "da hospi" }, { en: "wild store", min: "da tienda" }, { en: "wild bank", min: "da banco" }, { en: "wild office", min: "da oficina" },
+  { en: "sweet school", min: "li escuela" }, { en: "sweet hospital", min: "li hospi" }, { en: "sweet store", min: "li tienda" }, { en: "sweet bank", min: "li banco" }, { en: "sweet office", min: "li oficina" },
+  { en: "hot school", min: "zo escuela" }, { en: "hot hospital", min: "zo hospi" }, { en: "hot store", min: "zo tienda" }, { en: "hot bank", min: "zo banco" }, { en: "hot office", min: "zo oficina" },
+  { en: "cold school", min: "ha escuela" }, { en: "cold hospital", min: "ha hospi" }, { en: "cold store", min: "ha tienda" }, { en: "cold bank", min: "ha banco" }, { en: "cold office", min: "ha oficina" },
+  { en: "super school", min: "to escuela" }, { en: "super hospital", min: "to hospi" }, { en: "super store", min: "to tienda" }, { en: "super bank", min: "to banco" }, { en: "super office", min: "to oficina" },
 ];

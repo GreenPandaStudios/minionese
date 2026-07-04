@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const food_meal: DictionaryEntry[] = [
-  {
-    "en": "breakfast",
-    "min": "desayu"
-  },
-  {
-    "en": "lunch",
-    "min": "almu"
-  },
-  {
-    "en": "dinner",
-    "min": "cena"
-  },
-  {
-    "en": "food",
-    "min": "manga"
-  }
+  { en: "breakfast", min: "desayu" }, { en: "lunch", min: "almu" }, { en: "dinner", min: "cena" }, { en: "soup", min: "sopa" }, { en: "bread", min: "pan" },
+  { en: "light breakfast", min: "pika desayu" }, { en: "light lunch", min: "pika almu" }, { en: "light dinner", min: "pika cena" }, { en: "light soup", min: "pika sopa" }, { en: "light bread", min: "pika pan" },
+  { en: "dark breakfast", min: "po desayu" }, { en: "dark lunch", min: "po almu" }, { en: "dark dinner", min: "po cena" }, { en: "dark soup", min: "po sopa" }, { en: "dark bread", min: "po pan" },
+  { en: "bright breakfast", min: "bango desayu" }, { en: "bright lunch", min: "bango almu" }, { en: "bright dinner", min: "bango cena" }, { en: "bright soup", min: "bango sopa" }, { en: "bright bread", min: "bango pan" },
+  { en: "pale breakfast", min: "ti desayu" }, { en: "pale lunch", min: "ti almu" }, { en: "pale dinner", min: "ti cena" }, { en: "pale soup", min: "ti sopa" }, { en: "pale bread", min: "ti pan" },
+  { en: "deep breakfast", min: "pa desayu" }, { en: "deep lunch", min: "pa almu" }, { en: "deep dinner", min: "pa cena" }, { en: "deep soup", min: "pa sopa" }, { en: "deep bread", min: "pa pan" },
+  { en: "soft breakfast", min: "ki desayu" }, { en: "soft lunch", min: "ki almu" }, { en: "soft dinner", min: "ki cena" }, { en: "soft soup", min: "ki sopa" }, { en: "soft bread", min: "ki pan" },
+  { en: "dull breakfast", min: "bo desayu" }, { en: "dull lunch", min: "bo almu" }, { en: "dull dinner", min: "bo cena" }, { en: "dull soup", min: "bo sopa" }, { en: "dull bread", min: "bo pan" },
+  { en: "neon breakfast", min: "go desayu" }, { en: "neon lunch", min: "go almu" }, { en: "neon dinner", min: "go cena" }, { en: "neon soup", min: "go sopa" }, { en: "neon bread", min: "go pan" },
+  { en: "pastel breakfast", min: "ba desayu" }, { en: "pastel lunch", min: "ba almu" }, { en: "pastel dinner", min: "ba cena" }, { en: "pastel soup", min: "ba sopa" }, { en: "pastel bread", min: "ba pan" },
+  { en: "vibrant breakfast", min: "ta desayu" }, { en: "vibrant lunch", min: "ta almu" }, { en: "vibrant dinner", min: "ta cena" }, { en: "vibrant soup", min: "ta sopa" }, { en: "vibrant bread", min: "ta pan" },
+  { en: "shiny breakfast", min: "bi desayu" }, { en: "shiny lunch", min: "bi almu" }, { en: "shiny dinner", min: "bi cena" }, { en: "shiny soup", min: "bi sopa" }, { en: "shiny bread", min: "bi pan" },
+  { en: "matte breakfast", min: "no desayu" }, { en: "matte lunch", min: "no almu" }, { en: "matte dinner", min: "no cena" }, { en: "matte soup", min: "no sopa" }, { en: "matte bread", min: "no pan" },
+  { en: "glossy breakfast", min: "ni desayu" }, { en: "glossy lunch", min: "ni almu" }, { en: "glossy dinner", min: "ni cena" }, { en: "glossy soup", min: "ni sopa" }, { en: "glossy bread", min: "ni pan" },
+  { en: "warm breakfast", min: "ku desayu" }, { en: "warm lunch", min: "ku almu" }, { en: "warm dinner", min: "ku cena" }, { en: "warm soup", min: "ku sopa" }, { en: "warm bread", min: "ku pan" },
+  { en: "cool breakfast", min: "mu desayu" }, { en: "cool lunch", min: "mu almu" }, { en: "cool dinner", min: "mu cena" }, { en: "cool soup", min: "mu sopa" }, { en: "cool bread", min: "mu pan" },
+  { en: "rich breakfast", min: "se desayu" }, { en: "rich lunch", min: "se almu" }, { en: "rich dinner", min: "se cena" }, { en: "rich soup", min: "se sopa" }, { en: "rich bread", min: "se pan" },
+  { en: "faint breakfast", min: "du desayu" }, { en: "faint lunch", min: "du almu" }, { en: "faint dinner", min: "du cena" }, { en: "faint soup", min: "du sopa" }, { en: "faint bread", min: "du pan" },
+  { en: "pure breakfast", min: "vo desayu" }, { en: "pure lunch", min: "vo almu" }, { en: "pure dinner", min: "vo cena" }, { en: "pure soup", min: "vo sopa" }, { en: "pure bread", min: "vo pan" },
+  { en: "true breakfast", min: "au desayu" }, { en: "true lunch", min: "au almu" }, { en: "true dinner", min: "au cena" }, { en: "true soup", min: "au sopa" }, { en: "true bread", min: "au pan" },
+  { en: "classic breakfast", min: "so desayu" }, { en: "classic lunch", min: "so almu" }, { en: "classic dinner", min: "so cena" }, { en: "classic soup", min: "so sopa" }, { en: "classic bread", min: "so pan" },
+  { en: "royal breakfast", min: "mi desayu" }, { en: "royal lunch", min: "mi almu" }, { en: "royal dinner", min: "mi cena" }, { en: "royal soup", min: "mi sopa" }, { en: "royal bread", min: "mi pan" },
+  { en: "sky breakfast", min: "ma desayu" }, { en: "sky lunch", min: "ma almu" }, { en: "sky dinner", min: "ma cena" }, { en: "sky soup", min: "ma sopa" }, { en: "sky bread", min: "ma pan" },
+  { en: "forest breakfast", min: "te desayu" }, { en: "forest lunch", min: "te almu" }, { en: "forest dinner", min: "te cena" }, { en: "forest soup", min: "te sopa" }, { en: "forest bread", min: "te pan" },
+  { en: "sea breakfast", min: "la desayu" }, { en: "sea lunch", min: "la almu" }, { en: "sea dinner", min: "la cena" }, { en: "sea soup", min: "la sopa" }, { en: "sea bread", min: "la pan" },
+  { en: "wild breakfast", min: "da desayu" }, { en: "wild lunch", min: "da almu" }, { en: "wild dinner", min: "da cena" }, { en: "wild soup", min: "da sopa" }, { en: "wild bread", min: "da pan" },
+  { en: "sweet breakfast", min: "li desayu" }, { en: "sweet lunch", min: "li almu" }, { en: "sweet dinner", min: "li cena" }, { en: "sweet soup", min: "li sopa" }, { en: "sweet bread", min: "li pan" },
+  { en: "hot breakfast", min: "zo desayu" }, { en: "hot lunch", min: "zo almu" }, { en: "hot dinner", min: "zo cena" }, { en: "hot soup", min: "zo sopa" }, { en: "hot bread", min: "zo pan" },
+  { en: "cold breakfast", min: "ha desayu" }, { en: "cold lunch", min: "ha almu" }, { en: "cold dinner", min: "ha cena" }, { en: "cold soup", min: "ha sopa" }, { en: "cold bread", min: "ha pan" },
+  { en: "super breakfast", min: "to desayu" }, { en: "super lunch", min: "to almu" }, { en: "super dinner", min: "to cena" }, { en: "super soup", min: "to sopa" }, { en: "super bread", min: "to pan" },
 ];

@@ -1,24 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const verbs_communication: DictionaryEntry[] = [
-  {
-    "en": "speak",
-    "min": "boka"
-  },
-  {
-    "en": "say",
-    "min": "toka"
-  },
-  {
-    "en": "tell",
-    "min": "dorry"
-  },
-  {
-    "en": "ask",
-    "min": "poka"
-  },
-  {
-    "en": "call",
-    "min": "krilla"
-  }
+  { en: "speak", min: "boka" }, { en: "say", min: "toka" }, { en: "tell", min: "dorry" }, { en: "ask", min: "poka" }, { en: "call", min: "krilla" },
+  { en: "light speak", min: "pika boka" }, { en: "light say", min: "pika toka" }, { en: "light tell", min: "pika dorry" }, { en: "light ask", min: "pika poka" }, { en: "light call", min: "pika krilla" },
+  { en: "dark speak", min: "po boka" }, { en: "dark say", min: "po toka" }, { en: "dark tell", min: "po dorry" }, { en: "dark ask", min: "po poka" }, { en: "dark call", min: "po krilla" },
+  { en: "bright speak", min: "bango boka" }, { en: "bright say", min: "bango toka" }, { en: "bright tell", min: "bango dorry" }, { en: "bright ask", min: "bango poka" }, { en: "bright call", min: "bango krilla" },
+  { en: "pale speak", min: "ti boka" }, { en: "pale say", min: "ti toka" }, { en: "pale tell", min: "ti dorry" }, { en: "pale ask", min: "ti poka" }, { en: "pale call", min: "ti krilla" },
+  { en: "deep speak", min: "pa boka" }, { en: "deep say", min: "pa toka" }, { en: "deep tell", min: "pa dorry" }, { en: "deep ask", min: "pa poka" }, { en: "deep call", min: "pa krilla" },
+  { en: "soft speak", min: "ki boka" }, { en: "soft say", min: "ki toka" }, { en: "soft tell", min: "ki dorry" }, { en: "soft ask", min: "ki poka" }, { en: "soft call", min: "ki krilla" },
+  { en: "dull speak", min: "bo boka" }, { en: "dull say", min: "bo toka" }, { en: "dull tell", min: "bo dorry" }, { en: "dull ask", min: "bo poka" }, { en: "dull call", min: "bo krilla" },
+  { en: "neon speak", min: "go boka" }, { en: "neon say", min: "go toka" }, { en: "neon tell", min: "go dorry" }, { en: "neon ask", min: "go poka" }, { en: "neon call", min: "go krilla" },
+  { en: "pastel speak", min: "ba boka" }, { en: "pastel say", min: "ba toka" }, { en: "pastel tell", min: "ba dorry" }, { en: "pastel ask", min: "ba poka" }, { en: "pastel call", min: "ba krilla" },
+  { en: "vibrant speak", min: "ta boka" }, { en: "vibrant say", min: "ta toka" }, { en: "vibrant tell", min: "ta dorry" }, { en: "vibrant ask", min: "ta poka" }, { en: "vibrant call", min: "ta krilla" },
+  { en: "shiny speak", min: "bi boka" }, { en: "shiny say", min: "bi toka" }, { en: "shiny tell", min: "bi dorry" }, { en: "shiny ask", min: "bi poka" }, { en: "shiny call", min: "bi krilla" },
+  { en: "matte speak", min: "no boka" }, { en: "matte say", min: "no toka" }, { en: "matte tell", min: "no dorry" }, { en: "matte ask", min: "no poka" }, { en: "matte call", min: "no krilla" },
+  { en: "glossy speak", min: "ni boka" }, { en: "glossy say", min: "ni toka" }, { en: "glossy tell", min: "ni dorry" }, { en: "glossy ask", min: "ni poka" }, { en: "glossy call", min: "ni krilla" },
+  { en: "warm speak", min: "ku boka" }, { en: "warm say", min: "ku toka" }, { en: "warm tell", min: "ku dorry" }, { en: "warm ask", min: "ku poka" }, { en: "warm call", min: "ku krilla" },
+  { en: "cool speak", min: "mu boka" }, { en: "cool say", min: "mu toka" }, { en: "cool tell", min: "mu dorry" }, { en: "cool ask", min: "mu poka" }, { en: "cool call", min: "mu krilla" },
+  { en: "rich speak", min: "se boka" }, { en: "rich say", min: "se toka" }, { en: "rich tell", min: "se dorry" }, { en: "rich ask", min: "se poka" }, { en: "rich call", min: "se krilla" },
+  { en: "faint speak", min: "du boka" }, { en: "faint say", min: "du toka" }, { en: "faint tell", min: "du dorry" }, { en: "faint ask", min: "du poka" }, { en: "faint call", min: "du krilla" },
+  { en: "pure speak", min: "vo boka" }, { en: "pure say", min: "vo toka" }, { en: "pure tell", min: "vo dorry" }, { en: "pure ask", min: "vo poka" }, { en: "pure call", min: "vo krilla" },
+  { en: "true speak", min: "au boka" }, { en: "true say", min: "au toka" }, { en: "true tell", min: "au dorry" }, { en: "true ask", min: "au poka" }, { en: "true call", min: "au krilla" },
+  { en: "classic speak", min: "so boka" }, { en: "classic say", min: "so toka" }, { en: "classic tell", min: "so dorry" }, { en: "classic ask", min: "so poka" }, { en: "classic call", min: "so krilla" },
+  { en: "royal speak", min: "mi boka" }, { en: "royal say", min: "mi toka" }, { en: "royal tell", min: "mi dorry" }, { en: "royal ask", min: "mi poka" }, { en: "royal call", min: "mi krilla" },
+  { en: "sky speak", min: "ma boka" }, { en: "sky say", min: "ma toka" }, { en: "sky tell", min: "ma dorry" }, { en: "sky ask", min: "ma poka" }, { en: "sky call", min: "ma krilla" },
+  { en: "forest speak", min: "te boka" }, { en: "forest say", min: "te toka" }, { en: "forest tell", min: "te dorry" }, { en: "forest ask", min: "te poka" }, { en: "forest call", min: "te krilla" },
+  { en: "sea speak", min: "la boka" }, { en: "sea say", min: "la toka" }, { en: "sea tell", min: "la dorry" }, { en: "sea ask", min: "la poka" }, { en: "sea call", min: "la krilla" },
+  { en: "wild speak", min: "da boka" }, { en: "wild say", min: "da toka" }, { en: "wild tell", min: "da dorry" }, { en: "wild ask", min: "da poka" }, { en: "wild call", min: "da krilla" },
+  { en: "sweet speak", min: "li boka" }, { en: "sweet say", min: "li toka" }, { en: "sweet tell", min: "li dorry" }, { en: "sweet ask", min: "li poka" }, { en: "sweet call", min: "li krilla" },
+  { en: "hot speak", min: "zo boka" }, { en: "hot say", min: "zo toka" }, { en: "hot tell", min: "zo dorry" }, { en: "hot ask", min: "zo poka" }, { en: "hot call", min: "zo krilla" },
+  { en: "cold speak", min: "ha boka" }, { en: "cold say", min: "ha toka" }, { en: "cold tell", min: "ha dorry" }, { en: "cold ask", min: "ha poka" }, { en: "cold call", min: "ha krilla" },
+  { en: "super speak", min: "to boka" }, { en: "super say", min: "to toka" }, { en: "super tell", min: "to dorry" }, { en: "super ask", min: "to poka" }, { en: "super call", min: "to krilla" },
 ];

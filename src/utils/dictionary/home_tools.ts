@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const home_tools: DictionaryEntry[] = [
-  {
-    "en": "hammer",
-    "min": "palu"
-  },
-  {
-    "en": "saw",
-    "min": "sierra"
-  },
-  {
-    "en": "key",
-    "min": "llave"
-  }
+  { en: "hammer", min: "palu" }, { en: "saw", min: "sierra" }, { en: "key", min: "llave" }, { en: "drill", min: "perfo" }, { en: "screw", min: "tuerca" },
+  { en: "light hammer", min: "pika palu" }, { en: "light saw", min: "pika sierra" }, { en: "light key", min: "pika llave" }, { en: "light drill", min: "pika perfo" }, { en: "light screw", min: "pika tuerca" },
+  { en: "dark hammer", min: "po palu" }, { en: "dark saw", min: "po sierra" }, { en: "dark key", min: "po llave" }, { en: "dark drill", min: "po perfo" }, { en: "dark screw", min: "po tuerca" },
+  { en: "bright hammer", min: "bango palu" }, { en: "bright saw", min: "bango sierra" }, { en: "bright key", min: "bango llave" }, { en: "bright drill", min: "bango perfo" }, { en: "bright screw", min: "bango tuerca" },
+  { en: "pale hammer", min: "ti palu" }, { en: "pale saw", min: "ti sierra" }, { en: "pale key", min: "ti llave" }, { en: "pale drill", min: "ti perfo" }, { en: "pale screw", min: "ti tuerca" },
+  { en: "deep hammer", min: "pa palu" }, { en: "deep saw", min: "pa sierra" }, { en: "deep key", min: "pa llave" }, { en: "deep drill", min: "pa perfo" }, { en: "deep screw", min: "pa tuerca" },
+  { en: "soft hammer", min: "ki palu" }, { en: "soft saw", min: "ki sierra" }, { en: "soft key", min: "ki llave" }, { en: "soft drill", min: "ki perfo" }, { en: "soft screw", min: "ki tuerca" },
+  { en: "dull hammer", min: "bo palu" }, { en: "dull saw", min: "bo sierra" }, { en: "dull key", min: "bo llave" }, { en: "dull drill", min: "bo perfo" }, { en: "dull screw", min: "bo tuerca" },
+  { en: "neon hammer", min: "go palu" }, { en: "neon saw", min: "go sierra" }, { en: "neon key", min: "go llave" }, { en: "neon drill", min: "go perfo" }, { en: "neon screw", min: "go tuerca" },
+  { en: "pastel hammer", min: "ba palu" }, { en: "pastel saw", min: "ba sierra" }, { en: "pastel key", min: "ba llave" }, { en: "pastel drill", min: "ba perfo" }, { en: "pastel screw", min: "ba tuerca" },
+  { en: "vibrant hammer", min: "ta palu" }, { en: "vibrant saw", min: "ta sierra" }, { en: "vibrant key", min: "ta llave" }, { en: "vibrant drill", min: "ta perfo" }, { en: "vibrant screw", min: "ta tuerca" },
+  { en: "shiny hammer", min: "bi palu" }, { en: "shiny saw", min: "bi sierra" }, { en: "shiny key", min: "bi llave" }, { en: "shiny drill", min: "bi perfo" }, { en: "shiny screw", min: "bi tuerca" },
+  { en: "matte hammer", min: "no palu" }, { en: "matte saw", min: "no sierra" }, { en: "matte key", min: "no llave" }, { en: "matte drill", min: "no perfo" }, { en: "matte screw", min: "no tuerca" },
+  { en: "glossy hammer", min: "ni palu" }, { en: "glossy saw", min: "ni sierra" }, { en: "glossy key", min: "ni llave" }, { en: "glossy drill", min: "ni perfo" }, { en: "glossy screw", min: "ni tuerca" },
+  { en: "warm hammer", min: "ku palu" }, { en: "warm saw", min: "ku sierra" }, { en: "warm key", min: "ku llave" }, { en: "warm drill", min: "ku perfo" }, { en: "warm screw", min: "ku tuerca" },
+  { en: "cool hammer", min: "mu palu" }, { en: "cool saw", min: "mu sierra" }, { en: "cool key", min: "mu llave" }, { en: "cool drill", min: "mu perfo" }, { en: "cool screw", min: "mu tuerca" },
+  { en: "rich hammer", min: "se palu" }, { en: "rich saw", min: "se sierra" }, { en: "rich key", min: "se llave" }, { en: "rich drill", min: "se perfo" }, { en: "rich screw", min: "se tuerca" },
+  { en: "faint hammer", min: "du palu" }, { en: "faint saw", min: "du sierra" }, { en: "faint key", min: "du llave" }, { en: "faint drill", min: "du perfo" }, { en: "faint screw", min: "du tuerca" },
+  { en: "pure hammer", min: "vo palu" }, { en: "pure saw", min: "vo sierra" }, { en: "pure key", min: "vo llave" }, { en: "pure drill", min: "vo perfo" }, { en: "pure screw", min: "vo tuerca" },
+  { en: "true hammer", min: "au palu" }, { en: "true saw", min: "au sierra" }, { en: "true key", min: "au llave" }, { en: "true drill", min: "au perfo" }, { en: "true screw", min: "au tuerca" },
+  { en: "classic hammer", min: "so palu" }, { en: "classic saw", min: "so sierra" }, { en: "classic key", min: "so llave" }, { en: "classic drill", min: "so perfo" }, { en: "classic screw", min: "so tuerca" },
+  { en: "royal hammer", min: "mi palu" }, { en: "royal saw", min: "mi sierra" }, { en: "royal key", min: "mi llave" }, { en: "royal drill", min: "mi perfo" }, { en: "royal screw", min: "mi tuerca" },
+  { en: "sky hammer", min: "ma palu" }, { en: "sky saw", min: "ma sierra" }, { en: "sky key", min: "ma llave" }, { en: "sky drill", min: "ma perfo" }, { en: "sky screw", min: "ma tuerca" },
+  { en: "forest hammer", min: "te palu" }, { en: "forest saw", min: "te sierra" }, { en: "forest key", min: "te llave" }, { en: "forest drill", min: "te perfo" }, { en: "forest screw", min: "te tuerca" },
+  { en: "sea hammer", min: "la palu" }, { en: "sea saw", min: "la sierra" }, { en: "sea key", min: "la llave" }, { en: "sea drill", min: "la perfo" }, { en: "sea screw", min: "la tuerca" },
+  { en: "wild hammer", min: "da palu" }, { en: "wild saw", min: "da sierra" }, { en: "wild key", min: "da llave" }, { en: "wild drill", min: "da perfo" }, { en: "wild screw", min: "da tuerca" },
+  { en: "sweet hammer", min: "li palu" }, { en: "sweet saw", min: "li sierra" }, { en: "sweet key", min: "li llave" }, { en: "sweet drill", min: "li perfo" }, { en: "sweet screw", min: "li tuerca" },
+  { en: "hot hammer", min: "zo palu" }, { en: "hot saw", min: "zo sierra" }, { en: "hot key", min: "zo llave" }, { en: "hot drill", min: "zo perfo" }, { en: "hot screw", min: "zo tuerca" },
+  { en: "cold hammer", min: "ha palu" }, { en: "cold saw", min: "ha sierra" }, { en: "cold key", min: "ha llave" }, { en: "cold drill", min: "ha perfo" }, { en: "cold screw", min: "ha tuerca" },
+  { en: "super hammer", min: "to palu" }, { en: "super saw", min: "to sierra" }, { en: "super key", min: "to llave" }, { en: "super drill", min: "to perfo" }, { en: "super screw", min: "to tuerca" },
 ];

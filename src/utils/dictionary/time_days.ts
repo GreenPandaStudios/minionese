@@ -1,24 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const time_days: DictionaryEntry[] = [
-  {
-    "en": "monday",
-    "min": "luni"
-  },
-  {
-    "en": "tuesday",
-    "min": "marti"
-  },
-  {
-    "en": "wednesday",
-    "min": "mierco"
-  },
-  {
-    "en": "thursday",
-    "min": "juevi"
-  },
-  {
-    "en": "friday",
-    "min": "vierni"
-  }
+  { en: "monday", min: "luni" }, { en: "tuesday", min: "marti" }, { en: "wednesday", min: "mierco" }, { en: "thursday", min: "juevi" }, { en: "friday", min: "vierni" },
+  { en: "light monday", min: "pika luni" }, { en: "light tuesday", min: "pika marti" }, { en: "light wednesday", min: "pika mierco" }, { en: "light thursday", min: "pika juevi" }, { en: "light friday", min: "pika vierni" },
+  { en: "dark monday", min: "po luni" }, { en: "dark tuesday", min: "po marti" }, { en: "dark wednesday", min: "po mierco" }, { en: "dark thursday", min: "po juevi" }, { en: "dark friday", min: "po vierni" },
+  { en: "bright monday", min: "bango luni" }, { en: "bright tuesday", min: "bango marti" }, { en: "bright wednesday", min: "bango mierco" }, { en: "bright thursday", min: "bango juevi" }, { en: "bright friday", min: "bango vierni" },
+  { en: "pale monday", min: "ti luni" }, { en: "pale tuesday", min: "ti marti" }, { en: "pale wednesday", min: "ti mierco" }, { en: "pale thursday", min: "ti juevi" }, { en: "pale friday", min: "ti vierni" },
+  { en: "deep monday", min: "pa luni" }, { en: "deep tuesday", min: "pa marti" }, { en: "deep wednesday", min: "pa mierco" }, { en: "deep thursday", min: "pa juevi" }, { en: "deep friday", min: "pa vierni" },
+  { en: "soft monday", min: "ki luni" }, { en: "soft tuesday", min: "ki marti" }, { en: "soft wednesday", min: "ki mierco" }, { en: "soft thursday", min: "ki juevi" }, { en: "soft friday", min: "ki vierni" },
+  { en: "dull monday", min: "bo luni" }, { en: "dull tuesday", min: "bo marti" }, { en: "dull wednesday", min: "bo mierco" }, { en: "dull thursday", min: "bo juevi" }, { en: "dull friday", min: "bo vierni" },
+  { en: "neon monday", min: "go luni" }, { en: "neon tuesday", min: "go marti" }, { en: "neon wednesday", min: "go mierco" }, { en: "neon thursday", min: "go juevi" }, { en: "neon friday", min: "go vierni" },
+  { en: "pastel monday", min: "ba luni" }, { en: "pastel tuesday", min: "ba marti" }, { en: "pastel wednesday", min: "ba mierco" }, { en: "pastel thursday", min: "ba juevi" }, { en: "pastel friday", min: "ba vierni" },
+  { en: "vibrant monday", min: "ta luni" }, { en: "vibrant tuesday", min: "ta marti" }, { en: "vibrant wednesday", min: "ta mierco" }, { en: "vibrant thursday", min: "ta juevi" }, { en: "vibrant friday", min: "ta vierni" },
+  { en: "shiny monday", min: "bi luni" }, { en: "shiny tuesday", min: "bi marti" }, { en: "shiny wednesday", min: "bi mierco" }, { en: "shiny thursday", min: "bi juevi" }, { en: "shiny friday", min: "bi vierni" },
+  { en: "matte monday", min: "no luni" }, { en: "matte tuesday", min: "no marti" }, { en: "matte wednesday", min: "no mierco" }, { en: "matte thursday", min: "no juevi" }, { en: "matte friday", min: "no vierni" },
+  { en: "glossy monday", min: "ni luni" }, { en: "glossy tuesday", min: "ni marti" }, { en: "glossy wednesday", min: "ni mierco" }, { en: "glossy thursday", min: "ni juevi" }, { en: "glossy friday", min: "ni vierni" },
+  { en: "warm monday", min: "ku luni" }, { en: "warm tuesday", min: "ku marti" }, { en: "warm wednesday", min: "ku mierco" }, { en: "warm thursday", min: "ku juevi" }, { en: "warm friday", min: "ku vierni" },
+  { en: "cool monday", min: "mu luni" }, { en: "cool tuesday", min: "mu marti" }, { en: "cool wednesday", min: "mu mierco" }, { en: "cool thursday", min: "mu juevi" }, { en: "cool friday", min: "mu vierni" },
+  { en: "rich monday", min: "se luni" }, { en: "rich tuesday", min: "se marti" }, { en: "rich wednesday", min: "se mierco" }, { en: "rich thursday", min: "se juevi" }, { en: "rich friday", min: "se vierni" },
+  { en: "faint monday", min: "du luni" }, { en: "faint tuesday", min: "du marti" }, { en: "faint wednesday", min: "du mierco" }, { en: "faint thursday", min: "du juevi" }, { en: "faint friday", min: "du vierni" },
+  { en: "pure monday", min: "vo luni" }, { en: "pure tuesday", min: "vo marti" }, { en: "pure wednesday", min: "vo mierco" }, { en: "pure thursday", min: "vo juevi" }, { en: "pure friday", min: "vo vierni" },
+  { en: "true monday", min: "au luni" }, { en: "true tuesday", min: "au marti" }, { en: "true wednesday", min: "au mierco" }, { en: "true thursday", min: "au juevi" }, { en: "true friday", min: "au vierni" },
+  { en: "classic monday", min: "so luni" }, { en: "classic tuesday", min: "so marti" }, { en: "classic wednesday", min: "so mierco" }, { en: "classic thursday", min: "so juevi" }, { en: "classic friday", min: "so vierni" },
+  { en: "royal monday", min: "mi luni" }, { en: "royal tuesday", min: "mi marti" }, { en: "royal wednesday", min: "mi mierco" }, { en: "royal thursday", min: "mi juevi" }, { en: "royal friday", min: "mi vierni" },
+  { en: "sky monday", min: "ma luni" }, { en: "sky tuesday", min: "ma marti" }, { en: "sky wednesday", min: "ma mierco" }, { en: "sky thursday", min: "ma juevi" }, { en: "sky friday", min: "ma vierni" },
+  { en: "forest monday", min: "te luni" }, { en: "forest tuesday", min: "te marti" }, { en: "forest wednesday", min: "te mierco" }, { en: "forest thursday", min: "te juevi" }, { en: "forest friday", min: "te vierni" },
+  { en: "sea monday", min: "la luni" }, { en: "sea tuesday", min: "la marti" }, { en: "sea wednesday", min: "la mierco" }, { en: "sea thursday", min: "la juevi" }, { en: "sea friday", min: "la vierni" },
+  { en: "wild monday", min: "da luni" }, { en: "wild tuesday", min: "da marti" }, { en: "wild wednesday", min: "da mierco" }, { en: "wild thursday", min: "da juevi" }, { en: "wild friday", min: "da vierni" },
+  { en: "sweet monday", min: "li luni" }, { en: "sweet tuesday", min: "li marti" }, { en: "sweet wednesday", min: "li mierco" }, { en: "sweet thursday", min: "li juevi" }, { en: "sweet friday", min: "li vierni" },
+  { en: "hot monday", min: "zo luni" }, { en: "hot tuesday", min: "zo marti" }, { en: "hot wednesday", min: "zo mierco" }, { en: "hot thursday", min: "zo juevi" }, { en: "hot friday", min: "zo vierni" },
+  { en: "cold monday", min: "ha luni" }, { en: "cold tuesday", min: "ha marti" }, { en: "cold wednesday", min: "ha mierco" }, { en: "cold thursday", min: "ha juevi" }, { en: "cold friday", min: "ha vierni" },
+  { en: "super monday", min: "to luni" }, { en: "super tuesday", min: "to marti" }, { en: "super wednesday", min: "to mierco" }, { en: "super thursday", min: "to juevi" }, { en: "super friday", min: "to vierni" },
 ];

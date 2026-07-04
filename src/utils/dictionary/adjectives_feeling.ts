@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const adjectives_feeling: DictionaryEntry[] = [
-  {
-    "en": "happy",
-    "min": "alegre"
-  },
-  {
-    "en": "sad",
-    "min": "triste"
-  },
-  {
-    "en": "angry",
-    "min": "enojo"
-  }
+  { en: "happy", min: "alegre" }, { en: "sad", min: "triste" }, { en: "angry", min: "enojo" }, { en: "scared", min: "susto" }, { en: "tired", min: "cansado" },
+  { en: "light happy", min: "pika alegre" }, { en: "light sad", min: "pika triste" }, { en: "light angry", min: "pika enojo" }, { en: "light scared", min: "pika susto" }, { en: "light tired", min: "pika cansado" },
+  { en: "dark happy", min: "po alegre" }, { en: "dark sad", min: "po triste" }, { en: "dark angry", min: "po enojo" }, { en: "dark scared", min: "po susto" }, { en: "dark tired", min: "po cansado" },
+  { en: "bright happy", min: "bango alegre" }, { en: "bright sad", min: "bango triste" }, { en: "bright angry", min: "bango enojo" }, { en: "bright scared", min: "bango susto" }, { en: "bright tired", min: "bango cansado" },
+  { en: "pale happy", min: "ti alegre" }, { en: "pale sad", min: "ti triste" }, { en: "pale angry", min: "ti enojo" }, { en: "pale scared", min: "ti susto" }, { en: "pale tired", min: "ti cansado" },
+  { en: "deep happy", min: "pa alegre" }, { en: "deep sad", min: "pa triste" }, { en: "deep angry", min: "pa enojo" }, { en: "deep scared", min: "pa susto" }, { en: "deep tired", min: "pa cansado" },
+  { en: "soft happy", min: "ki alegre" }, { en: "soft sad", min: "ki triste" }, { en: "soft angry", min: "ki enojo" }, { en: "soft scared", min: "ki susto" }, { en: "soft tired", min: "ki cansado" },
+  { en: "dull happy", min: "bo alegre" }, { en: "dull sad", min: "bo triste" }, { en: "dull angry", min: "bo enojo" }, { en: "dull scared", min: "bo susto" }, { en: "dull tired", min: "bo cansado" },
+  { en: "neon happy", min: "go alegre" }, { en: "neon sad", min: "go triste" }, { en: "neon angry", min: "go enojo" }, { en: "neon scared", min: "go susto" }, { en: "neon tired", min: "go cansado" },
+  { en: "pastel happy", min: "ba alegre" }, { en: "pastel sad", min: "ba triste" }, { en: "pastel angry", min: "ba enojo" }, { en: "pastel scared", min: "ba susto" }, { en: "pastel tired", min: "ba cansado" },
+  { en: "vibrant happy", min: "ta alegre" }, { en: "vibrant sad", min: "ta triste" }, { en: "vibrant angry", min: "ta enojo" }, { en: "vibrant scared", min: "ta susto" }, { en: "vibrant tired", min: "ta cansado" },
+  { en: "shiny happy", min: "bi alegre" }, { en: "shiny sad", min: "bi triste" }, { en: "shiny angry", min: "bi enojo" }, { en: "shiny scared", min: "bi susto" }, { en: "shiny tired", min: "bi cansado" },
+  { en: "matte happy", min: "no alegre" }, { en: "matte sad", min: "no triste" }, { en: "matte angry", min: "no enojo" }, { en: "matte scared", min: "no susto" }, { en: "matte tired", min: "no cansado" },
+  { en: "glossy happy", min: "ni alegre" }, { en: "glossy sad", min: "ni triste" }, { en: "glossy angry", min: "ni enojo" }, { en: "glossy scared", min: "ni susto" }, { en: "glossy tired", min: "ni cansado" },
+  { en: "warm happy", min: "ku alegre" }, { en: "warm sad", min: "ku triste" }, { en: "warm angry", min: "ku enojo" }, { en: "warm scared", min: "ku susto" }, { en: "warm tired", min: "ku cansado" },
+  { en: "cool happy", min: "mu alegre" }, { en: "cool sad", min: "mu triste" }, { en: "cool angry", min: "mu enojo" }, { en: "cool scared", min: "mu susto" }, { en: "cool tired", min: "mu cansado" },
+  { en: "rich happy", min: "se alegre" }, { en: "rich sad", min: "se triste" }, { en: "rich angry", min: "se enojo" }, { en: "rich scared", min: "se susto" }, { en: "rich tired", min: "se cansado" },
+  { en: "faint happy", min: "du alegre" }, { en: "faint sad", min: "du triste" }, { en: "faint angry", min: "du enojo" }, { en: "faint scared", min: "du susto" }, { en: "faint tired", min: "du cansado" },
+  { en: "pure happy", min: "vo alegre" }, { en: "pure sad", min: "vo triste" }, { en: "pure angry", min: "vo enojo" }, { en: "pure scared", min: "vo susto" }, { en: "pure tired", min: "vo cansado" },
+  { en: "true happy", min: "au alegre" }, { en: "true sad", min: "au triste" }, { en: "true angry", min: "au enojo" }, { en: "true scared", min: "au susto" }, { en: "true tired", min: "au cansado" },
+  { en: "classic happy", min: "so alegre" }, { en: "classic sad", min: "so triste" }, { en: "classic angry", min: "so enojo" }, { en: "classic scared", min: "so susto" }, { en: "classic tired", min: "so cansado" },
+  { en: "royal happy", min: "mi alegre" }, { en: "royal sad", min: "mi triste" }, { en: "royal angry", min: "mi enojo" }, { en: "royal scared", min: "mi susto" }, { en: "royal tired", min: "mi cansado" },
+  { en: "sky happy", min: "ma alegre" }, { en: "sky sad", min: "ma triste" }, { en: "sky angry", min: "ma enojo" }, { en: "sky scared", min: "ma susto" }, { en: "sky tired", min: "ma cansado" },
+  { en: "forest happy", min: "te alegre" }, { en: "forest sad", min: "te triste" }, { en: "forest angry", min: "te enojo" }, { en: "forest scared", min: "te susto" }, { en: "forest tired", min: "te cansado" },
+  { en: "sea happy", min: "la alegre" }, { en: "sea sad", min: "la triste" }, { en: "sea angry", min: "la enojo" }, { en: "sea scared", min: "la susto" }, { en: "sea tired", min: "la cansado" },
+  { en: "wild happy", min: "da alegre" }, { en: "wild sad", min: "da triste" }, { en: "wild angry", min: "da enojo" }, { en: "wild scared", min: "da susto" }, { en: "wild tired", min: "da cansado" },
+  { en: "sweet happy", min: "li alegre" }, { en: "sweet sad", min: "li triste" }, { en: "sweet angry", min: "li enojo" }, { en: "sweet scared", min: "li susto" }, { en: "sweet tired", min: "li cansado" },
+  { en: "hot happy", min: "zo alegre" }, { en: "hot sad", min: "zo triste" }, { en: "hot angry", min: "zo enojo" }, { en: "hot scared", min: "zo susto" }, { en: "hot tired", min: "zo cansado" },
+  { en: "cold happy", min: "ha alegre" }, { en: "cold sad", min: "ha triste" }, { en: "cold angry", min: "ha enojo" }, { en: "cold scared", min: "ha susto" }, { en: "cold tired", min: "ha cansado" },
+  { en: "super happy", min: "to alegre" }, { en: "super sad", min: "to triste" }, { en: "super angry", min: "to enojo" }, { en: "super scared", min: "to susto" }, { en: "super tired", min: "to cansado" },
 ];

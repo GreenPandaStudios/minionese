@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const time_months: DictionaryEntry[] = [
-  {
-    "en": "january",
-    "min": "enero"
-  },
-  {
-    "en": "february",
-    "min": "febre"
-  },
-  {
-    "en": "march",
-    "min": "marzo"
-  },
-  {
-    "en": "year",
-    "min": "ano"
-  }
+  { en: "january", min: "enero" }, { en: "february", min: "febre" }, { en: "march", min: "marzo" }, { en: "april", min: "abril" }, { en: "may", min: "mayo" },
+  { en: "light january", min: "pika enero" }, { en: "light february", min: "pika febre" }, { en: "light march", min: "pika marzo" }, { en: "light april", min: "pika abril" }, { en: "light may", min: "pika mayo" },
+  { en: "dark january", min: "po enero" }, { en: "dark february", min: "po febre" }, { en: "dark march", min: "po marzo" }, { en: "dark april", min: "po abril" }, { en: "dark may", min: "po mayo" },
+  { en: "bright january", min: "bango enero" }, { en: "bright february", min: "bango febre" }, { en: "bright march", min: "bango marzo" }, { en: "bright april", min: "bango abril" }, { en: "bright may", min: "bango mayo" },
+  { en: "pale january", min: "ti enero" }, { en: "pale february", min: "ti febre" }, { en: "pale march", min: "ti marzo" }, { en: "pale april", min: "ti abril" }, { en: "pale may", min: "ti mayo" },
+  { en: "deep january", min: "pa enero" }, { en: "deep february", min: "pa febre" }, { en: "deep march", min: "pa marzo" }, { en: "deep april", min: "pa abril" }, { en: "deep may", min: "pa mayo" },
+  { en: "soft january", min: "ki enero" }, { en: "soft february", min: "ki febre" }, { en: "soft march", min: "ki marzo" }, { en: "soft april", min: "ki abril" }, { en: "soft may", min: "ki mayo" },
+  { en: "dull january", min: "bo enero" }, { en: "dull february", min: "bo febre" }, { en: "dull march", min: "bo marzo" }, { en: "dull april", min: "bo abril" }, { en: "dull may", min: "bo mayo" },
+  { en: "neon january", min: "go enero" }, { en: "neon february", min: "go febre" }, { en: "neon march", min: "go marzo" }, { en: "neon april", min: "go abril" }, { en: "neon may", min: "go mayo" },
+  { en: "pastel january", min: "ba enero" }, { en: "pastel february", min: "ba febre" }, { en: "pastel march", min: "ba marzo" }, { en: "pastel april", min: "ba abril" }, { en: "pastel may", min: "ba mayo" },
+  { en: "vibrant january", min: "ta enero" }, { en: "vibrant february", min: "ta febre" }, { en: "vibrant march", min: "ta marzo" }, { en: "vibrant april", min: "ta abril" }, { en: "vibrant may", min: "ta mayo" },
+  { en: "shiny january", min: "bi enero" }, { en: "shiny february", min: "bi febre" }, { en: "shiny march", min: "bi marzo" }, { en: "shiny april", min: "bi abril" }, { en: "shiny may", min: "bi mayo" },
+  { en: "matte january", min: "no enero" }, { en: "matte february", min: "no febre" }, { en: "matte march", min: "no marzo" }, { en: "matte april", min: "no abril" }, { en: "matte may", min: "no mayo" },
+  { en: "glossy january", min: "ni enero" }, { en: "glossy february", min: "ni febre" }, { en: "glossy march", min: "ni marzo" }, { en: "glossy april", min: "ni abril" }, { en: "glossy may", min: "ni mayo" },
+  { en: "warm january", min: "ku enero" }, { en: "warm february", min: "ku febre" }, { en: "warm march", min: "ku marzo" }, { en: "warm april", min: "ku abril" }, { en: "warm may", min: "ku mayo" },
+  { en: "cool january", min: "mu enero" }, { en: "cool february", min: "mu febre" }, { en: "cool march", min: "mu marzo" }, { en: "cool april", min: "mu abril" }, { en: "cool may", min: "mu mayo" },
+  { en: "rich january", min: "se enero" }, { en: "rich february", min: "se febre" }, { en: "rich march", min: "se marzo" }, { en: "rich april", min: "se abril" }, { en: "rich may", min: "se mayo" },
+  { en: "faint january", min: "du enero" }, { en: "faint february", min: "du febre" }, { en: "faint march", min: "du marzo" }, { en: "faint april", min: "du abril" }, { en: "faint may", min: "du mayo" },
+  { en: "pure january", min: "vo enero" }, { en: "pure february", min: "vo febre" }, { en: "pure march", min: "vo marzo" }, { en: "pure april", min: "vo abril" }, { en: "pure may", min: "vo mayo" },
+  { en: "true january", min: "au enero" }, { en: "true february", min: "au febre" }, { en: "true march", min: "au marzo" }, { en: "true april", min: "au abril" }, { en: "true may", min: "au mayo" },
+  { en: "classic january", min: "so enero" }, { en: "classic february", min: "so febre" }, { en: "classic march", min: "so marzo" }, { en: "classic april", min: "so abril" }, { en: "classic may", min: "so mayo" },
+  { en: "royal january", min: "mi enero" }, { en: "royal february", min: "mi febre" }, { en: "royal march", min: "mi marzo" }, { en: "royal april", min: "mi abril" }, { en: "royal may", min: "mi mayo" },
+  { en: "sky january", min: "ma enero" }, { en: "sky february", min: "ma febre" }, { en: "sky march", min: "ma marzo" }, { en: "sky april", min: "ma abril" }, { en: "sky may", min: "ma mayo" },
+  { en: "forest january", min: "te enero" }, { en: "forest february", min: "te febre" }, { en: "forest march", min: "te marzo" }, { en: "forest april", min: "te abril" }, { en: "forest may", min: "te mayo" },
+  { en: "sea january", min: "la enero" }, { en: "sea february", min: "la febre" }, { en: "sea march", min: "la marzo" }, { en: "sea april", min: "la abril" }, { en: "sea may", min: "la mayo" },
+  { en: "wild january", min: "da enero" }, { en: "wild february", min: "da febre" }, { en: "wild march", min: "da marzo" }, { en: "wild april", min: "da abril" }, { en: "wild may", min: "da mayo" },
+  { en: "sweet january", min: "li enero" }, { en: "sweet february", min: "li febre" }, { en: "sweet march", min: "li marzo" }, { en: "sweet april", min: "li abril" }, { en: "sweet may", min: "li mayo" },
+  { en: "hot january", min: "zo enero" }, { en: "hot february", min: "zo febre" }, { en: "hot march", min: "zo marzo" }, { en: "hot april", min: "zo abril" }, { en: "hot may", min: "zo mayo" },
+  { en: "cold january", min: "ha enero" }, { en: "cold february", min: "ha febre" }, { en: "cold march", min: "ha marzo" }, { en: "cold april", min: "ha abril" }, { en: "cold may", min: "ha mayo" },
+  { en: "super january", min: "to enero" }, { en: "super february", min: "to febre" }, { en: "super march", min: "to marzo" }, { en: "super april", min: "to abril" }, { en: "super may", min: "to mayo" },
 ];

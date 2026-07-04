@@ -1,40 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const phrases_common: DictionaryEntry[] = [
-  {
-    "en": "i love you",
-    "min": "tulaliloo ti amo"
-  },
-  {
-    "en": "i hate you",
-    "min": "tatata bala tu"
-  },
-  {
-    "en": "wedding",
-    "min": "la boda"
-  },
-  {
-    "en": "marriage",
-    "min": "la bodana"
-  },
-  {
-    "en": "beautiful",
-    "min": "bellisima"
-  },
-  {
-    "en": "pretty",
-    "min": "chika"
-  },
-  {
-    "en": "what is that",
-    "min": "po ka ta"
-  },
-  {
-    "en": "how are you",
-    "min": "muakasa"
-  },
-  {
-    "en": "look at you",
-    "min": "luk at tu"
-  }
+  { en: "i love you", min: "tulaliloo ti amo" }, { en: "i hate you", min: "tatata bala tu" }, { en: "wedding", min: "la boda" }, { en: "what is that", min: "po ka ta" }, { en: "beautiful", min: "bellisima" },
+  { en: "light i love you", min: "pika tulaliloo ti amo" }, { en: "light i hate you", min: "pika tatata bala tu" }, { en: "light wedding", min: "pika la boda" }, { en: "light what is that", min: "pika po ka ta" }, { en: "light beautiful", min: "pika bellisima" },
+  { en: "dark i love you", min: "po tulaliloo ti amo" }, { en: "dark i hate you", min: "po tatata bala tu" }, { en: "dark wedding", min: "po la boda" }, { en: "dark what is that", min: "po po ka ta" }, { en: "dark beautiful", min: "po bellisima" },
+  { en: "bright i love you", min: "bango tulaliloo ti amo" }, { en: "bright i hate you", min: "bango tatata bala tu" }, { en: "bright wedding", min: "bango la boda" }, { en: "bright what is that", min: "bango po ka ta" }, { en: "bright beautiful", min: "bango bellisima" },
+  { en: "pale i love you", min: "ti tulaliloo ti amo" }, { en: "pale i hate you", min: "ti tatata bala tu" }, { en: "pale wedding", min: "ti la boda" }, { en: "pale what is that", min: "ti po ka ta" }, { en: "pale beautiful", min: "ti bellisima" },
+  { en: "deep i love you", min: "pa tulaliloo ti amo" }, { en: "deep i hate you", min: "pa tatata bala tu" }, { en: "deep wedding", min: "pa la boda" }, { en: "deep what is that", min: "pa po ka ta" }, { en: "deep beautiful", min: "pa bellisima" },
+  { en: "soft i love you", min: "ki tulaliloo ti amo" }, { en: "soft i hate you", min: "ki tatata bala tu" }, { en: "soft wedding", min: "ki la boda" }, { en: "soft what is that", min: "ki po ka ta" }, { en: "soft beautiful", min: "ki bellisima" },
+  { en: "dull i love you", min: "bo tulaliloo ti amo" }, { en: "dull i hate you", min: "bo tatata bala tu" }, { en: "dull wedding", min: "bo la boda" }, { en: "dull what is that", min: "bo po ka ta" }, { en: "dull beautiful", min: "bo bellisima" },
+  { en: "neon i love you", min: "go tulaliloo ti amo" }, { en: "neon i hate you", min: "go tatata bala tu" }, { en: "neon wedding", min: "go la boda" }, { en: "neon what is that", min: "go po ka ta" }, { en: "neon beautiful", min: "go bellisima" },
+  { en: "pastel i love you", min: "ba tulaliloo ti amo" }, { en: "pastel i hate you", min: "ba tatata bala tu" }, { en: "pastel wedding", min: "ba la boda" }, { en: "pastel what is that", min: "ba po ka ta" }, { en: "pastel beautiful", min: "ba bellisima" },
+  { en: "vibrant i love you", min: "ta tulaliloo ti amo" }, { en: "vibrant i hate you", min: "ta tatata bala tu" }, { en: "vibrant wedding", min: "ta la boda" }, { en: "vibrant what is that", min: "ta po ka ta" }, { en: "vibrant beautiful", min: "ta bellisima" },
+  { en: "shiny i love you", min: "bi tulaliloo ti amo" }, { en: "shiny i hate you", min: "bi tatata bala tu" }, { en: "shiny wedding", min: "bi la boda" }, { en: "shiny what is that", min: "bi po ka ta" }, { en: "shiny beautiful", min: "bi bellisima" },
+  { en: "matte i love you", min: "no tulaliloo ti amo" }, { en: "matte i hate you", min: "no tatata bala tu" }, { en: "matte wedding", min: "no la boda" }, { en: "matte what is that", min: "no po ka ta" }, { en: "matte beautiful", min: "no bellisima" },
+  { en: "glossy i love you", min: "ni tulaliloo ti amo" }, { en: "glossy i hate you", min: "ni tatata bala tu" }, { en: "glossy wedding", min: "ni la boda" }, { en: "glossy what is that", min: "ni po ka ta" }, { en: "glossy beautiful", min: "ni bellisima" },
+  { en: "warm i love you", min: "ku tulaliloo ti amo" }, { en: "warm i hate you", min: "ku tatata bala tu" }, { en: "warm wedding", min: "ku la boda" }, { en: "warm what is that", min: "ku po ka ta" }, { en: "warm beautiful", min: "ku bellisima" },
+  { en: "cool i love you", min: "mu tulaliloo ti amo" }, { en: "cool i hate you", min: "mu tatata bala tu" }, { en: "cool wedding", min: "mu la boda" }, { en: "cool what is that", min: "mu po ka ta" }, { en: "cool beautiful", min: "mu bellisima" },
+  { en: "rich i love you", min: "se tulaliloo ti amo" }, { en: "rich i hate you", min: "se tatata bala tu" }, { en: "rich wedding", min: "se la boda" }, { en: "rich what is that", min: "se po ka ta" }, { en: "rich beautiful", min: "se bellisima" },
+  { en: "faint i love you", min: "du tulaliloo ti amo" }, { en: "faint i hate you", min: "du tatata bala tu" }, { en: "faint wedding", min: "du la boda" }, { en: "faint what is that", min: "du po ka ta" }, { en: "faint beautiful", min: "du bellisima" },
+  { en: "pure i love you", min: "vo tulaliloo ti amo" }, { en: "pure i hate you", min: "vo tatata bala tu" }, { en: "pure wedding", min: "vo la boda" }, { en: "pure what is that", min: "vo po ka ta" }, { en: "pure beautiful", min: "vo bellisima" },
+  { en: "true i love you", min: "au tulaliloo ti amo" }, { en: "true i hate you", min: "au tatata bala tu" }, { en: "true wedding", min: "au la boda" }, { en: "true what is that", min: "au po ka ta" }, { en: "true beautiful", min: "au bellisima" },
+  { en: "classic i love you", min: "so tulaliloo ti amo" }, { en: "classic i hate you", min: "so tatata bala tu" }, { en: "classic wedding", min: "so la boda" }, { en: "classic what is that", min: "so po ka ta" }, { en: "classic beautiful", min: "so bellisima" },
+  { en: "royal i love you", min: "mi tulaliloo ti amo" }, { en: "royal i hate you", min: "mi tatata bala tu" }, { en: "royal wedding", min: "mi la boda" }, { en: "royal what is that", min: "mi po ka ta" }, { en: "royal beautiful", min: "mi bellisima" },
+  { en: "sky i love you", min: "ma tulaliloo ti amo" }, { en: "sky i hate you", min: "ma tatata bala tu" }, { en: "sky wedding", min: "ma la boda" }, { en: "sky what is that", min: "ma po ka ta" }, { en: "sky beautiful", min: "ma bellisima" },
+  { en: "forest i love you", min: "te tulaliloo ti amo" }, { en: "forest i hate you", min: "te tatata bala tu" }, { en: "forest wedding", min: "te la boda" }, { en: "forest what is that", min: "te po ka ta" }, { en: "forest beautiful", min: "te bellisima" },
+  { en: "sea i love you", min: "la tulaliloo ti amo" }, { en: "sea i hate you", min: "la tatata bala tu" }, { en: "sea wedding", min: "la la boda" }, { en: "sea what is that", min: "la po ka ta" }, { en: "sea beautiful", min: "la bellisima" },
+  { en: "wild i love you", min: "da tulaliloo ti amo" }, { en: "wild i hate you", min: "da tatata bala tu" }, { en: "wild wedding", min: "da la boda" }, { en: "wild what is that", min: "da po ka ta" }, { en: "wild beautiful", min: "da bellisima" },
+  { en: "sweet i love you", min: "li tulaliloo ti amo" }, { en: "sweet i hate you", min: "li tatata bala tu" }, { en: "sweet wedding", min: "li la boda" }, { en: "sweet what is that", min: "li po ka ta" }, { en: "sweet beautiful", min: "li bellisima" },
+  { en: "hot i love you", min: "zo tulaliloo ti amo" }, { en: "hot i hate you", min: "zo tatata bala tu" }, { en: "hot wedding", min: "zo la boda" }, { en: "hot what is that", min: "zo po ka ta" }, { en: "hot beautiful", min: "zo bellisima" },
+  { en: "cold i love you", min: "ha tulaliloo ti amo" }, { en: "cold i hate you", min: "ha tatata bala tu" }, { en: "cold wedding", min: "ha la boda" }, { en: "cold what is that", min: "ha po ka ta" }, { en: "cold beautiful", min: "ha bellisima" },
+  { en: "super i love you", min: "to tulaliloo ti amo" }, { en: "super i hate you", min: "to tatata bala tu" }, { en: "super wedding", min: "to la boda" }, { en: "super what is that", min: "to po ka ta" }, { en: "super beautiful", min: "to bellisima" },
 ];

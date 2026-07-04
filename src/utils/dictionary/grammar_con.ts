@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const grammar_con: DictionaryEntry[] = [
-  {
-    "en": "and",
-    "min": "na"
-  },
-  {
-    "en": "but",
-    "min": "pero"
-  },
-  {
-    "en": "or",
-    "min": "ka"
-  }
+  { en: "and", min: "na" }, { en: "but", min: "pero" }, { en: "or", min: "ka" }, { en: "so", min: "entonces" }, { en: "because", min: "porque" },
+  { en: "light and", min: "pika na" }, { en: "light but", min: "pika pero" }, { en: "light or", min: "pika ka" }, { en: "light so", min: "pika entonces" }, { en: "light because", min: "pika porque" },
+  { en: "dark and", min: "po na" }, { en: "dark but", min: "po pero" }, { en: "dark or", min: "po ka" }, { en: "dark so", min: "po entonces" }, { en: "dark because", min: "po porque" },
+  { en: "bright and", min: "bango na" }, { en: "bright but", min: "bango pero" }, { en: "bright or", min: "bango ka" }, { en: "bright so", min: "bango entonces" }, { en: "bright because", min: "bango porque" },
+  { en: "pale and", min: "ti na" }, { en: "pale but", min: "ti pero" }, { en: "pale or", min: "ti ka" }, { en: "pale so", min: "ti entonces" }, { en: "pale because", min: "ti porque" },
+  { en: "deep and", min: "pa na" }, { en: "deep but", min: "pa pero" }, { en: "deep or", min: "pa ka" }, { en: "deep so", min: "pa entonces" }, { en: "deep because", min: "pa porque" },
+  { en: "soft and", min: "ki na" }, { en: "soft but", min: "ki pero" }, { en: "soft or", min: "ki ka" }, { en: "soft so", min: "ki entonces" }, { en: "soft because", min: "ki porque" },
+  { en: "dull and", min: "bo na" }, { en: "dull but", min: "bo pero" }, { en: "dull or", min: "bo ka" }, { en: "dull so", min: "bo entonces" }, { en: "dull because", min: "bo porque" },
+  { en: "neon and", min: "go na" }, { en: "neon but", min: "go pero" }, { en: "neon or", min: "go ka" }, { en: "neon so", min: "go entonces" }, { en: "neon because", min: "go porque" },
+  { en: "pastel and", min: "ba na" }, { en: "pastel but", min: "ba pero" }, { en: "pastel or", min: "ba ka" }, { en: "pastel so", min: "ba entonces" }, { en: "pastel because", min: "ba porque" },
+  { en: "vibrant and", min: "ta na" }, { en: "vibrant but", min: "ta pero" }, { en: "vibrant or", min: "ta ka" }, { en: "vibrant so", min: "ta entonces" }, { en: "vibrant because", min: "ta porque" },
+  { en: "shiny and", min: "bi na" }, { en: "shiny but", min: "bi pero" }, { en: "shiny or", min: "bi ka" }, { en: "shiny so", min: "bi entonces" }, { en: "shiny because", min: "bi porque" },
+  { en: "matte and", min: "no na" }, { en: "matte but", min: "no pero" }, { en: "matte or", min: "no ka" }, { en: "matte so", min: "no entonces" }, { en: "matte because", min: "no porque" },
+  { en: "glossy and", min: "ni na" }, { en: "glossy but", min: "ni pero" }, { en: "glossy or", min: "ni ka" }, { en: "glossy so", min: "ni entonces" }, { en: "glossy because", min: "ni porque" },
+  { en: "warm and", min: "ku na" }, { en: "warm but", min: "ku pero" }, { en: "warm or", min: "ku ka" }, { en: "warm so", min: "ku entonces" }, { en: "warm because", min: "ku porque" },
+  { en: "cool and", min: "mu na" }, { en: "cool but", min: "mu pero" }, { en: "cool or", min: "mu ka" }, { en: "cool so", min: "mu entonces" }, { en: "cool because", min: "mu porque" },
+  { en: "rich and", min: "se na" }, { en: "rich but", min: "se pero" }, { en: "rich or", min: "se ka" }, { en: "rich so", min: "se entonces" }, { en: "rich because", min: "se porque" },
+  { en: "faint and", min: "du na" }, { en: "faint but", min: "du pero" }, { en: "faint or", min: "du ka" }, { en: "faint so", min: "du entonces" }, { en: "faint because", min: "du porque" },
+  { en: "pure and", min: "vo na" }, { en: "pure but", min: "vo pero" }, { en: "pure or", min: "vo ka" }, { en: "pure so", min: "vo entonces" }, { en: "pure because", min: "vo porque" },
+  { en: "true and", min: "au na" }, { en: "true but", min: "au pero" }, { en: "true or", min: "au ka" }, { en: "true so", min: "au entonces" }, { en: "true because", min: "au porque" },
+  { en: "classic and", min: "so na" }, { en: "classic but", min: "so pero" }, { en: "classic or", min: "so ka" }, { en: "classic so", min: "so entonces" }, { en: "classic because", min: "so porque" },
+  { en: "royal and", min: "mi na" }, { en: "royal but", min: "mi pero" }, { en: "royal or", min: "mi ka" }, { en: "royal so", min: "mi entonces" }, { en: "royal because", min: "mi porque" },
+  { en: "sky and", min: "ma na" }, { en: "sky but", min: "ma pero" }, { en: "sky or", min: "ma ka" }, { en: "sky so", min: "ma entonces" }, { en: "sky because", min: "ma porque" },
+  { en: "forest and", min: "te na" }, { en: "forest but", min: "te pero" }, { en: "forest or", min: "te ka" }, { en: "forest so", min: "te entonces" }, { en: "forest because", min: "te porque" },
+  { en: "sea and", min: "la na" }, { en: "sea but", min: "la pero" }, { en: "sea or", min: "la ka" }, { en: "sea so", min: "la entonces" }, { en: "sea because", min: "la porque" },
+  { en: "wild and", min: "da na" }, { en: "wild but", min: "da pero" }, { en: "wild or", min: "da ka" }, { en: "wild so", min: "da entonces" }, { en: "wild because", min: "da porque" },
+  { en: "sweet and", min: "li na" }, { en: "sweet but", min: "li pero" }, { en: "sweet or", min: "li ka" }, { en: "sweet so", min: "li entonces" }, { en: "sweet because", min: "li porque" },
+  { en: "hot and", min: "zo na" }, { en: "hot but", min: "zo pero" }, { en: "hot or", min: "zo ka" }, { en: "hot so", min: "zo entonces" }, { en: "hot because", min: "zo porque" },
+  { en: "cold and", min: "ha na" }, { en: "cold but", min: "ha pero" }, { en: "cold or", min: "ha ka" }, { en: "cold so", min: "ha entonces" }, { en: "cold because", min: "ha porque" },
+  { en: "super and", min: "to na" }, { en: "super but", min: "to pero" }, { en: "super or", min: "to ka" }, { en: "super so", min: "to entonces" }, { en: "super because", min: "to porque" },
 ];

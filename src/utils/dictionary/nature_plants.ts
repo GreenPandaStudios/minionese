@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const nature_plants: DictionaryEntry[] = [
-  {
-    "en": "tree",
-    "min": "arbol"
-  },
-  {
-    "en": "flower",
-    "min": "flor"
-  },
-  {
-    "en": "grass",
-    "min": "pasto"
-  }
+  { en: "tree", min: "arbol" }, { en: "flower", min: "flor" }, { en: "grass", min: "pasto" }, { en: "leaf", min: "hoja" }, { en: "bush", min: "arbusto" },
+  { en: "light tree", min: "pika arbol" }, { en: "light flower", min: "pika flor" }, { en: "light grass", min: "pika pasto" }, { en: "light leaf", min: "pika hoja" }, { en: "light bush", min: "pika arbusto" },
+  { en: "dark tree", min: "po arbol" }, { en: "dark flower", min: "po flor" }, { en: "dark grass", min: "po pasto" }, { en: "dark leaf", min: "po hoja" }, { en: "dark bush", min: "po arbusto" },
+  { en: "bright tree", min: "bango arbol" }, { en: "bright flower", min: "bango flor" }, { en: "bright grass", min: "bango pasto" }, { en: "bright leaf", min: "bango hoja" }, { en: "bright bush", min: "bango arbusto" },
+  { en: "pale tree", min: "ti arbol" }, { en: "pale flower", min: "ti flor" }, { en: "pale grass", min: "ti pasto" }, { en: "pale leaf", min: "ti hoja" }, { en: "pale bush", min: "ti arbusto" },
+  { en: "deep tree", min: "pa arbol" }, { en: "deep flower", min: "pa flor" }, { en: "deep grass", min: "pa pasto" }, { en: "deep leaf", min: "pa hoja" }, { en: "deep bush", min: "pa arbusto" },
+  { en: "soft tree", min: "ki arbol" }, { en: "soft flower", min: "ki flor" }, { en: "soft grass", min: "ki pasto" }, { en: "soft leaf", min: "ki hoja" }, { en: "soft bush", min: "ki arbusto" },
+  { en: "dull tree", min: "bo arbol" }, { en: "dull flower", min: "bo flor" }, { en: "dull grass", min: "bo pasto" }, { en: "dull leaf", min: "bo hoja" }, { en: "dull bush", min: "bo arbusto" },
+  { en: "neon tree", min: "go arbol" }, { en: "neon flower", min: "go flor" }, { en: "neon grass", min: "go pasto" }, { en: "neon leaf", min: "go hoja" }, { en: "neon bush", min: "go arbusto" },
+  { en: "pastel tree", min: "ba arbol" }, { en: "pastel flower", min: "ba flor" }, { en: "pastel grass", min: "ba pasto" }, { en: "pastel leaf", min: "ba hoja" }, { en: "pastel bush", min: "ba arbusto" },
+  { en: "vibrant tree", min: "ta arbol" }, { en: "vibrant flower", min: "ta flor" }, { en: "vibrant grass", min: "ta pasto" }, { en: "vibrant leaf", min: "ta hoja" }, { en: "vibrant bush", min: "ta arbusto" },
+  { en: "shiny tree", min: "bi arbol" }, { en: "shiny flower", min: "bi flor" }, { en: "shiny grass", min: "bi pasto" }, { en: "shiny leaf", min: "bi hoja" }, { en: "shiny bush", min: "bi arbusto" },
+  { en: "matte tree", min: "no arbol" }, { en: "matte flower", min: "no flor" }, { en: "matte grass", min: "no pasto" }, { en: "matte leaf", min: "no hoja" }, { en: "matte bush", min: "no arbusto" },
+  { en: "glossy tree", min: "ni arbol" }, { en: "glossy flower", min: "ni flor" }, { en: "glossy grass", min: "ni pasto" }, { en: "glossy leaf", min: "ni hoja" }, { en: "glossy bush", min: "ni arbusto" },
+  { en: "warm tree", min: "ku arbol" }, { en: "warm flower", min: "ku flor" }, { en: "warm grass", min: "ku pasto" }, { en: "warm leaf", min: "ku hoja" }, { en: "warm bush", min: "ku arbusto" },
+  { en: "cool tree", min: "mu arbol" }, { en: "cool flower", min: "mu flor" }, { en: "cool grass", min: "mu pasto" }, { en: "cool leaf", min: "mu hoja" }, { en: "cool bush", min: "mu arbusto" },
+  { en: "rich tree", min: "se arbol" }, { en: "rich flower", min: "se flor" }, { en: "rich grass", min: "se pasto" }, { en: "rich leaf", min: "se hoja" }, { en: "rich bush", min: "se arbusto" },
+  { en: "faint tree", min: "du arbol" }, { en: "faint flower", min: "du flor" }, { en: "faint grass", min: "du pasto" }, { en: "faint leaf", min: "du hoja" }, { en: "faint bush", min: "du arbusto" },
+  { en: "pure tree", min: "vo arbol" }, { en: "pure flower", min: "vo flor" }, { en: "pure grass", min: "vo pasto" }, { en: "pure leaf", min: "vo hoja" }, { en: "pure bush", min: "vo arbusto" },
+  { en: "true tree", min: "au arbol" }, { en: "true flower", min: "au flor" }, { en: "true grass", min: "au pasto" }, { en: "true leaf", min: "au hoja" }, { en: "true bush", min: "au arbusto" },
+  { en: "classic tree", min: "so arbol" }, { en: "classic flower", min: "so flor" }, { en: "classic grass", min: "so pasto" }, { en: "classic leaf", min: "so hoja" }, { en: "classic bush", min: "so arbusto" },
+  { en: "royal tree", min: "mi arbol" }, { en: "royal flower", min: "mi flor" }, { en: "royal grass", min: "mi pasto" }, { en: "royal leaf", min: "mi hoja" }, { en: "royal bush", min: "mi arbusto" },
+  { en: "sky tree", min: "ma arbol" }, { en: "sky flower", min: "ma flor" }, { en: "sky grass", min: "ma pasto" }, { en: "sky leaf", min: "ma hoja" }, { en: "sky bush", min: "ma arbusto" },
+  { en: "forest tree", min: "te arbol" }, { en: "forest flower", min: "te flor" }, { en: "forest grass", min: "te pasto" }, { en: "forest leaf", min: "te hoja" }, { en: "forest bush", min: "te arbusto" },
+  { en: "sea tree", min: "la arbol" }, { en: "sea flower", min: "la flor" }, { en: "sea grass", min: "la pasto" }, { en: "sea leaf", min: "la hoja" }, { en: "sea bush", min: "la arbusto" },
+  { en: "wild tree", min: "da arbol" }, { en: "wild flower", min: "da flor" }, { en: "wild grass", min: "da pasto" }, { en: "wild leaf", min: "da hoja" }, { en: "wild bush", min: "da arbusto" },
+  { en: "sweet tree", min: "li arbol" }, { en: "sweet flower", min: "li flor" }, { en: "sweet grass", min: "li pasto" }, { en: "sweet leaf", min: "li hoja" }, { en: "sweet bush", min: "li arbusto" },
+  { en: "hot tree", min: "zo arbol" }, { en: "hot flower", min: "zo flor" }, { en: "hot grass", min: "zo pasto" }, { en: "hot leaf", min: "zo hoja" }, { en: "hot bush", min: "zo arbusto" },
+  { en: "cold tree", min: "ha arbol" }, { en: "cold flower", min: "ha flor" }, { en: "cold grass", min: "ha pasto" }, { en: "cold leaf", min: "ha hoja" }, { en: "cold bush", min: "ha arbusto" },
+  { en: "super tree", min: "to arbol" }, { en: "super flower", min: "to flor" }, { en: "super grass", min: "to pasto" }, { en: "super leaf", min: "to hoja" }, { en: "super bush", min: "to arbusto" },
 ];

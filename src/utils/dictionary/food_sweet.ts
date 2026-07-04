@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const food_sweet: DictionaryEntry[] = [
-  {
-    "en": "ice cream",
-    "min": "gelato"
-  },
-  {
-    "en": "cake",
-    "min": "torta"
-  },
-  {
-    "en": "candy",
-    "min": "dulcepo"
-  }
+  { en: "icecream", min: "gelato" }, { en: "cake", min: "torta" }, { en: "candy", min: "dulcepo" }, { en: "cookie", min: "galleta" }, { en: "honey", min: "miel" },
+  { en: "light icecream", min: "pika gelato" }, { en: "light cake", min: "pika torta" }, { en: "light candy", min: "pika dulcepo" }, { en: "light cookie", min: "pika galleta" }, { en: "light honey", min: "pika miel" },
+  { en: "dark icecream", min: "po gelato" }, { en: "dark cake", min: "po torta" }, { en: "dark candy", min: "po dulcepo" }, { en: "dark cookie", min: "po galleta" }, { en: "dark honey", min: "po miel" },
+  { en: "bright icecream", min: "bango gelato" }, { en: "bright cake", min: "bango torta" }, { en: "bright candy", min: "bango dulcepo" }, { en: "bright cookie", min: "bango galleta" }, { en: "bright honey", min: "bango miel" },
+  { en: "pale icecream", min: "ti gelato" }, { en: "pale cake", min: "ti torta" }, { en: "pale candy", min: "ti dulcepo" }, { en: "pale cookie", min: "ti galleta" }, { en: "pale honey", min: "ti miel" },
+  { en: "deep icecream", min: "pa gelato" }, { en: "deep cake", min: "pa torta" }, { en: "deep candy", min: "pa dulcepo" }, { en: "deep cookie", min: "pa galleta" }, { en: "deep honey", min: "pa miel" },
+  { en: "soft icecream", min: "ki gelato" }, { en: "soft cake", min: "ki torta" }, { en: "soft candy", min: "ki dulcepo" }, { en: "soft cookie", min: "ki galleta" }, { en: "soft honey", min: "ki miel" },
+  { en: "dull icecream", min: "bo gelato" }, { en: "dull cake", min: "bo torta" }, { en: "dull candy", min: "bo dulcepo" }, { en: "dull cookie", min: "bo galleta" }, { en: "dull honey", min: "bo miel" },
+  { en: "neon icecream", min: "go gelato" }, { en: "neon cake", min: "go torta" }, { en: "neon candy", min: "go dulcepo" }, { en: "neon cookie", min: "go galleta" }, { en: "neon honey", min: "go miel" },
+  { en: "pastel icecream", min: "ba gelato" }, { en: "pastel cake", min: "ba torta" }, { en: "pastel candy", min: "ba dulcepo" }, { en: "pastel cookie", min: "ba galleta" }, { en: "pastel honey", min: "ba miel" },
+  { en: "vibrant icecream", min: "ta gelato" }, { en: "vibrant cake", min: "ta torta" }, { en: "vibrant candy", min: "ta dulcepo" }, { en: "vibrant cookie", min: "ta galleta" }, { en: "vibrant honey", min: "ta miel" },
+  { en: "shiny icecream", min: "bi gelato" }, { en: "shiny cake", min: "bi torta" }, { en: "shiny candy", min: "bi dulcepo" }, { en: "shiny cookie", min: "bi galleta" }, { en: "shiny honey", min: "bi miel" },
+  { en: "matte icecream", min: "no gelato" }, { en: "matte cake", min: "no torta" }, { en: "matte candy", min: "no dulcepo" }, { en: "matte cookie", min: "no galleta" }, { en: "matte honey", min: "no miel" },
+  { en: "glossy icecream", min: "ni gelato" }, { en: "glossy cake", min: "ni torta" }, { en: "glossy candy", min: "ni dulcepo" }, { en: "glossy cookie", min: "ni galleta" }, { en: "glossy honey", min: "ni miel" },
+  { en: "warm icecream", min: "ku gelato" }, { en: "warm cake", min: "ku torta" }, { en: "warm candy", min: "ku dulcepo" }, { en: "warm cookie", min: "ku galleta" }, { en: "warm honey", min: "ku miel" },
+  { en: "cool icecream", min: "mu gelato" }, { en: "cool cake", min: "mu torta" }, { en: "cool candy", min: "mu dulcepo" }, { en: "cool cookie", min: "mu galleta" }, { en: "cool honey", min: "mu miel" },
+  { en: "rich icecream", min: "se gelato" }, { en: "rich cake", min: "se torta" }, { en: "rich candy", min: "se dulcepo" }, { en: "rich cookie", min: "se galleta" }, { en: "rich honey", min: "se miel" },
+  { en: "faint icecream", min: "du gelato" }, { en: "faint cake", min: "du torta" }, { en: "faint candy", min: "du dulcepo" }, { en: "faint cookie", min: "du galleta" }, { en: "faint honey", min: "du miel" },
+  { en: "pure icecream", min: "vo gelato" }, { en: "pure cake", min: "vo torta" }, { en: "pure candy", min: "vo dulcepo" }, { en: "pure cookie", min: "vo galleta" }, { en: "pure honey", min: "vo miel" },
+  { en: "true icecream", min: "au gelato" }, { en: "true cake", min: "au torta" }, { en: "true candy", min: "au dulcepo" }, { en: "true cookie", min: "au galleta" }, { en: "true honey", min: "au miel" },
+  { en: "classic icecream", min: "so gelato" }, { en: "classic cake", min: "so torta" }, { en: "classic candy", min: "so dulcepo" }, { en: "classic cookie", min: "so galleta" }, { en: "classic honey", min: "so miel" },
+  { en: "royal icecream", min: "mi gelato" }, { en: "royal cake", min: "mi torta" }, { en: "royal candy", min: "mi dulcepo" }, { en: "royal cookie", min: "mi galleta" }, { en: "royal honey", min: "mi miel" },
+  { en: "sky icecream", min: "ma gelato" }, { en: "sky cake", min: "ma torta" }, { en: "sky candy", min: "ma dulcepo" }, { en: "sky cookie", min: "ma galleta" }, { en: "sky honey", min: "ma miel" },
+  { en: "forest icecream", min: "te gelato" }, { en: "forest cake", min: "te torta" }, { en: "forest candy", min: "te dulcepo" }, { en: "forest cookie", min: "te galleta" }, { en: "forest honey", min: "te miel" },
+  { en: "sea icecream", min: "la gelato" }, { en: "sea cake", min: "la torta" }, { en: "sea candy", min: "la dulcepo" }, { en: "sea cookie", min: "la galleta" }, { en: "sea honey", min: "la miel" },
+  { en: "wild icecream", min: "da gelato" }, { en: "wild cake", min: "da torta" }, { en: "wild candy", min: "da dulcepo" }, { en: "wild cookie", min: "da galleta" }, { en: "wild honey", min: "da miel" },
+  { en: "sweet icecream", min: "li gelato" }, { en: "sweet cake", min: "li torta" }, { en: "sweet candy", min: "li dulcepo" }, { en: "sweet cookie", min: "li galleta" }, { en: "sweet honey", min: "li miel" },
+  { en: "hot icecream", min: "zo gelato" }, { en: "hot cake", min: "zo torta" }, { en: "hot candy", min: "zo dulcepo" }, { en: "hot cookie", min: "zo galleta" }, { en: "hot honey", min: "zo miel" },
+  { en: "cold icecream", min: "ha gelato" }, { en: "cold cake", min: "ha torta" }, { en: "cold candy", min: "ha dulcepo" }, { en: "cold cookie", min: "ha galleta" }, { en: "cold honey", min: "ha miel" },
+  { en: "super icecream", min: "to gelato" }, { en: "super cake", min: "to torta" }, { en: "super candy", min: "to dulcepo" }, { en: "super cookie", min: "to galleta" }, { en: "super honey", min: "to miel" },
 ];

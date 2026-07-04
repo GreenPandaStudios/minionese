@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const adjectives_shape: DictionaryEntry[] = [
-  {
-    "en": "round",
-    "min": "rondo"
-  },
-  {
-    "en": "square",
-    "min": "cuadra"
-  },
-  {
-    "en": "flat",
-    "min": "plano"
-  }
+  { en: "round", min: "rondo" }, { en: "square", min: "cuadra" }, { en: "flat", min: "plano" }, { en: "sharp", min: "filo" }, { en: "bent", min: "curvo" },
+  { en: "light round", min: "pika rondo" }, { en: "light square", min: "pika cuadra" }, { en: "light flat", min: "pika plano" }, { en: "light sharp", min: "pika filo" }, { en: "light bent", min: "pika curvo" },
+  { en: "dark round", min: "po rondo" }, { en: "dark square", min: "po cuadra" }, { en: "dark flat", min: "po plano" }, { en: "dark sharp", min: "po filo" }, { en: "dark bent", min: "po curvo" },
+  { en: "bright round", min: "bango rondo" }, { en: "bright square", min: "bango cuadra" }, { en: "bright flat", min: "bango plano" }, { en: "bright sharp", min: "bango filo" }, { en: "bright bent", min: "bango curvo" },
+  { en: "pale round", min: "ti rondo" }, { en: "pale square", min: "ti cuadra" }, { en: "pale flat", min: "ti plano" }, { en: "pale sharp", min: "ti filo" }, { en: "pale bent", min: "ti curvo" },
+  { en: "deep round", min: "pa rondo" }, { en: "deep square", min: "pa cuadra" }, { en: "deep flat", min: "pa plano" }, { en: "deep sharp", min: "pa filo" }, { en: "deep bent", min: "pa curvo" },
+  { en: "soft round", min: "ki rondo" }, { en: "soft square", min: "ki cuadra" }, { en: "soft flat", min: "ki plano" }, { en: "soft sharp", min: "ki filo" }, { en: "soft bent", min: "ki curvo" },
+  { en: "dull round", min: "bo rondo" }, { en: "dull square", min: "bo cuadra" }, { en: "dull flat", min: "bo plano" }, { en: "dull sharp", min: "bo filo" }, { en: "dull bent", min: "bo curvo" },
+  { en: "neon round", min: "go rondo" }, { en: "neon square", min: "go cuadra" }, { en: "neon flat", min: "go plano" }, { en: "neon sharp", min: "go filo" }, { en: "neon bent", min: "go curvo" },
+  { en: "pastel round", min: "ba rondo" }, { en: "pastel square", min: "ba cuadra" }, { en: "pastel flat", min: "ba plano" }, { en: "pastel sharp", min: "ba filo" }, { en: "pastel bent", min: "ba curvo" },
+  { en: "vibrant round", min: "ta rondo" }, { en: "vibrant square", min: "ta cuadra" }, { en: "vibrant flat", min: "ta plano" }, { en: "vibrant sharp", min: "ta filo" }, { en: "vibrant bent", min: "ta curvo" },
+  { en: "shiny round", min: "bi rondo" }, { en: "shiny square", min: "bi cuadra" }, { en: "shiny flat", min: "bi plano" }, { en: "shiny sharp", min: "bi filo" }, { en: "shiny bent", min: "bi curvo" },
+  { en: "matte round", min: "no rondo" }, { en: "matte square", min: "no cuadra" }, { en: "matte flat", min: "no plano" }, { en: "matte sharp", min: "no filo" }, { en: "matte bent", min: "no curvo" },
+  { en: "glossy round", min: "ni rondo" }, { en: "glossy square", min: "ni cuadra" }, { en: "glossy flat", min: "ni plano" }, { en: "glossy sharp", min: "ni filo" }, { en: "glossy bent", min: "ni curvo" },
+  { en: "warm round", min: "ku rondo" }, { en: "warm square", min: "ku cuadra" }, { en: "warm flat", min: "ku plano" }, { en: "warm sharp", min: "ku filo" }, { en: "warm bent", min: "ku curvo" },
+  { en: "cool round", min: "mu rondo" }, { en: "cool square", min: "mu cuadra" }, { en: "cool flat", min: "mu plano" }, { en: "cool sharp", min: "mu filo" }, { en: "cool bent", min: "mu curvo" },
+  { en: "rich round", min: "se rondo" }, { en: "rich square", min: "se cuadra" }, { en: "rich flat", min: "se plano" }, { en: "rich sharp", min: "se filo" }, { en: "rich bent", min: "se curvo" },
+  { en: "faint round", min: "du rondo" }, { en: "faint square", min: "du cuadra" }, { en: "faint flat", min: "du plano" }, { en: "faint sharp", min: "du filo" }, { en: "faint bent", min: "du curvo" },
+  { en: "pure round", min: "vo rondo" }, { en: "pure square", min: "vo cuadra" }, { en: "pure flat", min: "vo plano" }, { en: "pure sharp", min: "vo filo" }, { en: "pure bent", min: "vo curvo" },
+  { en: "true round", min: "au rondo" }, { en: "true square", min: "au cuadra" }, { en: "true flat", min: "au plano" }, { en: "true sharp", min: "au filo" }, { en: "true bent", min: "au curvo" },
+  { en: "classic round", min: "so rondo" }, { en: "classic square", min: "so cuadra" }, { en: "classic flat", min: "so plano" }, { en: "classic sharp", min: "so filo" }, { en: "classic bent", min: "so curvo" },
+  { en: "royal round", min: "mi rondo" }, { en: "royal square", min: "mi cuadra" }, { en: "royal flat", min: "mi plano" }, { en: "royal sharp", min: "mi filo" }, { en: "royal bent", min: "mi curvo" },
+  { en: "sky round", min: "ma rondo" }, { en: "sky square", min: "ma cuadra" }, { en: "sky flat", min: "ma plano" }, { en: "sky sharp", min: "ma filo" }, { en: "sky bent", min: "ma curvo" },
+  { en: "forest round", min: "te rondo" }, { en: "forest square", min: "te cuadra" }, { en: "forest flat", min: "te plano" }, { en: "forest sharp", min: "te filo" }, { en: "forest bent", min: "te curvo" },
+  { en: "sea round", min: "la rondo" }, { en: "sea square", min: "la cuadra" }, { en: "sea flat", min: "la plano" }, { en: "sea sharp", min: "la filo" }, { en: "sea bent", min: "la curvo" },
+  { en: "wild round", min: "da rondo" }, { en: "wild square", min: "da cuadra" }, { en: "wild flat", min: "da plano" }, { en: "wild sharp", min: "da filo" }, { en: "wild bent", min: "da curvo" },
+  { en: "sweet round", min: "li rondo" }, { en: "sweet square", min: "li cuadra" }, { en: "sweet flat", min: "li plano" }, { en: "sweet sharp", min: "li filo" }, { en: "sweet bent", min: "li curvo" },
+  { en: "hot round", min: "zo rondo" }, { en: "hot square", min: "zo cuadra" }, { en: "hot flat", min: "zo plano" }, { en: "hot sharp", min: "zo filo" }, { en: "hot bent", min: "zo curvo" },
+  { en: "cold round", min: "ha rondo" }, { en: "cold square", min: "ha cuadra" }, { en: "cold flat", min: "ha plano" }, { en: "cold sharp", min: "ha filo" }, { en: "cold bent", min: "ha curvo" },
+  { en: "super round", min: "to rondo" }, { en: "super square", min: "to cuadra" }, { en: "super flat", min: "to plano" }, { en: "super sharp", min: "to filo" }, { en: "super bent", min: "to curvo" },
 ];

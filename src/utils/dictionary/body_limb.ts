@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const body_limb: DictionaryEntry[] = [
-  {
-    "en": "arm",
-    "min": "brazo"
-  },
-  {
-    "en": "leg",
-    "min": "pierna"
-  },
-  {
-    "en": "hand",
-    "min": "mano"
-  },
-  {
-    "en": "foot",
-    "min": "pie"
-  }
+  { en: "arm", min: "brazo" }, { en: "leg", min: "pierna" }, { en: "hand", min: "mano" }, { en: "foot", min: "pie" }, { en: "finger", min: "dedo" },
+  { en: "light arm", min: "pika brazo" }, { en: "light leg", min: "pika pierna" }, { en: "light hand", min: "pika mano" }, { en: "light foot", min: "pika pie" }, { en: "light finger", min: "pika dedo" },
+  { en: "dark arm", min: "po brazo" }, { en: "dark leg", min: "po pierna" }, { en: "dark hand", min: "po mano" }, { en: "dark foot", min: "po pie" }, { en: "dark finger", min: "po dedo" },
+  { en: "bright arm", min: "bango brazo" }, { en: "bright leg", min: "bango pierna" }, { en: "bright hand", min: "bango mano" }, { en: "bright foot", min: "bango pie" }, { en: "bright finger", min: "bango dedo" },
+  { en: "pale arm", min: "ti brazo" }, { en: "pale leg", min: "ti pierna" }, { en: "pale hand", min: "ti mano" }, { en: "pale foot", min: "ti pie" }, { en: "pale finger", min: "ti dedo" },
+  { en: "deep arm", min: "pa brazo" }, { en: "deep leg", min: "pa pierna" }, { en: "deep hand", min: "pa mano" }, { en: "deep foot", min: "pa pie" }, { en: "deep finger", min: "pa dedo" },
+  { en: "soft arm", min: "ki brazo" }, { en: "soft leg", min: "ki pierna" }, { en: "soft hand", min: "ki mano" }, { en: "soft foot", min: "ki pie" }, { en: "soft finger", min: "ki dedo" },
+  { en: "dull arm", min: "bo brazo" }, { en: "dull leg", min: "bo pierna" }, { en: "dull hand", min: "bo mano" }, { en: "dull foot", min: "bo pie" }, { en: "dull finger", min: "bo dedo" },
+  { en: "neon arm", min: "go brazo" }, { en: "neon leg", min: "go pierna" }, { en: "neon hand", min: "go mano" }, { en: "neon foot", min: "go pie" }, { en: "neon finger", min: "go dedo" },
+  { en: "pastel arm", min: "ba brazo" }, { en: "pastel leg", min: "ba pierna" }, { en: "pastel hand", min: "ba mano" }, { en: "pastel foot", min: "ba pie" }, { en: "pastel finger", min: "ba dedo" },
+  { en: "vibrant arm", min: "ta brazo" }, { en: "vibrant leg", min: "ta pierna" }, { en: "vibrant hand", min: "ta mano" }, { en: "vibrant foot", min: "ta pie" }, { en: "vibrant finger", min: "ta dedo" },
+  { en: "shiny arm", min: "bi brazo" }, { en: "shiny leg", min: "bi pierna" }, { en: "shiny hand", min: "bi mano" }, { en: "shiny foot", min: "bi pie" }, { en: "shiny finger", min: "bi dedo" },
+  { en: "matte arm", min: "no brazo" }, { en: "matte leg", min: "no pierna" }, { en: "matte hand", min: "no mano" }, { en: "matte foot", min: "no pie" }, { en: "matte finger", min: "no dedo" },
+  { en: "glossy arm", min: "ni brazo" }, { en: "glossy leg", min: "ni pierna" }, { en: "glossy hand", min: "ni mano" }, { en: "glossy foot", min: "ni pie" }, { en: "glossy finger", min: "ni dedo" },
+  { en: "warm arm", min: "ku brazo" }, { en: "warm leg", min: "ku pierna" }, { en: "warm hand", min: "ku mano" }, { en: "warm foot", min: "ku pie" }, { en: "warm finger", min: "ku dedo" },
+  { en: "cool arm", min: "mu brazo" }, { en: "cool leg", min: "mu pierna" }, { en: "cool hand", min: "mu mano" }, { en: "cool foot", min: "mu pie" }, { en: "cool finger", min: "mu dedo" },
+  { en: "rich arm", min: "se brazo" }, { en: "rich leg", min: "se pierna" }, { en: "rich hand", min: "se mano" }, { en: "rich foot", min: "se pie" }, { en: "rich finger", min: "se dedo" },
+  { en: "faint arm", min: "du brazo" }, { en: "faint leg", min: "du pierna" }, { en: "faint hand", min: "du mano" }, { en: "faint foot", min: "du pie" }, { en: "faint finger", min: "du dedo" },
+  { en: "pure arm", min: "vo brazo" }, { en: "pure leg", min: "vo pierna" }, { en: "pure hand", min: "vo mano" }, { en: "pure foot", min: "vo pie" }, { en: "pure finger", min: "vo dedo" },
+  { en: "true arm", min: "au brazo" }, { en: "true leg", min: "au pierna" }, { en: "true hand", min: "au mano" }, { en: "true foot", min: "au pie" }, { en: "true finger", min: "au dedo" },
+  { en: "classic arm", min: "so brazo" }, { en: "classic leg", min: "so pierna" }, { en: "classic hand", min: "so mano" }, { en: "classic foot", min: "so pie" }, { en: "classic finger", min: "so dedo" },
+  { en: "royal arm", min: "mi brazo" }, { en: "royal leg", min: "mi pierna" }, { en: "royal hand", min: "mi mano" }, { en: "royal foot", min: "mi pie" }, { en: "royal finger", min: "mi dedo" },
+  { en: "sky arm", min: "ma brazo" }, { en: "sky leg", min: "ma pierna" }, { en: "sky hand", min: "ma mano" }, { en: "sky foot", min: "ma pie" }, { en: "sky finger", min: "ma dedo" },
+  { en: "forest arm", min: "te brazo" }, { en: "forest leg", min: "te pierna" }, { en: "forest hand", min: "te mano" }, { en: "forest foot", min: "te pie" }, { en: "forest finger", min: "te dedo" },
+  { en: "sea arm", min: "la brazo" }, { en: "sea leg", min: "la pierna" }, { en: "sea hand", min: "la mano" }, { en: "sea foot", min: "la pie" }, { en: "sea finger", min: "la dedo" },
+  { en: "wild arm", min: "da brazo" }, { en: "wild leg", min: "da pierna" }, { en: "wild hand", min: "da mano" }, { en: "wild foot", min: "da pie" }, { en: "wild finger", min: "da dedo" },
+  { en: "sweet arm", min: "li brazo" }, { en: "sweet leg", min: "li pierna" }, { en: "sweet hand", min: "li mano" }, { en: "sweet foot", min: "li pie" }, { en: "sweet finger", min: "li dedo" },
+  { en: "hot arm", min: "zo brazo" }, { en: "hot leg", min: "zo pierna" }, { en: "hot hand", min: "zo mano" }, { en: "hot foot", min: "zo pie" }, { en: "hot finger", min: "zo dedo" },
+  { en: "cold arm", min: "ha brazo" }, { en: "cold leg", min: "ha pierna" }, { en: "cold hand", min: "ha mano" }, { en: "cold foot", min: "ha pie" }, { en: "cold finger", min: "ha dedo" },
+  { en: "super arm", min: "to brazo" }, { en: "super leg", min: "to pierna" }, { en: "super hand", min: "to mano" }, { en: "super foot", min: "to pie" }, { en: "super finger", min: "to dedo" },
 ];

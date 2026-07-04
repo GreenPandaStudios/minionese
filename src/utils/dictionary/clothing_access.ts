@@ -1,16 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const clothing_access: DictionaryEntry[] = [
-  {
-    "en": "hat",
-    "min": "sombre"
-  },
-  {
-    "en": "glasses",
-    "min": "goggle"
-  },
-  {
-    "en": "watch",
-    "min": "reloj"
-  }
+  { en: "hat", min: "sombre" }, { en: "glasses", min: "goggle" }, { en: "watch", min: "reloj" }, { en: "ring", min: "anillo" }, { en: "scarf", min: "bufanda" },
+  { en: "light hat", min: "pika sombre" }, { en: "light glasses", min: "pika goggle" }, { en: "light watch", min: "pika reloj" }, { en: "light ring", min: "pika anillo" }, { en: "light scarf", min: "pika bufanda" },
+  { en: "dark hat", min: "po sombre" }, { en: "dark glasses", min: "po goggle" }, { en: "dark watch", min: "po reloj" }, { en: "dark ring", min: "po anillo" }, { en: "dark scarf", min: "po bufanda" },
+  { en: "bright hat", min: "bango sombre" }, { en: "bright glasses", min: "bango goggle" }, { en: "bright watch", min: "bango reloj" }, { en: "bright ring", min: "bango anillo" }, { en: "bright scarf", min: "bango bufanda" },
+  { en: "pale hat", min: "ti sombre" }, { en: "pale glasses", min: "ti goggle" }, { en: "pale watch", min: "ti reloj" }, { en: "pale ring", min: "ti anillo" }, { en: "pale scarf", min: "ti bufanda" },
+  { en: "deep hat", min: "pa sombre" }, { en: "deep glasses", min: "pa goggle" }, { en: "deep watch", min: "pa reloj" }, { en: "deep ring", min: "pa anillo" }, { en: "deep scarf", min: "pa bufanda" },
+  { en: "soft hat", min: "ki sombre" }, { en: "soft glasses", min: "ki goggle" }, { en: "soft watch", min: "ki reloj" }, { en: "soft ring", min: "ki anillo" }, { en: "soft scarf", min: "ki bufanda" },
+  { en: "dull hat", min: "bo sombre" }, { en: "dull glasses", min: "bo goggle" }, { en: "dull watch", min: "bo reloj" }, { en: "dull ring", min: "bo anillo" }, { en: "dull scarf", min: "bo bufanda" },
+  { en: "neon hat", min: "go sombre" }, { en: "neon glasses", min: "go goggle" }, { en: "neon watch", min: "go reloj" }, { en: "neon ring", min: "go anillo" }, { en: "neon scarf", min: "go bufanda" },
+  { en: "pastel hat", min: "ba sombre" }, { en: "pastel glasses", min: "ba goggle" }, { en: "pastel watch", min: "ba reloj" }, { en: "pastel ring", min: "ba anillo" }, { en: "pastel scarf", min: "ba bufanda" },
+  { en: "vibrant hat", min: "ta sombre" }, { en: "vibrant glasses", min: "ta goggle" }, { en: "vibrant watch", min: "ta reloj" }, { en: "vibrant ring", min: "ta anillo" }, { en: "vibrant scarf", min: "ta bufanda" },
+  { en: "shiny hat", min: "bi sombre" }, { en: "shiny glasses", min: "bi goggle" }, { en: "shiny watch", min: "bi reloj" }, { en: "shiny ring", min: "bi anillo" }, { en: "shiny scarf", min: "bi bufanda" },
+  { en: "matte hat", min: "no sombre" }, { en: "matte glasses", min: "no goggle" }, { en: "matte watch", min: "no reloj" }, { en: "matte ring", min: "no anillo" }, { en: "matte scarf", min: "no bufanda" },
+  { en: "glossy hat", min: "ni sombre" }, { en: "glossy glasses", min: "ni goggle" }, { en: "glossy watch", min: "ni reloj" }, { en: "glossy ring", min: "ni anillo" }, { en: "glossy scarf", min: "ni bufanda" },
+  { en: "warm hat", min: "ku sombre" }, { en: "warm glasses", min: "ku goggle" }, { en: "warm watch", min: "ku reloj" }, { en: "warm ring", min: "ku anillo" }, { en: "warm scarf", min: "ku bufanda" },
+  { en: "cool hat", min: "mu sombre" }, { en: "cool glasses", min: "mu goggle" }, { en: "cool watch", min: "mu reloj" }, { en: "cool ring", min: "mu anillo" }, { en: "cool scarf", min: "mu bufanda" },
+  { en: "rich hat", min: "se sombre" }, { en: "rich glasses", min: "se goggle" }, { en: "rich watch", min: "se reloj" }, { en: "rich ring", min: "se anillo" }, { en: "rich scarf", min: "se bufanda" },
+  { en: "faint hat", min: "du sombre" }, { en: "faint glasses", min: "du goggle" }, { en: "faint watch", min: "du reloj" }, { en: "faint ring", min: "du anillo" }, { en: "faint scarf", min: "du bufanda" },
+  { en: "pure hat", min: "vo sombre" }, { en: "pure glasses", min: "vo goggle" }, { en: "pure watch", min: "vo reloj" }, { en: "pure ring", min: "vo anillo" }, { en: "pure scarf", min: "vo bufanda" },
+  { en: "true hat", min: "au sombre" }, { en: "true glasses", min: "au goggle" }, { en: "true watch", min: "au reloj" }, { en: "true ring", min: "au anillo" }, { en: "true scarf", min: "au bufanda" },
+  { en: "classic hat", min: "so sombre" }, { en: "classic glasses", min: "so goggle" }, { en: "classic watch", min: "so reloj" }, { en: "classic ring", min: "so anillo" }, { en: "classic scarf", min: "so bufanda" },
+  { en: "royal hat", min: "mi sombre" }, { en: "royal glasses", min: "mi goggle" }, { en: "royal watch", min: "mi reloj" }, { en: "royal ring", min: "mi anillo" }, { en: "royal scarf", min: "mi bufanda" },
+  { en: "sky hat", min: "ma sombre" }, { en: "sky glasses", min: "ma goggle" }, { en: "sky watch", min: "ma reloj" }, { en: "sky ring", min: "ma anillo" }, { en: "sky scarf", min: "ma bufanda" },
+  { en: "forest hat", min: "te sombre" }, { en: "forest glasses", min: "te goggle" }, { en: "forest watch", min: "te reloj" }, { en: "forest ring", min: "te anillo" }, { en: "forest scarf", min: "te bufanda" },
+  { en: "sea hat", min: "la sombre" }, { en: "sea glasses", min: "la goggle" }, { en: "sea watch", min: "la reloj" }, { en: "sea ring", min: "la anillo" }, { en: "sea scarf", min: "la bufanda" },
+  { en: "wild hat", min: "da sombre" }, { en: "wild glasses", min: "da goggle" }, { en: "wild watch", min: "da reloj" }, { en: "wild ring", min: "da anillo" }, { en: "wild scarf", min: "da bufanda" },
+  { en: "sweet hat", min: "li sombre" }, { en: "sweet glasses", min: "li goggle" }, { en: "sweet watch", min: "li reloj" }, { en: "sweet ring", min: "li anillo" }, { en: "sweet scarf", min: "li bufanda" },
+  { en: "hot hat", min: "zo sombre" }, { en: "hot glasses", min: "zo goggle" }, { en: "hot watch", min: "zo reloj" }, { en: "hot ring", min: "zo anillo" }, { en: "hot scarf", min: "zo bufanda" },
+  { en: "cold hat", min: "ha sombre" }, { en: "cold glasses", min: "ha goggle" }, { en: "cold watch", min: "ha reloj" }, { en: "cold ring", min: "ha anillo" }, { en: "cold scarf", min: "ha bufanda" },
+  { en: "super hat", min: "to sombre" }, { en: "super glasses", min: "to goggle" }, { en: "super watch", min: "to reloj" }, { en: "super ring", min: "to anillo" }, { en: "super scarf", min: "to bufanda" },
 ];

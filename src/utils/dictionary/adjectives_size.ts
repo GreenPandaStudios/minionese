@@ -1,20 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const adjectives_size: DictionaryEntry[] = [
-  {
-    "en": "big",
-    "min": "bango"
-  },
-  {
-    "en": "small",
-    "min": "pika"
-  },
-  {
-    "en": "tall",
-    "min": "alto"
-  },
-  {
-    "en": "short",
-    "min": "bajo"
-  }
+  { en: "big", min: "bango" }, { en: "small", min: "pika" }, { en: "tall", min: "alto" }, { en: "short", min: "bajo" }, { en: "wide", min: "ancho" },
+  { en: "light big", min: "pika bango" }, { en: "light small", min: "pika pika" }, { en: "light tall", min: "pika alto" }, { en: "light short", min: "pika bajo" }, { en: "light wide", min: "pika ancho" },
+  { en: "dark big", min: "po bango" }, { en: "dark small", min: "po pika" }, { en: "dark tall", min: "po alto" }, { en: "dark short", min: "po bajo" }, { en: "dark wide", min: "po ancho" },
+  { en: "bright big", min: "bango bango" }, { en: "bright small", min: "bango pika" }, { en: "bright tall", min: "bango alto" }, { en: "bright short", min: "bango bajo" }, { en: "bright wide", min: "bango ancho" },
+  { en: "pale big", min: "ti bango" }, { en: "pale small", min: "ti pika" }, { en: "pale tall", min: "ti alto" }, { en: "pale short", min: "ti bajo" }, { en: "pale wide", min: "ti ancho" },
+  { en: "deep big", min: "pa bango" }, { en: "deep small", min: "pa pika" }, { en: "deep tall", min: "pa alto" }, { en: "deep short", min: "pa bajo" }, { en: "deep wide", min: "pa ancho" },
+  { en: "soft big", min: "ki bango" }, { en: "soft small", min: "ki pika" }, { en: "soft tall", min: "ki alto" }, { en: "soft short", min: "ki bajo" }, { en: "soft wide", min: "ki ancho" },
+  { en: "dull big", min: "bo bango" }, { en: "dull small", min: "bo pika" }, { en: "dull tall", min: "bo alto" }, { en: "dull short", min: "bo bajo" }, { en: "dull wide", min: "bo ancho" },
+  { en: "neon big", min: "go bango" }, { en: "neon small", min: "go pika" }, { en: "neon tall", min: "go alto" }, { en: "neon short", min: "go bajo" }, { en: "neon wide", min: "go ancho" },
+  { en: "pastel big", min: "ba bango" }, { en: "pastel small", min: "ba pika" }, { en: "pastel tall", min: "ba alto" }, { en: "pastel short", min: "ba bajo" }, { en: "pastel wide", min: "ba ancho" },
+  { en: "vibrant big", min: "ta bango" }, { en: "vibrant small", min: "ta pika" }, { en: "vibrant tall", min: "ta alto" }, { en: "vibrant short", min: "ta bajo" }, { en: "vibrant wide", min: "ta ancho" },
+  { en: "shiny big", min: "bi bango" }, { en: "shiny small", min: "bi pika" }, { en: "shiny tall", min: "bi alto" }, { en: "shiny short", min: "bi bajo" }, { en: "shiny wide", min: "bi ancho" },
+  { en: "matte big", min: "no bango" }, { en: "matte small", min: "no pika" }, { en: "matte tall", min: "no alto" }, { en: "matte short", min: "no bajo" }, { en: "matte wide", min: "no ancho" },
+  { en: "glossy big", min: "ni bango" }, { en: "glossy small", min: "ni pika" }, { en: "glossy tall", min: "ni alto" }, { en: "glossy short", min: "ni bajo" }, { en: "glossy wide", min: "ni ancho" },
+  { en: "warm big", min: "ku bango" }, { en: "warm small", min: "ku pika" }, { en: "warm tall", min: "ku alto" }, { en: "warm short", min: "ku bajo" }, { en: "warm wide", min: "ku ancho" },
+  { en: "cool big", min: "mu bango" }, { en: "cool small", min: "mu pika" }, { en: "cool tall", min: "mu alto" }, { en: "cool short", min: "mu bajo" }, { en: "cool wide", min: "mu ancho" },
+  { en: "rich big", min: "se bango" }, { en: "rich small", min: "se pika" }, { en: "rich tall", min: "se alto" }, { en: "rich short", min: "se bajo" }, { en: "rich wide", min: "se ancho" },
+  { en: "faint big", min: "du bango" }, { en: "faint small", min: "du pika" }, { en: "faint tall", min: "du alto" }, { en: "faint short", min: "du bajo" }, { en: "faint wide", min: "du ancho" },
+  { en: "pure big", min: "vo bango" }, { en: "pure small", min: "vo pika" }, { en: "pure tall", min: "vo alto" }, { en: "pure short", min: "vo bajo" }, { en: "pure wide", min: "vo ancho" },
+  { en: "true big", min: "au bango" }, { en: "true small", min: "au pika" }, { en: "true tall", min: "au alto" }, { en: "true short", min: "au bajo" }, { en: "true wide", min: "au ancho" },
+  { en: "classic big", min: "so bango" }, { en: "classic small", min: "so pika" }, { en: "classic tall", min: "so alto" }, { en: "classic short", min: "so bajo" }, { en: "classic wide", min: "so ancho" },
+  { en: "royal big", min: "mi bango" }, { en: "royal small", min: "mi pika" }, { en: "royal tall", min: "mi alto" }, { en: "royal short", min: "mi bajo" }, { en: "royal wide", min: "mi ancho" },
+  { en: "sky big", min: "ma bango" }, { en: "sky small", min: "ma pika" }, { en: "sky tall", min: "ma alto" }, { en: "sky short", min: "ma bajo" }, { en: "sky wide", min: "ma ancho" },
+  { en: "forest big", min: "te bango" }, { en: "forest small", min: "te pika" }, { en: "forest tall", min: "te alto" }, { en: "forest short", min: "te bajo" }, { en: "forest wide", min: "te ancho" },
+  { en: "sea big", min: "la bango" }, { en: "sea small", min: "la pika" }, { en: "sea tall", min: "la alto" }, { en: "sea short", min: "la bajo" }, { en: "sea wide", min: "la ancho" },
+  { en: "wild big", min: "da bango" }, { en: "wild small", min: "da pika" }, { en: "wild tall", min: "da alto" }, { en: "wild short", min: "da bajo" }, { en: "wild wide", min: "da ancho" },
+  { en: "sweet big", min: "li bango" }, { en: "sweet small", min: "li pika" }, { en: "sweet tall", min: "li alto" }, { en: "sweet short", min: "li bajo" }, { en: "sweet wide", min: "li ancho" },
+  { en: "hot big", min: "zo bango" }, { en: "hot small", min: "zo pika" }, { en: "hot tall", min: "zo alto" }, { en: "hot short", min: "zo bajo" }, { en: "hot wide", min: "zo ancho" },
+  { en: "cold big", min: "ha bango" }, { en: "cold small", min: "ha pika" }, { en: "cold tall", min: "ha alto" }, { en: "cold short", min: "ha bajo" }, { en: "cold wide", min: "ha ancho" },
+  { en: "super big", min: "to bango" }, { en: "super small", min: "to pika" }, { en: "super tall", min: "to alto" }, { en: "super short", min: "to bajo" }, { en: "super wide", min: "to ancho" },
 ];

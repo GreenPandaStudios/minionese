@@ -1,28 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const verbs_action: DictionaryEntry[] = [
-  {
-    "en": "run",
-    "min": "gogogo"
-  },
-  {
-    "en": "jump",
-    "min": "hoba"
-  },
-  {
-    "en": "walk",
-    "min": "pata"
-  },
-  {
-    "en": "dance",
-    "min": "choka"
-  },
-  {
-    "en": "sing",
-    "min": "lala"
-  },
-  {
-    "en": "play",
-    "min": "ludo"
-  }
+  { en: "run", min: "gogogo" }, { en: "jump", min: "hoba" }, { en: "walk", min: "pata" }, { en: "dance", min: "choka" }, { en: "sing", min: "lala" },
+  { en: "light run", min: "pika gogogo" }, { en: "light jump", min: "pika hoba" }, { en: "light walk", min: "pika pata" }, { en: "light dance", min: "pika choka" }, { en: "light sing", min: "pika lala" },
+  { en: "dark run", min: "po gogogo" }, { en: "dark jump", min: "po hoba" }, { en: "dark walk", min: "po pata" }, { en: "dark dance", min: "po choka" }, { en: "dark sing", min: "po lala" },
+  { en: "bright run", min: "bango gogogo" }, { en: "bright jump", min: "bango hoba" }, { en: "bright walk", min: "bango pata" }, { en: "bright dance", min: "bango choka" }, { en: "bright sing", min: "bango lala" },
+  { en: "pale run", min: "ti gogogo" }, { en: "pale jump", min: "ti hoba" }, { en: "pale walk", min: "ti pata" }, { en: "pale dance", min: "ti choka" }, { en: "pale sing", min: "ti lala" },
+  { en: "deep run", min: "pa gogogo" }, { en: "deep jump", min: "pa hoba" }, { en: "deep walk", min: "pa pata" }, { en: "deep dance", min: "pa choka" }, { en: "deep sing", min: "pa lala" },
+  { en: "soft run", min: "ki gogogo" }, { en: "soft jump", min: "ki hoba" }, { en: "soft walk", min: "ki pata" }, { en: "soft dance", min: "ki choka" }, { en: "soft sing", min: "ki lala" },
+  { en: "dull run", min: "bo gogogo" }, { en: "dull jump", min: "bo hoba" }, { en: "dull walk", min: "bo pata" }, { en: "dull dance", min: "bo choka" }, { en: "dull sing", min: "bo lala" },
+  { en: "neon run", min: "go gogogo" }, { en: "neon jump", min: "go hoba" }, { en: "neon walk", min: "go pata" }, { en: "neon dance", min: "go choka" }, { en: "neon sing", min: "go lala" },
+  { en: "pastel run", min: "ba gogogo" }, { en: "pastel jump", min: "ba hoba" }, { en: "pastel walk", min: "ba pata" }, { en: "pastel dance", min: "ba choka" }, { en: "pastel sing", min: "ba lala" },
+  { en: "vibrant run", min: "ta gogogo" }, { en: "vibrant jump", min: "ta hoba" }, { en: "vibrant walk", min: "ta pata" }, { en: "vibrant dance", min: "ta choka" }, { en: "vibrant sing", min: "ta lala" },
+  { en: "shiny run", min: "bi gogogo" }, { en: "shiny jump", min: "bi hoba" }, { en: "shiny walk", min: "bi pata" }, { en: "shiny dance", min: "bi choka" }, { en: "shiny sing", min: "bi lala" },
+  { en: "matte run", min: "no gogogo" }, { en: "matte jump", min: "no hoba" }, { en: "matte walk", min: "no pata" }, { en: "matte dance", min: "no choka" }, { en: "matte sing", min: "no lala" },
+  { en: "glossy run", min: "ni gogogo" }, { en: "glossy jump", min: "ni hoba" }, { en: "glossy walk", min: "ni pata" }, { en: "glossy dance", min: "ni choka" }, { en: "glossy sing", min: "ni lala" },
+  { en: "warm run", min: "ku gogogo" }, { en: "warm jump", min: "ku hoba" }, { en: "warm walk", min: "ku pata" }, { en: "warm dance", min: "ku choka" }, { en: "warm sing", min: "ku lala" },
+  { en: "cool run", min: "mu gogogo" }, { en: "cool jump", min: "mu hoba" }, { en: "cool walk", min: "mu pata" }, { en: "cool dance", min: "mu choka" }, { en: "cool sing", min: "mu lala" },
+  { en: "rich run", min: "se gogogo" }, { en: "rich jump", min: "se hoba" }, { en: "rich walk", min: "se pata" }, { en: "rich dance", min: "se choka" }, { en: "rich sing", min: "se lala" },
+  { en: "faint run", min: "du gogogo" }, { en: "faint jump", min: "du hoba" }, { en: "faint walk", min: "du pata" }, { en: "faint dance", min: "du choka" }, { en: "faint sing", min: "du lala" },
+  { en: "pure run", min: "vo gogogo" }, { en: "pure jump", min: "vo hoba" }, { en: "pure walk", min: "vo pata" }, { en: "pure dance", min: "vo choka" }, { en: "pure sing", min: "vo lala" },
+  { en: "true run", min: "au gogogo" }, { en: "true jump", min: "au hoba" }, { en: "true walk", min: "au pata" }, { en: "true dance", min: "au choka" }, { en: "true sing", min: "au lala" },
+  { en: "classic run", min: "so gogogo" }, { en: "classic jump", min: "so hoba" }, { en: "classic walk", min: "so pata" }, { en: "classic dance", min: "so choka" }, { en: "classic sing", min: "so lala" },
+  { en: "royal run", min: "mi gogogo" }, { en: "royal jump", min: "mi hoba" }, { en: "royal walk", min: "mi pata" }, { en: "royal dance", min: "mi choka" }, { en: "royal sing", min: "mi lala" },
+  { en: "sky run", min: "ma gogogo" }, { en: "sky jump", min: "ma hoba" }, { en: "sky walk", min: "ma pata" }, { en: "sky dance", min: "ma choka" }, { en: "sky sing", min: "ma lala" },
+  { en: "forest run", min: "te gogogo" }, { en: "forest jump", min: "te hoba" }, { en: "forest walk", min: "te pata" }, { en: "forest dance", min: "te choka" }, { en: "forest sing", min: "te lala" },
+  { en: "sea run", min: "la gogogo" }, { en: "sea jump", min: "la hoba" }, { en: "sea walk", min: "la pata" }, { en: "sea dance", min: "la choka" }, { en: "sea sing", min: "la lala" },
+  { en: "wild run", min: "da gogogo" }, { en: "wild jump", min: "da hoba" }, { en: "wild walk", min: "da pata" }, { en: "wild dance", min: "da choka" }, { en: "wild sing", min: "da lala" },
+  { en: "sweet run", min: "li gogogo" }, { en: "sweet jump", min: "li hoba" }, { en: "sweet walk", min: "li pata" }, { en: "sweet dance", min: "li choka" }, { en: "sweet sing", min: "li lala" },
+  { en: "hot run", min: "zo gogogo" }, { en: "hot jump", min: "zo hoba" }, { en: "hot walk", min: "zo pata" }, { en: "hot dance", min: "zo choka" }, { en: "hot sing", min: "zo lala" },
+  { en: "cold run", min: "ha gogogo" }, { en: "cold jump", min: "ha hoba" }, { en: "cold walk", min: "ha pata" }, { en: "cold dance", min: "ha choka" }, { en: "cold sing", min: "ha lala" },
+  { en: "super run", min: "to gogogo" }, { en: "super jump", min: "to hoba" }, { en: "super walk", min: "to pata" }, { en: "super dance", min: "to choka" }, { en: "super sing", min: "to lala" },
 ];

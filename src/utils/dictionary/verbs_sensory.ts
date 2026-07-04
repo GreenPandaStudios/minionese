@@ -1,24 +1,34 @@
 import type { DictionaryEntry } from "./index";
 
 export const verbs_sensory: DictionaryEntry[] = [
-  {
-    "en": "look",
-    "min": "luk"
-  },
-  {
-    "en": "see",
-    "min": "luka"
-  },
-  {
-    "en": "hear",
-    "min": "skucha"
-  },
-  {
-    "en": "feel",
-    "min": "tokafeel"
-  },
-  {
-    "en": "smell",
-    "min": "naza"
-  }
+  { en: "look", min: "luk" }, { en: "see", min: "luka" }, { en: "hear", min: "skucha" }, { en: "feel", min: "tokafeel" }, { en: "smell", min: "naza" },
+  { en: "light look", min: "pika luk" }, { en: "light see", min: "pika luka" }, { en: "light hear", min: "pika skucha" }, { en: "light feel", min: "pika tokafeel" }, { en: "light smell", min: "pika naza" },
+  { en: "dark look", min: "po luk" }, { en: "dark see", min: "po luka" }, { en: "dark hear", min: "po skucha" }, { en: "dark feel", min: "po tokafeel" }, { en: "dark smell", min: "po naza" },
+  { en: "bright look", min: "bango luk" }, { en: "bright see", min: "bango luka" }, { en: "bright hear", min: "bango skucha" }, { en: "bright feel", min: "bango tokafeel" }, { en: "bright smell", min: "bango naza" },
+  { en: "pale look", min: "ti luk" }, { en: "pale see", min: "ti luka" }, { en: "pale hear", min: "ti skucha" }, { en: "pale feel", min: "ti tokafeel" }, { en: "pale smell", min: "ti naza" },
+  { en: "deep look", min: "pa luk" }, { en: "deep see", min: "pa luka" }, { en: "deep hear", min: "pa skucha" }, { en: "deep feel", min: "pa tokafeel" }, { en: "deep smell", min: "pa naza" },
+  { en: "soft look", min: "ki luk" }, { en: "soft see", min: "ki luka" }, { en: "soft hear", min: "ki skucha" }, { en: "soft feel", min: "ki tokafeel" }, { en: "soft smell", min: "ki naza" },
+  { en: "dull look", min: "bo luk" }, { en: "dull see", min: "bo luka" }, { en: "dull hear", min: "bo skucha" }, { en: "dull feel", min: "bo tokafeel" }, { en: "dull smell", min: "bo naza" },
+  { en: "neon look", min: "go luk" }, { en: "neon see", min: "go luka" }, { en: "neon hear", min: "go skucha" }, { en: "neon feel", min: "go tokafeel" }, { en: "neon smell", min: "go naza" },
+  { en: "pastel look", min: "ba luk" }, { en: "pastel see", min: "ba luka" }, { en: "pastel hear", min: "ba skucha" }, { en: "pastel feel", min: "ba tokafeel" }, { en: "pastel smell", min: "ba naza" },
+  { en: "vibrant look", min: "ta luk" }, { en: "vibrant see", min: "ta luka" }, { en: "vibrant hear", min: "ta skucha" }, { en: "vibrant feel", min: "ta tokafeel" }, { en: "vibrant smell", min: "ta naza" },
+  { en: "shiny look", min: "bi luk" }, { en: "shiny see", min: "bi luka" }, { en: "shiny hear", min: "bi skucha" }, { en: "shiny feel", min: "bi tokafeel" }, { en: "shiny smell", min: "bi naza" },
+  { en: "matte look", min: "no luk" }, { en: "matte see", min: "no luka" }, { en: "matte hear", min: "no skucha" }, { en: "matte feel", min: "no tokafeel" }, { en: "matte smell", min: "no naza" },
+  { en: "glossy look", min: "ni luk" }, { en: "glossy see", min: "ni luka" }, { en: "glossy hear", min: "ni skucha" }, { en: "glossy feel", min: "ni tokafeel" }, { en: "glossy smell", min: "ni naza" },
+  { en: "warm look", min: "ku luk" }, { en: "warm see", min: "ku luka" }, { en: "warm hear", min: "ku skucha" }, { en: "warm feel", min: "ku tokafeel" }, { en: "warm smell", min: "ku naza" },
+  { en: "cool look", min: "mu luk" }, { en: "cool see", min: "mu luka" }, { en: "cool hear", min: "mu skucha" }, { en: "cool feel", min: "mu tokafeel" }, { en: "cool smell", min: "mu naza" },
+  { en: "rich look", min: "se luk" }, { en: "rich see", min: "se luka" }, { en: "rich hear", min: "se skucha" }, { en: "rich feel", min: "se tokafeel" }, { en: "rich smell", min: "se naza" },
+  { en: "faint look", min: "du luk" }, { en: "faint see", min: "du luka" }, { en: "faint hear", min: "du skucha" }, { en: "faint feel", min: "du tokafeel" }, { en: "faint smell", min: "du naza" },
+  { en: "pure look", min: "vo luk" }, { en: "pure see", min: "vo luka" }, { en: "pure hear", min: "vo skucha" }, { en: "pure feel", min: "vo tokafeel" }, { en: "pure smell", min: "vo naza" },
+  { en: "true look", min: "au luk" }, { en: "true see", min: "au luka" }, { en: "true hear", min: "au skucha" }, { en: "true feel", min: "au tokafeel" }, { en: "true smell", min: "au naza" },
+  { en: "classic look", min: "so luk" }, { en: "classic see", min: "so luka" }, { en: "classic hear", min: "so skucha" }, { en: "classic feel", min: "so tokafeel" }, { en: "classic smell", min: "so naza" },
+  { en: "royal look", min: "mi luk" }, { en: "royal see", min: "mi luka" }, { en: "royal hear", min: "mi skucha" }, { en: "royal feel", min: "mi tokafeel" }, { en: "royal smell", min: "mi naza" },
+  { en: "sky look", min: "ma luk" }, { en: "sky see", min: "ma luka" }, { en: "sky hear", min: "ma skucha" }, { en: "sky feel", min: "ma tokafeel" }, { en: "sky smell", min: "ma naza" },
+  { en: "forest look", min: "te luk" }, { en: "forest see", min: "te luka" }, { en: "forest hear", min: "te skucha" }, { en: "forest feel", min: "te tokafeel" }, { en: "forest smell", min: "te naza" },
+  { en: "sea look", min: "la luk" }, { en: "sea see", min: "la luka" }, { en: "sea hear", min: "la skucha" }, { en: "sea feel", min: "la tokafeel" }, { en: "sea smell", min: "la naza" },
+  { en: "wild look", min: "da luk" }, { en: "wild see", min: "da luka" }, { en: "wild hear", min: "da skucha" }, { en: "wild feel", min: "da tokafeel" }, { en: "wild smell", min: "da naza" },
+  { en: "sweet look", min: "li luk" }, { en: "sweet see", min: "li luka" }, { en: "sweet hear", min: "li skucha" }, { en: "sweet feel", min: "li tokafeel" }, { en: "sweet smell", min: "li naza" },
+  { en: "hot look", min: "zo luk" }, { en: "hot see", min: "zo luka" }, { en: "hot hear", min: "zo skucha" }, { en: "hot feel", min: "zo tokafeel" }, { en: "hot smell", min: "zo naza" },
+  { en: "cold look", min: "ha luk" }, { en: "cold see", min: "ha luka" }, { en: "cold hear", min: "ha skucha" }, { en: "cold feel", min: "ha tokafeel" }, { en: "cold smell", min: "ha naza" },
+  { en: "super look", min: "to luk" }, { en: "super see", min: "to luka" }, { en: "super hear", min: "to skucha" }, { en: "super feel", min: "to tokafeel" }, { en: "super smell", min: "to naza" },
 ];

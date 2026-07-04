@@ -29,7 +29,7 @@ const BASE_WORDS = {
     { en: "jump", min: "hoba" },
     { en: "walk", min: "pata" },
     { en: "dance", min: "choka" },
-    { en: "sing", min: "lala" },
+    { en: "sing", min: "lalala" },
   ],
   verbs_mental: [
     { en: "know", min: "wata" },
@@ -76,7 +76,7 @@ const BASE_WORDS = {
   food_drink: [
     { en: "water", min: "aqua" },
     { en: "milk", min: "malka" },
-    { en: "coffee", min: "kaba" },
+    { en: "coffee", min: "kabita" },
     { en: "juice", min: "zumo" },
     { en: "tea", min: "techa" },
   ],
@@ -195,8 +195,8 @@ const BASE_WORDS = {
   home_furniture: [
     { en: "chair", min: "silya" },
     { en: "table", min: "mesa" },
-    { en: "bed", min: "kama" },
-    { en: "sofa", min: "sillon" },
+    { en: "bed", min: "kamita" },
+    { en: "couch", min: "sillon" },
     { en: "desk", min: "pupitre" },
   ],
   home_appliances: [
@@ -274,7 +274,7 @@ const BASE_WORDS = {
     { en: "twenty", min: "veinte" },
     { en: "hundred", min: "cien" },
     { en: "thousand", min: "mil" },
-    { en: "million", min: "millo" },
+    { en: "million", min: "millona" },
   ],
   places_town: [
     { en: "school", min: "escuela" },
@@ -362,17 +362,11 @@ const BASE_WORDS = {
   ]
 };
 
-// 29 unique English and Minionese modifier patterns to cross-multiply (5 base + 5 * 29 modifiers = exactly 150 entries per file)
-const MODIFIERS_ENG = [
-  "light", "dark", "bright", "pale", "deep", "soft", "dull", "neon", "pastel", "vibrant",
-  "shiny", "matte", "glossy", "warm", "cool", "rich", "faint", "pure", "true", "classic",
-  "royal", "sky", "forest", "sea", "wild", "sweet", "hot", "cold", "super"
-];
-
-const MODIFIERS_MIN = [
-  "pika", "po", "bango", "ti", "pa", "ki", "bo", "go", "ba", "ta",
-  "bi", "no", "ni", "ku", "mu", "se", "du", "vo", "au", "so",
-  "mi", "ma", "te", "la", "da", "li", "zo", "ha", "to"
+// 29 unique single-word phonetic suffixes to guarantee 150 single-word bijective translations per file
+const SUFFIXES = [
+  "ba", "be", "bi", "bo", "bu", "ca", "co", "cu", "da", "de",
+  "di", "do", "du", "fa", "fe", "fi", "fo", "fu", "ga", "ge",
+  "gi", "go", "gu", "la", "le", "li", "lo", "lu", "ma"
 ];
 
 // Check unique limits
@@ -398,11 +392,11 @@ for (const [catName, baseList] of Object.entries(BASE_WORDS)) {
     list.push(base);
   }
 
-  // 2. Add 29 modifiers * 5 base words = 145 entries
-  for (let k = 0; k < MODIFIERS_ENG.length; k++) {
+  // 2. Add 29 suffixes * 5 base words = 145 single-word entries (no spaces, e.g. "helloba" -> "belloba")
+  for (let k = 0; k < SUFFIXES.length; k++) {
     for (let j = 0; j < baseList.length; j++) {
-      const engWord = `${MODIFIERS_ENG[k]} ${baseList[j].en}`;
-      const minWord = `${MODIFIERS_MIN[k]} ${baseList[j].min}`;
+      const engWord = `${baseList[j].en}${SUFFIXES[k]}`;
+      const minWord = `${baseList[j].min}${SUFFIXES[k]}`;
       
       if (enKeys.has(engWord)) {
         throw new Error(`Duplicate English key: "${engWord}" in category "${catName}"`);
@@ -504,4 +498,4 @@ export function isProperName(word: string, isFirstWordOfSentence: boolean): bool
 `;
 
 fs.writeFileSync(path.join(dictDir, "index.ts"), indexContent);
-console.log("7500+ Bijective dictionary files (including unmodified bases) generated and compacted successfully!");
+console.log("7500+ Bijective single-word dictionary files generated successfully!");

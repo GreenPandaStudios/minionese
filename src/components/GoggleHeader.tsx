@@ -41,7 +41,7 @@ export function GoggleHeader() {
         </div>
       </div>
       <h1 className="main-title">Bello!</h1>
-      <p className="subtitle">Deterministic Minionese Translator</p>
+      <p className="subtitle">Speak like a Minion!</p>
     </header>
   );
 }

@@ -28,7 +28,7 @@ describe("Minionese Translator App Integration Tests", () => {
   it("should render core layout correctly", () => {
     render(<App clipboardService={mockClipboard} speechService={mockSpeech} shareService={mockShare} />);
     expect(screen.getByText("Bello!")).toBeInTheDocument();
-    expect(screen.getByText("Deterministic Minionese Translator")).toBeInTheDocument();
+    expect(screen.getByText("Speak like a Minion!")).toBeInTheDocument();
     expect(screen.getByPlaceholderText("Type English text here...")).toBeInTheDocument();
     expect(screen.getByPlaceholderText("Translation will appear here...")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /Show Core Dictionary/i })).toBeInTheDocument();

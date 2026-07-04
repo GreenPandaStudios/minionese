@@ -77,6 +77,8 @@ describe("Minionese Translator - Reversible & Proper Name Tests", () => {
     it("should translate prefixes and suffixes deterministically", () => {
       expect(translate("unplanned", "toMinion")).toBe("imbrammda");
       expect(translate("reconstruction", "toMinion")).toBe("kakemzdlikka");
+      expect(translate("dogs", "toMinion")).toBe("tegz");
+      expect(translate("boxes", "toMinion")).toBe("pexez");
     });
 
     it("should perform perfect back-and-forth roundtrips for complex morphological sentences", () => {

@@ -11,6 +11,18 @@ const ENG_TO_MIN_PREFIX: Record<string, string> = {
   super: "ba",
   dis: "ta",
   mis: "bi",
+  anti: "no",
+  non: "ni",
+  counter: "ku",
+  multi: "mu",
+  semi: "se",
+  under: "du",
+  over: "vo",
+  auto: "au",
+  post: "so",
+  micro: "mi",
+  macro: "ma",
+  tele: "te",
 };
 
 const MIN_TO_ENG_PREFIX: Record<string, string> = Object.fromEntries(
@@ -35,6 +47,24 @@ const ENG_TO_MIN_SUFFIX: Record<string, string> = {
   ity: "ti",
   ive: "vi",
   ous: "ma",
+  logy: "gy",
+  graphy: "fy",
+  phobia: "fo",
+  meter: "me",
+  scope: "so",
+  ship: "si",
+  hood: "ho",
+  ward: "wa",
+  wise: "wi",
+  th: "tu",
+  al: "ra",
+  ar: "ri",
+  ary: "ry",
+  ic: "ik",
+  ish: "sh",
+  y: "ye",
+  es: "ez",
+  s: "z",
 };
 
 const MIN_TO_ENG_SUFFIX: Record<string, string> = Object.fromEntries(
@@ -95,3 +125,4 @@ export function translateMorphology(
   }
   return result;
 }
+export { ENG_TO_MIN_PREFIX, ENG_TO_MIN_SUFFIX };

@@ -69,6 +69,11 @@ describe("Minionese Translator - Reversible & Proper Name Tests", () => {
       expect(translate("What is that?", "toMinion")).toBe("Po ka ta?");
     });
 
+    it("should unwrap contractions to full words when translating to Minionese", () => {
+      expect(translate("I'm friend", "toMinion")).toBe("ME an buddha");
+      expect(translate("don't you", "toMinion")).toBe("te med tu");
+    });
+
     it("should perform perfect back-and-forth roundtrips for any sentence", () => {
       const sentence = "Hello Mary, you look unplanned today.";
       const min = translate(sentence, "toMinion");

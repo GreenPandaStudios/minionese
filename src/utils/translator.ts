@@ -1,5 +1,6 @@
 import { dictionary, isProperName } from "./dictionary";
 import { translateReversible } from "./phonetics";
+import { unwrapContractions } from "./contractions";
 
 export { dictionary };
 
@@ -28,7 +29,8 @@ export function matchCase(source: string, target: string): string {
 export function translate(text: string, direction: "toMinion" | "toEnglish"): string {
   if (!text || !text.trim()) return "";
 
-  const tokens = text.match(/\w+(?:'\w+)?|[^\w\s]|\s+/g) || [];
+  const preparedText = direction === "toMinion" ? unwrapContractions(text) : text;
+  const tokens = preparedText.match(/\w+(?:'\w+)?|[^\w\s]|\s+/g) || [];
   const translatedTokens: string[] = [];
   let i = 0;
 

@@ -519,12 +519,12 @@ export const ${name}: DictionaryEntry[] = ${listStr};
 }
 
 // Write index.ts combining all 50 categories
-const imports = Object.keys(GENERATED_CATEGORIES).map(name => `import { ${name} } from "./${name}";`).join("\n");
+const imports = Object.keys(GENERATED_CATEGORIES).map(name => `import { ${name} } from "./${name}.ts";`).join("\n");
 const combination = `export const dictionary: DictionaryEntry[] = [
 ${Object.keys(GENERATED_CATEGORIES).map(name => `  ...${name},`).join("\n")}
 ];`;
 
-const indexContent = `import { properNamesList } from "./names";
+const indexContent = `import { properNamesList } from "./names.ts";
 ${imports}
 
 export interface DictionaryEntry {

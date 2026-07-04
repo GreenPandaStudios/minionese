@@ -1,12 +1,16 @@
+import { Trash2, Copy, Volume2, Share2 } from "lucide-react";
+
 interface TranslationPanelProps {
   direction: "toMinion" | "toEnglish";
   sourceText: string;
   targetText: string;
   isSpeaking: boolean;
+  shareSuccess: boolean;
   onSourceTextChange: (text: string) => void;
   onClear: () => void;
   onCopy: () => void;
   onSpeak: () => void;
+  onShare: () => void;
   onDirectionToggle: (newDir: "toMinion" | "toEnglish") => void;
 }
 
@@ -15,10 +19,12 @@ export function TranslationPanel({
   sourceText,
   targetText,
   isSpeaking,
+  shareSuccess,
   onSourceTextChange,
   onClear,
   onCopy,
   onSpeak,
+  onShare,
   onDirectionToggle,
 }: TranslationPanelProps) {
   return (
@@ -53,7 +59,7 @@ export function TranslationPanel({
             disabled={!sourceText}
             aria-label="Clear source text"
           >
-            🗑️ Clear
+            <Trash2 size={14} /> Clear
           </button>
         </div>
         <textarea
@@ -82,7 +88,7 @@ export function TranslationPanel({
               disabled={!targetText}
               aria-label="Read translation aloud"
             >
-              {isSpeaking ? "🔊 Speaking..." : "📢 Speak"}
+              <Volume2 size={14} /> {isSpeaking ? "Speaking..." : "Speak"}
             </button>
             <button
               className="action-btn copy-btn"
@@ -90,7 +96,15 @@ export function TranslationPanel({
               disabled={!targetText}
               aria-label="Copy translation to clipboard"
             >
-              📋 Copy
+              <Copy size={14} /> Copy
+            </button>
+            <button
+              className={`action-btn share-btn ${shareSuccess ? "share-active" : ""}`}
+              onClick={onShare}
+              disabled={!targetText}
+              aria-label="Share translation link"
+            >
+              <Share2 size={14} /> {shareSuccess ? "Shared!" : "Share"}
             </button>
           </div>
         </div>

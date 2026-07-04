@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { BookOpen } from "lucide-react";
 import { dictionary } from "../utils/translator";
 
 interface DictionaryDrawerProps {
@@ -28,7 +29,7 @@ export function DictionaryDrawer({ isOpen, onToggleOpen }: DictionaryDrawerProps
         onClick={onToggleOpen}
         aria-expanded={isOpen}
       >
-        📖 {isOpen ? "Hide" : "Show"} Core Dictionary ({dictionary.length} words)
+        <BookOpen size={16} /> {isOpen ? "Hide" : "Show"} Core Dictionary ({dictionary.length} words)
       </button>
 
       {isOpen && (

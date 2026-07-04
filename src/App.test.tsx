@@ -2,11 +2,12 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "./App";
-import type { ClipboardService, SpeechService } from "./utils/services";
+import type { ClipboardService, SpeechService, ShareService } from "./utils/services";
 
 describe("Minionese Translator App Integration Tests", () => {
   let mockClipboard: ClipboardService;
   let mockSpeech: SpeechService;
+  let mockShare: ShareService;
 
   beforeEach(() => {
     mockClipboard = {
@@ -19,19 +20,22 @@ describe("Minionese Translator App Integration Tests", () => {
       }),
       cancel: vi.fn(),
     };
+    mockShare = {
+      share: vi.fn().mockResolvedValue(undefined),
+    };
   });
 
   it("should render core layout correctly", () => {
-    render(<App clipboardService={mockClipboard} speechService={mockSpeech} />);
+    render(<App clipboardService={mockClipboard} speechService={mockSpeech} shareService={mockShare} />);
     expect(screen.getByText("Bello!")).toBeInTheDocument();
     expect(screen.getByText("Deterministic Minionese Translator")).toBeInTheDocument();
     expect(screen.getByPlaceholderText("Type English text here...")).toBeInTheDocument();
     expect(screen.getByPlaceholderText("Translation will appear here...")).toBeInTheDocument();
-    expect(screen.getByText("📖 Show Core Dictionary (99 words)")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Show Core Dictionary/i })).toBeInTheDocument();
   });
 
   it("should translate English to Minionese on input", async () => {
-    render(<App clipboardService={mockClipboard} speechService={mockSpeech} />);
+    render(<App clipboardService={mockClipboard} speechService={mockSpeech} shareService={mockShare} />);
     const user = userEvent.setup();
     const sourceInput = screen.getByPlaceholderText("Type English text here...");
     const targetOutput = screen.getByPlaceholderText("Translation will appear here...");
@@ -41,7 +45,7 @@ describe("Minionese Translator App Integration Tests", () => {
   });
 
   it("should clear the translation and inputs when clicking clear button", async () => {
-    render(<App clipboardService={mockClipboard} speechService={mockSpeech} />);
+    render(<App clipboardService={mockClipboard} speechService={mockSpeech} shareService={mockShare} />);
     const user = userEvent.setup();
     const sourceInput = screen.getByPlaceholderText("Type English text here...");
     const targetOutput = screen.getByPlaceholderText("Translation will appear here...");
@@ -57,7 +61,7 @@ describe("Minionese Translator App Integration Tests", () => {
   });
 
   it("should swap languages and inputs when toggling translation direction", async () => {
-    render(<App clipboardService={mockClipboard} speechService={mockSpeech} />);
+    render(<App clipboardService={mockClipboard} speechService={mockSpeech} shareService={mockShare} />);
     const user = userEvent.setup();
     const sourceInput = screen.getByPlaceholderText("Type English text here...");
     const targetOutput = screen.getByPlaceholderText("Translation will appear here...");
@@ -73,29 +77,25 @@ describe("Minionese Translator App Integration Tests", () => {
   });
 
   it("should open dictionary drawer and filter words on search", async () => {
-    render(<App clipboardService={mockClipboard} speechService={mockSpeech} />);
+    render(<App clipboardService={mockClipboard} speechService={mockSpeech} shareService={mockShare} />);
     const user = userEvent.setup();
     
-    const drawerToggleBtn = screen.getByText("📖 Show Core Dictionary (99 words)");
+    const drawerToggleBtn = screen.getByRole("button", { name: /Show Core Dictionary/i });
     await user.click(drawerToggleBtn);
 
-    expect(screen.getByText("📖 Hide Core Dictionary (99 words)")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Hide Core Dictionary/i })).toBeInTheDocument();
     const searchInput = screen.getByPlaceholderText("🔍 Search words...");
     expect(searchInput).toBeInTheDocument();
 
-    // Verify some dictionary rows render
     expect(screen.getByText("goodbye")).toBeInTheDocument();
 
-    // Search for "banana"
     await user.type(searchInput, "banana");
-    
-    // There are multiple banana references (English and Minion, "banana" and "bananas")
     expect(screen.getAllByText("banana").length).toBeGreaterThan(0);
     expect(screen.queryByText("goodbye")).not.toBeInTheDocument();
   });
 
   it("should write translation to clipboard when copy is clicked", async () => {
-    render(<App clipboardService={mockClipboard} speechService={mockSpeech} />);
+    render(<App clipboardService={mockClipboard} speechService={mockSpeech} shareService={mockShare} />);
     const user = userEvent.setup();
     const sourceInput = screen.getByPlaceholderText("Type English text here...");
     
@@ -107,7 +107,7 @@ describe("Minionese Translator App Integration Tests", () => {
   });
 
   it("should invoke SpeechSynthesis when speak button is clicked", async () => {
-    render(<App clipboardService={mockClipboard} speechService={mockSpeech} />);
+    render(<App clipboardService={mockClipboard} speechService={mockSpeech} shareService={mockShare} />);
     const user = userEvent.setup();
     const sourceInput = screen.getByPlaceholderText("Type English text here...");
 
@@ -118,6 +118,21 @@ describe("Minionese Translator App Integration Tests", () => {
     expect(mockSpeech.speak).toHaveBeenCalledWith("aqua", expect.objectContaining({
       pitch: 1.7,
       rate: 1.2,
+    }));
+  });
+
+  it("should invoke ShareService when share button is clicked", async () => {
+    render(<App clipboardService={mockClipboard} speechService={mockSpeech} shareService={mockShare} />);
+    const user = userEvent.setup();
+    const sourceInput = screen.getByPlaceholderText("Type English text here...");
+
+    await user.type(sourceInput, "ok");
+    const shareBtn = screen.getByRole("button", { name: /share translation link/i });
+    await user.click(shareBtn);
+
+    expect(mockShare.share).toHaveBeenCalledWith(expect.objectContaining({
+      title: "Minionese",
+      text: "okay",
     }));
   });
 });

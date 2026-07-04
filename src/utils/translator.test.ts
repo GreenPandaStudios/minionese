@@ -1,55 +1,52 @@
 import { describe, it, expect } from "vitest";
-import {
-  translate,
-  splitIntoSyllables,
-  genericAlgorithmicTranslate,
-  matchCase,
-} from "./translator";
+import { translate, matchCase } from "./translator";
+import { isProperName } from "./dictionary";
+import { translateReversible } from "./phonetics";
 
-describe("Minionese Translator - Core Utilities", () => {
-  describe("splitIntoSyllables", () => {
-    it("should split words into syllables correctly based on vowels", () => {
-      expect(splitIntoSyllables("hello")).toEqual(["hel", "lo"]);
-      expect(splitIntoSyllables("banana")).toEqual(["ba", "na", "na"]);
-      expect(splitIntoSyllables("telecommunication")).toEqual([
-        "te",
-        "le",
-        "com",
-        "mu",
-        "ni",
-        "ca",
-        "tion",
-      ]);
+describe("Minionese Translator - Reversible & Proper Name Tests", () => {
+  describe("translateReversible", () => {
+    it("should translate non-dictionary words to cute Minionese ciphers", () => {
+      expect(translateReversible("everything")).toBe("ofolydhumg");
+      expect(translateReversible("testing")).toBe("dozdumg");
+    });
+
+    it("should translate back and forth deterministically to original values", () => {
+      const original = "supercalifragilisticexpialidocious";
+      const cipher = translateReversible(original);
+      const back = translateReversible(cipher);
+      expect(back).toBe(original);
+    });
+
+    it("should preserve original casing style during cipher translations", () => {
+      expect(translateReversible("Testing")).toBe("Dozdumg");
+      expect(translateReversible("TESTING")).toBe("DOZDUMG");
+    });
+  });
+
+  describe("isProperName", () => {
+    it("should recognize known names regardless of sentence position", () => {
+      expect(isProperName("Mary", true)).toBe(true);
+      expect(isProperName("Beth", true)).toBe(true);
+      expect(isProperName("John", false)).toBe(true);
+      expect(isProperName("Bob", false)).toBe(true);
+    });
+
+    it("should classify capitalized non-dictionary words in middle of sentences as proper nouns", () => {
+      expect(isProperName("Paris", false)).toBe(true);
+      expect(isProperName("banana", false)).toBe(false);
+    });
+
+    it("should not classify capitalized dictionary words as proper names", () => {
+      expect(isProperName("Hello", false)).toBe(false);
+      expect(isProperName("Banana", false)).toBe(false);
     });
   });
 
   describe("matchCase", () => {
-    it("should match uppercase, titlecase, and lowercase correctly", () => {
+    it("should match casing styles correctly", () => {
       expect(matchCase("HELLO", "bello")).toBe("BELLO");
       expect(matchCase("Hello", "bello")).toBe("Bello");
       expect(matchCase("hello", "bello")).toBe("bello");
-    });
-  });
-
-  describe("genericAlgorithmicTranslate (Phonetic Fallback)", () => {
-    it("should map English words phonetically and keep them compact", () => {
-      const translation = genericAlgorithmicTranslate("telecommunication", "toMinion");
-      // "telecommunication" has 7 syllables, which is > 3, so it should be truncated to 3 syllables + suffix
-      // "te" -> "to", "le" -> "lo", "com" -> "kum". 17 chars long -> "la" suffix.
-      expect(translation).toBe("tolokum-la");
-      expect(translation.length).toBeLessThan(15);
-    });
-
-    it("should append a cute vowel ending for short words ending in consonants", () => {
-      const translation = genericAlgorithmicTranslate("unplanned", "toMinion");
-      // "unplanned" -> "un" + "planned" -> "un" + "plad" -> "unplad" + cute vowel
-      expect(translation).toBe("unplannodo");
-    });
-
-    it("should translate Minionese phonetics back to a sensible English approximation", () => {
-      const minWord = genericAlgorithmicTranslate("telecommunication", "toMinion"); // "tolokum-la"
-      const engBack = genericAlgorithmicTranslate(minWord, "toEnglish"); // "tolokum-la" -> "tolocum" + "ing" = "terecoming"
-      expect(engBack).toBe("terecoming"); // 'l' maps back to 'r', 'k' to 'c'
     });
   });
 
@@ -61,14 +58,10 @@ describe("Minionese Translator - Core Utilities", () => {
       expect(translate("Bello", "toEnglish")).toBe("Hello");
     });
 
-    it("should handle mixed text with dictionary words and phonetic fallbacks", () => {
-      // "hello you" -> "bello tu" (both dictionary words)
-      expect(translate("hello you", "toMinion")).toBe("bello tu");
-
-      // "hello superfriend" -> "bello" + phonetic "superfriend"
-      const result = translate("hello superfriend", "toMinion");
-      expect(result).toContain("bello");
-      expect(result.split(" ").length).toBe(2);
+    it("should preserve proper names completely", () => {
+      expect(translate("Hello Mary", "toMinion")).toBe("Bello Mary");
+      expect(translate("John is a friend.", "toMinion")).toBe("John uz a buddha.");
+      expect(translate("Mary, hello!", "toMinion")).toBe("Mary, bello!");
     });
 
     it("should preserve punctuation and whitespace", () => {
@@ -76,20 +69,11 @@ describe("Minionese Translator - Core Utilities", () => {
       expect(translate("What is that?", "toMinion")).toBe("Po ka ta?");
     });
 
-    it("should perform roundtrips for dictionary words successfully", () => {
-      const phrases = [
-        "hello",
-        "goodbye",
-        "thank you",
-        "i love you",
-        "banana",
-        "one two three",
-      ];
-      for (const phrase of phrases) {
-        const min = translate(phrase, "toMinion");
-        const back = translate(min, "toEnglish");
-        expect(back.toLowerCase()).toBe(phrase.toLowerCase());
-      }
+    it("should perform perfect back-and-forth roundtrips for any sentence", () => {
+      const sentence = "Hello Mary, you look unplanned today.";
+      const min = translate(sentence, "toMinion");
+      const back = translate(min, "toEnglish");
+      expect(back).toBe(sentence);
     });
   });
 });

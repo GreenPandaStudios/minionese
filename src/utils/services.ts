@@ -15,7 +15,16 @@ export interface SpeechService {
   cancel(): void;
 }
 
-// Exporting only the default implementations
+export interface ShareServiceData {
+  title: string;
+  text: string;
+  url: string;
+}
+
+export interface ShareService {
+  share(data: ShareServiceData): Promise<void>;
+}
+
 export const defaultClipboardService: ClipboardService = {
   writeText: async (text: string) => {
     if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -45,6 +54,21 @@ export const defaultSpeechService: SpeechService = {
   cancel: () => {
     if (window.speechSynthesis) {
       window.speechSynthesis.cancel();
+    }
+  },
+};
+
+export const defaultShareService: ShareService = {
+  share: async (data: ShareServiceData) => {
+    if (navigator.share) {
+      await navigator.share(data);
+    } else {
+      // Fallback: Copy URL to clipboard
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(data.url);
+      } else {
+        throw new Error("Web Share and Clipboard APIs not available");
+      }
     }
   },
 };

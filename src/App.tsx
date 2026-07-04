@@ -3,119 +3,72 @@ import { translate } from "./utils/translator";
 import {
   defaultClipboardService,
   defaultSpeechService,
+  defaultShareService,
 } from "./utils/services";
-import type { ClipboardService, SpeechService } from "./utils/services";
+import type { ClipboardService, SpeechService, ShareService } from "./utils/services";
+import { useHistoryAndStats } from "./hooks/useHistoryAndStats";
 import GoggleHeader from "./components/GoggleHeader";
 import TranslationPanel from "./components/TranslationPanel";
 import DictionaryDrawer from "./components/DictionaryDrawer";
 import HistoryPanel from "./components/HistoryPanel";
-import type { HistoryItem } from "./components/HistoryPanel";
 import StatsPanel from "./components/StatsPanel";
 import "./App.css";
 
 interface AppProps {
   clipboardService?: ClipboardService;
   speechService?: SpeechService;
+  shareService?: ShareService;
 }
 
 function App({
   clipboardService = defaultClipboardService,
   speechService = defaultSpeechService,
+  shareService = defaultShareService,
 }: AppProps) {
   const [sourceText, setSourceText] = useState("");
   const [targetText, setTargetText] = useState("");
   const [direction, setDirection] = useState<"toMinion" | "toEnglish">("toMinion");
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [shareSuccess, setShareSuccess] = useState(false);
 
-  // History & Stats State
-  const [history, setHistory] = useState<HistoryItem[]>([]);
-  const [bananaMeter, setBananaMeter] = useState(0);
-  const [totalTranslations, setTotalTranslations] = useState(0);
+  // Delegate history and stats management to custom hook
+  const { history, bananaMeter, totalTranslations, clearHistory } =
+    useHistoryAndStats(sourceText, targetText, direction);
 
-  // Load stats and history from localStorage on mount
+  // Check URL query parameters on load
   useEffect(() => {
     try {
-      const savedHistory = localStorage.getItem("minionese_history");
-      if (savedHistory) setHistory(JSON.parse(savedHistory));
-
-      const savedMeter = localStorage.getItem("minionese_banana_meter");
-      if (savedMeter) setBananaMeter(parseInt(savedMeter, 10));
-
-      const savedTotal = localStorage.getItem("minionese_total_translations");
-      if (savedTotal) setTotalTranslations(parseInt(savedTotal, 10));
+      const params = new URLSearchParams(window.location.search);
+      const textParam = params.get("text");
+      const dirParam = params.get("dir");
+      if (textParam) setSourceText(decodeURIComponent(textParam));
+      if (dirParam === "toEnglish" || dirParam === "toMinion") setDirection(dirParam);
     } catch (e) {
-      console.error("Failed to load state from localStorage: ", e);
+      console.error("Failed to parse query parameters:", e);
     }
   }, []);
 
-  // Update translation when source text or direction changes
   useEffect(() => {
     setTargetText(translate(sourceText, direction));
   }, [sourceText, direction]);
 
-  // Debounced effect to save translations to history and update stats
-  useEffect(() => {
-    if (!sourceText.trim() || !targetText.trim()) return;
-
-    const timer = setTimeout(() => {
-      const cleanSource = sourceText.trim();
-      
-      setHistory((prev) => {
-        // Avoid duplicate consecutive entries
-        if (prev.length > 0 && prev[0].source.toLowerCase() === cleanSource.toLowerCase()) {
-          return prev;
-        }
-
-        const newItem: HistoryItem = {
-          id: Math.random().toString(36).substring(2, 11),
-          source: cleanSource,
-          target: targetText,
-          direction,
-        };
-        const updated = [newItem, ...prev].slice(0, 5);
-        localStorage.setItem("minionese_history", JSON.stringify(updated));
-        return updated;
-      });
-
-      // Update stats
-      setTotalTranslations((prevTotal) => {
-        const updatedTotal = prevTotal + 1;
-        localStorage.setItem("minionese_total_translations", updatedTotal.toString());
-        return updatedTotal;
-      });
-
-      setBananaMeter((prevMeter) => {
-        const updatedMeter = prevMeter + cleanSource.length;
-        localStorage.setItem("minionese_banana_meter", updatedMeter.toString());
-        return updatedMeter;
-      });
-    }, 1500);
-
-    return () => clearTimeout(timer);
-  }, [sourceText, targetText, direction]);
-
-  const handleClear = () => {
-    setSourceText("");
-  };
+  const handleClear = () => setSourceText("");
 
   const handleCopy = async () => {
     if (!targetText) return;
     try {
       await clipboardService.writeText(targetText);
     } catch (err) {
-      console.error("Failed to copy text: ", err);
+      console.error("Failed to copy text:", err);
     }
   };
 
   const handleSpeak = () => {
     if (!targetText) return;
-
     speechService.cancel();
-
     const pitch = direction === "toMinion" ? 1.7 : 1.0;
     const rate = direction === "toMinion" ? 1.2 : 1.0;
-
     speechService.speak(targetText, {
       pitch,
       rate,
@@ -125,57 +78,52 @@ function App({
     });
   };
 
-  const handleDirectionToggle = (newDirection: "toMinion" | "toEnglish") => {
-    if (newDirection === direction) return;
-    setDirection(newDirection);
-    setSourceText(targetText);
-  };
-
-  const handleSelectHistoryItem = (source: string, dir: "toMinion" | "toEnglish") => {
-    setDirection(dir);
-    setSourceText(source);
-  };
-
-  const handleClearHistory = () => {
-    setHistory([]);
-    localStorage.removeItem("minionese_history");
+  const handleShare = async () => {
+    if (!targetText) return;
+    const url = `${window.location.origin}${window.location.pathname}?text=${encodeURIComponent(sourceText)}&dir=${direction}`;
+    try {
+      await shareService.share({ title: "Minionese", text: targetText, url });
+      setShareSuccess(true);
+      setTimeout(() => setShareSuccess(false), 2000);
+    } catch (err) {
+      console.error("Failed to share:", err);
+    }
   };
 
   return (
     <main className="app-wrapper">
       <div className="minion-goggle-strap-left"></div>
       <div className="minion-goggle-strap-right"></div>
-
       <div className="app-container">
         <GoggleHeader />
-
         <div className="card-body">
           <TranslationPanel
             direction={direction}
             sourceText={sourceText}
             targetText={targetText}
             isSpeaking={isSpeaking}
+            shareSuccess={shareSuccess}
             onSourceTextChange={setSourceText}
             onClear={handleClear}
             onCopy={handleCopy}
             onSpeak={handleSpeak}
-            onDirectionToggle={handleDirectionToggle}
+            onShare={handleShare}
+            onDirectionToggle={(newDir) => {
+              if (newDir !== direction) {
+                setDirection(newDir);
+                setSourceText(targetText);
+              }
+            }}
           />
-
-          <DictionaryDrawer
-            isOpen={isDrawerOpen}
-            onToggleOpen={() => setIsDrawerOpen(!isDrawerOpen)}
-          />
-
-          <StatsPanel
-            bananaMeter={bananaMeter}
-            totalTranslations={totalTranslations}
-          />
-
+          <DictionaryDrawer isOpen={isDrawerOpen} onToggleOpen={() => setIsDrawerOpen(!isDrawerOpen)} />
+          <StatsPanel bananaMeter={bananaMeter} totalTranslations={totalTranslations} />
           <HistoryPanel
             history={history}
-            onSelectHistoryItem={handleSelectHistoryItem}
-            onClearHistory={handleClearHistory}
+            onSelectHistoryItem={(src, dir) => {
+              setDirection(dir);
+              setSourceText(src);
+            }}
+            onClearHistory={clearHistory}
           />
         </div>
       </div>

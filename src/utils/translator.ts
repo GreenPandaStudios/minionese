@@ -1,6 +1,7 @@
 import { dictionary, isProperName } from "./dictionary";
 import { translateReversible } from "./phonetics";
 import { unwrapContractions } from "./contractions";
+import { translateMorphology } from "./morphology";
 
 export { dictionary };
 
@@ -83,9 +84,9 @@ export function translate(text: string, direction: "toMinion" | "toEnglish"): st
       const currentToken = tokens[i];
       if (/\w+/.test(currentToken)) {
         if (isProperName(currentToken, isFirstWordOfSentence)) {
-          translatedTokens.push(currentToken); // Keep proper name as-is
+          translatedTokens.push(currentToken);
         } else {
-          translatedTokens.push(translateReversible(currentToken));
+          translatedTokens.push(translateMorphology(currentToken, translateReversible, direction));
         }
         isFirstWordOfSentence = false;
       } else {

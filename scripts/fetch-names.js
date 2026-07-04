@@ -8,27 +8,83 @@ const MINION_NAMES = [
   "bob", "kevin", "stuart", "dave", "jerry", "phil", "tim", "mark", "mel"
 ];
 
-async function fetchNames() {
-  console.log("Fetching 1000 common names...");
-  const response = await fetch("https://raw.githubusercontent.com/dominictarr/random-name/master/first-names.txt");
-  if (!response.ok) {
-    throw new Error(`Failed to fetch names: ${response.statusText}`);
-  }
-  const text = await response.text();
-  const rawNames = text.split("\n")
-    .map(name => name.trim().toLowerCase())
-    .filter(name => name.length > 0 && /^[a-z]+$/.test(name));
+// Top global companies, brands, websites and platforms
+const BRANDS = [
+  "google", "apple", "microsoft", "amazon", "facebook", "meta", "instagram", "twitter",
+  "tiktok", "netflix", "youtube", "tesla", "disney", "sony", "samsung", "toyota",
+  "honda", "ford", "bmw", "nike", "adidas", "coca-cola", "pepsi", "starbucks", "mcdonalds",
+  "intel", "nvidia", "amd", "adobe", "spotify", "spacex", "boeing", "nintendo", "playstation",
+  "xbox", "michelin", "lego", "gucci", "chanel", "hermes", "rolex", "ikea", "ebay", "walmart",
+  "costco", "target", "uber", "airbnb", "zoom", "slack", "discord", "github", "linkedin"
+];
 
-  // Remove duplicates and combine with Minion names
-  const uniqueNames = Array.from(new Set([...MINION_NAMES, ...rawNames]));
+// Major global languages
+const LANGUAGES = [
+  "english", "spanish", "french", "german", "italian", "portuguese", "chinese", "mandarin",
+  "japanese", "korean", "russian", "arabic", "hindi", "bengali", "punjabi", "vietnamese",
+  "javanese", "telugu", "marathi", "tamil", "turkish", "polish", "ukranian", "greek",
+  "dutch", "swedish", "norwegian", "danish", "finnish", "thai", "malay", "tagalog", "hebrew"
+];
+
+// Major geographical landmarks, continents and regions
+const LANDMARKS = [
+  "everest", "kilimanjaro", "fuji", "sahara", "gobi", "amazon", "nile", "mississippi",
+  "danube", "thames", "pacific", "atlantic", "indian", "arctic", "antarctic", "asia",
+  "africa", "europe", "america", "oceania", "antarctica", "siberia", "himalayas", "alps",
+  "andes", "rockies", "caribbean", "mediterranean"
+];
+
+async function fetchAllProperNouns() {
+  console.log("Fetching first names, countries and capitals...");
   
-  // Keep all names (no slice limit)
-  const allNames = uniqueNames;
+  // 1. Fetch First Names
+  const firstNamesRes = await fetch("https://raw.githubusercontent.com/dominictarr/random-name/master/first-names.txt");
+  const firstNamesText = firstNamesRes.ok ? await firstNamesRes.text() : "";
+  const firstNames = firstNamesText.split("\n")
+    .map(n => n.trim().toLowerCase())
+    .filter(n => n.length > 0 && /^[a-z]+$/.test(n));
+
+  // 2. Fetch Country Names
+  const countriesRes = await fetch("https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-name.json");
+  const countriesJson = countriesRes.ok ? await countriesRes.json() : [];
+  const countries = countriesJson.map((c) => c.country.trim().toLowerCase())
+    .filter((n) => n.length > 0 && /^[a-z\s]+$/.test(n));
+
+  // 3. Fetch Capital Cities
+  const capitalsRes = await fetch("https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-capital-city.json");
+  const capitalsJson = capitalsRes.ok ? await capitalsRes.json() : [];
+  const capitals = capitalsJson.map((c) => c.city ? c.city.trim().toLowerCase() : "")
+    .filter((n) => n.length > 0 && /^[a-z\s]+$/.test(n));
+
+  // Combine all categories
+  const allNouns = [
+    ...MINION_NAMES,
+    ...BRANDS,
+    ...LANGUAGES,
+    ...LANDMARKS,
+    ...firstNames,
+    ...countries,
+    ...capitals
+  ];
+
+  // Remove duplicates and split multi-word proper nouns into single-word tokens
+  const wordTokens = new Set();
+  for (const noun of allNouns) {
+    const parts = noun.split(/\s+/);
+    for (const part of parts) {
+      const clean = part.replace(/[^\w]/g, "").trim().toLowerCase();
+      if (clean && /^[a-z]+$/.test(clean)) {
+        wordTokens.add(clean);
+      }
+    }
+  }
+
+  const finalNounsList = Array.from(wordTokens);
 
   // Compact layout (15 names per line)
   let listStr = "[\n";
-  for (let i = 0; i < allNames.length; i += 15) {
-    const slice = allNames.slice(i, i + 15);
+  for (let i = 0; i < finalNounsList.length; i += 15) {
+    const slice = finalNounsList.slice(i, i + 15);
     const line = slice.map(name => `"${name}"`).join(", ");
     listStr += `  ${line},\n`;
   }
@@ -38,7 +94,7 @@ async function fetchNames() {
 `;
 
   fs.writeFileSync(namesPath, fileContent);
-  console.log(`Successfully wrote ${allNames.length} names to names.ts in compact format!`);
+  console.log(`Successfully wrote ${finalNounsList.length} proper nouns to names.ts in compact format!`);
 }
 
-fetchNames().catch(console.error);
+fetchAllProperNouns().catch(console.error);

@@ -1,7 +1,7 @@
-import { dictionary, isProperName } from "./dictionary";
-import { translateReversible } from "./phonetics";
-import { unwrapContractions } from "./contractions";
-import { translateMorphology } from "./morphology";
+import { dictionary, isProperName } from "./dictionary/index.ts";
+import { translateReversible } from "./phonetics.ts";
+import { unwrapContractions } from "./contractions.ts";
+import { translateMorphology } from "./morphology.ts";
 
 export { dictionary };
 

@@ -1,74 +1,32 @@
-// Bijective (1-to-1) mapping tables for English <-> Minionese morphological structures
-const ENG_TO_MIN_PREFIX: Record<string, string> = {
-  un: "im",
-  re: "ka",
-  de: "po",
-  pre: "ti",
-  pro: "pa",
-  sub: "ki",
-  inter: "bo",
-  trans: "go",
-  super: "ba",
-  dis: "ta",
-  mis: "bi",
-  anti: "no",
-  non: "ni",
-  counter: "ku",
-  multi: "mu",
-  semi: "se",
-  under: "du",
-  over: "vo",
-  auto: "au",
-  post: "so",
-  micro: "mi",
-  macro: "ma",
-  tele: "te",
-};
+import { translateReversible } from "./phonetics.ts";
 
-const MIN_TO_ENG_PREFIX: Record<string, string> = Object.fromEntries(
-  Object.entries(ENG_TO_MIN_PREFIX).map(([k, v]) => [v, k])
+const PREFIX_KEYS = [
+  "un", "re", "de", "pre", "pro", "sub", "inter", "trans", "super", "dis",
+  "mis", "anti", "non", "counter", "multi", "semi", "under", "over", "auto",
+  "post", "micro", "macro", "tele"
+];
+
+const SUFFIX_KEYS = [
+  "tion", "ing", "ed", "ly", "able", "ible", "ment", "ness", "ful", "less",
+  "est", "er", "ist", "ism", "ity", "ive", "ous", "logy", "graphy", "phobia",
+  "meter", "scope", "ship", "hood", "ward", "wise", "th", "al", "ar", "ary",
+  "ic", "ish", "y", "es", "s"
+];
+
+const ENG_TO_MIN_PREFIX: Record<string, string> = Object.fromEntries(
+  PREFIX_KEYS.map(p => [p, translateReversible(p)])
 );
 
-const ENG_TO_MIN_SUFFIX: Record<string, string> = {
-  tion: "ka",
-  ing: "la",
-  ed: "da",
-  ly: "li",
-  able: "bo",
-  ible: "bi",
-  ment: "no",
-  ness: "na",
-  ful: "lu",
-  less: "du",
-  est: "za",
-  er: "ha",
-  ist: "to",
-  ism: "do",
-  ity: "ti",
-  ive: "vi",
-  ous: "ma",
-  logy: "gy",
-  graphy: "fy",
-  phobia: "fo",
-  meter: "me",
-  scope: "so",
-  ship: "si",
-  hood: "ho",
-  ward: "wa",
-  wise: "wi",
-  th: "tu",
-  al: "ra",
-  ar: "ri",
-  ary: "ry",
-  ic: "ik",
-  ish: "sh",
-  y: "ye",
-  es: "ez",
-  s: "z",
-};
+const MIN_TO_ENG_PREFIX: Record<string, string> = Object.fromEntries(
+  PREFIX_KEYS.map(p => [translateReversible(p), p])
+);
+
+const ENG_TO_MIN_SUFFIX: Record<string, string> = Object.fromEntries(
+  SUFFIX_KEYS.map(s => [s, translateReversible(s)])
+);
 
 const MIN_TO_ENG_SUFFIX: Record<string, string> = Object.fromEntries(
-  Object.entries(ENG_TO_MIN_SUFFIX).map(([k, v]) => [v, k])
+  SUFFIX_KEYS.map(s => [translateReversible(s), s])
 );
 
 /**

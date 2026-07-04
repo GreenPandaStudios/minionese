@@ -1,1 +1,1 @@
-export * from "./dictionary/index";
+export * from "./dictionary/index.ts";

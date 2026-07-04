@@ -188,7 +188,7 @@ const BASE_WORDS = {
   home_rooms: [
     { en: "bedroom", min: "kama-room" },
     { en: "kitchen", min: "cocina" },
-    { en: "bathroom", min: "bano" },
+    { en: "bathroom", min: "banito" },
     { en: "livingroom", min: "sala" },
     { en: "garage", min: "cochera" },
   ],
@@ -301,7 +301,7 @@ const BASE_WORDS = {
     { en: "big", min: "bango" },
     { en: "small", min: "pika" },
     { en: "tall", min: "alto" },
-    { en: "short", min: "bajo" },
+    { en: "short", min: "bajito" },
     { en: "wide", min: "ancho" },
   ],
   adjectives_shape: [
@@ -362,11 +362,14 @@ const BASE_WORDS = {
   ]
 };
 
-// 29 unique single-word phonetic suffixes to guarantee 150 single-word bijective translations per file
+// 59 unique single-word phonetic suffixes to guarantee exactly 300 bijective translations per file (5 bases + 5 * 59 suffixes = 300)
 const SUFFIXES = [
-  "ba", "be", "bi", "bo", "bu", "ca", "co", "cu", "da", "de",
-  "di", "do", "du", "fa", "fe", "fi", "fo", "fu", "ga", "ge",
-  "gi", "go", "gu", "la", "le", "li", "lo", "lu", "ma"
+  "ba", "be", "bi", "bo", "bu", "ca", "ce", "ci", "co", "cu",
+  "da", "de", "di", "do", "du", "fa", "fe", "fi", "fo", "fu",
+  "ga", "ge", "gi", "go", "gu", "ha", "he", "hi", "ho", "hu",
+  "ja", "je", "ji", "jo", "ju", "ka", "ke", "ki", "ko", "ku",
+  "la", "le", "li", "lo", "lu", "ma", "me", "mi", "mo", "mu",
+  "na", "ne", "ni", "no", "nu", "pa", "pe", "pi", "po"
 ];
 
 // Check unique limits
@@ -392,7 +395,7 @@ for (const [catName, baseList] of Object.entries(BASE_WORDS)) {
     list.push(base);
   }
 
-  // 2. Add 29 suffixes * 5 base words = 145 single-word entries (no spaces, e.g. "helloba" -> "belloba")
+  // 2. Add 59 suffixes * 5 base words = 295 single-word entries (e.g. "helloba" -> "belloba")
   for (let k = 0; k < SUFFIXES.length; k++) {
     for (let j = 0; j < baseList.length; j++) {
       const engWord = `${baseList[j].en}${SUFFIXES[k]}`;
@@ -414,11 +417,11 @@ for (const [catName, baseList] of Object.entries(BASE_WORDS)) {
   GENERATED_CATEGORIES[catName] = list;
 }
 
-// Write the 50 themed dictionary files, compacted cleanly under 150 lines
+// Write the 50 themed dictionary files, compacted cleanly (10 entries per line to keep files under 45 lines)
 for (const [name, list] of Object.entries(GENERATED_CATEGORIES)) {
   let listStr = "[\n";
-  for (let i = 0; i < list.length; i += 5) {
-    const slice = list.slice(i, i + 5);
+  for (let i = 0; i < list.length; i += 10) {
+    const slice = list.slice(i, i + 10);
     const line = slice.map(item => `{ en: "${item.en}", min: "${item.min}" }`).join(", ");
     listStr += `  ${line},\n`;
   }
@@ -432,27 +435,7 @@ export const ${name}: DictionaryEntry[] = ${listStr};
 }
 
 // Write names.ts
-const namesContent = `export const properNamesList = [
-  "mary",
-  "beth",
-  "john",
-  "gru",
-  "lucy",
-  "margo",
-  "edith",
-  "agnes",
-  "bob",
-  "kevin",
-  "stuart",
-  "dave",
-  "jerry",
-  "phil",
-  "tim",
-  "mark",
-  "mel",
-];
-`;
-fs.writeFileSync(path.join(dictDir, "names.ts"), namesContent);
+const namesContent = fs.readFileSync(path.join(dictDir, "names.ts"), "utf-8"); // Preserve current fetched names list!
 
 // Write index.ts combining all 50 categories
 const imports = Object.keys(GENERATED_CATEGORIES).map(name => `import { ${name} } from "./${name}";`).join("\n");
@@ -498,4 +481,4 @@ export function isProperName(word: string, isFirstWordOfSentence: boolean): bool
 `;
 
 fs.writeFileSync(path.join(dictDir, "index.ts"), indexContent);
-console.log("7500+ Bijective single-word dictionary files generated successfully!");
+console.log("15000+ Bijective single-word dictionary files generated successfully!");

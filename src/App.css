@@ -375,6 +375,14 @@ body {
   border-color: var(--overalls-blue);
 }
 
+.dict-limit-info {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+
 .dictionary-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

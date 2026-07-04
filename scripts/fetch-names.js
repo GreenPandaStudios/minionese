@@ -34,6 +34,16 @@ const LANDMARKS = [
   "andes", "rockies", "caribbean", "mediterranean"
 ];
 
+// Months of the year
+const MONTHS = [
+  "january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"
+];
+
+// Days of the week
+const DAYS = [
+  "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"
+];
+
 async function fetchAllProperNouns() {
   console.log("Fetching first names, countries and capitals...");
   
@@ -62,6 +72,8 @@ async function fetchAllProperNouns() {
     ...BRANDS,
     ...LANGUAGES,
     ...LANDMARKS,
+    ...MONTHS,
+    ...DAYS,
     ...firstNames,
     ...countries,
     ...capitals

@@ -22,6 +22,8 @@ export function DictionaryDrawer({ isOpen, onToggleOpen }: DictionaryDrawerProps
     a.en.localeCompare(b.en)
   );
 
+  const displayedDictionary = sortedDictionary.slice(0, 100);
+
   return (
     <div className="dictionary-drawer-section">
       <button
@@ -42,9 +44,15 @@ export function DictionaryDrawer({ isOpen, onToggleOpen }: DictionaryDrawerProps
             onChange={(e) => setSearchQuery(e.target.value)}
           />
 
+          {sortedDictionary.length > 100 && (
+            <div className="dict-limit-info">
+              Showing first 100 of {sortedDictionary.length} matches
+            </div>
+          )}
+
           <div className="dictionary-grid">
-            {sortedDictionary.length > 0 ? (
-              sortedDictionary.map((item, idx) => (
+            {displayedDictionary.length > 0 ? (
+              displayedDictionary.map((item, idx) => (
                 <div className="dict-row" key={idx}>
                   <span className="dict-en">{item.en}</span>
                   <span className="dict-arrow">→</span>

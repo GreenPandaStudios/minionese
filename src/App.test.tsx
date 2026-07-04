@@ -89,11 +89,11 @@ describe("Minionese Translator App Integration Tests", () => {
 
     const firstWord = document.querySelector(".dict-en")?.textContent || "";
     expect(firstWord).toBeTruthy();
-    expect(screen.getByText(firstWord)).toBeInTheDocument();
+    expect(screen.getAllByText(firstWord).length).toBeGreaterThan(0);
 
     await user.type(searchInput, "banana");
     expect(screen.getAllByText("banana").length).toBeGreaterThan(0);
-    expect(screen.queryByText(firstWord)).not.toBeInTheDocument();
+    expect(screen.queryAllByText(firstWord).length).toBe(0);
   });
 
   it("should write translation to clipboard when copy is clicked", async () => {

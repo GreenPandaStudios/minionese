@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { properNamesList } from "../src/utils/dictionary/names.ts";
 
 const dictDir = path.resolve("src/utils/dictionary");
 
@@ -362,56 +363,130 @@ const BASE_WORDS = {
   ]
 };
 
-// 59 unique single-word phonetic suffixes to guarantee exactly 300 bijective translations per file (5 bases + 5 * 59 suffixes = 300)
-const SUFFIXES = [
-  "ba", "be", "bi", "bo", "bu", "ca", "ce", "ci", "co", "cu",
-  "da", "de", "di", "do", "du", "fa", "fe", "fi", "fo", "fu",
-  "ga", "ge", "gi", "go", "gu", "ha", "he", "hi", "ho", "hu",
-  "ja", "je", "ji", "jo", "ju", "ka", "ke", "ki", "ko", "ku",
-  "la", "le", "li", "lo", "lu", "ma", "me", "mi", "mo", "mu",
-  "na", "ne", "ni", "no", "nu", "pa", "pe", "pi", "po"
+// Reversible cipher map used for back-and-forth phonetic translations
+const REVERSIBLE_MAP = {
+  b: "p", p: "b",
+  c: "k", k: "c",
+  d: "t", t: "d",
+  e: "o", o: "e",
+  f: "v", v: "f",
+  i: "u", u: "i",
+  j: "q", q: "j",
+  l: "r", r: "l",
+  m: "n", n: "m",
+  s: "z", z: "s",
+  a: "a", g: "g", h: "h", w: "w", x: "x", y: "y"
+};
+
+function translateReversible(word) {
+  let result = "";
+  for (let i = 0; i < word.length; i++) {
+    const char = word[i];
+    const lowerChar = char.toLowerCase();
+    const mapped = REVERSIBLE_MAP[lowerChar];
+    result += mapped ? (char === char.toUpperCase() ? mapped.toUpperCase() : mapped) : char;
+  }
+  return result;
+}
+
+const PREFIXES = [
+  "un", "re", "de", "pre", "pro", "sub", "inter", "trans", "super", "dis",
+  "mis", "anti", "non", "counter", "multi", "semi", "under", "over", "auto",
+  "post", "micro", "macro", "tele"
 ];
 
-// Check unique limits
+const SUFFIXES = [
+  "tion", "ing", "ed", "ly", "able", "ible", "ment", "ness", "ful", "less",
+  "est", "er", "ist", "ism", "ity", "ive", "ous", "logy", "graphy", "phobia",
+  "meter", "scope", "ship", "hood", "ward", "wise", "th", "al", "ar", "ary",
+  "ic", "ish", "y", "es", "s"
+];
+
+function hasMorphology(word) {
+  // Check prefixes (root must be > 2 chars)
+  for (const prefix of PREFIXES) {
+    if (word.startsWith(prefix) && word.length > prefix.length + 2) {
+      return true;
+    }
+  }
+  // Check suffixes (root must be > 1 chars)
+  for (const suffix of SUFFIXES) {
+    if (word.endsWith(suffix) && word.length > suffix.length + 1) {
+      return true;
+    }
+  }
+  return false;
+}
+
+// 1. Load system dictionary words list
+const systemWordsPath = "/usr/share/dict/words";
+const rawSystemWords = fs.readFileSync(systemWordsPath, "utf8")
+  .split("\n")
+  .map(w => w.trim().toLowerCase())
+  .filter(w => w.length >= 3 && w.length <= 10 && /^[a-z]+$/.test(w));
+
+// Remove duplicate entries from system list
+const systemWords = Array.from(new Set(rawSystemWords));
+
+let systemWordIdx = 0;
+
+// Sets to track overall unique mappings across the whole dictionary
 const enKeys = new Set();
 const minKeys = new Set();
+
+// Pre-seed all base words to prevent systemWords from utilizing them
+for (const baseList of Object.values(BASE_WORDS)) {
+  for (const base of baseList) {
+    if (enKeys.has(base.en)) {
+      throw new Error(`Duplicate English base word: "${base.en}"`);
+    }
+    if (minKeys.has(base.min)) {
+      throw new Error(`Duplicate Minionese base translation: "${base.min}"`);
+    }
+    enKeys.add(base.en);
+    minKeys.add(base.min);
+  }
+}
+
+// Pre-seed all proper nouns to prevent systemWords from using them as dictionary words
+for (const name of properNamesList) {
+  enKeys.add(name.toLowerCase());
+}
 
 const GENERATED_CATEGORIES = {};
 
 for (const [catName, baseList] of Object.entries(BASE_WORDS)) {
   const list = [];
   
-  // 1. Add the 5 unmodified base words first
+  // A. Add the 5 themed base words to the category list
   for (const base of baseList) {
-    if (enKeys.has(base.en)) {
-      throw new Error(`Duplicate English key: "${base.en}" in category "${catName}"`);
-    }
-    if (minKeys.has(base.min)) {
-      throw new Error(`Duplicate Minionese key: "${base.min}" in category "${catName}"`);
-    }
-    
-    enKeys.add(base.en);
-    minKeys.add(base.min);
     list.push(base);
   }
 
-  // 2. Add 59 suffixes * 5 base words = 295 single-word entries (e.g. "helloba" -> "belloba")
-  for (let k = 0; k < SUFFIXES.length; k++) {
-    for (let j = 0; j < baseList.length; j++) {
-      const engWord = `${baseList[j].en}${SUFFIXES[k]}`;
-      const minWord = `${baseList[j].min}${SUFFIXES[k]}`;
-      
-      if (enKeys.has(engWord)) {
-        throw new Error(`Duplicate English key: "${engWord}" in category "${catName}"`);
-      }
-      if (minKeys.has(minWord)) {
-        throw new Error(`Duplicate Minionese key: "${minWord}" in category "${catName}"`);
-      }
-      
-      enKeys.add(engWord);
-      minKeys.add(minWord);
-      list.push({ en: engWord, min: minWord });
+  // B. Fill the category with real English words from system dictionary up to exactly 300 words
+  while (list.length < 300) {
+    if (systemWordIdx >= systemWords.length) {
+      throw new Error("Exhausted all system words while generating dictionary!");
     }
+    
+    const candidateEnWord = systemWords[systemWordIdx++];
+    
+    // Skip if English word is already in the dictionary, is a proper name, or has prefix/suffix morphology
+    if (enKeys.has(candidateEnWord) || hasMorphology(candidateEnWord)) {
+      continue;
+    }
+    
+    // Translate the real English word to Minionese using the perfect 1-to-1 cipher
+    const candidateMinWord = translateReversible(candidateEnWord);
+    
+    // Prevent collision with any existing Minionese custom translations (e.g. bello, poopaye) or other ciphers
+    if (minKeys.has(candidateMinWord)) {
+      continue;
+    }
+    
+    enKeys.add(candidateEnWord);
+    minKeys.add(candidateMinWord);
+    list.push({ en: candidateEnWord, min: candidateMinWord });
   }
   
   GENERATED_CATEGORIES[catName] = list;
@@ -433,9 +508,6 @@ export const ${name}: DictionaryEntry[] = ${listStr};
 `;
   fs.writeFileSync(path.join(dictDir, `${name}.ts`), content);
 }
-
-// Write names.ts
-const namesContent = fs.readFileSync(path.join(dictDir, "names.ts"), "utf-8"); // Preserve current fetched names list!
 
 // Write index.ts combining all 50 categories
 const imports = Object.keys(GENERATED_CATEGORIES).map(name => `import { ${name} } from "./${name}";`).join("\n");
@@ -481,4 +553,4 @@ export function isProperName(word: string, isFirstWordOfSentence: boolean): bool
 `;
 
 fs.writeFileSync(path.join(dictDir, "index.ts"), indexContent);
-console.log("15000+ Bijective single-word dictionary files generated successfully!");
+console.log("15000+ Bijective real English dictionary files generated successfully!");

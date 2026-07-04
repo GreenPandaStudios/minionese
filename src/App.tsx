@@ -31,12 +31,15 @@ function App({
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [shareSuccess, setShareSuccess] = useState(false);
+  
+  // PWA installation state
+  const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
 
-  // Delegate history and stats management to custom hook
+  // Delegate history and stats management
   const { history, bananaMeter, totalTranslations, clearHistory } =
     useHistoryAndStats(sourceText, targetText, direction);
 
-  // Check URL query parameters on load
+  // Read query parameters and listen for PWA install prompt
   useEffect(() => {
     try {
       const params = new URLSearchParams(window.location.search);
@@ -47,6 +50,14 @@ function App({
     } catch (e) {
       console.error("Failed to parse query parameters:", e);
     }
+
+    const handleBeforeInstallPrompt = (e: Event) => {
+      e.preventDefault();
+      setDeferredPrompt(e);
+    };
+
+    window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+    return () => window.removeEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
   }, []);
 
   useEffect(() => {
@@ -90,12 +101,28 @@ function App({
     }
   };
 
+  const handleInstallClick = async () => {
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    if (outcome === "accepted") {
+      setDeferredPrompt(null);
+    }
+  };
+
   return (
     <main className="app-wrapper">
       <div className="minion-goggle-strap-left"></div>
       <div className="minion-goggle-strap-right"></div>
       <div className="app-container">
         <GoggleHeader />
+        
+        {deferredPrompt && (
+          <button className="install-pwa-btn" onClick={handleInstallClick}>
+            🍌 Install MinionTalk App
+          </button>
+        )}
+
         <div className="card-body">
           <TranslationPanel
             direction={direction}
